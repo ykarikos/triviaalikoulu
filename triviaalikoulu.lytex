@@ -1,5 +1,19 @@
 \documentclass[a4paper]{book}
 
+\usepackage{ifxetex}
+\ifxetex
+%xetex specific stuff
+\usepackage{xunicode,fontspec,xltxtra}
+\setmainfont[Numbers=OldStyle]{Palatino}
+\setsansfont{Helvetica}
+\else
+%This can be empty if you are not going to use pdftex
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}%Times
+\usepackage{helvet}%Helvetica
+\fi
+
 \usepackage[finnish]{babel}
 \usepackage[a4paper]{geometry}
 
@@ -58,6 +72,11 @@ under the License.\index{license}
     \mainmatter
 
     \addcontentsline{toc}{section}{Jucundare Jugiter}
+    \lilypondfile{1-jucundare-jugiter/jucundare-jugiter.ly}
+
+    \clearpage
+
+    \addcontentsline{toc}{section}{Gud wälsigna}
     \lilypondfile{1-jucundare-jugiter/jucundare-jugiter.ly}
 
 \end{document}
