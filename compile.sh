@@ -7,4 +7,3 @@ cd out
 pdflatex $SOURCE
 mv $SOURCE.pdf ..
 cd ..
-rm -r out
