@@ -47,9 +47,9 @@ SopranoMusic = \relative c'' {
   b2 b4 b | a2 a | g g4 g |
 % 3
   a2 a | b a | g g( | g) fis2 |
- %\once \override Score.BarLine.break-visibility = ##(#f #t #t)
-%  \once \override Staff.TimeSignature.break-visibility = ##(#f #f #f) 
-  g1\fermata \bar "|."
+  \time 4/2 
+  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+  g\breve\fermata \bar "|."
 }
 
 stanzaOneLyrics = \lyricmode {
@@ -71,7 +71,18 @@ stanzaOneLyrics = \lyricmode {
 AltoMusic = \relative c' {
   \set Staff.instrumentName = #"Altus"
   \set Staff.shortInstrumentName = "A"
-  d2
+  d2 d | d d | d d | f c | b b | c d | d d |
+  d1\fermata | d2 d4 d | b2 b4 b | d2 c4 c | d2 d | d4 d e2 | d1 |
+  d\fermata | d2 d | d1 | d | b4 b b b | c c c c | a2 b |
+% 2
+  d2 d | e e | d1\fermata | d2 d | f f | f f | d f |
+  d f | d2 d4 d | d1\fermata | d2 d | d1 | d | d4 d c c|
+  f f d f | d2 c | d1 | d\fermata | d2 b4 b | d2 d | d d4 d |
+% 3
+  f2 f | d f | d es | d1 |
+  \time 4/2 
+  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+  d\breve\fermata
 }
 
 TenoreMusic = \relative c' {
