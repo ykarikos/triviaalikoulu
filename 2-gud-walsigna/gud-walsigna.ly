@@ -162,6 +162,7 @@ BassMusic = \relative c' {
     \tempo 4 = 160
   }
   \layout {
+    indent = 1.0\cm
     \context {
      \Staff \RemoveEmptyStaves
    }
