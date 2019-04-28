@@ -19,6 +19,10 @@
 \usepackage[a4paper]{geometry}
 \usepackage{graphicx}
 
+
+% Turn off section numbering
+\setcounter{secnumdepth}{-1}
+
 \newcommand{\betweenLilyPondSystem}[1]{\vspace{5mm}\linebreak}
 
 \title{\headingfont{\Huge \textbf{Musiikkia Porin Triviaalikoulun nuottikirjasta}}}
@@ -29,15 +33,24 @@
 \newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage}
 
 \usepackage{hyperref}
-\pagestyle{myheadings}
 
 % Generates the index
 \usepackage{makeidx}
 \makeindex
 
+% clear chapter first page style
+\makeatletter
+\renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
+                    \thispagestyle{empty}% original style: plain
+                    \global\@topnum\z@
+                    \@afterindentfalse
+                    \secdef\@chapter\@schapter}
+\makeatother
+
 \begin{document}
 
     \frontmatter
+    \pagestyle{empty}
 
     % r.1 blank page
     \blankpage
@@ -69,6 +82,8 @@ Teoksen lähdekoodit löytyvät osoitteesta \url{https://github.com/ykarikos/tri
     \input{introduction}
 
     \mainmatter
+    \pagestyle{myheadings}
+    \setcounter{page}{11}
 
     \addcontentsline{toc}{section}{Jucundare Jugiter}
     \lilypondfile{1-jucundare-jugiter/jucundare-jugiter.ly}
