@@ -5,6 +5,7 @@
 %xetex specific stuff
 \usepackage{xunicode,fontspec,xltxtra}
 \setmainfont[Numbers=OldStyle]{Palatino}
+\newfontfamily\headingfont[]{CasablancaAntique}
 \setsansfont{Helvetica}
 \else
 %This can be empty if you are not going to use pdftex
@@ -18,9 +19,10 @@
 \usepackage[a4paper]{geometry}
 \usepackage{graphicx}
 
+\newcommand{\betweenLilyPondSystem}[1]{\vspace{5mm}\linebreak}
 
-\title{Musiikkia Porin Triviaalikoulun nuottikirjasta}
-\author{Sonus Borealis}
+\title{\headingfont{\Huge \textbf{Musiikkia Porin Triviaalikoulun nuottikirjasta}}}
+\author{\headingfont{\LARGE Sonus Borealis}}
 
 
 % Inserts a blank page
@@ -74,6 +76,6 @@ Teoksen lähdekoodit löytyvät osoitteesta \url{https://github.com/ykarikos/tri
     \clearpage
 
     \addcontentsline{toc}{section}{Gud wälsigna}
-    \lilypondfile{1-jucundare-jugiter/jucundare-jugiter.ly}
+    \lilypondfile{2-gud-walsigna/gud-walsigna.ly}
 
 \end{document}
