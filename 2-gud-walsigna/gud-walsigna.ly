@@ -1,8 +1,6 @@
 \version "2.19.49"
 \include "suomi.ly"
 
-% #(set-global-staff-size 18)
-
 global = { 
 %  \numericTimeSignature
   \time 2/2 
@@ -42,7 +40,7 @@ SopranoMusic = \relative c'' {
   fis g | a a | a1\fermata |
   fis2 fis | b b | a a | b a |
   b a | g fis4 fis | g1\fermata |
-  g2 fis | g1 a | b4 b b b | 
+  g2 fis | g1 a | b4 b a a | 
   d d b a | b2 c | a1 | g1\fermata |
   b2 b4 b | a2 a | g g4 g |
 % 3
@@ -89,14 +87,34 @@ TenoreMusic = \relative c' {
   \set Staff.instrumentName = #"Tenor"
   \set Staff.shortInstrumentName = "T"
   \clef "treble_8"
-  b2
+  b2 b | a a | b b | c a | d d | c b | a a |
+  b1\fermata | b2 a4 a | d2 d4 d| b2 a4 a | a2 b | a4 a a2 | a1 |
+  g1\fermata | b2 a | b1 | a | d4 d d d | c c c c | a2 b |
+% 2
+  a d | cis cis | a1\fermata | a2 a | d d | c c | b c |
+  b c | b a4 a | b1\fermata | b2 a | b1 | a | b4 b c c |
+  a a b a | g2 a | a1 | g\fermata | d'2 d4 d | a2 a | b b4 b |
+  c2 c | b c | d c | a1 |
+  \time 4/2 
+  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+  g\breve\fermata
 }
 
-BassMusic = \relative c {
+BassMusic = \relative c' {
   \set Staff.instrumentName = #"Bassus"
   \set Staff.shortInstrumentName = "B"
   \clef bass
-  g2
+  g2 g | d d | g g | f f | b, b | f' g | d d | 
+  g,1\fermata | g'2 d4 d | g,2 g4 g | g'2 f4 f | d2 g | d4 d c2 | d1 |
+  g\fermata | g2 d | g1 | d | b4 b b b | f' f f f | a2 g |
+% 2
+  f b | a2 a | d,1\fermata | d2 d | b b | f' f | g f |
+  b f | g  d4 d | g,1\fermata | g'2 d | g1 | d1 | b4 b f' f |
+  d d g f | g2 f | d1 | g,\fermata | g'2 g4 g | d2 d | g g4 g |
+  f2 f | g f | b, c d1 | 
+  \time 4/2 
+  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+  g,\breve\fermata
 }
 
 
