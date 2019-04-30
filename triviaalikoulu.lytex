@@ -86,11 +86,11 @@ Teoksen lähdekoodit löytyvät osoitteesta \url{https://github.com/ykarikos/tri
     \setcounter{page}{11}
 
     \addcontentsline{toc}{section}{Jucundare Jugiter}
-    \lilypondfile{1-jucundare-jugiter/jucundare-jugiter.ly}
+    \lilypondfile{songs/jucundare-jugiter/jucundare-jugiter.ly}
 
     \clearpage
 
     \addcontentsline{toc}{section}{Gud wälsigna}
-    \lilypondfile{2-gud-walsigna/gud-walsigna.ly}
+    \lilypondfile{songs/gud-walsigna/gud-walsigna.ly}
 
 \end{document}
