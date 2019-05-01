@@ -37,7 +37,7 @@ SopranoMusic = \relative c'' {
   g) fis | g g( | g4) g a2 | r d( | d4) d d2 | c a |
   b1 | a2 a | g1 | a2 f | e1 | d | r2 b'( | b4) b b2 |
 % 2
-  a f | b2. b4 | a2 g( | g)( fis) | g d' | d1 | d |
+  a f | b2. b4 | a2 g( | g fis) | g d' | d1 | d |
   r2 b | b1 | b( | b) | r2 b | b b | a g( | g) fis |
   g d' | d1 | d | r2 b | b1 | b( | b) | 
   r2 b | b b | a g( | g) fis |
@@ -61,17 +61,23 @@ stanzaOneLyrics = \lyricmode {
 AltoMusic = \relative c' {
   \set Staff.instrumentName = #"Altus"
   \set Staff.shortInstrumentName = "A"
-  d1 |
-%  \time 4/2 
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  d\breve\fermata
+  d2. d4 | d2 d | d1 | b | f'2. f4 | f2 es |
+  d1 | b2 d( | d4) d d2 | r2 d( | d4) d d2 | f d |
+  d1 | d2 f | d1 | d2 d( | d) cis | d1 | r2 f( | f4) f f2 |
+% 2
+  f f | d4( c d e) | f2 es | d1 | d | r2 f | f1 |
+  f | r2 d | d1 | d | r2 f | f f | f es | d1 |
+  d | r2 f | f1 | f | r2 d | d1 | d | r2 f | f f | f es | d1 |
+  \time 4/2 
+  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+  d\breve
 }
 
 TenoreMusic = \relative c' {
   \set Staff.instrumentName = #"Tenor"
   \set Staff.shortInstrumentName = "T"
   \clef "treble_8"
-  b1 |
+  g2. g4 |
 %  \time 4/2 
 %  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 %  g\breve\fermata
@@ -81,7 +87,7 @@ BassMusic = \relative c' {
   \set Staff.instrumentName = #"Bassus"
   \set Staff.shortInstrumentName = "B"
   \clef bass
-  g1 | 
+  g2. g4 | 
 %  \time 4/2 
 %  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 %  g,\breve\fermata
