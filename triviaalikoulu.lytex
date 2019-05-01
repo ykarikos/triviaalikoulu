@@ -25,7 +25,7 @@
 
 \newcommand{\betweenLilyPondSystem}[1]{\vspace{5mm}\linebreak}
 
-\title{\headingfont{\Huge \textbf{Porin Triviaalikoulun nuottikirja}}}
+\title{\headingfont{\Huge \textbf{Porin Triviaalikoulun nuottikirja} \\ \LARGE 1725}}
 \author{\headingfont{\LARGE Sonus Borealis}}
 
 
@@ -53,6 +53,7 @@
     \pagestyle{empty}
 
     % r.1 blank page
+    \blankpage
     \includegraphics[scale=0.3]{../facsimile/bassus}
 
     % r.3 full title page
