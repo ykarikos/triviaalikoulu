@@ -77,10 +77,17 @@ TenoreMusic = \relative c' {
   \set Staff.instrumentName = #"Tenor"
   \set Staff.shortInstrumentName = "T"
   \clef "treble_8"
-  g2. g4 |
-%  \time 4/2 
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata
+  g2. g4 | b2 b | a1 | g | d'2. d4 | c2 b |
+  a1 | g2 b( | b4) b a2 | r b( | b4) b b2 | a f |
+  g1 | a2 a | b1 | a2 a | a1 | a | r2 d( | d4) d d2 |
+% 2
+  c a | b1 | c2 b | a1 | g | r2 d' | d1 | 
+  d | r2 b | b1 | b | r2 d | d d | c b | a1 
+  g | r2 d' | d1 | 
+  d | r2 b | b1 | b | r2 d | d d | c b | a1
+  \time 4/2 
+  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+  g\breve
 }
 
 BassMusic = \relative c' {
