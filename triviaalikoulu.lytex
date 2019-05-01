@@ -85,12 +85,17 @@ Teoksen lähdekoodit löytyvät osoitteesta \url{https://github.com/ykarikos/tri
     \pagestyle{myheadings}
     \setcounter{page}{11}
 
-    \addcontentsline{toc}{section}{Jucundare Jugiter}
-    \lilypondfile{songs/jucundare-jugiter/jucundare-jugiter.ly}
+    \addcontentsline{toc}{section}{Christe tibi vivo}
+    \lilypondfile{songs/christe-tibi-vivo/christe-tibi-vivo.ly}
 
     \clearpage
 
     \addcontentsline{toc}{section}{Gud wälsigna}
     \lilypondfile{songs/gud-walsigna/gud-walsigna.ly}
+
+    \clearpage
+
+    \addcontentsline{toc}{section}{Jucundare Jugiter}
+    \lilypondfile{songs/jucundare-jugiter/jucundare-jugiter.ly}
 
 \end{document}
