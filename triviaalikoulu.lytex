@@ -58,21 +58,8 @@
     % r.3 full title page
     \maketitle
 
-% v.4 copyright page
-\newpage
-~\vfill
-\thispagestyle{empty}
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{\baselineskip}
-Copyright \copyright\ \the\year\ N.N.
-
-\par Tämä teos on lisensoitu \href{https://creativecommons.org/licenses/by-sa/3.0/deed.fi}{Creative Commons Nimeä-JaaSamoin 3.0 (\textsc{CC BY-SA 3.0})} -ehdoin.
-
-Teoksen lähdekoodit löytyvät osoitteesta \url{https://github.com/ykarikos/triviaalikoulu}
-
-\par \includegraphics[scale=0.7]{../cc-by-sa}
-
-\index{license}
+    % v.4 copyright page
+    \input{copyright}
 
     % r.5 contents
     \tableofcontents
