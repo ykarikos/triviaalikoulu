@@ -94,10 +94,17 @@ BassMusic = \relative c' {
   \set Staff.instrumentName = #"Bassus"
   \set Staff.shortInstrumentName = "B"
   \clef bass
-  g2. g4 | 
-%  \time 4/2 
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g,\breve\fermata
+  g2. g4 | g2 g | d1 | es | b2. b4 | f'2 g |
+  d1 | g,2 g'( | g4) g d2 | r2 b( | b4) b b2 | f' f |
+  g1 | f2 d | g1 | d2 d | a'1 | d, | r2 b( | b4) b  b2 |
+% 2
+  f' f | g1 | f2 g | d1 | g2 b | b1 | b |
+  r2 g | g1 | g( | g) | r2 b | b b | f g | d1 |
+  g2  b | b1 | b |
+  r2 g | g1 | g( | g) | r2 b | b b | f g | d1 |
+  \time 4/2 
+  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+  g,\breve
 }
 
 
