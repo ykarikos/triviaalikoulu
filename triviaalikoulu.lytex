@@ -80,9 +80,8 @@
     \addcontentsline{toc}{section}{Gud wälsigna}
     \lilypondfile{songs/gud-walsigna/gud-walsigna.ly}
 
-    \clearpage
-
-    \addcontentsline{toc}{section}{Jucundare Jugiter}
-    \lilypondfile{songs/jucundare-jugiter/jucundare-jugiter.ly}
+%    \clearpage
+%    \addcontentsline{toc}{section}{Jucundare Jugiter}
+%    \lilypondfile{songs/jucundare-jugiter/jucundare-jugiter.ly}
 
 \end{document}
