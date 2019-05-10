@@ -1,4 +1,4 @@
-\documentclass[a4paper]{book}
+\documentclass[a4paper,twoside]{report}
 
 \usepackage{ifxetex}
 \ifxetex
@@ -49,11 +49,11 @@
 
 \begin{document}
 
-    \frontmatter
     \pagestyle{empty}
 
     % r.1 blank page
     \blankpage
+    % v.2 facsimile
     \includegraphics[scale=0.3]{../facsimile/bassus}
 
     % r.3 full title page
@@ -62,23 +62,23 @@
     % v.4 copyright page
     \input{copyright}
 
-    % r.5 contents
+    % r.1-v.2 introduction
+    \input{introduction}
+    % r.3
     \tableofcontents
 
-    % r.9 introduction
-    \cleardoublepage
-    \input{introduction}
+    \clearpage
 
-    \mainmatter
     \pagestyle{myheadings}
-    \setcounter{page}{11}
+    \setcounter{page}{4}
+
 
     \addcontentsline{toc}{section}{Christe tibi vivo}
     \lilypondfile{songs/christe-tibi-vivo/christe-tibi-vivo.ly}
 
     \clearpage
 
-    \addcontentsline{toc}{section}{Gud wälsigna}
+    \addcontentsline{toc}{section}{Gud wälsigna thetta huus}
     \lilypondfile{songs/gud-walsigna/gud-walsigna.ly}
 
 %    \clearpage
