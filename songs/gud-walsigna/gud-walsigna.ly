@@ -44,7 +44,7 @@ SopranoMusic = \relative c'' {
   d d b a | b2 c | a1 | g1\fermata |
   b2 b4 b | a2 a | g g4 g |
 % 3
-  a2 a | b a | g g( | g) fis2 |
+  a2 a | b a | g g~ | g fis2 |
   \time 4/2 
   \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
   g\breve\fermata \bar "|."
