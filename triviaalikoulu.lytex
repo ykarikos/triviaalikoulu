@@ -78,9 +78,13 @@
     \lilypondfile{songs/christe-tibi-vivo/christe-tibi-vivo.ly}
 
     \clearpage
+    \addcontentsline{toc}{section}{Christus adest justus}
+    \lilypondfile{songs/christus-adest-justus/christus-adest-justus.ly}
 
+    \clearpage
     \addcontentsline{toc}{section}{Gud wälsigna thetta huus}
     \lilypondfile{songs/gud-walsigna/gud-walsigna.ly}
+
 
 %    \clearpage
 %    \addcontentsline{toc}{section}{Jucundare Jugiter}
