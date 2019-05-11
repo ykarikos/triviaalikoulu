@@ -27,8 +27,7 @@
 \newcommand{\betweenLilyPondSystem}[1]{\vspace{5mm}\linebreak}
 
 \title{\headingfont{\Huge \textbf{Porin Triviaalikoulun nuottikirja} \\ \LARGE 1725}}
-\author{\headingfont{\LARGE Sonus Borealis}}
-
+\date{}
 
 % Inserts a blank page
 \newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage}
