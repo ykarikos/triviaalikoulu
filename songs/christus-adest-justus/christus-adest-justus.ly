@@ -49,8 +49,11 @@ SopranoMusic = \relative c' {
 % 3
 	a2 g4 g f2 g | a2 g4 g f2 g | a1 a | g2 a b1 | a2 a a g |
 	a1 g2 f | c( f1) e2 | f\breve |
-	a2. a4 a2 a | a2. a4 a2 a | a2. a4 a2 a | b1 a | a2 g1( f2) | g\breve\fermata
-	c1 b | a g2 c~ | c b c a | b a1( g4 f) | e2 f f e |
+	a2. a4 a2 a | a2. a4 a2 a | a2. a4 a2 a | b1 a | a2 g1( f2) |
+	g\breve\fermata | c1 b | a g2 c~ |
+	% should b be h?
+	c b c a |
+	b a1( g4 f) | e2 f f e |
 	f\breve \bar "|."
 }
 
@@ -60,6 +63,28 @@ stanzaOneLyrics = \lyricmode {
 	Chris -- tus a -- dest jus -- tus et ser -- va -- tor.
 	Chris -- tus a -- dest jus -- tus et ser -- va -- tor.
 	Rex que be -- nig -- nus, 
+	Plau -- de Zi -- on, lau -- da Zi -- on,
+	gau -- de Zi -- on, 
+	mi -- tis Rex  ve -- nit ec -- ce tu -- us.
+	Qui na -- tus est no -- bis
+	da -- tus est no -- bis fac -- tus est ho -- mo
+	Ex Ma -- ri -- a Vir -- gi -- ne de men -- te 
+	Pat -- ris ge -- ni -- tus.
+	Gau -- de -- a -- mus,
+	e -- xul -- te -- mus,
+	ju -- bi -- le -- mus
+	om -- nes i -- ta -- que.
+	Ve -- ra sa -- lus ho -- mi -- num
+	Chris -- tus in mun -- do na -- tus est.
+}
+
+stanzaOneLyricsBass = \lyricmode {
+	Chris -- tus a -- dest jus -- tus et ser -- va -- tor.
+	Rex que be -- nig -- nus, 
+	Chris -- tus a -- dest jus -- tus et ser -- va -- tor.
+	Chris -- tus a -- dest jus -- tus et ser -- va -- tor.
+	Rex que be -- nig -- nus,
+	que be -- nig -- nus.
 	Plau -- de Zi -- on, lau -- da Zi -- on,
 	gau -- de Zi -- on, 
 	mi -- tis Rex  ve -- nit ec -- ce tu -- us.
@@ -137,10 +162,28 @@ BassMusic = \relative c {
 	\set Staff.instrumentName = #"Bassus"
 	\set Staff.shortInstrumentName = "B"
 	\clef bass
-	f\breve |
-%  \time 4/2 
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g,\breve\fermata
+	f\breve | d1( g) | f f | b,\breve | f'\breve\fermata | f1 c2 f~( |
+	f b, c1) | f,\breve\fermata | f'1 f2 f | b,\breve | f'\breve\fermata
+	f2 f d g |
+	f1 f | f2 f b,1 | f'1 r2 f | f f f d | f c f d |
+% 2
+	g g d f | f( e4 d c2) c | f d c1 | f,\breve\fermata |
+	f'2 d g1 | f r2 f2 | d e f1 |  r2 f d g | f1 r2 f |
+	b, b f'1 | g2 f f1 | 
+	\time 2/2 
+	\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+	c | 
+	\time 4/2 
+	\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+	f,\breve | f'\breve | f2 c4 c d2 g |
+% 3
+	f2 c4 c d2 g | f2 c4 c d2 g | f1 f | c2 f b,4( c d e) | f2 f f g |
+	f1 b,2 f'~ | f e4( d) c1 | f\breve |
+	f2. f4 f2 f | f2. f4 f2 f | f2. f4 f2 f |
+	b,1 f'~ | f2 f1 f2 | c\breve\fermata |
+	c1 g' | f c |
+% 4
+	g'1 a2 f | g f1 f2 | c d c c | f,\breve |
 }
 
 
@@ -180,7 +223,7 @@ BassMusic = \relative c {
         \BassMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsBass
       }
     >>
   >>
