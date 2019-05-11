@@ -29,7 +29,6 @@ global = {
                               (/ staff-height pt 20)))
 }
 
-
 SopranoMusic = \relative c' {
   \set Staff.instrumentName = #"Cantus"
   \set Staff.shortInstrumentName = "C"
@@ -105,20 +104,40 @@ AltoMusic = \relative c' {
 }
 
 TenoreMusic = \relative c {
-  \set Staff.instrumentName = #"Tenor"
-  \set Staff.shortInstrumentName = "T"
-  \clef "treble_8"
-  f\breve |
-%  \time 4/2 
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata
+	\set Staff.instrumentName = #"Tenor"
+	\set Staff.shortInstrumentName = "T"
+	\clef "treble_8"
+	f\breve | a1( b) | c c | d\breve | c\breve\fermata | c1 c2 c~( |
+	c2 b4 a g1) | f\breve\fermata | c'1 c2 c | d\breve | c\breve\fermata |
+	f,2 f a b |
+	c1 c | c2 c d1 | c r2 c | c c c d | c2. b4 a1 |
+% 2
+	b2( g) a1 | r2 a c2.( b4) | a2( f) g1 | f\breve\fermata |
+	a2 a b1 | c1 r2 c | d b c1 | r2 c d b | c1 r2 c |
+	d d c1 | b2 c2.( b4) a2 | 
+	\time 2/2 
+	\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+	g1 |
+	\time 4/2 
+	\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+	f\breve |
+	c'\breve | c2 c4 b a2 g |
+% 3
+	c2 c4 b a2 g | c2 c4 b a2 g |
+	c1 f | e2( d4) c d1 | c2 c a b |
+	c1 b2 a~ | a g4( f) g1 | f\breve |
+	f'2. e4 d2 c | f2. e4 d2 c |
+	f2. e4 d2 c | d1 c~ | c2 c1 c2 | c\breve |
+	c1 d | f e |
+% 4
+	d1 c | b2 c1 b4 a | g2 f g g | f\breve |
 }
 
 BassMusic = \relative c {
-  \set Staff.instrumentName = #"Bassus"
-  \set Staff.shortInstrumentName = "B"
-  \clef bass
-  f\breve | 
+	\set Staff.instrumentName = #"Bassus"
+	\set Staff.shortInstrumentName = "B"
+	\clef bass
+	f\breve |
 %  \time 4/2 
 %  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 %  g,\breve\fermata
@@ -166,7 +185,7 @@ BassMusic = \relative c {
     >>
   >>
   \midi { 
-    \tempo 1 = 160
+    \tempo 2 = 200
   }
   \layout {
     indent = 1.0\cm
