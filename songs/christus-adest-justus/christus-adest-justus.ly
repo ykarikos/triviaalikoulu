@@ -11,7 +11,7 @@ global = {
 
 \header {
   title = "Christus adest justus"
-%  subtitle = ""
+%  subtitle = "Porin triviaalikoulun nuottikirjasta (1725)"
   composer = "Tuntematon"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
@@ -40,8 +40,7 @@ SopranoMusic = \relative c' {
 	a1 a | a2 a b1 | a1 r2 a | a a a f | a g f1 | 
 % 2
 	g2 g f a~( | a g4 f g f e d) | c2 f1( e2) | f\breve\fermata	f2 f g1 | a r2 a | a g a1 | r2 a a g | a1 r2 a |
-	b b a1 | g2 a2.( g4) f2~ | 
-
+	b b a1 | g2 a2.( g4) f2~ |
 	\time 2/2 
 	\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 	f e | 
@@ -78,12 +77,31 @@ stanzaOneLyrics = \lyricmode {
 }
 
 AltoMusic = \relative c' {
-  \set Staff.instrumentName = #"Altus"
-  \set Staff.shortInstrumentName = "A"
-  c\breve |
-%  \time 4/2 
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  d\breve\fermata
+	\set Staff.instrumentName = #"Altus"
+	\set Staff.shortInstrumentName = "A"
+	c\breve | d1.( e2) | f1 f | f f~ | f f~ | f1 e2 f~( |
+	f4 e d1 c2) | a\breve\fermata |
+	f'\breve | f2 f f1 | f\breve\fermata | c2 c d2. e4 |
+	f1 f | f2 f f1 | f1 r2 f | f f f f~ | f e f1 |
+% 2
+	d2.( e4) f2.( e8 d | c2. d4) e2 e | f b, c1 | a\breve\fermata |
+	c2 d1 e2 | f1 r2 f | f e f1 | r2 f f e | f1 r2 f |
+	f f f1 | d2 f2.( e4) d2 |
+	\time 2/2 
+	\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+	c1 | 
+	\time 4/2 
+	\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+	a\breve |
+	f'\breve | f2 e4 e d2. e4 |
+% 3
+	f2 e4 e d2. e4 | f2 e4 e d2. e4 |
+	f2( e4 d) c2.( d4) | e2 f f1 | f2 f f d |
+	f2.( e4) d2 c | a( c) c1 | a\breve | c1 f2.( e4) | d2 c2 f2. e4 | 
+	d2 c2 f1 | f2 f1 f2 | f f f f | e\breve\fermata |
+	e2.( f4) g1 | c, g' |
+% 4
+	g1 e2 f | d f2.( e4) d2 | c b c c | <c a>\breve |
 }
 
 TenoreMusic = \relative c {
