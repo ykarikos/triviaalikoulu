@@ -35,10 +35,10 @@ SopranoMusic = \relative c'' {
   \set Staff.shortInstrumentName = "C"
   g2 g | fis fis | g g | a a | b b | a g | fis fis |
   g1\fermata | g2 fis4 fis | g2 g4 g | b2 c4 c | fis,2 g | fis4 fis a2 | fis1 |
-  g\fermata | g2 fis | g1 | a | b4 b b b | a a a a | fis2 g |
+  g\fermata | g2 fis | g1 | a | b4 b b b | a a a a | f2 g |
 % 2
-  fis g | a a | a1\fermata |
-  fis2 fis | b b | a a | b a |
+  f g | a a | a1\fermata |
+  f2 f | b b | a a | b a |
   b a | g fis4 fis | g1\fermata |
   g2 fis | g1 a | b4 b a a | 
   d d b a | b2 c | a1 | g1\fermata |
