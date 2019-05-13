@@ -50,9 +50,7 @@ SopranoMusic = \relative c' {
 	a2 g4 g f2 g | a2 g4 g f2 g | a1 a | g2 a b1 | a2 a a g |
 	a1 g2 f | c( f1) e2 | f\breve |
 	a2. a4 a2 a | a2. a4 a2 a | a2. a4 a2 a | b1 a | a2 g1( f2) |
-	g\breve\fermata | c1 b | a g2 c~ |
-	% should b be h?
-	c b c a |
+	g\breve\fermata | c1 b | a g2 c~ | c h c a |
 	b a1( g4 f) | e2 f f e |
 	f\breve \bar "|."
 }
