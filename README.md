@@ -1,5 +1,7 @@
 # Porin triviaalikoulun nuottikirja
 
+![Bassus-stemmakirjan avaussivu](facsimile/bassus.jpg)
+
 Osa Porin triviaalikoulun nuottikirjasta (1725) puhtaaksi kirjoittettuna kirjana. Lähde: [Porin triviaalikoulun ääni- eli stemmakirjat - JYX/Nuottijulkaisut](https://jyx.jyu.fi/handle/123456789/19464):
 1. [Discantus](https://jyx.jyu.fi/dspace/handle/123456789/18957)
 2. [Altus](https://jyx.jyu.fi/dspace/handle/123456789/18955)
