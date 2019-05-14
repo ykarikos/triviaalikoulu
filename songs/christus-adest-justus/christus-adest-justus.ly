@@ -7,6 +7,7 @@ global = {
 %  \autoBeamOff
   \key f \major
   \set Staff.midiInstrument = #"voice oohs"
+  \override Staff.InstrumentName.self-alignment-X = #RIGHT
 }
 
 \header {
@@ -30,8 +31,10 @@ global = {
 }
 
 SopranoMusic = \relative c' {
-  \set Staff.instrumentName = #"Cantus"
-  \set Staff.shortInstrumentName = "C"
+	\set Staff.instrumentName = #"Cantus"
+	\set Staff.shortInstrumentName = "C"
+
+	\incipit { \clef "mensural-c1" \key f \major \time 2/2 f'\breve }
 
 	f\breve | f1( g) | a a | b\breve | a \breve\fermata
 	a1 g2 a~( | a4 g f1 e2) | f\breve\fermata |
@@ -101,6 +104,9 @@ stanzaOneLyricsBass = \lyricmode {
 AltoMusic = \relative c' {
 	\set Staff.instrumentName = #"Altus"
 	\set Staff.shortInstrumentName = "A"
+
+	\incipit { \clef "mensural-c3" \key f \major \time 2/2 c'\breve }
+
 	c\breve | d1.( e2) | f1 f | f f~ | f f~ | f1 e2 f~( |
 	f4 e d1 c2) | a\breve\fermata |
 	f'\breve | f2 f f1 | f\breve\fermata | c2 c d2. e4 |
@@ -129,6 +135,9 @@ AltoMusic = \relative c' {
 TenoreMusic = \relative c {
 	\set Staff.instrumentName = #"Tenor"
 	\set Staff.shortInstrumentName = "T"
+
+	\incipit { \clef "mensural-c3" \key f \major \time 2/2 f\breve }
+
 	\clef "treble_8"
 	f\breve | a1( b) | c c | d\breve | c\breve\fermata | c1 c2 c~( |
 	c2 b4 a g1) | f\breve\fermata | c'1 c2 c | d\breve | c\breve\fermata |
@@ -159,6 +168,9 @@ TenoreMusic = \relative c {
 BassMusic = \relative c {
 	\set Staff.instrumentName = #"Bassus"
 	\set Staff.shortInstrumentName = "B"
+
+	\incipit { \clef "mensural-f" \key f \major \time 2/2 f\breve }
+
 	\clef bass
 	f\breve | d1( g) | f f | b,\breve | f'\breve\fermata | f1 c2 f~( |
 	f b, c1) | f,\breve\fermata | f'1 f2 f | b,\breve | f'\breve\fermata
@@ -229,7 +241,12 @@ BassMusic = \relative c {
     \tempo 2 = 200
   }
   \layout {
-    indent = 1.0\cm
+    \context {
+      \Voice
+      \consists "Ambitus_engraver"
+    }
+    indent = 3.5\cm
+	incipit-width = 2\cm
     \context {
      \Staff \RemoveEmptyStaves
    }
