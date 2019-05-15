@@ -33,6 +33,9 @@ global = {
 SopranoMusic = \relative c'' {
   \set Staff.instrumentName = #"Cantus"
   \set Staff.shortInstrumentName = "C"
+
+  \incipit { \clef "mensural-c1" \key d \minor \time 2/2 g'2 }
+
   g2 g | fis fis | g g | a a | b b | a g | fis fis |
   g1\fermata | g2 fis4 fis | g2 g4 g | b2 c4 c | fis,2 g | fis4 fis a2 | fis1 |
   g\fermata | g2 fis | g1 | a | b4 b b b | a a a a | f2 g |
@@ -69,6 +72,9 @@ stanzaOneLyrics = \lyricmode {
 AltoMusic = \relative c' {
   \set Staff.instrumentName = #"Altus"
   \set Staff.shortInstrumentName = "A"
+
+  \incipit { \clef "mensural-c3" \key d \minor \time 2/2 d'2 }
+
   d2 d | d d | d d | f c | b b | c d | d d |
   d1\fermata | d2 d4 d | b2 b4 b | d2 c4 c | d2 d | d4 d e2 | d1 |
   d\fermata | d2 d | d1 | d | b4 b b b | c c c c | a2 b |
@@ -86,6 +92,9 @@ AltoMusic = \relative c' {
 TenoreMusic = \relative c' {
   \set Staff.instrumentName = #"Tenor"
   \set Staff.shortInstrumentName = "T"
+
+  \incipit { \clef "mensural-c4" \key d \minor \time 2/2 b2 }
+
   \clef "treble_8"
   b2 b | a a | b b | c a | d d | c b | a a |
   b1\fermata | b2 a4 a | d2 d4 d| b2 a4 a | a2 b | a4 a a2 | a1 |
@@ -103,6 +112,9 @@ TenoreMusic = \relative c' {
 BassMusic = \relative c' {
   \set Staff.instrumentName = #"Bassus"
   \set Staff.shortInstrumentName = "B"
+
+  \incipit { \clef "mensural-f" \key d \minor \time 2/2 g2 }
+
   \clef bass
   g2 g | d d | g g | f f | b, b | f' g | d d | 
   g,1\fermata | g'2 d4 d | g,2 g4 g | g'2 f4 f | d2 g | d4 d c2 | d1 |
@@ -162,7 +174,12 @@ BassMusic = \relative c' {
     \tempo 4 = 160
   }
   \layout {
-    indent = 1.0\cm
+    \context {
+      \Voice
+      \consists "Ambitus_engraver"
+    }
+    indent = 3.5\cm
+    incipit-width = 2\cm
     \context {
      \Staff \RemoveEmptyStaves
    }

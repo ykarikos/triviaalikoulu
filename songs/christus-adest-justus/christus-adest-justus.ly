@@ -7,7 +7,6 @@ global = {
 %  \autoBeamOff
   \key f \major
   \set Staff.midiInstrument = #"voice oohs"
-  \override Staff.InstrumentName.self-alignment-X = #RIGHT
 }
 
 \header {
