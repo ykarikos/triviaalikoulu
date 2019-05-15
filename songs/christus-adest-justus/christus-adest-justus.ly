@@ -158,7 +158,7 @@ TenoreMusic = \relative c {
 	c1 f | e2( d4) c d1 | c2 c a b |
 	c1 b2 a~ | a g4( f) g1 | f\breve |
 	f'2. e4 d2 c | f2. e4 d2 c |
-	f2. e4 d2 c | d1 c~ | c2 c1 c2 | c\breve |
+	f2. e4 d2 c | d1 c~ | c2 c1 c2 | c\breve\fermata |
 	c1 d | f e |
 % 4
 	d1 c | b2 c1 b4 a | g2 f g g | f\breve |
