@@ -48,7 +48,7 @@ SopranoMusic = \relative c'' {
 		g4. f8 e4 c e4. f8 g2 | fis4. g8 a4 c h4. h8 c2 |
 		c4. d8 e4 c h4. h8 c2 |
 		r4 c2 c4 h a gis a | gis1 gis4 a2 h4 | c2 c d e |
-		d1 e2 c | g a2. c4 c2~( | c h4 a h2) h |
+		d1 e2 c | g a2.( c4 c2~ | c) h4( a) h2 h |
 	}
 	\alternative {
 		{
@@ -144,7 +144,7 @@ TenoreMusic = \relative c' {
 		d4  \slurDashed d8( g,) c4 e d4. d8 e2 |
  		e4. d8 c4 e d4. d8 e2 |
 		r4 e2 e4 d c h a | h1 h4 cis2 d4 |
-		\slurSolid f( f,8 g a2) a4 a c c~( | c h8 a h2) c g |
+		\slurSolid f( f,8 f a2) a4 a c c~( | c h8 a h2) c g |
 		c1 c2 a | d( e d) d |
 	}
 	\alternative {
@@ -156,7 +156,7 @@ TenoreMusic = \relative c' {
 		{
 			\time 4/2
 			\once \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
-			e\breve \bar "|."
+			c\breve \bar "|."
 		}
 	}
 
