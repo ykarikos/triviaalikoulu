@@ -116,10 +116,34 @@ AltoMusic = \relative c'' {
   \set Staff.instrumentName = #"Altus"
   \set Staff.shortInstrumentName = "A"
 
-  \incipit { \clef "mensural-c3" \key c \major \time 2/2 g'2 }
-
-	g2.
-
+	\incipit { \clef "mensural-c3" \key c \major \time 2/2 g'2 }
+	\repeat volta 2 {
+		g2.( f4 e2. d8 c | h4 a g a h g g'2) | g1 g2. g4 |
+		g2 g4 g2 e4 e2 | e e g4 g2 g4 | e f e2 e e |
+		\time 6/2 
+		\once \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+		g4 g2 f4 f d d2 d1
+	}
+	\repeat volta 2 {
+		\time 4/2 
+		\once \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+		e4. d8 c4. g'8 g4. f8 e2 | a4. g8 f4 g g4. g8 g2 |
+		g4. g8 g4 g g4. g8 g2 |
+		r4 g2 g4 g e e d | e1 e4 e2 g4 | a2. g4 f2 g |
+		g1 g2 e~ | e4 e e2 f e8( d e f | g1.) g2
+	}
+	\alternative {
+		{
+			\time 2/2
+			\once \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+			g1 |
+		}
+		{
+			\time 4/2
+			\once \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+			g\breve \bar "|."
+		}
+	}
 }
 
 TenoreMusic = \relative c' {
