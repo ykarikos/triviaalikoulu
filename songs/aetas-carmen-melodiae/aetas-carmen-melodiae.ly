@@ -34,7 +34,34 @@ SopranoMusic = \relative c'' {
   \set Staff.shortInstrumentName = "C"
 
 	\incipit { \clef "mensural-c1" \key c \major \time 2/2 c''2 }
-	c2.
+	\repeat volta 2 {
+		c2.( h8 a g2. a4 | h c d8 c d e d4. c8 h a h4) |
+		c1 h2. h4 | c2 c4 h2 a4 gis2 | gis r4 a h c2 h4 |
+		a a2 gis4 a2. a4 | 
+		\time 6/2 
+		\once \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+		h c2 h4 a g2 fis4 g1 |
+	}
+	\repeat volta 2 {
+		\time 4/2 
+		\once \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+		g4. f8 e4 c e4. f8 g2 | fis4. g8 a4 c h4. h8 c2 |
+		c4. d8 e4 c h4. h8 c2 |
+		r4 c2 c4 h a gis a | gis1 gis4 a2 h4 | c2 c d e |
+		d1 e2 c | g a2. c4 c2~( | c h4 a h2) h |
+	}
+	\alternative {
+		{
+			\time 2/2
+			\once \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+			c1 |
+		}
+		{
+			\time 4/2
+			\once \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+			c\breve \bar "|."
+		}
+	}
 }
 
 stanzaOneLyrics = \lyricmode {
@@ -70,7 +97,7 @@ stanzaTwoLyrics = \lyricmode {
 	kii -- tos vird -- hell i -- loid -- cam.
 	Hän on kel -- vol -- li -- nen kunn -- jaan
 	Quin pii -- nal -- lans saat lep -- py -- män
-	Ar -- mon I -- sän Ju -- ma -- lan.
+	Ar -- mon I -- sän Ju -- ma -- lan. lan.
 }
 
 stanzaTwoLyricsTenor = \lyricmode {
@@ -82,7 +109,7 @@ stanzaTwoLyricsTenor = \lyricmode {
 	kii -- tos vird -- hell i -- loid -- cam.
 	Hän on kel -- vol -- li -- nen kunn -- jaan
 	Quin pii -- nal -- lans saat lep -- py -- män
-	Ar -- mon I -- sän Ju -- ma -- lan.
+	Ar -- mon I -- sän Ju -- ma -- lan. lan.
 }
 
 AltoMusic = \relative c'' {
@@ -157,6 +184,9 @@ BassMusic = \relative c {
      \new Lyrics \lyricsto "Soprano" {
        \stanzaOneLyrics
      }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyrics
+     }
     >>
     \new Staff <<
       \new Voice = "Alto" {
@@ -165,6 +195,9 @@ BassMusic = \relative c {
       }
      \new Lyrics \lyricsto "Alto" {
        \stanzaOneLyrics
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaTwoLyrics
      }
     >>
     \new Staff <<
@@ -186,6 +219,9 @@ BassMusic = \relative c {
       }
       \new Lyrics \lyricsto "Bass" {
        \stanzaOneLyrics
+      }
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaTwoLyrics
       }
     >>
   >>
