@@ -12,7 +12,8 @@ global = {
 \header {
   title = "Ætas carmen melodiæ"
 %  subtitle = ""
-  composer = "Daniel Friderici"
+  composer = "Daniel Friderici (1548–1638)"
+  poet = "suom. sanat Hemminki Maskulainen (n. 1550–1619)"
 %  instrument = "Voice (SATB)"
   style = "early music"
   maintainer = "Yrjö Kari-Koskinen"
