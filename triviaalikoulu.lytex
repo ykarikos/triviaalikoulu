@@ -72,6 +72,8 @@
     \pagestyle{myheadings}
     \setcounter{page}{4}
 
+    \addcontentsline{toc}{section}{Ætas carmen melodiæ}
+    \lilypondfile{songs/aetas-carmen-melodiae/aetas-carmen-melodiae.ly}
 
     \addcontentsline{toc}{section}{Christe tibi vivo}
     \lilypondfile{songs/christe-tibi-vivo/christe-tibi-vivo.ly}
