@@ -2,15 +2,21 @@
 
 ![Bassus-stemmakirjan avaussivu](facsimile/bassus.jpg)
 
-Osa Porin triviaalikoulun nuottikirjasta (1725) puhtaaksi kirjoittettuna kirjana. Lähde: [Porin triviaalikoulun ääni- eli stemmakirjat - JYX/Nuottijulkaisut](https://jyx.jyu.fi/handle/123456789/19464):
-1. [Discantus](https://jyx.jyu.fi/dspace/handle/123456789/18957)
-2. [Altus](https://jyx.jyu.fi/dspace/handle/123456789/18955)
-3. [Tenor](https://jyx.jyu.fi/dspace/handle/123456789/18958)
-4. [Bassus](https://jyx.jyu.fi/dspace/handle/123456789/18956)
+Osa Porin triviaalikoulun nuottikirjasta (1725) puhtaaksi kirjoittettuna kirjana.
 
 Tämän edition on rekonstruoinut Johannes Vesterinen ja puhtaaksikirjoittanut Yrjö Kari-Koskinen.
 
 Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et käytä lähteenä tekijänoikeuden alaisia editioita (esim. Piae Cantiones -julkaisut).
+
+## Lähteet
+
+- [Porin triviaalikoulun ääni- eli stemmakirjat - JYX/Nuottijulkaisut](https://jyx.jyu.fi/handle/123456789/19464):
+ 1. [Discantus](https://jyx.jyu.fi/dspace/handle/123456789/18957)
+ 2. [Altus](https://jyx.jyu.fi/dspace/handle/123456789/18955)
+ 3. [Tenor](https://jyx.jyu.fi/dspace/handle/123456789/18958)
+ 4. [Bassus](https://jyx.jyu.fi/dspace/handle/123456789/18956)
+- [Piae Cantiones](http://www.lillhannus.net/piae-cantiones/), edition © Mats Lillhannus, lupa käyttää lähteenä
+
 
 ## Kirjan latominen
 
