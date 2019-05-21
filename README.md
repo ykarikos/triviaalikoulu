@@ -20,9 +20,10 @@ Yksittäiset kappaleet löytyvät `songs`-hakemiston alta ja ne voi latoa itsen�
 
 ## Sisällys
 
-1. Christe tibi vivo – tuntematon
-2. Christus adest justus - tuntematon
-3. Gud wälsigna thetta huus – tuntematon
+1. Ætas carmen melodiæ – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
+2. Christe tibi vivo – tuntematon
+3. Christus adest justus - tuntematon
+4. Gud wälsigna thetta huus – tuntematon
 
 ## Lisenssi
 
