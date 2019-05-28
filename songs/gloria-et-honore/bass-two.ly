@@ -3,7 +3,11 @@ BassTwoMusic = \relative c {
 	\set Staff.instrumentName = #"Bassus 2"
 	\set Staff.shortInstrumentName = "B2"
 
-	\incipit { \clef "mensural-f" \key d \minor \time 2/2 r2 d2. }
+	\incipit { 
+		\clef "mensural-f" \key d \minor \time 2/2 
+		r\maxima
+		r2 d2. 
+	}
 
 	\clef bass
 	r\breve | r\breve | r\breve | r\breve | 

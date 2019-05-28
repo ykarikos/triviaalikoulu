@@ -22,6 +22,7 @@ global = {
 }
 
 \paper {
+	system-separator-markup = \slashSeparator
     #(define fonts
         (make-pango-font-tree "Palatino"
                               "Nimbus Sans"
@@ -143,12 +144,10 @@ stanzaOneLyricsChoirTwo = \lyricmode {
     \context {
       \Voice
       \consists "Ambitus_engraver"
+		\hide Slur
     }
-    indent = 3.5\cm
-    incipit-width = 2\cm
-    \context {
-     \Staff \RemoveEmptyStaves
-   }
+    indent = 4\cm
+    incipit-width = 2.5\cm
     \context {
      \Score
      \override VerticalAxisGroup.remove-first = ##t
