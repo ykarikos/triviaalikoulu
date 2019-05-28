@@ -1,4 +1,4 @@
-\version "2.19.49"
+\version "2.19.80"
 \include "suomi.ly"
 
 global = { 
@@ -35,7 +35,9 @@ SopranoOneMusic = \relative c'' {
 	\set Staff.instrumentName = #"Cantus 1"
 	\set Staff.shortInstrumentName = "C1"
 
-	\incipit { \clef "mensural-c1" \key d \minor \time 2/2 g'1 }
+	\incipit { 
+		\clef "mensural-c1" \key d \minor \time 2/2 g'1
+	}
 
 	g1 |
 %  \time 4/2 
@@ -51,7 +53,9 @@ AltoOneMusic = \relative c' {
 	\set Staff.instrumentName = #"Altus 1"
 	\set Staff.shortInstrumentName = "A1"
 
-	\incipit { \clef "mensural-c3" \key d \minor \time 2/2 d'1 }
+	\incipit { 
+		\clef "mensural-c3" \key d \minor \time 2/2 d'1
+	}
 
 	d1 |
 %  \time 4/2 
@@ -63,7 +67,9 @@ TenoreOneMusic = \relative c' {
 	\set Staff.instrumentName = #"Tenor 1"
 	\set Staff.shortInstrumentName = "T1"
 
-	\incipit { \clef "mensural-c4" \key d \minor \time 2/2 b1 }
+	\incipit { 
+		\clef "mensural-c4" \key d \minor \time 2/2 b1
+	}
 
 	\clef "treble_8"
 	b1 |
@@ -107,7 +113,9 @@ AltoTwoMusic = \relative c' {
 	\set Staff.instrumentName = #"Altus 2"
 	\set Staff.shortInstrumentName = "A2"
 
-	\incipit { \clef "mensural-c3" \key d \minor \time 2/2 d'1 }
+	\incipit {
+		\clef "mensural-c3" \key d \minor \time 2/2 d'1
+	}
 
 	r1 | d1 |
 %  \time 4/2 
@@ -119,7 +127,9 @@ TenoreTwoMusic = \relative c' {
 	\set Staff.instrumentName = #"Tenor 2"
 	\set Staff.shortInstrumentName = "T2"
 
-	\incipit { \clef "mensural-c4" \key d \minor \time 2/2 b1 }
+	\incipit { 
+		\clef "mensural-c4" \key d \minor \time 2/2 b1
+	}
 
 	\clef "treble_8"
 	r1 | b1 |
@@ -132,7 +142,9 @@ BassTwoMusic = \relative c' {
 	\set Staff.instrumentName = #"Bassus 2"
 	\set Staff.shortInstrumentName = "B2"
 
-	\incipit { \clef "mensural-f" \key d \minor \time 2/2 g1 }
+	\incipit {
+		\clef "mensural-f" \key d \minor \time 2/2 g1
+	}
 
 	\clef bass
 	r1 | g1 | 
@@ -230,12 +242,10 @@ BassTwoMusic = \relative c' {
     \context {
       \Voice
       \consists "Ambitus_engraver"
+		\hide Slur
     }
-    indent = 3.5\cm
-    incipit-width = 2\cm
-    \context {
-     \Staff \RemoveEmptyStaves
-   }
+    indent = 4\cm
+    incipit-width = 2.5\cm
     \context {
      \Score
      \override VerticalAxisGroup.remove-first = ##t
