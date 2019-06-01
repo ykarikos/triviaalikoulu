@@ -62,7 +62,7 @@ stanzaOneLyrics = \lyricmode {
 	Rex que be -- nig -- nus, 
 	Chris -- tus a -- dest jus -- tus et ser -- va -- tor.
 	Chris -- tus a -- dest jus -- tus et ser -- va -- tor.
-	Rex que be -- nig -- nus, 
+	Rex que -- be -- nig -- nus, 
 	Plau -- de Zi -- on, lau -- da Zi -- on,
 	gau -- de Zi -- on, 
 	mi -- tis Rex  ve -- nit ec -- ce tu -- us.
@@ -124,11 +124,11 @@ AltoMusic = \relative c' {
 % 3
 	f2 e4 e d2. e4 | f2 e4 e d2. e4 |
 	f2( e4 d) c2.( d4) | e2 f f1 | f2 f f d |
-	f2.( e4) d2 c | a( c) c1 | a\breve | c1 f2.( e4) | d2 c2 f2. e4 | 
+	f2.( e4) d2 c | a( c) c1 | a\breve( | c1) f2. e4 | d2 c2 f2. e4 | 
 	d2 c2 f1 | f2 f1 f2 | f f f f | e\breve\fermata |
 	e2.( f4) g1 | c, g' |
 % 4
-	g1 e2 f | d f2.( e4) d2 | c b c c | <c a>\breve |
+	g1 e2 f | d f2.( e4) d2 | c b c c | a\breve |
 }
 
 TenoreMusic = \relative c {
@@ -177,7 +177,7 @@ BassMusic = \relative c {
 	f1 f | f2 f b,1 | f'1 r2 f | f f f d | f c f d |
 % 2
 	g g d f | f( e4 d c2) c | f d c1 | f,\breve\fermata |
-	f'2 d g1 | f r2 f2 | d e f1 |  r2 f d g | f1 r2 f |
+	f'2 d g1 | f r2 f2 | d g f1 |  r2 f d g | f1 r2 f |
 	b, b f'1 | g2 f f1 | 
 	\time 2/2 
 	\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
@@ -243,6 +243,7 @@ BassMusic = \relative c {
     \context {
       \Voice
       \consists "Ambitus_engraver"
+		\hide Slur
     }
     indent = 3.5\cm
 	incipit-width = 2\cm
