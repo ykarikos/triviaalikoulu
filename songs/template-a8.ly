@@ -32,8 +32,8 @@ global = {
 % First choir
 
 SopranoOneMusic = \relative c'' {
-	\set Staff.instrumentName = #"Cantus 1"
-	\set Staff.shortInstrumentName = "C1"
+	\set Staff.instrumentName = #"Cantus I"
+	\set Staff.shortInstrumentName = "C I"
 
 	\incipit { 
 		\clef "mensural-c1" \key d \minor \time 2/2 g'1
@@ -50,8 +50,8 @@ stanzaOneLyricsChoirOne = \lyricmode {
 }
 
 AltoOneMusic = \relative c' {
-	\set Staff.instrumentName = #"Altus 1"
-	\set Staff.shortInstrumentName = "A1"
+	\set Staff.instrumentName = #"Altus I"
+	\set Staff.shortInstrumentName = "A I"
 
 	\incipit { 
 		\clef "mensural-c3" \key d \minor \time 2/2 d'1
@@ -64,8 +64,8 @@ AltoOneMusic = \relative c' {
 }
 
 TenoreOneMusic = \relative c' {
-	\set Staff.instrumentName = #"Tenor 1"
-	\set Staff.shortInstrumentName = "T1"
+	\set Staff.instrumentName = #"Tenor I"
+	\set Staff.shortInstrumentName = "T I"
 
 	\incipit { 
 		\clef "mensural-c4" \key d \minor \time 2/2 b1
@@ -79,8 +79,8 @@ TenoreOneMusic = \relative c' {
 }
 
 BassOneMusic = \relative c' {
-	\set Staff.instrumentName = #"Bassus 1"
-	\set Staff.shortInstrumentName = "B1"
+	\set Staff.instrumentName = #"Bassus I"
+	\set Staff.shortInstrumentName = "B I"
 
 	\incipit { \clef "mensural-f" \key d \minor \time 2/2 g1 }
 
@@ -94,8 +94,8 @@ BassOneMusic = \relative c' {
 % Second choir
 
 SopranoTwoMusic = \relative c'' {
-	\set Staff.instrumentName = #"Cantus 2"
-	\set Staff.shortInstrumentName = "C2"
+	\set Staff.instrumentName = #"Cantus II"
+	\set Staff.shortInstrumentName = "C II"
 
 	\incipit { \clef "mensural-c1" \key d \minor \time 2/2 g'1 }
 
@@ -110,8 +110,8 @@ stanzaOneLyricsChoirTwo = \lyricmode {
 }
 
 AltoTwoMusic = \relative c' {
-	\set Staff.instrumentName = #"Altus 2"
-	\set Staff.shortInstrumentName = "A2"
+	\set Staff.instrumentName = #"Altus II"
+	\set Staff.shortInstrumentName = "A II"
 
 	\incipit {
 		\clef "mensural-c3" \key d \minor \time 2/2 d'1
@@ -124,8 +124,8 @@ AltoTwoMusic = \relative c' {
 }
 
 TenoreTwoMusic = \relative c' {
-	\set Staff.instrumentName = #"Tenor 2"
-	\set Staff.shortInstrumentName = "T2"
+	\set Staff.instrumentName = #"Tenor II"
+	\set Staff.shortInstrumentName = "T II"
 
 	\incipit { 
 		\clef "mensural-c4" \key d \minor \time 2/2 b1
@@ -139,8 +139,8 @@ TenoreTwoMusic = \relative c' {
 }
 
 BassTwoMusic = \relative c' {
-	\set Staff.instrumentName = #"Bassus 2"
-	\set Staff.shortInstrumentName = "B2"
+	\set Staff.instrumentName = #"Bassus II"
+	\set Staff.shortInstrumentName = "B II"
 
 	\incipit {
 		\clef "mensural-f" \key d \minor \time 2/2 g1

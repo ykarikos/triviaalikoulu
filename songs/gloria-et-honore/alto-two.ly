@@ -1,6 +1,6 @@
 AltoTwoMusic = \relative c' {
-	\set Staff.instrumentName = #"Altus 2"
-	\set Staff.shortInstrumentName = "A2"
+	\set Staff.instrumentName = #"Altus II"
+	\set Staff.shortInstrumentName = "A II"
 
 	\incipit { 
 		\clef "mensural-c3" \key d \minor \time 2/2 

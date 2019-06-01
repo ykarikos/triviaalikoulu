@@ -1,6 +1,6 @@
 TenoreTwoMusic = \relative c' {
-	\set Staff.instrumentName = #"Tenor 2"
-	\set Staff.shortInstrumentName = "T2"
+	\set Staff.instrumentName = #"Tenor II"
+	\set Staff.shortInstrumentName = "T II"
 
 	\incipit { 
 		\clef "mensural-c4" \key d \minor \time 2/2 

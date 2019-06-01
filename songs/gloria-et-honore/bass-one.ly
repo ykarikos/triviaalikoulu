@@ -1,6 +1,6 @@
 BassOneMusic = \relative c' {
-	\set Staff.instrumentName = #"Bassus 1"
-	\set Staff.shortInstrumentName = "B1"
+	\set Staff.instrumentName = #"Bassus I"
+	\set Staff.shortInstrumentName = "B I"
 
 	\incipit { \clef "mensural-f" \key d \minor \time 2/2 r2 g2. }
 
