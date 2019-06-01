@@ -54,7 +54,9 @@
     % r.1 blank page
     \blankpage
     % v.2 facsimile
+    \vspace*{\fill}
     \includegraphics[scale=0.3]{../facsimile/bassus}
+    \vspace*{\fill}
 
     % r.3 full title page
     \maketitle
