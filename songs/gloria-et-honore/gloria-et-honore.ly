@@ -1,4 +1,4 @@
-\version "2.19.80"
+\version "2.19.49"
 \include "suomi.ly"
 
 global = { 
@@ -30,17 +30,14 @@ global = {
                               (/ staff-height pt 20)))
 }
 
+\include "lyrics.ly"
+
 % First choir
 
 \include "soprano-one.ly"
 \include "alto-one.ly"
 \include "tenor-one.ly"
 \include "bass-one.ly"
-
-stanzaOneLyricsChoirOne = \lyricmode {
-	Glo -- ri -- a et ho -- no -- re
-	co -- ro -- nas -- ti e -- um Do -- mi -- ne
-}
 
 
 % Second choir
@@ -49,11 +46,6 @@ stanzaOneLyricsChoirOne = \lyricmode {
 \include "alto-two.ly"
 \include "tenor-two.ly"
 \include "bass-two.ly"
-
-stanzaOneLyricsChoirTwo = \lyricmode {
-	Glo -- ri -- a et ho -- no -- re
-	co -- ro -- nas -- ti e -- um Do -- mi -- ne
-}
 
 
 \score {
@@ -104,7 +96,7 @@ stanzaOneLyricsChoirTwo = \lyricmode {
         \SopranoTwoMusic
       }
      \new Lyrics \lyricsto "SopranoTwo" {
-       \stanzaOneLyricsChoirTwo
+       \stanzaOneLyricsChoirOne
      }
     >>
     \new Staff <<
@@ -113,7 +105,7 @@ stanzaOneLyricsChoirTwo = \lyricmode {
         \AltoTwoMusic
       }
      \new Lyrics \lyricsto "AltoTwo" {
-       \stanzaOneLyricsChoirTwo
+       \stanzaOneLyricsChoirOne
      }
     >>
     \new Staff <<
@@ -122,7 +114,7 @@ stanzaOneLyricsChoirTwo = \lyricmode {
         \TenoreTwoMusic
       }
       \new Lyrics \lyricsto "TenoreTwo" {
-       \stanzaOneLyricsChoirTwo
+       \stanzaOneLyricsChoirOne
       }
     >>
     \new Staff <<
@@ -131,7 +123,7 @@ stanzaOneLyricsChoirTwo = \lyricmode {
         \BassTwoMusic
       }
       \new Lyrics \lyricsto "BassTwo" {
-       \stanzaOneLyricsChoirTwo
+       \stanzaOneLyricsChoirOne
       }
     >>
   >>
