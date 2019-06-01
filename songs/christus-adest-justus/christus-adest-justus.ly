@@ -3,7 +3,8 @@
 
 global = { 
 %  \numericTimeSignature
-  \time 4/2 
+  \time 2/2 
+	\set Timing.measureLength = #(ly:make-moment 4/2)
 %  \autoBeamOff
   \key f \major
   \set Staff.midiInstrument = #"voice oohs"

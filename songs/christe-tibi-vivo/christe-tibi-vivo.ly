@@ -168,6 +168,7 @@ BassMusic = \relative c' {
     \context {
       \Voice
       \consists "Ambitus_engraver"
+		\hide Slur
     }
     indent = 3.5\cm
     incipit-width = 2\cm
