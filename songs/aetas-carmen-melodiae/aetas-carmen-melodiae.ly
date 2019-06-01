@@ -4,6 +4,7 @@
 global = { 
 %  \numericTimeSignature
   \time 2/2 
+	\set Timing.measureLength = #(ly:make-moment 4/2)
 %  \autoBeamOff
   \key c \major
   \set Staff.midiInstrument = #"voice oohs"
@@ -37,23 +38,25 @@ SopranoMusic = \relative c'' {
 	\incipit { \clef "mensural-c1" \key c \major \time 2/2 c''2 }
 	\repeat volta 2 {
 		c2.( h8 a g2. a4 | h c d8 c d e d4. c8 h a h4) |
-		c1 h2. h4 | c2 c4 h~ | h a gis2 | gis r4 a h c2 h4 |
+		c1 h2. h4 | c2 c4 h2 a4 gis2 | gis r4 a h c2 h4 |
 		a \slurDashed a( a) gis a2. a4 | 
+		\set Timing.measureLength = #(ly:make-moment 6/2)
 		h c2 h4 a g2 fis4 g1 |
 	}
 	\repeat volta 2 {
+		\set Timing.measureLength = #(ly:make-moment 4/2)
 		g4. f8 e4 c e4. f8 g2 | fis4. g8 a4 c h4. h8 c2 |
 		c4. d8 e4 c h4. h8 c2 |
-		r4 c2 c4 h a gis a | gis1 gis4 a2 h4 | c2 c | d e |
-		d1 | e2 c | g \slurSolid a~( | a4 c c2~ | c) h4( a) h2 h |
+		r4 c2 c4 h a gis a | gis1 gis4 a2 h4 | c2 c d e |
+		d1 e2 c | g \slurSolid a2.( c4 c2~ | c) h4( a) h2 h |
 	}
 	\alternative {
 		{
+			\set Timing.measureLength = #(ly:make-moment 2/2)
 			c1 |
 		}
 		{
-			\time 4/2
-			\once \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+			\set Timing.measureLength = #(ly:make-moment 4/2)
 			c\breve \bar "|."
 		}
 	}
@@ -126,22 +129,22 @@ AltoMusic = \relative c'' {
 	\incipit { \clef "mensural-c3" \key c \major \time 2/2 g'2 }
 	\repeat volta 2 {
 		g2.( f4 e2. d8 c | h4 a g a h g g'2) | g1 g2. g4 |
-		g2 g4 g~ | g e e2 | e e g4 g2 g4 | e f \slurDashed e( e) e2 e |
+		g2 g4 g2 e4 e2 | e e g4 g2 g4 | e f \slurDashed e( e) e2 e |
 		g4 g2 f4 f d d2 d1
 	}
 	\repeat volta 2 {
 		e4. d8 c4. g'8 g4. f8 e2 | a4. g8 f4 g g4. g8 g2 |
 		g4. g8 g4 g g4. g8 g2 |
-		r4 g2 g4 g e e d | e1 e4 e2 g4 | a2. g4 | f2 g |
-		g1 | g2 e~ | e4 e e2 | f \slurSolid e8( d e f | g1~ | g2) g
+		r4 g2 g4 g e e d | e1 e4 e2 g4 | a2. g4 f2 g |
+		g1 g2 e~ | e4 e e2 f \slurSolid e8( d e f | g1.) g2
 	}
 	\alternative {
 		{
+			\set Timing.measureLength = #(ly:make-moment 2/2)
 			g1 |
 		}
 		{
-			\time 4/2
-			\once \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+			\set Timing.measureLength = #(ly:make-moment 4/2)
 			g\breve \bar "|."
 		}
 	}
@@ -156,7 +159,7 @@ TenoreMusic = \relative c' {
 	\clef "treble_8"
 	\repeat volta 2 {
 		e2.( d8 c h4 c h a | g a h4. c8 d4 e d2) | 
-		e1 d2. d4 | e2 e4 d~ | d c h2 | h2 cis d4 e2 d4 | 
+		e1 d2. d4 | e2 e4 d2 c4 h2 | h2 cis d4 e2 d4 | 
 		c4 d \slurDashed h( h) cis2 cis | 
 		d4 e2 d4 c h a2 h1
 	}
@@ -170,11 +173,11 @@ TenoreMusic = \relative c' {
 	}
 	\alternative {
 		{
+			\set Timing.measureLength = #(ly:make-moment 2/2)
 			e1 |
 		}
 		{
-			\time 4/2
-			\once \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+			\set Timing.measureLength = #(ly:make-moment 4/2)
 			c\breve \bar "|."
 		}
 	}
@@ -190,23 +193,23 @@ BassMusic = \relative c {
 	\clef bass
 	\repeat volta 2 {
 		c2.( d4 e c e f | g\breve) | c,1 g'2. g4 |
-		c,2 c4 g'~ | g a e2 | e a g4 c,2 g'4 |
+		c,2 c4 g'2 a4 e2 | e a g4 c,2 g'4 |
 		a d, \slurDashed e( e) a,2 a' |
 		g4 c,2 d4 f g d2 g,1
 	}
 	\repeat volta 2 {
 		c4. d8 e4 f c4. d8 e2 | d4. e8 f4 c g'4. g8 c,2 |
 		c'4. h8 c4 c,4 g'4. g8 c,2 |
-		r4 c2 c4 g' a e f | e1 e4 a2 g4 | f2. e4 | d2 c |
-		g'1 | c,2 c~ | c a | f a | g1~ | g2 g |
+		r4 c2 c4 g' a e f | e1 e4 a2 g4 | f2. e4 d2 c |
+		g'1 c,2 c~ | c a f a | g1. g2 |
 	}
 	\alternative {
 		{
+			\set Timing.measureLength = #(ly:make-moment 2/2)
 			c1 |
 		}
 		{
-			\time 4/2
-			\once \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+			\set Timing.measureLength = #(ly:make-moment 4/2)
 			c\breve \bar "|."
 		}
 	}
@@ -272,6 +275,7 @@ BassMusic = \relative c {
     \context {
       \Voice
       \consists "Ambitus_engraver"
+%		\hide Slur
     }
     indent = 3.5\cm
     incipit-width = 2\cm
