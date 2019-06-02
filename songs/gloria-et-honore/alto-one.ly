@@ -6,8 +6,19 @@ AltoOneMusic = \relative c' {
 
 	r2 d2. d4 d2 | f f e1 | f2 a4 a a f a2 | a1 a2. a4 |
 	f1 r1 | r\breve | r\breve | r\breve |
-%  \time 4/2 
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  d\breve\fermata
+	r2 f1 d2 | f2 f4 g2 f4 f2 | d1 r1 | r\breve
+
+% 2
+
+	r2 f1 f2 | f2 g4 e2 d4 e2 | f1 r | r\breve |
+	r2 f2 f4 d2 c4 | d f2 f4 es es d2 | d1 r | r\breve |
+	g2. g4 f d d2 | d1 r | g2. g4 g g g2 | g g4 g g g g2 |
+
+% 3
+
+	g2 g1 f2 | d2 g4 f2 g4 e2 | f1 r | r\breve |
+	r2 f f4 d2 c4 | d f2 f4 es es d2 | d1 r | r\breve |
+	g2. g4 f d d2 | d1 r | g2. g4 g g g2 | g g4 g g g g2 |
+	g\breve\fermata \bar "|."
 }
 

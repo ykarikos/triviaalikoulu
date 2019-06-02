@@ -8,7 +8,10 @@ stanzaOneLyricsChoirOne = \lyricmode {
 	Ma -- nu -- um tu -- a -- rum,
 	ma -- nu -- um tu -- a -- rum
 	Et cons -- ti -- tu -- is -- ti e -- um
-	
+	Su -- per o -- pe -- ra ma -- nu -- um tu -- a -- rum
+	Ma -- nu -- um tu -- a -- rum
+	Ma -- nu -- um tu -- a -- rum,
+	ma -- nu -- um tu -- a -- rum
 }
 
 
