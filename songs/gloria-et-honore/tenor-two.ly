@@ -11,9 +11,17 @@ TenoreTwoMusic = \relative c' {
 	\clef "treble_8"
 	r\breve | r\breve | r\breve | r\breve | 
 	r2 a2. a4 a 2 | c d c1 | d2 a4 a cis d e2 | f1 e2. e4 |
-	d1 r1 |
-%  \time 4/2 
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata
+	d1 r | r\breve | r2 b1 g2 | a d4 es2 d4 c2 |
+
+% 2
+	b1 r | r\breve | r2 d1 b2 | c d4 a2 b4 c2 |
+	b1 r | r\breve | r2 d2 d4 b2 c4 | f, g2 f4 b c a2 |
+	g1 r | d'2. d4 c b a2 | g g4 d' d g, g2 | g g4 g g c, g'2 |
+
+% 3
+	g1 r | r\breve | r2 a1 a2 | a c4 c2 b4 c2 |
+	b1 r | r\breve | r2 d2 d4 b2 c4 | f, g2 f4 b c a2 |
+	g1 r | d'2. d4 c b a2 | g g4 d' d g, g2 | g g4 g g c, g'2 |
+	g\breve\fermata \bar "|."
 }
 
