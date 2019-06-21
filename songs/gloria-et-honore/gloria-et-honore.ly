@@ -1,16 +1,34 @@
 \version "2.19.49"
 \include "suomi.ly"
 
-#(set-global-staff-size 18)
 
-global = { 
+global = {
 %  \numericTimeSignature
   \time 2/2
-	\set Timing.measureLength = #(ly:make-moment 4/2) 
+	\set Timing.measureLength = #(ly:make-moment 4/2)
 %  \autoBeamOff
   \key d \minor
   \set Staff.midiInstrument = #"voice oohs"
 }
+
+\include "gloria-et-honore.lyrics.ly"
+
+% First choir
+
+\include "gloria-et-honore.soprano-one.ly"
+\include "gloria-et-honore.alto-one.ly"
+\include "gloria-et-honore.tenor-one.ly"
+\include "gloria-et-honore.bass-one.ly"
+
+% Second choir
+
+\include "gloria-et-honore.soprano-two.ly"
+\include "gloria-et-honore.alto-two.ly"
+\include "gloria-et-honore.tenor-two.ly"
+\include "gloria-et-honore.bass-two.ly"
+
+#(set-global-staff-size 18)
+
 
 \header {
   title = "Gloria et honore (á 8)"
@@ -33,22 +51,6 @@ global = {
                               (/ staff-height pt 20)))
 }
 
-\include "lyrics.ly"
-
-% First choir
-
-\include "soprano-one.ly"
-\include "alto-one.ly"
-\include "tenor-one.ly"
-\include "bass-one.ly"
-
-
-% Second choir
-
-\include "soprano-two.ly"
-\include "alto-two.ly"
-\include "tenor-two.ly"
-\include "bass-two.ly"
 
 
 \score {
@@ -132,7 +134,7 @@ global = {
   >>
 >>
 
-  \midi { 
+  \midi {
     \tempo 4 = 160
   }
   \layout {

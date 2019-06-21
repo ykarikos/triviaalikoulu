@@ -86,12 +86,13 @@
     \lilypondfile{songs/christus-adest-justus/christus-adest-justus.ly}
 
     \clearpage
+    \addcontentsline{toc}{section}{Gloria et honore}
+    \lilypondfile{songs/gloria-et-honore/gloria-et-honore.ly}
+
+    \clearpage
     \addcontentsline{toc}{section}{Gud wälsigna thetta huus}
     \lilypondfile{songs/gud-walsigna/gud-walsigna.ly}
 
 
-%    \clearpage
-%    \addcontentsline{toc}{section}{Jucundare Jugiter}
-%    \lilypondfile{songs/jucundare-jugiter/jucundare-jugiter.ly}
 
 \end{document}

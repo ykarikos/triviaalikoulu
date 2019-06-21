@@ -2,7 +2,15 @@
 
 SOURCE=triviaalikoulu
 
-lilypond-book --output=out --pdf $SOURCE.lytex
+CURRENT_DIR=$(pwd)
+includespec=""
+for i in  $CURRENT_DIR/songs/* ; do
+  if [[ -d $i ]] ; then
+    includespec="$includespec --include=$i/"
+  fi
+done
+
+lilypond-book $includespec --output=out --pdf $SOURCE.lytex
 cd out
 #pdflatex $SOURCE
 xelatex $SOURCE
