@@ -5,21 +5,21 @@
 \include "aetas-carmen-melodiae.header.ily"
 
 \header {
-  title = "Ætas carmen melodiæ (cantus)"
+  title = "Ætas carmen melodiæ (altus)"
 }
 
 \score {
   \new ChoirStaff <<
     \new Staff <<
-      \new Voice = "Soprano" {
-		\global
-        \SopranoMusic
+      \new Voice = "Alto" {
+        \global
+        \AltoMusic
       }
-     \new Lyrics \lyricsto "Soprano" {
+     \new Lyrics \lyricsto "Alto" {
        \stanzaOneLyrics
      }
-     \new Lyrics \lyricsto "Soprano" {
-       \stanzaTwoLyricsSoprano
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaTwoLyrics
      }
     >>
   >>

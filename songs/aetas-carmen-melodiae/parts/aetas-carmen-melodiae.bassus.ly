@@ -5,22 +5,22 @@
 \include "aetas-carmen-melodiae.header.ily"
 
 \header {
-  title = "Ætas carmen melodiæ (cantus)"
+  title = "Ætas carmen melodiæ (bassus)"
 }
 
 \score {
   \new ChoirStaff <<
     \new Staff <<
-      \new Voice = "Soprano" {
-		\global
-        \SopranoMusic
+      \new Voice = "Bass" {
+        \global
+        \BassMusic
       }
-     \new Lyrics \lyricsto "Soprano" {
+      \new Lyrics \lyricsto "Bass" {
        \stanzaOneLyrics
-     }
-     \new Lyrics \lyricsto "Soprano" {
-       \stanzaTwoLyricsSoprano
-     }
+      }
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaTwoLyrics
+      }
     >>
   >>
   \midi {
