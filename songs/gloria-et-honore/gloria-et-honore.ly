@@ -11,24 +11,23 @@ global = {
   \set Staff.midiInstrument = #"voice oohs"
 }
 
-\include "gloria-et-honore.lyrics.ly"
+\include "gloria-et-honore.lyrics.ily"
 
 % First choir
 
-\include "gloria-et-honore.soprano-one.ly"
-\include "gloria-et-honore.alto-one.ly"
-\include "gloria-et-honore.tenor-one.ly"
-\include "gloria-et-honore.bass-one.ly"
+\include "gloria-et-honore.soprano-one.ily"
+\include "gloria-et-honore.alto-one.ily"
+\include "gloria-et-honore.tenor-one.ily"
+\include "gloria-et-honore.bass-one.ily"
 
 % Second choir
 
-\include "gloria-et-honore.soprano-two.ly"
-\include "gloria-et-honore.alto-two.ly"
-\include "gloria-et-honore.tenor-two.ly"
-\include "gloria-et-honore.bass-two.ly"
+\include "gloria-et-honore.soprano-two.ily"
+\include "gloria-et-honore.alto-two.ily"
+\include "gloria-et-honore.tenor-two.ily"
+\include "gloria-et-honore.bass-two.ily"
 
-#(set-global-staff-size 18)
-
+#(set-global-staff-size 16)
 
 \header {
   title = "Gloria et honore (á 8)"
@@ -134,9 +133,6 @@ global = {
   >>
 >>
 
-  \midi {
-    \tempo 4 = 160
-  }
   \layout {
     \context {
       \Voice
