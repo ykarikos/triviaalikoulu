@@ -148,7 +148,7 @@ TenoreMusic = \relative c' {
 		e2.( d8 c h4 c h a | g a h4. c8 d4 e d2) |
 		e1 d2. d4 | e2 e4 d2 c4 h2 | h2 cis d4 e2 d4 |
 		\undo \omit Slur
-		c4 d \slurDashed h( h) cis2 cis |
+		cis4 d \slurDashed h( h) cis2 cis |
 		\set Timing.measureLength = #(ly:make-moment 6/2)
 		d4 e2 d4 c h a2 h1
 	}
