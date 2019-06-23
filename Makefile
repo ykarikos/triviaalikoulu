@@ -22,10 +22,10 @@ $(BOOK).pdf: $(BOOK).lytex introduction.tex copyright.tex $(NOTATION) facsimile/
 .PHONY: parts
 parts: $(PARTS_PDF)
 
-all: parts $(BOOK).pdf
+all: $(BOOK).pdf parts
 
 .PHONY: clean
 clean:
 	rm -rf $(OUTDIR)
-	rm $(PARTS_PDF) $(PARTS_MIDI)
-	rm $(BOOK).pdf
+	rm -f $(PARTS_PDF) $(PARTS_MIDI)
+	rm -f $(BOOK).pdf
