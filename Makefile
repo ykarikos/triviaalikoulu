@@ -1,13 +1,13 @@
 
-
 BOOK = triviaalikoulu
 OUTDIR = out
-INCLUDEDIRS := $(shell find songs/* -type d)
+INCLUDEDIRS := $(shell find songs/* -type d -not -name "parts")
 INCLUDESPEC := $(shell for d in $(INCLUDEDIRS); do echo "--include=$$d/"; done)
-NOTATION := $(shell find songs/*/ -name "*.ly")
+NOTATION := $(shell find songs/*/ -name "*.ly" -or -name "*.ily")
+PARTS := $(shell find songs/*/parts -name "*.ly")
+PARTS_PDF := $(subst .ly,.pdf,$(PARTS))
+PARTS_MIDI := $(subst .ly,.midi,$(PARTS))
 PDF_CMD = cd $(OUTDIR) && xelatex $(BOOK)
-
-.PHONY: clean
 
 $(BOOK).pdf: $(BOOK).lytex introduction.tex copyright.tex $(NOTATION)
 	lilypond-book $(INCLUDESPEC) --output=$(OUTDIR) --pdf $<
@@ -16,6 +16,13 @@ $(BOOK).pdf: $(BOOK).lytex introduction.tex copyright.tex $(NOTATION)
 	$(PDF_CMD)
 	mv $(OUTDIR)/$@ .
 
+%.pdf %.midi: %.ly
+	cd $(dir $<) && lilypond $(notdir $<)
+
+.PHONY: parts
+parts: $(PARTS_PDF)
+
+.PHONY: clean
 clean:
 	rm -rf $(OUTDIR)
 	rm $(BOOK).pdf

@@ -1,11 +1,11 @@
 \version "2.19.49"
 \include "suomi.ly"
 
-\include "aetas-carmen-melodiae.music.ily"
+\include "../aetas-carmen-melodiae.music.ily"
 
 \header {
   title = "Ætas carmen melodiæ"
-%  subtitle = ""
+  subtitle = "Porin triviaalikoulun nuottikirja (1725)"
   composer = "Daniel Friderici (1548–1638)"
   poet = "suom. sanat Hemminki Maskulainen (n. 1550–1619)"
 %  instrument = "Voice (SATB)"
@@ -74,6 +74,9 @@
       }
     >>
   >>
+  \midi {
+    \tempo 4 = 160
+  }
   \layout {
     \context {
       \Voice
