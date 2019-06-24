@@ -20,9 +20,15 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 
 ## Kirjan latominen
 
-Kirja on ladottu [LilyPond](http://lilypond.org/)- ja [XeLaTeX](http://xetex.sourceforge.net/)-ladontaohjelmilla. Ladonnan voi käynnistää `compile.sh`-skriptillä. XeLaTeXin sijaan voit käyttää myös PDFLaTeX-ohjelmaa.
+Kirja on ladottu [LilyPond](http://lilypond.org/)- ja [XeLaTeX](http://xetex.sourceforge.net/)-ladontaohjelmilla. XeLaTeXin sijaan voit käyttää myös PDFLaTeX-ohjelmaa.
 
 Yksittäiset kappaleet löytyvät `songs`-hakemiston alta ja ne voi latoa itsenäisesti LilyPondilla itsenäisiksi PDF-tiedostoiksi.
+
+Ladonnan voi suorittaa `make`-komennolla:
+* `make` tai `make triviaalikoulu.pdf` – latoo koko kirjan
+* `make parts` – latoo yksittäisten kappaleiden nuotit erikseen kullekin stemmalle (tai erillisille kuoroille monikuoroteoksissa)
+* `make all` – latoo sekä kirjan että erilliset nuotit
+* `make clean` – poistaa kaikki ladotut tiedostot
 
 ## Sisällys
 

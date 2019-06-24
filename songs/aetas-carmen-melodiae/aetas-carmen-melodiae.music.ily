@@ -1,4 +1,4 @@
-#(set-global-staff-size 18)
+#(set-global-staff-size 16)
 
 global = {
 %  \numericTimeSignature
@@ -148,7 +148,7 @@ TenoreMusic = \relative c' {
 		e2.( d8 c h4 c h a | g a h4. c8 d4 e d2) |
 		e1 d2. d4 | e2 e4 d2 c4 h2 | h2 cis d4 e2 d4 |
 		\undo \omit Slur
-		c4 d \slurDashed h( h) cis2 cis |
+		cis4 d \slurDashed h( h) cis2 cis |
 		\set Timing.measureLength = #(ly:make-moment 6/2)
 		d4 e2 d4 c h a2 h1
 	}
@@ -187,9 +187,11 @@ BassMusic = \relative c {
 		c,2 c4 g'2 a4 e2 | e a g4 c,2 g'4 |
 		\undo \omit Slur
 		a d, \slurDashed e( e) a,2 a' |
+    \set Timing.measureLength = #(ly:make-moment 6/2)
 		g4 c,2 d4 f g d2 g,1
 	}
 	\repeat volta 2 {
+    \set Timing.measureLength = #(ly:make-moment 4/2)
 		\omit Slur
 		c4. d8 e4 f c4. d8 e2 | d4. e8 f4 c g'4. g8 c,2 |
 		c'4. h8 c4 c,4 g'4. g8 c,2 |

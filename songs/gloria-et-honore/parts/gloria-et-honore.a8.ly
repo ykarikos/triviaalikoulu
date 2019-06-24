@@ -11,46 +11,27 @@ global = {
   \set Staff.midiInstrument = #"voice oohs"
 }
 
-\include "gloria-et-honore.lyrics.ily"
+\include "../gloria-et-honore.lyrics.ily"
 
 % First choir
 
-\include "gloria-et-honore.soprano-one.ily"
-\include "gloria-et-honore.alto-one.ily"
-\include "gloria-et-honore.tenor-one.ily"
-\include "gloria-et-honore.bass-one.ily"
+\include "../gloria-et-honore.soprano-one.ily"
+\include "../gloria-et-honore.alto-one.ily"
+\include "../gloria-et-honore.tenor-one.ily"
+\include "../gloria-et-honore.bass-one.ily"
 
 % Second choir
 
-\include "gloria-et-honore.soprano-two.ily"
-\include "gloria-et-honore.alto-two.ily"
-\include "gloria-et-honore.tenor-two.ily"
-\include "gloria-et-honore.bass-two.ily"
+\include "../gloria-et-honore.soprano-two.ily"
+\include "../gloria-et-honore.alto-two.ily"
+\include "../gloria-et-honore.tenor-two.ily"
+\include "../gloria-et-honore.bass-two.ily"
 
-#(set-global-staff-size 16)
-
-\header {
-  title = "Gloria et honore (á 8)"
-%  subtitle = ""
-  composer = "Jacobus Gallus (1550–1591)"
-  mutopiacomposer = "Anonymous"
-%  instrument = "Voice (SATB)"
-  style = "early music"
-  maintainer = "Yrjö Kari-Koskinen"
-  copyright = "This work is licensed under the Creative Commons Attribution 4.0 International License."
-  tagline = "The source is available at https://github.com/ykarikos/triviaalikoulu"
-}
+\include "gloria-et-honore.header.ily"
 
 \paper {
-	system-separator-markup = \slashSeparator
-    #(define fonts
-        (make-pango-font-tree "Palatino"
-                              "Nimbus Sans"
-                              "Luxi Mono"
-                              (/ staff-height pt 20)))
+  system-separator-markup = \slashSeparator
 }
-
-
 
 \score {
 <<
@@ -133,6 +114,9 @@ global = {
   >>
 >>
 
+  \midi {
+    \tempo 4 = 160
+  }
   \layout {
     \context {
       \Voice
