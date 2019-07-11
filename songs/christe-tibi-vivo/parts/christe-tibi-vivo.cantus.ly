@@ -5,7 +5,7 @@
 \include "christe-tibi-vivo.header.ily"
 
 \header {
-  title = "Christe tibi vivo (soprano)"
+  title = "Christe tibi vivo (cantus)"
 }
 
 
