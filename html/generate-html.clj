@@ -1,5 +1,9 @@
-; generate html for the songs
+; Generate html for the songs
 ; Run: find ../songs/*/parts -name "*.ly" | clojure generate-html.clj
+
+; TODO:
+; - read and use composer and poet info from lilypond source
+; - add index
 (require '[hiccup.core :refer [html h]])
 (require '[clojure.string :as s])
 (require '[clojure.pprint :refer [pprint]])
@@ -64,23 +68,23 @@
 
 ; {:filename aetas-carmen-melodiae.a4.ly, :id aetas-carmen-melodiae, :part A4, :title Aetas Carmen Melodiae}
 (defn- part-html [part]
-  [:div
+  (list
    [:dt (:part part)]
    [:dd
     [:a {:href (:pdf-path part)} (:pdf-file part)]]
    [:dd
-    [:a {:href (:midi-path part)} (:midi-file part)]]])
+    [:a {:href (:midi-path part)} (:midi-file part)]]))
 
 (defn- sort-parts [parts]
   (sort-by #(part-index (:part-id %)) parts))
 
 (defn- song-html [[id parts]]
-  [:div
+  (list
    [:h2 {:id id}
     (-> parts first :title)]
    [:dl
     (for [part (sort-parts parts)]
-      (part-html part))]])
+      (part-html part))]))
 
 (defn main []
   (let [songs (reduce parse-filename {} files-in)
