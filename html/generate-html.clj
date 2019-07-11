@@ -1,6 +1,6 @@
 ; generate html for the songs
 ; Run: find ../songs/*/parts -name "*.ly" | clojure generate-html.clj
-(require '[hiccup.core :refer [html]])
+(require '[hiccup.core :refer [html h]])
 (require '[clojure.string :as s])
 (require '[clojure.pprint :refer [pprint]])
 
@@ -8,6 +8,14 @@
   ["a4" "cantus" "altus" "tenor" "bassus"
    "a8" "coro-I" "cantus-I" "altus-I" "tenor-I" "bassus-I"
    "coro-II" "cantus-II" "altus-II" "tenor-II" "bassus-II"])
+
+(def titles
+  {"a4" "Kaikki stemmat: cantus, altus, tenor ja bassus"
+   "a8" "Kaikki stemmat: cantus I & II, altus I & II, tenor I & II ja bassus I & II"
+   "coro-I" "Coro I: cantus I, altus I, tenor I ja bassus I"
+   "coro-II" "Coro II: cantus II, altus II, tenor II ja bassus II"})
+
+(def titles-ids (-> titles keys set))
 
 (def part-index
   (->> part-order
@@ -19,9 +27,10 @@
       (s/split #"\n")))
 
 (defn make-title [id]
-  (->> (s/split id #"-")
-       (map s/capitalize)
-       (s/join " ")))
+  (if (titles-ids id)
+    (h (get titles id))
+    (-> (str (-> id first s/upper-case) (subs id 1))
+        (s/replace "-" " "))))
 
 (defn- makefilename [filename-parts suffix]
   (as-> filename-parts $
