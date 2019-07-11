@@ -2,6 +2,17 @@
 ; Run: find ../songs/*/parts -name "*.ly" | clojure generate-html.clj
 (require '[hiccup.core :refer [html]])
 (require '[clojure.string :as s])
+(require '[clojure.pprint :refer [pprint]])
+
+(def part-order
+  ["a4" "cantus" "altus" "tenor" "bassus"
+   "a8" "coro-I" "cantus-I" "altus-I" "tenor-I" "bassus-I"
+   "coro-II" "cantus-II" "altus-II" "tenor-II" "bassus-II"])
+
+(def part-index
+  (->> part-order
+    (map-indexed (fn [i e] [e i]))
+    (into {})))
 
 (def files-in
   (-> (slurp *in*)
@@ -36,6 +47,7 @@
         :id id
         :pdf-path (makepath path-parts filename-parts "pdf")
         :midi-path (makepath path-parts filename-parts "midi")
+        :part-id (second filename-parts)
         :part (-> filename-parts
                   second
                   make-title)
@@ -50,18 +62,23 @@
    [:dd
     [:a {:href (:midi-path part)} (:midi-file part)]]])
 
+(defn- sort-parts [parts]
+  (sort-by #(part-index (:part-id %)) parts))
 
 (defn- song-html [[id parts]]
   [:div
    [:h2 {:id id}
     (-> parts first :title)]
    [:dl
-    (for [part parts]
+    (for [part (sort-parts parts)]
       (part-html part))]])
 
 (defn main []
   (let [songs (reduce parse-filename {} files-in)
         songs-html (map song-html songs)]
+    (println "<!--")
+    (pprint songs)
+    (println " -->")
     (println (html songs-html))))
 
 (main)
