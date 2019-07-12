@@ -36,17 +36,23 @@
     (-> (str (-> id first s/upper-case) (subs id 1))
         (s/replace "-" " "))))
 
-(defn- makefilename [filename-parts suffix]
-  (as-> filename-parts $
-        (subvec $ 0 2)
-        (conj $ suffix)
-        (s/join "." $)))
+(defn- makefilename
+  ([filename-parts filename-part-count suffix]
+   (as-> filename-parts $
+         (subvec $ 0 filename-part-count)
+         (conj $ suffix)
+         (s/join "." $)))
+  ([filename-parts suffix]
+   (makefilename filename-parts 2 suffix)))
 
-(defn- makepath [path-parts filename-parts suffix]
-  (as-> path-parts $
-        (subvec $ 1 4)
-        (conj $ (makefilename filename-parts suffix))
-        (s/join "/" $)))
+(defn- makepath
+  ([path-parts path-parts-first filename-parts filename-part-count suffix]
+   (as-> path-parts $
+         (subvec $ path-parts-first 4)
+         (conj $ (makefilename filename-parts filename-part-count suffix))
+         (s/join "/" $)))
+  ([path-parts filename-parts suffix]
+   (makepath path-parts 1 filename-parts 2 suffix)))
 
 (defn parse-filename [files filename]
   (let [path-parts (s/split filename #"/")
@@ -60,6 +66,7 @@
         :id id
         :pdf-path (makepath path-parts filename-parts "pdf")
         :midi-path (makepath path-parts filename-parts "midi")
+        :header-path (makepath path-parts 0 filename-parts 1 "header.ily")
         :part-id (second filename-parts)
         :part (-> filename-parts
                   second
