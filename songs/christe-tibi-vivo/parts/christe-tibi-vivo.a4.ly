@@ -4,11 +4,6 @@
 \include "../christe-tibi-vivo.music.ily"
 \include "christe-tibi-vivo.header.ily"
 
-\header {
-  title = "Christe tibi vivo"
-}
-
-
 \score {
   \new ChoirStaff <<
     \new Staff <<

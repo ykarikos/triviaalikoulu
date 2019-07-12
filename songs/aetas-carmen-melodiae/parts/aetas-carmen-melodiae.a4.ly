@@ -4,10 +4,6 @@
 \include "../aetas-carmen-melodiae.music.ily"
 \include "aetas-carmen-melodiae.header.ily"
 
-\header {
-  title = "Ætas carmen melodiæ"
-}
-
 \score {
   \new ChoirStaff <<
     \new Staff <<

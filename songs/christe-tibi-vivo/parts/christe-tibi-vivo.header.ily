@@ -1,6 +1,8 @@
+
 \header {
+  title = "Christe tibi vivo"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
-  composer = "Tuntematon"
+  composer = "tuntematon"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"

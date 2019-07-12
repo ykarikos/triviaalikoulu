@@ -6,7 +6,7 @@
 \header {
   title = "Christe tibi vivo"
 %  subtitle = ""
-  composer = "Tuntematon"
+  composer = "tuntematon"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"

@@ -1,8 +1,7 @@
 \header {
-  title = "Gloria et honore (á 8)"
+  title = "Gloria et honore"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
   composer = "Jacobus Gallus (1550–1591)"
-  mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"
   maintainer = "Yrjö Kari-Koskinen"
