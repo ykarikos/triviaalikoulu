@@ -85,13 +85,29 @@
 (defn- sort-parts [parts]
   (sort-by #(part-index (:part-id %)) parts))
 
+(defn- parse-header [header field]
+  (let [pattern (re-pattern (str " " field " = \"([^\"]*)\""))]
+    (last (re-find pattern header))))
+
+(defn- read-meta [filename]
+  (let [header (slurp filename)
+        composer (parse-header header "composer")
+        poet (parse-header header "poet")
+        title (parse-header header "title")]
+    [title composer poet]))
+
 (defn- song-html [[id parts]]
-  (list
-   [:h2 {:id id}
-    (-> parts first :title)]
-   [:dl
-    (for [part (sort-parts parts)]
-      (part-html part))]))
+  (let [[title composer poet] (read-meta (-> parts first :header-path))]
+    (list
+     [:h2 {:id id}
+      title]
+     [:dl
+      (when composer
+        [:dt {:class "composer"}
+         "säveltäjä: " composer
+         (when poet [:span ", " [:br] poet])])
+      (for [part (sort-parts parts)]
+        (part-html part))])))
 
 (defn main []
   (let [songs (reduce parse-filename {} files-in)
