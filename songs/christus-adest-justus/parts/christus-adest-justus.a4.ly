@@ -1,27 +1,8 @@
 \version "2.19.49"
 \include "suomi.ly"
 
-\include "christus-adest-justus.music.ily"
-
-\header {
-  title = "Christus adest justus"
-%  subtitle = "Porin triviaalikoulun nuottikirjasta (1725)"
-  composer = "tuntematon"
-  mutopiacomposer = "Anonymous"
-%  instrument = "Voice (SATB)"
-  style = "early music"
-  maintainer = "Yrjö Kari-Koskinen"
-  copyright = "This work is licensed under the Creative Commons Attribution 4.0 International License."
-  tagline = "The source is available at https://github.com/ykarikos/triviaalikoulu"
-}
-
-\paper {
-    #(define fonts
-        (make-pango-font-tree "Palatino"
-                              "Nimbus Sans"
-                              "Luxi Mono"
-                              (/ staff-height pt 20)))
-}
+\include "../christus-adest-justus.music.ily"
+\include "christus-adest-justus.header.ily"
 
 \score {
   \new ChoirStaff <<
