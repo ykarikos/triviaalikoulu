@@ -3,3 +3,4 @@ out/
 *.midi
 *.pdf
 texput.log
+html/.cpcache
