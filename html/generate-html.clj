@@ -70,10 +70,10 @@
         :part-id (second filename-parts)
         :part (-> filename-parts
                   second
-                  make-title)
-        :title (make-title id)}]})))
+                  make-title)}]})))
 
-; {:filename aetas-carmen-melodiae.a4.ly, :id aetas-carmen-melodiae, :part A4, :title Aetas Carmen Melodiae}
+
+; {:filename aetas-carmen-melodiae.a4.ly, :id aetas-carmen-melodiae, :part A4}
 (defn- part-html [part]
   (list
    [:dt (:part part)]
@@ -96,25 +96,52 @@
         title (parse-header header "title")]
     [title composer poet]))
 
-(defn- song-html [[id parts]]
-  (let [[title composer poet] (read-meta (-> parts first :header-path))]
-    (list
-     [:h2 {:id id}
-      title]
-     [:dl
-      (when composer
-        [:dt {:class "composer"}
-         "säveltäjä: " composer
-         (when poet [:span ", " [:br] poet])])
-      (for [part (sort-parts parts)]
-        (part-html part))])))
+(defn- parse-meta [m [id parts]]
+  (merge m
+    {id (read-meta (-> parts first :header-path))}))
+
+(defn- song-html [songs-meta]
+  (fn [[id parts]]
+    (let [[title composer poet] (id songs-meta)]
+      (list
+       [:h2 {:id id}
+        title]
+       [:dl
+        (when composer
+          [:dt {:class "composer"}
+           "säveltäjä: " composer
+           (when poet [:span ", " [:br] poet])])
+        (for [part (sort-parts parts)]
+          (part-html part))]))))
+
+(defn- create-index [songs songs-meta]
+  [:ul
+   (for [[id _] songs]
+     [:li
+      [:a {:href (str "#" (name id))} (-> songs-meta id first)]])])
 
 (defn main []
   (let [songs (reduce parse-filename {} files-in)
-        songs-html (map song-html songs)]
-    (println "<!--")
-    (pprint songs)
-    (println " -->")
-    (println (html songs-html))))
+        songs-meta (reduce parse-meta {} songs)
+        songs-html (map (song-html songs-meta) songs)
+        index-html (create-index songs songs-meta)]
+    ; (println "<!--\n *** songs:")
+    ; (pprint songs)
+    ; (println "\n *** meta:")
+    ; (pprint songs-meta)
+    ; (println " -->")
+    (println (slurp "head.html"))
+    (println
+     (html
+      (list
+        [:hr]
+        [:section
+         [:h2 "Kappaleet"]
+         index-html]
+        [:hr]
+        [:section
+         songs-html]
+        [:hr])))
+    (println "\n</body>\n</html>\n")))
 
 (main)
