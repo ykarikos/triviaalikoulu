@@ -32,10 +32,11 @@ Ladonnan voi suorittaa `make`-komennolla:
 
 ## Sisällys
 
-1. Ætas carmen melodiæ – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
-2. Christe tibi vivo – tuntematon
-3. Christus adest justus - tuntematon
-4. Gud wälsigna thetta huus – tuntematon
+1. Ætas carmen melodiæ (á 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
+2. Christe tibi vivo (á 4) – tuntematon
+3. Christus adest justus (á 4) - tuntematon
+4. Gloria et honore (á 8) - säveltäjä: Jacobus Gallus (1550–1591)
+5. Gud wälsigna thetta huus (á 4) – tuntematon
 
 ## Lisenssi
 

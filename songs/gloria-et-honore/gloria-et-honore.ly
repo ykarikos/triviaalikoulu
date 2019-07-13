@@ -1,6 +1,7 @@
 \version "2.19.49"
 \include "suomi.ly"
 
+#(set-global-staff-size 16)
 
 global = {
 %  \numericTimeSignature
