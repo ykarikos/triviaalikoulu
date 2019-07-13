@@ -22,7 +22,10 @@ $(BOOK).pdf: $(BOOK).lytex introduction.tex copyright.tex $(NOTATION) facsimile/
 .PHONY: parts
 parts: $(PARTS_PDF)
 
-all: $(BOOK).pdf parts
+index.html: $(PARTS) html/generate-html.clj html/head.html
+	cd html && find ../songs/*/parts -name "*.ly" | clojure generate-html.clj >../index.html
+
+all: $(BOOK).pdf parts index.html
 
 .PHONY: clean
 clean:
