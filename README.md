@@ -26,9 +26,10 @@ Yksittäiset kappaleet löytyvät `songs`-hakemiston alta ja ne voi latoa itsen�
 
 Ladonnan voi suorittaa `make`-komennolla:
 * `make` tai `make triviaalikoulu.pdf` – latoo koko kirjan
-* `make parts` – latoo yksittäisten kappaleiden nuotit erikseen kullekin stemmalle (tai erillisille kuoroille monikuoroteoksissa)
-* `make all` – latoo sekä kirjan että erilliset nuotit
+* `make parts` – latoo yksittäisten kappaleiden nuotit ja midi-tiedostot erikseen kullekin stemmalle (ja erillisille kuoroille monikuoroteoksissa)
+* `make all` – latoo sekä kirjan, erilliset nuotit että html-sivun
 * `make clean` – poistaa kaikki ladotut tiedostot
+* `make index.html` - latoo html-sivun, jossa on linkit kaikkiin yksittäisten kappaleiden nuotteihin ja midi-stemmoihin
 
 ## Sisällys
 

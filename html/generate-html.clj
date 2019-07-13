@@ -136,7 +136,7 @@
       (list
         [:hr]
         [:section
-         [:h2 "Kappaleet"]
+         [:h2 "Yksittäiset kappaleet"]
          index-html]
         [:hr]
         [:section

@@ -1,6 +1,4 @@
-triviaalikoulu.pdf
+facsimile/*.pdf
 out/
-*.midi
-*.pdf
 texput.log
 html/.cpcache
