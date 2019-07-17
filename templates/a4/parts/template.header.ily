@@ -2,7 +2,7 @@
 \header {
   title = "The Song Title"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
-  composer = "Tuntematon"
+  composer = "tuntematon"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"

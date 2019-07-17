@@ -12,7 +12,7 @@
   \new ChoirStaff <<
     \new Staff <<
       \new Voice = "Soprano" {
-		\global
+		    \global
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {

@@ -6,7 +6,7 @@
 \header {
   title = "The Song Title"
 %  subtitle = ""
-  composer = "Tuntematon"
+  composer = "tuntematon"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"
@@ -28,7 +28,7 @@
   \new ChoirStaff <<
     \new Staff <<
       \new Voice = "Soprano" {
-		\global
+		    \global
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {
