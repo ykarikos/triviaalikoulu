@@ -152,10 +152,65 @@ TenoreMusic = \relative c' {
 
 	\clef "treble_8"
   \set melismaBusyProperties = #'()
-  \slurDashed a1( a) c |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata
+  \slurDashed a1( a) c | h\breve c1 |
+  \unset melismaBusyProperties
+  \omit Slur d2( h c1) d | h\breve. |
+  e\breve e1 | d\breve c1 | h( a) gis | a\breve. |
+
+  a\breve c1 | h\breve c1 | d2( h c1) d | h\breve. |
+  e\breve e1 | d\breve c1 |
+  \set melismaBusyProperties = #'()
+  \undo \omit Slur \slurDashed h( a) gis | a\breve. |
+
+  \repeat volta 2 {
+    h1 h h | cis\breve. | cis1 cis cis | d\breve. |
+    d1 d d |
+    \unset melismaBusyProperties
+    \omit Slur e1.( d2 c1) | h a\breve |
+    \time 4/2 gis1 g4. a8 h4.( a16 g |
+    a4) a4. g8 f4 g4. f8 \undo \omit Slur \slurSolid e2( |
+    e4) c'8 c h4 a \omit Slur gis( a h) h |
+  }
+  \alternative {
+    {
+      \set Timing.measureLength = #(ly:make-moment 2/2)
+      cis1 |
+    }
+    {
+      \set Timing.measureLength = #(ly:make-moment 4/2)
+      cis\breve \bar "|."
+    }
+  }
+}
+
+stanzaOneLyricsTenor = \lyricmode {
+	Ju -- _ cun -- da -- re ju -- gi -- ter,
+  plebs de -- vo -- ta de -- bi -- tis.
+  Me -- los ca -- nens dul -- ci -- ter,
+  Chri -- sti Je -- su me -- _ ri -- tis.
+  Qui te tu -- lit,
+  qui te tu -- lit,
+  qui te tu -- lit __
+  a -- cri -- ter,
+  vin -- cu -- lis, __
+  vin -- cu -- lis,
+  vin -- cu -- lis, __
+  vin -- cu -- lis ab in -- ti -- mis. mis.
+}
+
+stanzaTwoLyricsTenor = \lyricmode {
+  Ain i -- loid -- ca, ain rie -- muid -- ca,
+  seo -- ra -- cun -- da i -- ha -- nast.
+  Cau -- nis vir -- si vei -- sad -- ca,
+  Je -- su -- xen an -- si -- ost ae -- vast.
+  Pii -- nal -- lans meit,
+  pii -- nal -- lans meit,
+  pii -- nal -- lans meit, __
+  u -- los sai
+  cuo -- _ lon, __
+  cuo -- _ lon,
+  cuo -- _ lon, __
+  cuo -- lon rid -- hast ja __ kid -- hast. hast.
 }
 
 BassMusic = \relative c {
