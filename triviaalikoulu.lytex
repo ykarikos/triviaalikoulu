@@ -93,6 +93,9 @@
     \addcontentsline{toc}{section}{Gud wälsigna thetta huus}
     \lilypondfile{songs/gud-walsigna/gud-walsigna.ly}
 
+    \clearpage
+    \addcontentsline{toc}{section}{Jucundare jugiter}
+    \lilypondfile{songs/jucundare-jugiter/jucundare-jugiter.ly}
 
 
 \end{document}
