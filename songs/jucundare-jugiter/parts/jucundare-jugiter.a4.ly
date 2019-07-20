@@ -57,7 +57,7 @@
     >>
   >>
   \midi {
-    \tempo 4 = 160
+    \tempo 1 = 120
   }
   \layout {
     \context {
