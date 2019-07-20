@@ -17,6 +17,7 @@
 }
 
 \paper {
+    system-system-spacing.basic-distance = #18
     #(define fonts
         (make-pango-font-tree "Palatino"
                               "Nimbus Sans"
@@ -45,10 +46,10 @@
         \AltoMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsAlto
      }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaTwoLyrics
+       \stanzaTwoLyricsAlto
      }
     >>
     \new Staff <<

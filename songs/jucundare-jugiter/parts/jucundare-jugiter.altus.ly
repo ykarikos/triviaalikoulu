@@ -15,9 +15,12 @@
         \global
         \AltoMusic
       }
-     \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
-     }
+      \new Lyrics \lyricsto "Alto" {
+        \stanzaOneLyricsAlto
+      }
+      \new Lyrics \lyricsto "Alto" {
+        \stanzaTwoLyricsAlto
+      }
     >>
   >>
   \midi {

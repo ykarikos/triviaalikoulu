@@ -44,10 +44,6 @@ SopranoMusic = \relative c' {
       a\breve \bar "|."
     }
   }
-
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata \bar "|."
 }
 
 stanzaOneLyrics = \lyricmode {
@@ -87,10 +83,65 @@ AltoMusic = \relative c' {
 	\incipit { \clef "mensural-c3" \key a \minor \numericTimeSignature \time 3/2 cis'\breve }
 
   \set melismaBusyProperties = #'()
-	\slurDashed cis1( cis) e |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  d\breve\fermata
+	\slurDashed cis1( cis) e | e\breve e1 |
+  \unset melismaBusyProperties
+  \omit Slur g( e) f | e\breve. |
+  g\breve g1 | g\breve g1 | g( e) e | cis\breve.
+
+  cis\breve e1 | e\breve e1 | g( e) f | e\breve. |
+  g\breve g1 | g\breve g1 |
+  \set melismaBusyProperties = #'()
+  \undo \omit Slur \slurDashed g( e) e | cis\breve.
+
+  \repeat volta 2 {
+    e1 e e | e\breve. | e1 e e | g\breve. |
+    g1 g g | g\breve. | g1 e\breve |
+    \time 4/2
+    e2 e4. f8 g2 d4. e8 |
+    \unset melismaBusyProperties
+    \omit Slur f2 c4. d8 e( d e f g2) |
+    g4. g8 g4 e e2. e4 |
+  }
+  \alternative {
+    {
+      \set Timing.measureLength = #(ly:make-moment 2/2)
+      e1 |
+    }
+    {
+      \set Timing.measureLength = #(ly:make-moment 4/2)
+      e\breve \bar "|."
+    }
+  }
+}
+
+stanzaOneLyricsAlto = \lyricmode {
+	Ju -- _ cun -- da -- re ju -- gi -- ter,
+  plebs de -- vo -- ta de -- bi -- tis.
+  Me -- los ca -- nens dul -- ci -- ter,
+  Chri -- sti Je -- su me -- _ ri -- tis.
+  Qui te tu -- lit,
+  qui te tu -- lit,
+  qui te tu -- lit __
+  a -- cri -- ter,
+  vin -- cu -- lis,
+  vin -- cu -- lis,
+  vin -- cu -- lis, __
+  vin -- cu -- lis ab in -- ti -- mis. mis.
+}
+
+stanzaTwoLyricsAlto = \lyricmode {
+  Ain i -- loid -- ca, ain rie -- muid -- ca,
+  seo -- ra -- cun -- da i -- ha -- nast.
+  Cau -- nis vir -- si vei -- sad -- ca,
+  Je -- su -- xen an -- si -- ost ae -- vast.
+  Pii -- nal -- lans meit,
+  pii -- nal -- lans meit,
+  pii -- nal -- lans meit, __
+  u -- los sai
+  cuo -- _ lon,
+  cuo -- _ lon,
+  cuo -- _ lon, __
+  cuo -- lon rid -- hast ja kid -- hast. hast.
 }
 
 TenoreMusic = \relative c' {
