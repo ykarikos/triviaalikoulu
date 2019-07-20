@@ -49,10 +49,10 @@
         \BassMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsBass
       }
       \new Lyrics \lyricsto "Bass" {
-        \stanzaTwoLyrics
+       \stanzaTwoLyricsBass
       }
     >>
   >>

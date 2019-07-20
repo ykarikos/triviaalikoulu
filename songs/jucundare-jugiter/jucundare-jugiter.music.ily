@@ -221,8 +221,61 @@ BassMusic = \relative c {
 
 	\clef bass
   \set melismaBusyProperties = #'()
-  \slurDashed a1( a) a |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g,\breve\fermata
+  \slurDashed a1( a) a | e'\breve a1 |
+  \unset melismaBusyProperties
+  \omit Slur g( a) d, | e\breve.
+  c\breve c1 | g'\breve c,1 | g'( a) e | a,\breve. |
+
+  a\breve a1 | e'\breve a1 | g( a) d, | e\breve.
+  c\breve c1 | g'\breve c,1 |
+  \set melismaBusyProperties = #'()
+  \undo \omit Slur \slurDashed g'( a) e | a,\breve. |
+
+  \repeat volta 2 {
+    e'1 e e | a\breve. | a1 a a | g\breve. |
+    g1 g g | c,\breve. | g1 a\breve |
+    \time 4/2 e'1 e4. f8 g2 |
+    d4. e8 f2 c4. d8 e2 |
+    c4. c8 g'4 a e2. e4 |
+  }
+  \alternative {
+    {
+      \set Timing.measureLength = #(ly:make-moment 2/2)
+      a,1 |
+    }
+    {
+      \set Timing.measureLength = #(ly:make-moment 4/2)
+      a\breve \bar "|."
+    }
+  }
+}
+
+stanzaOneLyricsBass = \lyricmode {
+	Ju -- _ cun -- da -- re ju -- gi -- ter,
+  plebs de -- vo -- ta de -- bi -- tis.
+  Me -- los ca -- nens dul -- ci -- ter,
+  Chri -- sti Je -- su me -- _ ri -- tis.
+  Qui te tu -- lit,
+  qui te tu -- lit,
+  qui te tu -- lit __
+  a -- cri -- ter,
+  vin -- cu -- lis,
+  vin -- cu -- lis,
+  vin -- cu -- lis,
+  vin -- cu -- lis ab in -- ti -- mis. mis.
+}
+
+stanzaTwoLyricsBass = \lyricmode {
+  Ain i -- loid -- ca, ain rie -- muid -- ca,
+  seo -- ra -- cun -- da i -- ha -- nast.
+  Cau -- nis vir -- si vei -- sad -- ca,
+  Je -- su -- xen an -- si -- ost ae -- vast.
+  Pii -- nal -- lans meit,
+  pii -- nal -- lans meit,
+  pii -- nal -- lans meit, __
+  u -- los sai
+  cuo -- _ lon,
+  cuo -- _ lon,
+  cuo -- _ lon,
+  cuo -- lon rid -- hast ja kid -- hast. hast.
 }
