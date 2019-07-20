@@ -57,7 +57,8 @@ stanzaOneLyrics = \lyricmode {
   Chri -- sti Je -- su me -- _ ri -- tis.
   Qui te tu -- lit,
   qui te tu -- lit,
-  qui te tu -- lit a -- cri -- ter,
+  qui te tu -- lit __
+  a -- cri -- ter,
   vin -- cu -- lis,
   vin -- cu -- lis,
   vin -- cu -- lis,
@@ -71,7 +72,7 @@ stanzaTwoLyrics = \lyricmode {
   Je -- su -- xen an -- si -- ost ae -- vast.
   Pii -- nal -- lans meit,
   pii -- nal -- lans meit,
-  pii -- nal -- lans meit,
+  pii -- nal -- lans meit, __
   u -- los sai
   cuo -- _ lon,
   cuo -- _ lon,
@@ -85,7 +86,8 @@ AltoMusic = \relative c' {
 
 	\incipit { \clef "mensural-c3" \key a \minor \numericTimeSignature \time 3/2 cis'\breve }
 
-	cis\breve e1 |
+  \set melismaBusyProperties = #'()
+	\slurDashed cis1( cis) e |
 %  \time 4/2
 %  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 %  d\breve\fermata
@@ -98,20 +100,22 @@ TenoreMusic = \relative c' {
 	\incipit { \clef "mensural-c4" \key a \minor \numericTimeSignature \time 3/2 a\breve }
 
 	\clef "treble_8"
-	a\breve c1 |
+  \set melismaBusyProperties = #'()
+  \slurDashed a1( a) c |
 %  \time 4/2
 %  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 %  g\breve\fermata
 }
 
-BassMusic = \relative c' {
+BassMusic = \relative c {
 	\set Staff.instrumentName = #"Bassus"
 	\set Staff.shortInstrumentName = "B"
 
 	\incipit { \clef "mensural-f" \key a \minor \numericTimeSignature \time 3/2 a\breve }
 
 	\clef bass
-	a\breve a1 |
+  \set melismaBusyProperties = #'()
+  \slurDashed a1( a) a |
 %  \time 4/2
 %  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 %  g,\breve\fermata
