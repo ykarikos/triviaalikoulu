@@ -32,7 +32,7 @@
 % Inserts a blank page
 \newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage}
 
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 
 % Generates the index
 \usepackage{makeidx}
@@ -74,26 +74,32 @@
     \pagestyle{myheadings}
     \setcounter{page}{4}
 
+    \phantomsection
     \addcontentsline{toc}{section}{Ætas carmen melodiæ}
     \lilypondfile{songs/aetas-carmen-melodiae/aetas-carmen-melodiae.ly}
 
     \clearpage
+    \phantomsection
     \addcontentsline{toc}{section}{Christe tibi vivo}
     \lilypondfile{songs/christe-tibi-vivo/christe-tibi-vivo.ly}
 
     \clearpage
+    \phantomsection
     \addcontentsline{toc}{section}{Christus adest justus}
     \lilypondfile{songs/christus-adest-justus/christus-adest-justus.ly}
 
     \clearpage
+    \phantomsection
     \addcontentsline{toc}{section}{Gloria et honore}
     \lilypondfile{songs/gloria-et-honore/gloria-et-honore.ly}
 
     \clearpage
+    \phantomsection
     \addcontentsline{toc}{section}{Gud wälsigna thetta huus}
     \lilypondfile{songs/gud-walsigna/gud-walsigna.ly}
 
     \clearpage
+    \phantomsection
     \addcontentsline{toc}{section}{Jucundare jugiter}
     \lilypondfile{songs/jucundare-jugiter/jucundare-jugiter.ly}
 

@@ -31,7 +31,7 @@ global = {
 #(set-global-staff-size 16)
 
 \header {
-  title = "Gloria et honore (á 8)"
+  title = "Gloria et honore"
 %  subtitle = ""
   composer = "Jacobus Gallus (1550–1591)"
   mutopiacomposer = "Anonymous"
