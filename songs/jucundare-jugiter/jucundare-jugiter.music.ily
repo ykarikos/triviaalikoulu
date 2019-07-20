@@ -31,7 +31,11 @@ SopranoMusic = \relative c' {
     gis1 gis gis | a\breve. | a1 a a | h\breve. |
     h1 h h | c2( g c d e1) | d c\breve |
     \set melismaBusyProperties = #'()
-    \time 4/2 h1. h4. c8 | d2 a4. h8 c4 g4. a8 h4 |
+    \time 4/2
+    \set Score.tempoHideNote = ##t
+    \tempo 4 = 60
+    h1.^\markup { \halign #6 \note #"breve" #0 = \note #"2" #1  } h4. c8 |
+    d2 a4. h8 c4 g4. a8 h4 |
     e4. e8 d4 c h( a2) gis4 |
   }
   \alternative {
