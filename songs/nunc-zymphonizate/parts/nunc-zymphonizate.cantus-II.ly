@@ -5,17 +5,17 @@
 \include "nunc-zymphonizate.header.ily"
 
 \header {
-  title = "Nunc Zymphonizate (cantus)"
+  title = "Nunc Zymphonizate (cantus II)"
 }
 
 \score {
   \new ChoirStaff <<
     \new Staff <<
-      \new Voice = "Soprano" {
+      \new Voice = "SopranoTwo" {
 		    \global
-        \SopranoMusic
+        \SopranoTwoMusic
       }
-     \new Lyrics \lyricsto "Soprano" {
+     \new Lyrics \lyricsto "SopranoTwo" {
        \stanzaOneLyrics
      }
     >>

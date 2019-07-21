@@ -17,6 +17,15 @@
      }
     >>
     \new Staff <<
+      \new Voice = "SopranoTwo" {
+		    \global
+        \SopranoTwoMusic
+      }
+     \new Lyrics \lyricsto "SopranoTwo" {
+       \stanzaOneLyrics
+     }
+    >>
+    \new Staff <<
       \new Voice = "Alto" {
         \global
         \AltoMusic
