@@ -29,14 +29,23 @@ SopranoMusic = \relative c'' {
       a2. a4 |
     }
   }
+  \repeat volta 2 {
+    h a h c | d2 d4 g, |
+  }
 %  g\breve\fermata \bar "|."
 }
 
 stanzaOneLyrics = \lyricmode {
 	Nunc Zymp -- ho -- ni -- za -- te lau -- des De -- o nost -- ro
-  qu -- ia nos -- ter est Sal -- va -- tor, qu -- ia nos -- ter cre -- a -- tor.
-  Nam  Chris -- tus  dul -- cis men -- tis te -- ne -- bras dis -- cu -- tit
+  qu -- ia nos -- ter est Sal -- va -- tor, qu -- ia nos -- ter cre -- a -- tor. Id
+  \skip 1 \skip 1
+  Chris -- tus  dul -- cis men -- tis te -- ne -- bras dis -- cu -- tit
   a -- ni -- mas -- que pius re -- fo - cil -- lat le -- vi -- ta -- te Sui ju -- gi.
+}
+
+stanzaTwoLyrics = \lyricmode {
+  \skip 1 cir -- co gau -- de -- te  juve -- nes cum se -- ni bus
+  o -- pu -- len -- ti cum men -- di -- cis, mu -- li -- e -- res et vi -- \skip 1 \skip 1 ri. Nam
 }
 
 SopranoTwoMusic = \relative c'' {
