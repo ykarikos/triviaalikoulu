@@ -17,7 +17,6 @@ SopranoMusic = \relative c'' {
 
 	\incipit { \clef "mensural-c1" \key c \major \time 2/2 c'4 }
 
-
   \repeat volta 2 {
     \partial 4 c4 |	a( c) c h |
     \set melismaBusyProperties = #'()
@@ -26,10 +25,10 @@ SopranoMusic = \relative c'' {
     h4 h a a | gis gis r c8 c | h4 a a gis | a2.
   }
   \repeat volta 2 {
-    a4 |
-    h a h c | d2 d4 g, |
+    a4 | h a h c | d2 d4 g, | a g a h | c2 r4 c8 c |
+    h4 h8 h a4 a8 a | gis4 gis r c8 c |
+    h4 a a gis | a2. \bar "|."
   }
-%  g\breve\fermata \bar "|."
 }
 
 stanzaOneLyrics = \lyricmode {
@@ -42,6 +41,9 @@ stanzaOneLyrics = \lyricmode {
 stanzaTwoLyrics = \lyricmode {
   Id cir -- co gau -- de -- te  ju -- ve -- nes cum se -- ni bus
   o -- pu -- len -- ti cum men -- di -- cis, mu -- li -- e -- res et vi -- ri.
+  Di -- ce -- mus  er  -- go gra -- tes Chris -- to De -- o nost -- ro,
+  a -- lae -- res sci -- mus at -- que pre -- ce -- mur
+  ma -- la cunc -- ta pro -- pel -- lat.
 }
 
 SopranoTwoMusic = \relative c'' {
@@ -58,9 +60,10 @@ SopranoTwoMusic = \relative c'' {
     g4 g e e | e e  r g8 g | g4 e e e | e2.
   }
   \repeat volta 2 {
-    e4 |
+    e4 | g a g e | f2 f4 e |  f g f d | e2 r4 g8 g |
+    g4 g8 g e4 e8 e | e4 e r g8 g |
+    g4 e f e | e2. \bar "|."
   }
-%  g\breve\fermata \bar "|."
 }
 
 
