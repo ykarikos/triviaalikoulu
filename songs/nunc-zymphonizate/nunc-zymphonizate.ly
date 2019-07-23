@@ -46,6 +46,9 @@
      \new Lyrics \lyricsto "SopranoTwo" {
        \stanzaOneLyrics
      }
+     \new Lyrics \lyricsto "SopranoTwo" {
+       \stanzaTwoLyrics
+     }
     >>
     \new Staff <<
       \new Voice = "Alto" {
@@ -79,7 +82,6 @@
     \context {
       \Voice
       \consists "Ambitus_engraver"
-		\hide Slur
     }
     indent = 3.5\cm
     incipit-width = 2\cm

@@ -7,6 +7,7 @@ global = {
 %  \autoBeamOff
   \key c \major
   \set Staff.midiInstrument = #"voice oohs"
+  \omit Slur
 }
 
 
@@ -16,36 +17,31 @@ SopranoMusic = \relative c'' {
 
 	\incipit { \clef "mensural-c1" \key c \major \time 2/2 c'4 }
 
-  \partial 4 c4 |
+
   \repeat volta 2 {
-  	a( c) c h | c2 c4 c | h c c h c2 r4 c8 c |
-    h4 h a a | gis gis r c8 c | h4 a a gis |
-  }
-  \alternative {
-    {
-      a2. c4 |
-    }
-    {
-      a2. a4 |
-    }
+    \partial 4 c4 |	a( c) c h |
+    \set melismaBusyProperties = #'()
+    \undo \omit Slur \slurDashed
+    c2 c4 c8( c) | h4 c c h c2 r4 c8 c |
+    h4 h a a | gis gis r c8 c | h4 a a gis | a2.
   }
   \repeat volta 2 {
+    a4 |
     h a h c | d2 d4 g, |
   }
 %  g\breve\fermata \bar "|."
 }
 
 stanzaOneLyrics = \lyricmode {
-	Nunc Zymp -- ho -- ni -- za -- te lau -- des De -- o nost -- ro
-  qu -- ia nos -- ter est Sal -- va -- tor, qu -- ia nos -- ter cre -- a -- tor. Id
-  \skip 1 \skip 1
-  Chris -- tus  dul -- cis men -- tis te -- ne -- bras dis -- cu -- tit
+	Nunc Zymp -- ho -- ni -- za -- te lau -- _ des De -- o nost -- ro
+  qu -- ia nos -- ter est Sal -- va -- tor, qu -- ia nos -- ter cre -- a -- tor.
+  Nam Chris -- tus  dul -- cis men -- tis te -- ne -- bras dis -- cu -- tit
   a -- ni -- mas -- que pius re -- fo - cil -- lat le -- vi -- ta -- te Sui ju -- gi.
 }
 
 stanzaTwoLyrics = \lyricmode {
-  \skip 1 cir -- co gau -- de -- te  juve -- nes cum se -- ni bus
-  o -- pu -- len -- ti cum men -- di -- cis, mu -- li -- e -- res et vi -- \skip 1 \skip 1 ri. Nam
+  Id cir -- co gau -- de -- te  ju -- ve -- nes cum se -- ni bus
+  o -- pu -- len -- ti cum men -- di -- cis, mu -- li -- e -- res et vi -- ri.
 }
 
 SopranoTwoMusic = \relative c'' {
@@ -54,18 +50,15 @@ SopranoTwoMusic = \relative c'' {
 
 	\incipit { \clef "mensural-c1" \key c \major \time 2/2 g'4 }
 
-  \partial 4 g4 |
   \repeat volta 2 {
-    f( e)  d d | e2 e4 g | f e d d | e2 r4 g8 g |
-    g4 g e e | e e  r g8 g | g4 e e e |
+    \partial 4 g4 | f( e) d d |
+    \set melismaBusyProperties = #'()
+    \undo \omit Slur \slurDashed
+    e2 e4 g8( g) | f4 e d d | e2 r4 g8 g |
+    g4 g e e | e e  r g8 g | g4 e e e | e2.
   }
-  \alternative {
-    {
-      e2. g4 |
-    }
-    {
-      e2. e4 |
-    }
+  \repeat volta 2 {
+    e4 |
   }
 %  g\breve\fermata \bar "|."
 }
