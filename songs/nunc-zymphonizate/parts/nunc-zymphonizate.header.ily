@@ -10,10 +10,13 @@
   tagline = "Lähdekoodit löytyvät osoitteesta https://github.com/ykarikos/triviaalikoulu"
 }
 
+#(set-global-staff-size 16)
+
 \paper {
-    #(define fonts
-        (make-pango-font-tree "Palatino"
-                              "Nimbus Sans"
-                              "Luxi Mono"
-                              (/ staff-height pt 20)))
+  system-system-spacing.basic-distance = #18
+  #(define fonts
+      (make-pango-font-tree "Palatino"
+                            "Nimbus Sans"
+                            "Luxi Mono"
+                            (/ staff-height pt 20)))
 }
