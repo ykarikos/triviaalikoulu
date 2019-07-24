@@ -103,5 +103,10 @@
     \addcontentsline{toc}{section}{Jucundare jugiter}
     \lilypondfile{songs/jucundare-jugiter/jucundare-jugiter.ly}
 
+    \clearpage
+    \phantomsection
+    \addcontentsline{toc}{section}{Nunc Zymphonizate}
+    \lilypondfile{songs/nunc-zymphonizate/nunc-zymphonizate.ly}
+
 
 \end{document}

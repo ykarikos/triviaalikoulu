@@ -39,6 +39,7 @@ Ladonnan voi suorittaa `make`-komennolla:
 4. Gloria et honore (á 8) - säveltäjä: Jacobus Gallus (1550–1591)
 5. Gud wälsigna thetta huus (á 4) – tuntematon
 6. Jucundar jugiter (á 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
+7. Nunc Zymphonizate (á 5) - säveltäjä: Giovanni Gastoldi (c.1554–1609)
 
 ## Lisenssi
 
