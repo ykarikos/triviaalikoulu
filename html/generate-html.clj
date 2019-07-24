@@ -9,12 +9,14 @@
 (require '[clojure.pprint :refer [pprint]])
 
 (def part-order
-  ["a4" "cantus" "altus" "tenor" "bassus"
-   "a8" "coro-I" "cantus-I" "altus-I" "tenor-I" "bassus-I"
-   "coro-II" "cantus-II" "altus-II" "tenor-II" "bassus-II"])
+  ["a4" "a5" "a8"
+   "coro-I" "cantus-I" "altus-I" "tenor-I" "bassus-I"
+   "coro-II" "cantus-II" "altus-II" "tenor-II" "bassus-II"
+   "cantus" "altus" "tenor" "bassus"])
 
 (def titles
   {"a4" "Kaikki stemmat: cantus, altus, tenor ja bassus"
+   "a5" "Kaikki stemmat: cantus I & II, altus, tenor ja bassus"
    "a8" "Kaikki stemmat: cantus I & II, altus I & II, tenor I & II ja bassus I & II"
    "coro-I" "Coro I: cantus I, altus I, tenor I ja bassus I"
    "coro-II" "Coro II: cantus II, altus II, tenor II ja bassus II"})
