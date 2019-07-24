@@ -15,7 +15,7 @@ SopranoMusic = \relative c'' {
 	\set Staff.instrumentName = #"Cantus I"
 	\set Staff.shortInstrumentName = "C I"
 
-	\incipit { \clef "mensural-c1" \key c \major \time 2/2 c'4 }
+	\incipit { \clef "mensural-g" \key c \major \time 2/2 c''4 }
 
   \repeat volta 2 {
     \partial 4 c4 |	a( c) c h |
@@ -35,7 +35,7 @@ stanzaOneLyrics = \lyricmode {
 	Nunc Zymp -- ho -- ni -- za -- te lau -- _ des De -- o nost -- ro
   qu -- ia nos -- ter est Sal -- va -- tor, qu -- ia nos -- ter cre -- a -- tor.
   Nam Chris -- tus  dul -- cis men -- tis te -- ne -- bras dis -- cu -- tit
-  a -- ni -- mas -- que pius re -- fo - cil -- lat le -- vi -- ta -- te Sui ju -- gi.
+  a -- ni -- mas -- que pi -- us re -- fo -- cil -- lat le -- vi -- ta -- te Sui ju -- gi.
 }
 
 stanzaTwoLyrics = \lyricmode {
@@ -50,7 +50,7 @@ SopranoTwoMusic = \relative c'' {
 	\set Staff.instrumentName = #"Cantus II"
 	\set Staff.shortInstrumentName = "C II"
 
-	\incipit { \clef "mensural-c1" \key c \major \time 2/2 g'4 }
+	\incipit { \clef "mensural-g" \key c \major \time 2/2 g'4 }
 
   \repeat volta 2 {
     \partial 4 g4 | f( e) d d |
@@ -73,10 +73,18 @@ AltoMusic = \relative c' {
 
 	\incipit { \clef "mensural-c3" \key c \major \time 2/2 e'4 }
 
-  \partial 4 e4 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  d\breve\fermata
+  \repeat volta 2 {
+    \partial 4 e4 | d( c) a d |
+    \set melismaBusyProperties = #'()
+    \undo \omit Slur \slurDashed
+    c2 c4 e8( e) | d4 c a d | c2 r4 e8 e |
+    d4 d c c | h h r e8 e | d4 c h e | cis2.
+  }
+  \repeat volta 2 {
+    c4 | d fis e e | d2 d4 e | c e d d | c2 r4 e8 e |
+    d4 d8 d c4 c8 c | h4 h r c8 c | d4 a a e' |
+    cis2. \bar "|."
+  }
 }
 
 TenoreMusic = \relative c {
@@ -86,10 +94,17 @@ TenoreMusic = \relative c {
 	\incipit { \clef "mensural-c4" \key c \major \time 2/2 e1 }
 
 	\clef "treble_8"
-  \partial 4 e4 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata
+  \repeat volta 2 {
+    \partial 4 e4 | f( g) a g |
+    \set melismaBusyProperties = #'()
+    \undo \omit Slur \slurDashed
+    g2 g4 e8( e) | f4 g a g | g2 r4 c8 c|
+    d4 h c a | h e, r4 c'8 c | d4 a h h | a2.
+  }
+  \repeat volta 2 {
+    a4 | d d h a | a2 a4 c | c c a g | g2 r4 c8 c |
+    d4 h8 h c4 a8 a | h4 e, r e'8 e | d4 c d h | a2. \bar "|."
+  }
 }
 
 BassMusic = \relative c {
@@ -99,8 +114,16 @@ BassMusic = \relative c {
 	\incipit { \clef "mensural-f" \key c \major \time 2/2 c1 }
 
 	\clef bass
-  \partial 4 c4 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g,\breve\fermata
+  \repeat volta 2 {
+    \partial 4 c4 | d( e) f g |
+    \set melismaBusyProperties = #'()
+    \undo \omit Slur \slurDashed
+    c,2 c4 c8( c) | d4 e f g | c,2 r4 c8 c |
+    g4 g a a | e' e r c8 c | g4 a e' e | a,2.
+  }
+  \repeat volta 2 {
+    a'4 | g fis g a | d,2 d4 c | f e f g |
+    c,2 r4 c8 c | g'4 g8 g a4 a,8 a |
+    e'4 e r c8 c | g'4 a d, e | a,2. \bar "|."
+  }
 }

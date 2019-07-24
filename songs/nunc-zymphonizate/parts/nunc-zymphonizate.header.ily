@@ -2,8 +2,7 @@
 \header {
   title = "Nunc Zymphonizate"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
-  composer = "tuntematon"
-  mutopiacomposer = "Anonymous"
+  composer = "Giovanni Gastoldi (c.1554–1609)"
 %  instrument = "Voice (SATB)"
   style = "early music"
   maintainer = "Yrjö Kari-Koskinen"

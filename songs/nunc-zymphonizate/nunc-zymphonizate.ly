@@ -6,8 +6,7 @@
 \header {
   title = "Nunc Zymphonizate"
 %  subtitle = ""
-  composer = "tuntematon"
-  mutopiacomposer = "Anonymous"
+  composer = "Giovanni Gastoldi (c.1554–1609)"
 %  instrument = "Voice (SATB)"
   style = "early music"
   maintainer = "Yrjö Kari-Koskinen"
