@@ -15,13 +15,7 @@ SopranoMusic = \relative c'' {
 	\set Staff.instrumentName = #"Cantus I"
 	\set Staff.shortInstrumentName = "C I"
 
-	\incipit {
-    \clef "mensural-g"
-    \set Staff.middleCPosition = #4
-    \key c \major
-    \time 2/2
-    c'4
-  }
+	\incipit { \clef "mensural-g" \key f \major \time 2/2 f''4 }
 
   \repeat volta 2 {
     \partial 4 c4 |	a( c) c h |
@@ -57,13 +51,7 @@ SopranoTwoMusic = \relative c'' {
 	\set Staff.instrumentName = #"Cantus II"
 	\set Staff.shortInstrumentName = "C II"
 
-	\incipit {
-    \clef "mensural-g"
-    \set Staff.middleCPosition = #4
-    \key c
-    \major \time 2/2
-    g4
-  }
+	\incipit { \clef "mensural-g" \key f \major \time 2/2 c''4 }
 
   \repeat volta 2 {
     \partial 4 g4 | f( e) d d |
@@ -85,7 +73,7 @@ AltoMusic = \relative c' {
 	\set Staff.instrumentName = #"Altus"
 	\set Staff.shortInstrumentName = "A"
 
-	\incipit { \clef "mensural-c2" \key c \major \time 2/2 e'4 }
+	\incipit { \clef "mensural-c2" \key f \major \time 2/2 a'4 }
 
   \repeat volta 2 {
     \partial 4 e4 | d( c) a d |
@@ -105,12 +93,7 @@ TenoreMusic = \relative c {
 	\set Staff.instrumentName = #"Tenor"
 	\set Staff.shortInstrumentName = "T"
 
-	\incipit {
-    \clef "mensural-c3"
-    \set Staff.middleCPosition = #-4
-    \key c \major
-    \time 2/2 e'4
-  }
+	\incipit { \clef "mensural-c3" \key f \major \time 2/2 a4 }
 
 	\clef "treble_8"
   \repeat volta 2 {
@@ -133,10 +116,11 @@ BassMusic = \relative c {
 
 	\incipit {
     \clef "mensural-f"
+    \set Staff.middleCClefPosition = #4
+    \set Staff.middleCPosition = #4
     \set Staff.clefPosition = #0
-    \set Staff.middleCPosition = #7
-    \key c \major
-    \time 2/2 c4
+    \key f \major
+    \time 2/2 f4
   }
 
 	\clef bass
