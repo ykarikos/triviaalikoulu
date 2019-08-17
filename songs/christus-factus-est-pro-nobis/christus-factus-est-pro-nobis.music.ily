@@ -31,14 +31,27 @@ SopranoMusic = \relative c'' {
 	\time 2/2
 	r2 c | d1 | f | e | r2 c | d e | f g | a a |
         \omit Slur g( f) | b1 |
-	a | g2( f | e) \undo \omit Slur f( | f) e |
+	a | g2( f) | e \undo \omit Slur f( | f) e |
 	\time 4/2 f\breve |
   }
   \repeat volta 2 {
 	\time 2/2
-	r2 a | c c | \omit Slur b4( a g b) | a1 | r | r |
-	r2 a | g( b) | a1 | r1 |
-	r2 a | g f( | e) \undo \omit Slur f( | f) e |
+	r2 a |
+	\set melismaBusyProperties = #'()
+        \slurDashed
+        c( c) |
+	\unset melismaBusyProperties
+	\undo \slurDashed
+	\omit Slur b4( a g b) | a1 | r | r |
+	r2 a | g b | a1 | r1 |
+	r2 a | 
+        \set melismaBusyProperties = #'()
+        \slurDashed
+	\undo \omit Slur
+	g f4( f) | 
+	\unset melismaBusyProperties
+	\undo \slurDashed
+	e2 f( | f) e |
 	\time 4/2 f\breve |
   }
   \repeat volta 2 {
@@ -55,15 +68,25 @@ stanzaOneLyrics = \lyricmode {
 	Chris -- tus fac -- tus est pro no -- bis o -- be -- di -- ens,
 	o -- be -- di -- ens, o -- be -- di -- ens, 
 	o -- be -- di -- ens, __
-	us -- que ad __ mor -- _ tem.
+	us -- que ad __ _ mor -- _ tem.
 	Prop -- ter, prop -- ter __ quod,
-	et De -- us
-	e -- xal -- ta -- vit __ il -- lum.
+	et De -- _ us
+	e -- xal -- ta -- _ _ vit __ il -- lum.
 	Quod, quod est su -- per om -- ne no -- men
 	Al -- le -- lu -- ja,
 	al -- le -- lu -- ja,
 	al -- le -- lu -- ja,
 	al -- le -- lu -- _ _ _ ja.
+}
+
+stanzaTwoLyrics = \lyricmode {
+	\repeat unfold 20 { \skip 1 }
+	mor -- tem au -- tem, mor -- tem au -- tem,
+	mor -- tem au -- tem, __
+	mor -- tem au -- tem cru -- _ cis.
+	Et de -- _ _ dit,
+	il -- li no -- men
+	quod est su -- per om -- ne __ no -- men.
 }
 
 AltoMusic = \relative c' {
