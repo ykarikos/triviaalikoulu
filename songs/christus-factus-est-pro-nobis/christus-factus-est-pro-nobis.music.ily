@@ -29,15 +29,16 @@ SopranoMusic = \relative c'' {
   }
   \repeat volta 2 {
 	\time 2/2
-	r2 c | d1 | f | e | r2 c | d e | f g | a a | g f | b1 |
-	a | g2 f | e f( | f) e |
+	r2 c | d1 | f | e | r2 c | d e | f g | a a |
+        \omit Slur g( f) | b1 |
+	a | g2( f | e) \undo \omit Slur f( | f) e |
 	\time 4/2 f\breve |
   }
   \repeat volta 2 {
 	\time 2/2
-	r2 a | c c | b4 a g b | a1 | r | r |
-	r2 a | g b | a1 | r1 |
-	r2 a | g f | e f( | f) e |
+	r2 a | c c | \omit Slur b4( a g b) | a1 | r | r |
+	r2 a | g( b) | a1 | r1 |
+	r2 a | g f( | e) \undo \omit Slur f( | f) e |
 	\time 4/2 f\breve |
   }
   \repeat volta 2 {
@@ -53,11 +54,11 @@ stanzaOneLyrics = \lyricmode {
 	Chris -- tus fac -- tus est pro no -- bis,
 	Chris -- tus fac -- tus est pro no -- bis o -- be -- di -- ens,
 	o -- be -- di -- ens, o -- be -- di -- ens, 
-	o -- be -- di -- ens, _
-	us -- que ad _ _ mor -- _ tem.
-	Prop -- ter, prop -- ter _ _ _ quod,
-	et De -- _ us
-	e -- xal -- ta -- _ vit il -- lum.
+	o -- be -- di -- ens, __
+	us -- que ad __ mor -- _ tem.
+	Prop -- ter, prop -- ter __ quod,
+	et De -- us
+	e -- xal -- ta -- vit __ il -- lum.
 	Quod, quod est su -- per om -- ne no -- men
 	Al -- le -- lu -- ja,
 	al -- le -- lu -- ja,
