@@ -44,7 +44,10 @@
         \AltoMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsAlto
+     }
+      \new Lyrics \lyricsto "Alto" {
+       \stanzaTwoLyricsAlto
      }
     >>
     \new Staff <<
@@ -68,7 +71,7 @@
   >>
   \layout {
     \context {
-      \Voice
+      \Staff
       \consists "Ambitus_engraver"
 %		\hide Slur
     }
