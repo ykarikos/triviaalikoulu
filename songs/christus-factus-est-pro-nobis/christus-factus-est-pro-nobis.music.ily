@@ -11,6 +11,7 @@ global = {
 %  \autoBeamOff
   \theKey
   \set Staff.midiInstrument = #"voice oohs"
+	\override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 }
 
 
@@ -24,7 +25,6 @@ SopranoMusic = \relative c'' {
 		c1( | c2) c | a1( | a2) a | b1( | b2) b | g1 | g |
 		c1 | c2 c | a c | b a | g g4 g | f1 |
 		\time 4/2
-		\override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 		e\breve |
 	}
 	\repeat volta 2 {
@@ -77,7 +77,6 @@ AltoMusic = \relative c' {
 		\undo \omit Slur
 		es c( | c) h4 h | 
 		\time 4/2
-		\override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 		c\breve
     }
 	    \repeat volta 2 {
@@ -129,8 +128,7 @@ AltoMusic = \relative c' {
 		   \new Voice { 
 			\voiceTwo a\breve 
 		   }
-		>> \oneVoice
- 	
+		>>
     }
 }
 
@@ -141,10 +139,62 @@ TenoreMusic = \relative c' {
 	\incipit { \clef "mensural-c3" \theKey \time 2/2 a1 }
 
 	\clef "treble_8"
-	a1 | a1 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata
+	\repeat volta 2 {
+		a1 | a | c( | c) | d | d2 d | c1 | c |
+		c | c2 c | c c | es c | b g | a f |
+		\time 4/2
+		g\breve |
+	}
+	\repeat volta 2 {
+		\time 2/2
+		r2 g | b1 | a | g | 
+		r2 g | b g | a b | c c | 
+		\omit Slur
+		b( a) | d1 | 
+% 2
+		a | b2( a | g) f | g1 |
+		\time 4/2
+		f\breve |
+	}
+	\repeat volta 2 {
+		\time 2/2
+		r1 | r | r |
+		r2 a | 
+		\set melismaBusyProperties = #'()
+		\slurDashed
+		\undo \omit Slur
+		c( c) |
+		\unset melismaBusyProperties
+		\undo \slurDashed
+		\omit Slur
+		b4( a g b) | a1 | r |
+		r2 a | g b | a c |
+		b a | g f | 
+		\set melismaBusyProperties = #'()
+		\slurDashed
+		\undo \omit Slur
+		g( g) | 
+		\time 4/2
+		f\breve |
+	}
+	\repeat volta 2 {
+		c'\breve |
+		\time 2/2
+		c4 c c c | c2 c |
+% 3
+		\time 4/2
+		c4 c c c c2 c | c1 c |
+		\time 2/2
+		c4 c c c | c2 c | c4 c c c | c2 c |
+		a b | g1 |
+		\time 4/2
+		<< 
+		   { \voiceOne a\breve }
+		   \new Voice { 
+				\voiceTwo f\breve 
+		   }
+		>>
+	}
 }
 
 BassMusic = \relative c {
