@@ -6,7 +6,7 @@
 \include "christus-factus-est-pro-nobis.header.ily"
 
 \header {
-  title = "The Song Title (tenor)"
+  title = "Christus factus est pro nobis (tenor)"
 }
 
 \score {
