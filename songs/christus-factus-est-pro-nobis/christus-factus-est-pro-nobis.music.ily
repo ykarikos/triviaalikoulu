@@ -204,8 +204,49 @@ BassMusic = \relative c {
 	\incipit { \clef "mensural-f" \theKey \time 2/2 f1 }
 
 	\clef bass
-	f1( | f2) f |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g,\breve\fermata
+	\repeat volta 2 {
+		f1( | f2) f | f1( | f) | b, | b2 b | c1 | c |
+		c | c2 c | f c | g' f | es es4 es | d1 |
+		\time 4/2
+		c\breve |
+	}
+	\repeat volta 2 {
+		\time 2/2
+		r2 c | b1 | f' | c |
+		r2 c | b c | f es | f1 | g2 d |
+		\omit Slur
+		b4( c d e) | f1 | es2( f | c) d | c1 |
+		\time 4/2
+		f,\breve |
+	}
+	\repeat volta 2 {
+		\time 2/2
+		r1 | r | r |
+		r2 f' |
+		\set melismaBusyProperties = #'()
+		\slurDashed
+		\undo \omit Slur
+		c( c) | 
+		\unset melismaBusyProperties
+		\undo \slurDashed
+		\omit Slur
+		g'4( f e g) | f1 | r |
+		r2 f | c g' | f1 |
+		r2 f | c d | c c |
+		\time 4/2
+		f,\breve |
+	}
+	\repeat volta 2 {
+		f'\breve |
+		\time 2/2
+		f4 f f f | f2 f |
+% 3
+		\time 4/2
+		f\breve | c\breve |
+		\time 2/2
+		c4 c f f | c c f f | c c f f | c c f f |
+		f2 d | c1 |
+		\time 4/2
+		f,\breve |
+	}
 }
