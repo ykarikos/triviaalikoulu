@@ -90,6 +90,11 @@
 
     \clearpage
     \phantomsection
+    \addcontentsline{toc}{section}{Christus factus est pro nobis}
+    \lilypondfile{songs/christus-factus-est-pro-nobis/christus-factus-est-pro-nobis.ly}
+
+    \clearpage
+    \phantomsection
     \addcontentsline{toc}{section}{Gloria et honore}
     \lilypondfile{songs/gloria-et-honore/gloria-et-honore.ly}
 

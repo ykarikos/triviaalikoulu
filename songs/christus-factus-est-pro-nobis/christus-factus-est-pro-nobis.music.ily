@@ -33,10 +33,10 @@ SopranoMusic = \relative c'' {
 		\omit Slur g( f) | b1 |
 		a | g2( f) | e \undo \omit Slur f( | f) e |
 		\time 4/2 f\breve |
-	}
+	} 
 	\repeat volta 2 {
 		\time 2/2
-		r2 a |
+		r2 a \noBreak |
 		\set melismaBusyProperties = #'()
 		\slurDashed
 		c( c) |
