@@ -2,6 +2,7 @@
 \include "suomi.ly"
 
 \include "christus-factus-est-pro-nobis.music.ily"
+\include "christus-factus-est-pro-nobis.lyrics.ily"
 
 \header {
   title = "Christus factus est pro nobis"
@@ -73,7 +74,6 @@
     \context {
       \Staff
       \consists "Ambitus_engraver"
-%		\hide Slur
     }
     indent = 3.5\cm
     incipit-width = 2\cm

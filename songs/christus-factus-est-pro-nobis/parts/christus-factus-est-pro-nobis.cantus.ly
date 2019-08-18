@@ -2,6 +2,7 @@
 \include "suomi.ly"
 
 \include "../christus-factus-est-pro-nobis.music.ily"
+\include "../christus-factus-est-pro-nobis.lyrics.ily"
 \include "christus-factus-est-pro-nobis.header.ily"
 
 \header {
@@ -18,6 +19,9 @@
      \new Lyrics \lyricsto "Soprano" {
        \stanzaOneLyrics
      }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyrics
+     }
     >>
   >>
   \midi {
@@ -25,9 +29,8 @@
   }
   \layout {
     \context {
-      \Voice
+      \Staff
       \consists "Ambitus_engraver"
-		\hide Slur
     }
     indent = 3.5\cm
     incipit-width = 2\cm
