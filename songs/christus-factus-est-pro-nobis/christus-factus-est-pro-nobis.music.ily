@@ -92,7 +92,7 @@ AltoMusic = \relative c' {
 		   \new Voice { 
 			\voiceTwo a\breve 
 		   }
-		>>
+		>> \oneVoice
     }
     \repeat volta 2 {
 		\time 2/2
@@ -115,27 +115,23 @@ AltoMusic = \relative c' {
 		a\breve
     }
     \repeat volta 2 {
-	f'\breve |
-	\time 2/2
-	f4 f f f | f2 a |
-	\time 4/2
-	f1 f | e\breve |
-	\time 2/2
-	e4 e f f | e e f f | e e f f | e e f f |
-	c2 b | c1 |
-	\time 4/2
-	<< 
-	   { \voiceOne c\breve }
-	   \new Voice { 
-		\voiceTwo a\breve 
-	   }
-	>>
+		f'\breve |
+		\time 2/2
+		f4 f f f | f2 a |
+		\time 4/2
+		f1 f | e\breve |
+		\time 2/2
+		e4 e f f | e e f f | e e f f | e e f f |
+		c2 b | c1 |
+		\time 4/2
+		<< 
+		   { \voiceOne c\breve }
+		   \new Voice { 
+			\voiceTwo a\breve 
+		   }
+		>> \oneVoice
  	
     }
-
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  d\breve\fermata
 }
 
 TenoreMusic = \relative c' {
