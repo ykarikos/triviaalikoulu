@@ -18,7 +18,7 @@ SopranoMusic = \relative c'' {
 	\set Staff.instrumentName = #"Cantus"
 	\set Staff.shortInstrumentName = "C"
 
-	\incipit { \clef "mensural-c1" \theKey \time 2/2 c'1 }
+	\incipit { \clef "mensural-c1" \theKey \time 2/2 c''1 }
 
   \repeat volta 2 {
 	c1( | c2) c | a1( | a2) a | b1( | b2) b | g1 | g |
@@ -123,50 +123,50 @@ AltoMusic = \relative c' {
 
 	\incipit { \clef "mensural-c3" \theKey \time 2/2 f'1 }
 
-    \repeat volta 2 {
-	f1 | f2 f | f1( | f) | f | f | 
-	\omit Slur
-	f2( e4 d) | e1 |
-	e | e2 e | f g | g c, | 
-	\undo \omit Slur
-	es c( | c) h4 h | 
-	\time 4/2
-	\override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-	c\breve
+	\repeat volta 2 {
+		f1 | f2 f | f1( | f) | f | f | 
+		\omit Slur
+		f2( e4 d) | e1 |
+		e | e2 e | f g | g c, | 
+		\undo \omit Slur
+		es c( | c) h4 h | 
+		\time 4/2
+		\override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+		c\breve
     }
-    \repeat volta 2 {
-	\time 2/2
-	r2 e | f1 | c | c | r2 e | f c | c b | f'1 | d2 d | f1 |
+	    \repeat volta 2 {
+		\time 2/2
+		r2 e | f1 | c | c | r2 e | f c | c b | f'1 | d2 d | f1 |
 % 2
-	\omit Slur
-	c | r2 c | e d4( b) | c1 |
-	\time 4/2
-	<< 
-	   { \voiceOne c\breve }
-	   \new Voice { 
-		\voiceTwo a\breve 
-	   }
-	>>
+		\omit Slur
+		c | r2 c | e d4( b) | c1 |
+		\time 4/2
+		<< 
+		   { \voiceOne c\breve }
+		   \new Voice { 
+			\voiceTwo a\breve 
+		   }
+		>>
     }
     \repeat volta 2 {
-	\time 2/2
-	r2 f' |
+		\time 2/2
+		r2 f' |
         \set melismaBusyProperties = #'()
         \slurDashed
-	\undo \omit Slur
+		\undo \omit Slur
         a( a) |
         \unset melismaBusyProperties
         \undo \slurDashed
         \omit Slur
-	g4( f e g) | e'1 | r1 | r |
-	r2 f, | e d | f1 | r |
-	r2 f |
+		g4( f e g) | f1 | r1 | r |
+		r2 f | e d | f1 | r |
+		r2 f |
         \set melismaBusyProperties = #'()
         \slurDashed
-	\undo \omit Slur
-	es2 c4( c) | c2 b | c1 |
-	\time 4/2
-	a\breve
+		\undo \omit Slur
+		es2 c4( c) | c2 b | c1 |
+		\time 4/2
+		a\breve
     }
     \repeat volta 2 {
 	f'\breve |
@@ -196,7 +196,7 @@ TenoreMusic = \relative c' {
 	\set Staff.instrumentName = #"Tenor"
 	\set Staff.shortInstrumentName = "T"
 
-	\incipit { \clef "mensural-c4" \theKey \time 2/2 a1 }
+	\incipit { \clef "mensural-c3" \theKey \time 2/2 a1 }
 
 	\clef "treble_8"
 	a1 | a1 |
