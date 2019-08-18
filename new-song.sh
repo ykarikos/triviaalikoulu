@@ -15,5 +15,5 @@ cp -r templates/$TEMPLATE songs/$SONGFILE
 cd songs/$SONGFILE
 rename "s/template\./$SONGFILE./" * parts/*
 find . -type f | xargs perl -pi -e "s/template\./$SONGFILE./"
-perl -pi -e "s/The Song Title/$SONG/" $SONGFILE.ly parts/$SONGFILE.header.ily
+find . -type f | xargs perl -pi -e "s/The Song Title/$SONG/"
 
