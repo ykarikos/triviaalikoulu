@@ -6,7 +6,7 @@
 %xetex specific stuff
 \usepackage{xunicode,fontspec,xltxtra}
 \setmainfont[Numbers=OldStyle]{Palatino}
-\newfontfamily\headingfont[]{CasablancaAntique}
+\newfontfamily\headingfont[]{Casablanca Antique}
 \setsansfont{Helvetica}
 \else
 %This can be empty if you are not going to use pdftex
@@ -87,6 +87,11 @@
     \phantomsection
     \addcontentsline{toc}{section}{Christus adest justus}
     \lilypondfile{songs/christus-adest-justus/christus-adest-justus.ly}
+
+    \clearpage
+    \phantomsection
+    \addcontentsline{toc}{section}{Christus factus est pro nobis}
+    \lilypondfile{songs/christus-factus-est-pro-nobis/christus-factus-est-pro-nobis.ly}
 
     \clearpage
     \phantomsection
