@@ -11,7 +11,7 @@ global = {
 %  \autoBeamOff
   \theKey
   \set Staff.midiInstrument = #"voice oohs"
-	\override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+	\override Staff.TimeSignature.break-visibility = ##(#f #f #f)
 }
 
 
