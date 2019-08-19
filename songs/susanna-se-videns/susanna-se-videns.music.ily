@@ -16,7 +16,7 @@ SopranoMusic = \relative c'' {
 
 	\incipit { \clef "mensural-c1" \key d \minor \time 2/2 g'1 }
 
-	g1 g |
+	g1 | g | g | f |
 %  \time 4/2
 %  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 %  g\breve\fermata \bar "|."
@@ -41,7 +41,7 @@ AltoMusic = \relative c' {
 
 	\incipit { \clef "mensural-c3" \key d \minor \time 2/2 d'1 }
 
-	d1 d |
+	r2 d | d1 | g, | a |
 %\time 4/2
 %\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 %d\breve
@@ -86,7 +86,7 @@ BassMusic = \relative c' {
 	\incipit { \clef "mensural-f" \key d \minor \time 2/2 g1 }
 
 	\clef bass
-	g1 g |
+	g1 | g | es | d |
 %  \time 4/2
 %  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 %  g,\breve\fermata
