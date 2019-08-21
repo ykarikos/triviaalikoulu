@@ -20,9 +20,24 @@ SopranoMusic = \relative c'' {
         g1 | g | g | f | r2 f | f f | g b( | b) a |
         b1 | b | b2 b | a1 | g | f2 b | a g( | g) fis | g1 |
     }
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata \bar "|."
+    \repeat volta 2 {
+        r2 g | g1 | g | f2 f |
+        \omit Slur
+        g4( f g a) | b2 b | a( g) | f1 |
+        a | a2 b | a c | b a | a g | a1 | a | b |
+        \undo \omit Slur
+        a2 g( | g) fis | g1 |
+
+% 2
+        r2 g | g f | g a | b1 | b | a | g2 g | f1 | b | a2 g |
+        a g( | g) fis | g1 |
+        r2 g | g1 | g | f |
+        r2 f | f f | g b( | b) a | b1 | b | b2 b | a1 | g |
+        f2 b | a g( | g) fis |
+        \time 4/2
+        \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+        g\breve |
+    }
 }
 
 stanzaOneLyricsSoprano = \lyricmode {
@@ -30,12 +45,12 @@ stanzaOneLyricsSoprano = \lyricmode {
 	frau -- de  du -- o -- rum se -- num mi -- quo -- _ rum
     An -- gor val -- de si nam -- que fe -- ce -- ro,
     a -- gent de me -- o cor -- po -- rem tri -- ump -- hum
-    me pi -- get -- bit
+    me pi -- get -- _ bit
     sin pror -- sus ab -- ne -- ga -- ve -- ro
     poe -- nas ta -- men se -- ram tur -- pis -- si -- mas
     ve -- rum ma -- lo,
     ut dam -- ner in -- no -- cen -- ter
-    quam Do -- mi -- num per ce -- tus of -- fen -- dam.
+    quam Do -- mi -- num per ce -- tus of -- fen -- _ dam.
 }
 
 stanzaTwoLyricsSoprano = \lyricmode {
