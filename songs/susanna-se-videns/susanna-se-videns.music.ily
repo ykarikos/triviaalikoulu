@@ -16,10 +16,31 @@ SopranoMusic = \relative c'' {
 
 	\incipit { \clef "mensural-c1" \key d \minor \time 2/2 g'1 }
 
-	g1 | g | g | f |
+    \repeat volta 2 {
+        g1 | g | g | f | r2 f | f f | g b( | b) a |
+        b1 | b | b2 b | a1 | g | f2 b | a g( | g) fis | g1 |
+    }
 %  \time 4/2
 %  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 %  g\breve\fermata \bar "|."
+}
+
+stanzaOneLyricsSoprano = \lyricmode {
+	Su -- san -- na se, vi -- dens ra -- pi stup -- ran -- dam
+	frau -- de  du -- o -- rum se -- num mi -- quo -- _ rum
+    An -- gor val -- de si nam -- que fe -- ce -- ro,
+    a -- gent de me -- o cor -- po -- rem tri -- ump -- hum
+    me pi -- get -- bit
+    sin pror -- sus ab -- ne -- ga -- ve -- ro
+    poe -- nas ta -- men se -- ram tur -- pis -- si -- mas
+    ve -- rum ma -- lo,
+    ut dam -- ner in -- no -- cen -- ter
+    quam Do -- mi -- num per ce -- tus of -- fen -- dam.
+}
+
+stanzaTwoLyricsSoprano = \lyricmode {
+    Tris -- tis fu -- it, sed et pa -- ra -- to cor -- de
+    ad fu -- en -- dam cas -- ti -- ta -- tem di -- _ cens.
 }
 
 stanzaOneLyrics = \lyricmode {
@@ -33,6 +54,11 @@ stanzaOneLyrics = \lyricmode {
     ve -- rum ma -- lo,
     ut dam -- ner in -- no -- cen -- ter
     quam Do -- mi -- num per ce -- tus of -- fen -- dam.
+}
+
+stanzaTwoLyrics = \lyricmode {
+    Tris -- tis fu -- it, sed et pa -- ra -- to cor -- de
+    ad fu -- en -- dam cas -- ti -- ta -- tem __ di -- cens.
 }
 
 AltoMusic = \relative c' {

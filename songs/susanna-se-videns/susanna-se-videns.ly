@@ -30,9 +30,12 @@
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsSoprano
      }
-    >>
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyricsSoprano
+     }
+     >>
     \new Staff <<
       \new Voice = "Alto" {
         \global
@@ -50,7 +53,10 @@
       \new Lyrics \lyricsto "Tenore" {
        \stanzaOneLyrics
       }
-    >>
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaTwoLyrics
+      }
+     >>
     \new Staff <<
       \new Voice = "Bass" {
         \global
