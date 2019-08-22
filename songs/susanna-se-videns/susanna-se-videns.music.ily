@@ -82,10 +82,25 @@ AltoMusic = \relative c' {
 
 	\incipit { \clef "mensural-c3" \key d \minor \time 2/2 d'1 }
 
-	r2 d | d1 | g, | a |
-%\time 4/2
-%\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%d\breve
+    \repeat volta 2 {
+    	r2 d | d1 | g, | a | r2 a | a f | c' f | f1 | d |
+        f | f2 f | f1 | d | d2 b | es1 | d | d |
+    }
+    \repeat volta 2 {
+        r2 d | d1 | e | d2 d | d1 | g2 f |
+        \omit Slur
+        f( d) | d1 | f | a2 g | e f | g f | d d |
+        e1 | f | d | es | d | d |
+% 2
+        r2 d | d d | d f | f1 | f | f | e2 e | d1 | f | f2 d |
+        es1 | d2 d | h1 |
+        r2 d | d1 | g, | a |
+        r2 a | a f | c' f | f1 |
+        d | f | f2 f | f1 | d | d2 b | es1 | d1
+        \time 4/2
+        \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+        d\breve |
+    }
 }
 
 TenoreMusic = \relative c' {

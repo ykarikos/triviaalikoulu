@@ -44,7 +44,10 @@
      \new Lyrics \lyricsto "Alto" {
        \stanzaOneLyrics
      }
-    >>
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaTwoLyrics
+     }
+     >>
     \new Staff <<
       \new Voice = "Tenore" {
         \global
