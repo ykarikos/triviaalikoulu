@@ -68,7 +68,10 @@
       \new Lyrics \lyricsto "Bass" {
        \stanzaOneLyrics
       }
-    >>
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaTwoLyrics
+      }
+     >>
   >>
   \layout {
     \context {

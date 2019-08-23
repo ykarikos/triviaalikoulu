@@ -142,8 +142,25 @@ BassMusic = \relative c' {
 	\incipit { \clef "mensural-f" \key d \minor \time 2/2 g1 }
 
 	\clef bass
-	g1 | g | es | d |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g,\breve\fermata
+    \repeat volta 2 {
+        g1 | g | es | d | r2 d | d d | c b | f'1 | b, | b |
+        b2 b | f'1 | g |
+        d2 es | c1 | d | g, |
+    }
+    \repeat volta 2 {
+        r2 g' | g1 | c, | d2 d | g1( | g2) b |
+        f g | d1 | d | f2 g | a a | g d | a' b |
+        a1 | d, | g | c, | d | g, |
+% 2
+        r2 g' | g d | g f | b,1 | b | f' |
+        c2 c | d1 | b | f2 g |
+        c1 | d2 d | g,1 |
+        r2 g' | g1 | e! | d |
+        r2 d | d d | c b | f'1 |
+        b, | b | b2 b | f'1 | g | d2 es |
+        c1 | d |
+        \time 4/2
+        \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+        g,\breve |
+    }
 }
