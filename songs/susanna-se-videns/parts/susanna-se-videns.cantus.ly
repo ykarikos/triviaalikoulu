@@ -16,9 +16,12 @@
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsSoprano
      }
-    >>
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyricsSoprano
+     }
+     >>
   >>
   \midi {
     \tempo 4 = 160

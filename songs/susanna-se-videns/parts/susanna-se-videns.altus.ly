@@ -18,7 +18,10 @@
      \new Lyrics \lyricsto "Alto" {
        \stanzaOneLyrics
      }
-    >>
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaOneLyrics
+     }
+     >>
   >>
   \midi {
     \tempo 4 = 160

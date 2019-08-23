@@ -45,7 +45,7 @@ stanzaOneLyricsSoprano = \lyricmode {
 	frau -- de  du -- o -- rum se -- num mi -- quo -- _ rum
     An -- gor val -- de si nam -- que fe -- ce -- ro,
     a -- gent de me -- o cor -- po -- rem tri -- ump -- hum
-    me pi -- get -- _ bit
+    me pi -- ge -- _ bit
     sin pror -- sus ab -- ne -- ga -- ve -- ro
     poe -- nas ta -- men se -- ram tur -- pis -- si -- mas
     ve -- rum ma -- lo,
@@ -63,7 +63,7 @@ stanzaOneLyrics = \lyricmode {
 	frau -- de  du -- o -- rum se -- num mi -- quo -- rum
     An -- gor val -- de si nam -- que fe -- ce -- ro,
     a -- gent de me -- o cor -- po -- rem tri -- ump -- hum
-    me pi -- get -- bit
+    me pi -- ge -- bit
     sin pror -- sus ab -- ne -- ga -- ve -- ro
     poe -- nas ta -- men se -- ram tur -- pis -- si -- mas
     ve -- rum ma -- lo,

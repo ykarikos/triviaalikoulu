@@ -18,7 +18,10 @@
       \new Lyrics \lyricsto "Tenore" {
        \stanzaOneLyrics
       }
-    >>
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaTwoLyrics
+      }
+     >>
   >>
   \midi {
     \tempo 4 = 160
