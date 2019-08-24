@@ -1,9 +1,6 @@
 ; Generate html for the songs
 ; Run: find ../songs/*/parts -name "*.ly" | clojure generate-html.clj
 
-; TODO:
-; - read and use composer and poet info from lilypond source
-; - add index
 (require '[hiccup.core :refer [html h]])
 (require '[clojure.string :as s])
 (require '[clojure.pprint :refer [pprint]])
