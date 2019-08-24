@@ -17,14 +17,14 @@ SopranoMusic = \relative c'' {
 	\incipit { \clef "mensural-c1" \key d \minor \time 2/2 g'1 }
 
     \repeat volta 2 {
-        g1 | g | g | f | r2 f | f f | g b( | b) a |
+        g1 | g | g | f | r2 f | f f | g b( | b) a \noBreak |
         b1 | b | b2 b | a1 | g | f2 b | a g( | g) fis | g1 |
     }
     \repeat volta 2 {
         r2 g | g1 | g | f2 f |
         \omit Slur
         g4( f g a) | b2 b | a( g) | f1 |
-        a | a2 b | a c | b a | a g | a1 | a | b |
+        a | a2 b | a c | b a | a g | a1 \noBreak | a | b |
         \undo \omit Slur
         a2 g( | g) fis | g1 |
 
@@ -113,19 +113,19 @@ TenoreMusic = \relative c' {
     \omit Slur
     \repeat volta 2 {
         g1 | b | c | d |
-        r2 d | d d | es d | c1 | b | 
-        d | d2 d | c1 | b | a2 g | c1( | a2) a | 
-        g1 
+        r2 d | d d | es d | c1 | b |
+        d | d2 d | c1 | b | a2 g | c1( | a2) a |
+        g1
     }
     \repeat volta 2 {
         r2 b | b1 | c | a2 a | b4( a b c) | d2 d |
-        c( b) | a1 | d | d2 d | c c | d f | 
+        c( b) | a1 | d | d2 d | c c | d f |
         \undo \omit Slur
         e d( | d) cis | d1 |
         b | c | a | g |
     % 2
         r2 b | b a | b c | d1 | d | c | c2 c | a1 | d | c2 b |
-        c1 | a2 a | g1 | 
+        c1 | a2 a | g1 |
         r2 g | b1 | c | d |
         r2 d | d d | es d | c1 | b |
         d | d2 d | c1 | b | a2 g | c1 | a |
