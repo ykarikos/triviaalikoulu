@@ -86,7 +86,7 @@ AltoMusic = \relative c' {
 	\set Staff.instrumentName = #"Altus"
 	\set Staff.shortInstrumentName = "A"
 
-	\incipit { \clef "mensural-c3" \key d \minor \time 2/2 d'1 }
+	\incipit { \clef "mensural-c3" \key d \minor \time 2/2 r2 d' }
 
     \repeat volta 2 {
     	r2 d | d1 | g, | a | r2 a | a f | c' f | f1 | d |
@@ -113,7 +113,7 @@ TenoreMusic = \relative c' {
     \set Staff.instrumentName = #"Tenor"
 	\set Staff.shortInstrumentName = "T"
 
-	\incipit { \clef "mensural-c4" \key d \minor \time 2/2 g1 }
+	\incipit { \clef "mensural-c3" \key d \minor \time 2/2 g1 }
 
 	\clef "treble_8"
     \omit Slur
