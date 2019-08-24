@@ -116,7 +116,7 @@
     \clearpage
     \phantomsection
     \addcontentsline{toc}{section}{Susanna se, videns}
-    \lilypondfile{songs/susanna-se/susanna-se.ly}
+    \lilypondfile{songs/susanna-se-videns/susanna-se-videns.ly}
 
 
 \end{document}
