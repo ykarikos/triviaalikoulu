@@ -18,7 +18,10 @@
       \new Lyrics \lyricsto "Tenore" {
        \stanzaOneLyrics
       }
-    >>
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaTwoLyricsTenore
+      }
+     >>
   >>
   \midi {
     \tempo 4 = 160
@@ -27,7 +30,6 @@
     \context {
       \Voice
       \consists "Ambitus_engraver"
-		\hide Slur
     }
     indent = 3.5\cm
     incipit-width = 2\cm

@@ -113,5 +113,10 @@
     \addcontentsline{toc}{section}{Nunc Zymphonizate}
     \lilypondfile{songs/nunc-zymphonizate/nunc-zymphonizate.ly}
 
+    \clearpage
+    \phantomsection
+    \addcontentsline{toc}{section}{Susanna se, videns}
+    \lilypondfile{songs/susanna-se-videns/susanna-se-videns.ly}
+
 
 \end{document}
