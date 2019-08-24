@@ -71,10 +71,16 @@ stanzaOneLyrics = \lyricmode {
     quam Do -- mi -- num per ce -- tus of -- fen -- dam.
 }
 
-stanzaTwoLyrics = \lyricmode {
+stanzaTwoLyricsTenore = \lyricmode {
     Tris -- tis fu -- it, sed et pa -- ra -- to cor -- de
     ad fu -- en -- dam cas -- ti -- ta -- tem __ di -- cens.
 }
+
+stanzaTwoLyrics = \lyricmode {
+    Tris -- tis fu -- it, sed et pa -- ra -- to cor -- de
+    ad fu -- en -- dam cas -- ti -- ta -- tem di -- cens.
+}
+
 
 AltoMusic = \relative c' {
 	\set Staff.instrumentName = #"Altus"

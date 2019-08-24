@@ -57,7 +57,7 @@
        \stanzaOneLyrics
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaTwoLyrics
+       \stanzaTwoLyricsTenore
       }
      >>
     \new Staff <<
