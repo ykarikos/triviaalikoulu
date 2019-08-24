@@ -119,6 +119,7 @@ BassMusic = \relative c {
     \set Staff.middleCClefPosition = #4
     \set Staff.middleCPosition = #4
     \set Staff.clefPosition = #0
+    \override Staff.KeySignature.flat-positions = #'((-5 . 5))
     \key f \major
     \time 2/2 f4
   }
