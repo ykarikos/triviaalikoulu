@@ -5,7 +5,7 @@
 
 \header {
   title = "Susanna se, videns"
-  composer = "Didier Lupi (ca. 1520–1560)"
+  composer = "Didier Lupi (n. 1520–1560)"
   mutopiacomposer = "Didier Lupi"
   style = "early music"
   maintainer = "Yrjö Kari-Koskinen"
