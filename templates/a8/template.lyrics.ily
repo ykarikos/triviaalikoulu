@@ -1,0 +1,4 @@
+stanzaOneLyricsChoirOne = \lyricmode {
+    Chris -- tus
+}
+
