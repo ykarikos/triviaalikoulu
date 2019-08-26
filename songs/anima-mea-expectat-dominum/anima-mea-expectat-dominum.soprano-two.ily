@@ -8,5 +8,5 @@ SopranoTwoMusic = \relative c' {
 		r2 f'2.
 	}
 
-	r\breve | g2. f4 e2 a | h1 r | r\breve |
+	r\breve | g2. f4 e2 a | h1 r | r\breve |
 }
