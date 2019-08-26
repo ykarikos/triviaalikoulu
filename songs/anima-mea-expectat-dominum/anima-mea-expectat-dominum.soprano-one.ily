@@ -30,8 +30,8 @@ SopranoOneMusic = \relative c'' {
 			d1 r2 h |
 			\set Timing.measureLength = #(ly:make-moment 2/2)
 			c
-		%	\shape #'((0 . 0) (-1 . -0.5) (-2 . -1) (-3 . -0.8)) Tie
-			a |
+			\shape #'((0 . -0.2) (-1 . -0.7) (-2 . -1.2) (-3 . -0.8)) PhrasingSlur
+			a\( <>\) |
 		}
 		{
 			\set Timing.measureLength = #(ly:make-moment 4/2)
