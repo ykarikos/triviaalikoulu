@@ -4,10 +4,9 @@ TenoreTwoMusic = \relative c' {
 
 	\incipit {
 		\clef "mensural-c4" \key c \major \time 2/2
-		r\maxima
-		r2 a2.
+		R\breve h2.
 	}
 
 	\clef "treble_8"
-	r\breve | r1 a2. a4 |
+	R\breve | h2. h4 h2 d | d1 r |
 }
