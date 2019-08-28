@@ -28,6 +28,6 @@ stanzaOneLyricsChoirOneBass = \lyricmode {
     mi -- se -- _ _ ri -- cor -- di -- a.
     Et co -- pi -- o -- sa,
     et co -- pi -- o -- sa,
-    a -- pud e -- um. Spe -- ret Is --
-    um re -- demp -- _ ti -- o.
+    a -- pud e -- _ um. Spe -- ret Is --
+    um re -- demp -- ti -- o.
 }

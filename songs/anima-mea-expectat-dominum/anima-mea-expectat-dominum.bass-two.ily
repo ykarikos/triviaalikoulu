@@ -5,7 +5,7 @@ BassTwoMusic = \relative c' {
 
 	\incipit {
 		\clef "mensural-f" \key c \major \time 2/2
-		R\breve g2.
+		r\breve g2.
 	}
 
 	\clef bass
