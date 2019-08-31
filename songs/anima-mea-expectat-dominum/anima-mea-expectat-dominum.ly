@@ -128,7 +128,7 @@ global = {
         \BassTwoMusic
       }
       \new Lyrics \lyricsto "BassTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoBass
       }
     >>
   >>

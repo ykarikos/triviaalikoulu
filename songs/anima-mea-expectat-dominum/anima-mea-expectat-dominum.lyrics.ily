@@ -49,3 +49,22 @@ stanzaOneLyricsChoirTwoSoprano = \lyricmode {
     a -- pud e -- _ um.
     um re -- demp -- ti -- o.
 }
+
+stanzaOneLyricsChoirTwoBass = \lyricmode {
+    A -- ni -- ma me -- a,
+    a -- ni -- ma me -- a ex -- pec -- _ _ _ _ tat Do -- mi -- num
+    ad vi -- gi -- li -- a ad vi -- gi -- li -- a
+    ma -- tu -- ti -- _ nam us -- que ad __ vi -- gi -- li -- am
+    ma -- tu -- ti -- nam, ma -- tu -- ti -- nam.
+    mi -- se -- ri -- cor -- di -- a,
+    mi -- se -- ri -- cor -- di -- a,
+    mi -- se -- ri -- cor -- di -- a,
+    mi -- se -- ri -- cor -- di -- a,
+    mi -- se -- ri -- cor -- di -- a.
+    Et co -- pi -- o -- sa,
+    a -- pud e -- um re -- demp -- ti -- o.
+    Et co -- pi -- o -- sa,
+    et co -- pi -- o -- _ _ sa
+    a -- pud e -- _ _ um.
+    um re -- demp -- ti -- o.
+}
