@@ -13,7 +13,7 @@ SopranoTwoMusic = \relative c'' {
 % 2
 	c4) h8 a h2 c1 | R\breve | r2 a h2. c4 | d1 e( |
 	e2) e e2. e4 | cis1 d | e1. d2 |
-	d1 h( | h) r1 |
+	d1 h( | h) r |
 	\repeat volta 2 {
 		R\breve | R\breve |
 % 3
