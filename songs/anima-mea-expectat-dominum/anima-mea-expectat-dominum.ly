@@ -119,7 +119,7 @@ global = {
         \TenoreTwoMusic
       }
       \new Lyrics \lyricsto "TenoreTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoTenore
       }
     >>
     \new Staff <<
