@@ -120,7 +120,9 @@
       [:a {:href (str "#" (name id))} (-> songs-meta id first)]])])
 
 (defn main []
-  (let [songs (reduce parse-filename {} files-in)
+  (let [songs (->> files-in
+                   (reduce parse-filename {})
+                   sort)
         songs-meta (reduce parse-meta {} songs)
         songs-html (map (song-html songs-meta) songs)
         index-html (create-index songs songs-meta)]
