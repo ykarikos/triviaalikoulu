@@ -5,7 +5,7 @@ SopranoOneMusic = \relative c'' {
 	\incipit { \clef "mensural-c1" \key c \major \time 2/2 g'2. }
 
 	g2. g4 g2 a | h1 r | g2. g4 g2 a | h h c1 |
-	c2 c1 h2 | a1 h | r\breve | r\breve | R\breve |
+	c2 c1 h2 | a1 h | R\breve | R\breve | R\breve |
 	r2 d4 d c c h2 | r2 d4 d c c h2 | R\breve |
 % 2
 	r1 r2 c | h4 a g1 g2( | g4) fis8 e fis2 g1 | r2 g g c( |
