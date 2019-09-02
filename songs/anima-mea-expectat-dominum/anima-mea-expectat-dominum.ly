@@ -8,32 +8,32 @@ global = {
   \time 2/2
 	\set Timing.measureLength = #(ly:make-moment 4/2)
 %  \autoBeamOff
-  \key d \minor
+  \key c \major
   \set Staff.midiInstrument = #"voice oohs"
 }
 
-\include "gloria-et-honore.lyrics.ily"
+\include "anima-mea-expectat-dominum.lyrics.ily"
 
 % First choir
 
-\include "gloria-et-honore.soprano-one.ily"
-\include "gloria-et-honore.alto-one.ily"
-\include "gloria-et-honore.tenor-one.ily"
-\include "gloria-et-honore.bass-one.ily"
+\include "anima-mea-expectat-dominum.soprano-one.ily"
+\include "anima-mea-expectat-dominum.alto-one.ily"
+\include "anima-mea-expectat-dominum.tenor-one.ily"
+\include "anima-mea-expectat-dominum.bass-one.ily"
 
 % Second choir
 
-\include "gloria-et-honore.soprano-two.ily"
-\include "gloria-et-honore.alto-two.ily"
-\include "gloria-et-honore.tenor-two.ily"
-\include "gloria-et-honore.bass-two.ily"
+\include "anima-mea-expectat-dominum.soprano-two.ily"
+\include "anima-mea-expectat-dominum.alto-two.ily"
+\include "anima-mea-expectat-dominum.tenor-two.ily"
+\include "anima-mea-expectat-dominum.bass-two.ily"
 
 #(set-global-staff-size 16)
 
 \header {
-  title = "Gloria et honore"
+  title = "Anima mea expectat Dominum"
 %  subtitle = ""
-  composer = "Jacobus Gallus (1550–1591)"
+  composer = "Friedrich Weissensee (1560–1622)"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"
@@ -71,7 +71,7 @@ global = {
         \AltoOneMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneAlto
      }
     >>
     \new Staff <<
@@ -80,7 +80,7 @@ global = {
         \TenoreOneMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneTenore
       }
     >>
     \new Staff <<
@@ -89,7 +89,7 @@ global = {
         \BassOneMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneBass
       }
     >>
   >>
@@ -101,7 +101,7 @@ global = {
         \SopranoTwoMusic
       }
      \new Lyrics \lyricsto "SopranoTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoSoprano
      }
     >>
     \new Staff <<
@@ -110,7 +110,7 @@ global = {
         \AltoTwoMusic
       }
      \new Lyrics \lyricsto "AltoTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoAlto
      }
     >>
     \new Staff <<
@@ -119,7 +119,7 @@ global = {
         \TenoreTwoMusic
       }
       \new Lyrics \lyricsto "TenoreTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoTenore
       }
     >>
     \new Staff <<
@@ -128,7 +128,7 @@ global = {
         \BassTwoMusic
       }
       \new Lyrics \lyricsto "BassTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoBass
       }
     >>
   >>
@@ -136,9 +136,8 @@ global = {
 
   \layout {
     \context {
-      \Voice
+      \Staff
       \consists "Ambitus_engraver"
-		\hide Slur
     }
     indent = 4\cm
     incipit-width = 2.5\cm

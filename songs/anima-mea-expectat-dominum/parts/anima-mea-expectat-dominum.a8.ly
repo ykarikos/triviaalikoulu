@@ -1,57 +1,37 @@
 \version "2.19.49"
 \include "suomi.ly"
 
-#(set-global-staff-size 16)
 
 global = {
 %  \numericTimeSignature
   \time 2/2
 	\set Timing.measureLength = #(ly:make-moment 4/2)
 %  \autoBeamOff
-  \key d \minor
+  \key c \major
   \set Staff.midiInstrument = #"voice oohs"
 }
 
-\include "gloria-et-honore.lyrics.ily"
+\include "../anima-mea-expectat-dominum.lyrics.ily"
 
 % First choir
 
-\include "gloria-et-honore.soprano-one.ily"
-\include "gloria-et-honore.alto-one.ily"
-\include "gloria-et-honore.tenor-one.ily"
-\include "gloria-et-honore.bass-one.ily"
+\include "../anima-mea-expectat-dominum.soprano-one.ily"
+\include "../anima-mea-expectat-dominum.alto-one.ily"
+\include "../anima-mea-expectat-dominum.tenor-one.ily"
+\include "../anima-mea-expectat-dominum.bass-one.ily"
 
 % Second choir
 
-\include "gloria-et-honore.soprano-two.ily"
-\include "gloria-et-honore.alto-two.ily"
-\include "gloria-et-honore.tenor-two.ily"
-\include "gloria-et-honore.bass-two.ily"
+\include "../anima-mea-expectat-dominum.soprano-two.ily"
+\include "../anima-mea-expectat-dominum.alto-two.ily"
+\include "../anima-mea-expectat-dominum.tenor-two.ily"
+\include "../anima-mea-expectat-dominum.bass-two.ily"
 
-#(set-global-staff-size 16)
-
-\header {
-  title = "Gloria et honore"
-%  subtitle = ""
-  composer = "Jacobus Gallus (1550–1591)"
-  mutopiacomposer = "Anonymous"
-%  instrument = "Voice (SATB)"
-  style = "early music"
-  maintainer = "Yrjö Kari-Koskinen"
-  copyright = "Nuotit on lisensoitu Creative Commons Nimeä-JaaSamoin 3.0 (CC BY-SA 3.0) -ehdoin."
-  tagline = "Lähde: https://triviaalikoulu.sonusborealis.fi"
-}
+\include "anima-mea-expectat-dominum.header.ily"
 
 \paper {
-	system-separator-markup = \slashSeparator
-    #(define fonts
-        (make-pango-font-tree "Palatino"
-                              "Nimbus Sans"
-                              "Luxi Mono"
-                              (/ staff-height pt 20)))
+  system-separator-markup = \slashSeparator
 }
-
-
 
 \score {
 <<
@@ -134,11 +114,13 @@ global = {
   >>
 >>
 
+  \midi {
+    \tempo 4 = 160
+  }
   \layout {
     \context {
-      \Voice
+      \Staff
       \consists "Ambitus_engraver"
-		\hide Slur
     }
     indent = 4\cm
     incipit-width = 2.5\cm

@@ -8,7 +8,7 @@
   style = "early music"
   maintainer = "Yrjö Kari-Koskinen"
   copyright = "Nuotit on lisensoitu Creative Commons Nimeä-JaaSamoin 3.0 (CC BY-SA 3.0) -ehdoin."
-  tagline = "Lähdekoodit löytyvät osoitteesta https://github.com/ykarikos/triviaalikoulu"
+  tagline = "Lähde: https://triviaalikoulu.sonusborealis.fi"
 }
 
 \paper {

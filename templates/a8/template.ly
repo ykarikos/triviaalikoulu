@@ -12,28 +12,28 @@ global = {
   \set Staff.midiInstrument = #"voice oohs"
 }
 
-\include "gloria-et-honore.lyrics.ily"
+\include "template.lyrics.ily"
 
 % First choir
 
-\include "gloria-et-honore.soprano-one.ily"
-\include "gloria-et-honore.alto-one.ily"
-\include "gloria-et-honore.tenor-one.ily"
-\include "gloria-et-honore.bass-one.ily"
+\include "template.soprano-one.ily"
+\include "template.alto-one.ily"
+\include "template.tenor-one.ily"
+\include "template.bass-one.ily"
 
 % Second choir
 
-\include "gloria-et-honore.soprano-two.ily"
-\include "gloria-et-honore.alto-two.ily"
-\include "gloria-et-honore.tenor-two.ily"
-\include "gloria-et-honore.bass-two.ily"
+\include "template.soprano-two.ily"
+\include "template.alto-two.ily"
+\include "template.tenor-two.ily"
+\include "template.bass-two.ily"
 
 #(set-global-staff-size 16)
 
 \header {
-  title = "Gloria et honore"
+  title = "The Song Title"
 %  subtitle = ""
-  composer = "Jacobus Gallus (1550–1591)"
+  composer = "tuntematon"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"
@@ -136,9 +136,8 @@ global = {
 
   \layout {
     \context {
-      \Voice
+      \Staff
       \consists "Ambitus_engraver"
-		\hide Slur
     }
     indent = 4\cm
     incipit-width = 2.5\cm
