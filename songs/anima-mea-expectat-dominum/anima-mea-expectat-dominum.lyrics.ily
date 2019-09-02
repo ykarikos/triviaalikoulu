@@ -36,6 +36,26 @@ stanzaOneLyricsChoirOneAlto = \lyricmode {
     um re -- demp -- _ _ ti -- o.
 }
 
+stanzaOneLyricsChoirOneTenore = \lyricmode {
+  A -- ni -- ma me -- a,
+  a -- ni -- ma me -- a ex -- pec -- _ tat Do -- _ mi -- num
+  ad vi -- gi -- li -- a ad vi -- gi -- li -- a
+  ma -- tu -- ti -- _ _ _ nam
+  us -- _ _ _ _ _ _ que ad vi -- gi -- li -- am
+  ma -- tu -- _ ti -- _ _ _ nam.
+  Spe -- ret Is -- ra -- el in __ _ _ De -- o,
+  qui -- a a -- pud e -- _ um
+  mi -- se -- ri -- cor -- di -- a,
+  mi -- se -- ri -- cor -- di -- a _ a -- _ pud e -- um,
+  mi -- se -- ri -- cor -- di -- a,
+  mi -- se -- ri -- cor -- di -- a,
+  mi -- se -- ri -- cor -- di -- a.
+  Et co -- pi -- o -- sa,
+  et co -- pi -- o -- sa,
+  a -- pud e -- _ um. Spe -- ret Is --
+  um re -- demp -- ti -- o.
+}
+
 stanzaOneLyricsChoirOneBass = \lyricmode {
     A -- ni -- ma me -- a,
     a -- ni -- ma me -- a ex -- pec -- _ _ _ _ tat Do -- mi -- num
