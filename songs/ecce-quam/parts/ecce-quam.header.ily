@@ -12,6 +12,7 @@
 }
 
 \paper {
+    system-system-spacing.basic-distance = #16
     #(define fonts
         (make-pango-font-tree "Palatino"
                               "Nimbus Sans"
