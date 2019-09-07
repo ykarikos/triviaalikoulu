@@ -14,8 +14,8 @@ SopranoMusic = \relative c'' {
 	\set Staff.instrumentName = #"Cantus"
 	\set Staff.shortInstrumentName = "C"
 
-	\incipit { 
-        \clef "mensural-g" 
+	\incipit {
+        \clef "mensural-g"
         \set Staff.middleCClefPosition = #3
         \set Staff.middleCPosition = #3
         \set Staff.clefPosition = #0
@@ -75,7 +75,7 @@ SopranoMusic = \relative c'' {
 }
 
 stanzaOneLyrics = \lyricmode {
-    Ec -- ce quam sit ti -- bi dul -- ce ru -- bens os, 
+    Ec -- ce quam sit ti -- bi dul -- ce ru -- bens os,
     quam sint ti -- bi can -- di -- da lu -- mi -- na tu -- a. a.
     Ca -- pil -- lus ti -- bi fla -- vus est
     ti -- bi mol -- li -- cu -- la. Ca -- la.
@@ -94,7 +94,55 @@ AltoMusic = \relative c' {
 
 	\incipit { \clef "mensural-c3" \key d \minor \time 2/2 d'2 }
 
-	d2 d4 f |
+  \repeat volta 2 {
+    d2 d4 f | f2 f4 f | f f f f | f2 f | f f4 f | d2 es4 es |
+    d d d d |
+  }
+  \alternative {
+    {
+      d1 |
+    }
+    {
+      d2 r4 d4 |
+    }
+  }
+  \repeat volta 2 {
+    e e d d | d d d d | es es d d |
+  }
+  \alternative {
+    {
+      d2 r4 d |
+    }
+    {
+      d1 |
+    }
+  }
+% 2
+  \repeat volta 2 {
+    d2 f4 g | f2 a | a a | fis1 |
+    g2 g4 g | g2 g4 f | f d d d |
+  }
+  \alternative {
+    {
+      d1 |
+    }
+    {
+      d2 r4 d |
+    }
+  }
+  \repeat volta 2 {
+    es es d d | d d d d | es es d d |
+  }
+  \alternative {
+    {
+      d2 r4 d |
+    }
+    {
+      d2 r4 f |
+    }
+  }
+  f2 e | d d | d r4 f4 | f d d d | d1 |
+  es2 es( | es) es | d1( | d) \bar "|."
 }
 
 TenoreMusic = \relative c' {
