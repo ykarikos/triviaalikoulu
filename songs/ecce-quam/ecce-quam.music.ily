@@ -57,17 +57,8 @@ SopranoMusic = \relative c'' {
             g2 r4 g |
         }
     }
-    \repeat volta 2 {
-        es g g fis | g g g g | es g g fis |
-    }
-    \alternative {
-        {
-            g2 r4 g |
-        }
-        {
-            g2 r4 b |
-        }
-    }
+    es g g fis | g g g g | es g g fis | g2 r4 g |
+    es g g fis | g g g g | es g g fis | g2 r4 b |
 % 3
     a2 g | g fis | g r4 b | a g g fis | g1 |
     g2 g( | g) g | g1( | g) \bar "|."
@@ -80,9 +71,11 @@ stanzaOneLyrics = \lyricmode {
     Ca -- pil -- lus ti -- bi fla -- vus est
     ti -- bi mol -- li -- cu -- la. Ca -- la.
     O me -- a lux et cor -- cu -- lum
-    fac me so -- lum ti -- bi fi -- e -- ri spon -- sum. sum. Vox
-    tu -- a dul -- cis la -- bi -- a
-    tu -- a sunt mol -- li -- a, vox a,
+    fac me so -- lum ti -- bi fi -- e -- ri spon -- sum. sum. 
+    Voxi tu -- a dul -- cis la -- bi -- a
+    tu -- a sunt mol -- li -- a, 
+    vox tu -- a dul -- cis la -- bi -- a
+    tu -- a sunt mol -- li -- a,
     Ve -- ni in hor -- tu -- lum,
     ve -- ni in hor -- tu -- lum.
     Lus -- ci -- ni -- a.
@@ -130,17 +123,8 @@ AltoMusic = \relative c' {
       d2 r4 d |
     }
   }
-  \repeat volta 2 {
-    es es d d | d d d d | es es d d |
-  }
-  \alternative {
-    {
-      d2 r4 d |
-    }
-    {
-      d2 r4 f |
-    }
-  }
+    es es d d | d d d d | es es d d | d2 r4 d |
+    es es d d | d d d d | es es d d | d2 r4 f |
   f2 e | d d | d r4 f4 | f d d d | d1 |
   es2 es( | es) es | d1( | d) \bar "|."
 }
@@ -152,7 +136,46 @@ TenoreMusic = \relative c' {
 	\incipit { \clef "mensural-c4" \key d \minor \time 2/2 b2 }
 
 	\clef "treble_8"
-	b2 b4 c |
+    \repeat volta 2 {
+        b2 b4 c | d2 d4 d | d d d d | c2 c | c c4 c | 
+        b2 c4 c | a g a a |
+    }
+    \alternative {
+        {
+            g1 |
+        }
+        {
+            g2 r4 b |
+        }
+    }
+    \repeat volta 2 {
+        c c a a | g b b b | c c a a |
+    }
+    \alternative {
+        {
+            g2 r4 b |
+        }
+        {
+            g1 |
+        }
+    }
+% 2
+    \repeat volta 2 {
+        d'2 d4 d | d2 f | e e | d1 |
+        d2 d4 d | e2 e4 d | d g, a a |
+    }
+    \alternative {
+        {
+            g1 |
+        }
+        {
+            g2 r4 b |
+        }
+    }
+    c c a a | g b b b | c c a a | g2 r4 b |
+    c c a a | g a b b | c c a a | g2 d' |
+    c g | a a | g r4 d' | c g a a | b1 |
+    c2 c( | c) c | h1( | h) \bar "|."
 }
 
 BassMusic = \relative c' {
