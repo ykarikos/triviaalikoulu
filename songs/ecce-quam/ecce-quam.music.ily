@@ -125,7 +125,7 @@ AltoMusic = \relative c' {
   }
     es es d d | d d d d | es es d d | d2 r4 d |
     es es d d | d d d d | es es d d | d2 r4 f |
-  f2 e | d d | d r4 f4 | f d d d | d1 |
+  f2 d | d d | d r4 f4 | f d d d | d1 |
   es2 es( | es) es | d1( | d) \bar "|."
 }
 
