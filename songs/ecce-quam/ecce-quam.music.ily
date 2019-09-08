@@ -71,9 +71,9 @@ stanzaOneLyrics = \lyricmode {
     Ca -- pil -- lus ti -- bi fla -- vus est
     ti -- bi mol -- li -- cu -- la. Ca -- la.
     O me -- a lux et cor -- cu -- lum
-    fac me so -- lum ti -- bi fi -- e -- ri spon -- sum. sum. 
-    Voxi tu -- a dul -- cis la -- bi -- a
-    tu -- a sunt mol -- li -- a, 
+    fac me so -- lum ti -- bi fi -- e -- ri spon -- sum. sum.
+    Vox tu -- a dul -- cis la -- bi -- a
+    tu -- a sunt mol -- li -- a,
     vox tu -- a dul -- cis la -- bi -- a
     tu -- a sunt mol -- li -- a,
     Ve -- ni in hor -- tu -- lum,
@@ -137,7 +137,7 @@ TenoreMusic = \relative c' {
 
 	\clef "treble_8"
     \repeat volta 2 {
-        b2 b4 c | d2 d4 d | d d d d | c2 c | c c4 c | 
+        b2 b4 c | d2 d4 d | d d d d | c2 c | c c4 c |
         b2 c4 c | a g a a |
     }
     \alternative {
