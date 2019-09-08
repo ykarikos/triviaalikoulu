@@ -1,23 +1,23 @@
 \version "2.19.80"
 \include "suomi.ly"
 
-\include "../template.music.ily"
-\include "template.header.ily"
+\include "../ecce-quam.music.ily"
+\include "ecce-quam.header.ily"
 
 \header {
-  title = "The Song Title (bassus)"
+  title = "Ecce quam (cantus)"
 }
 
 \score {
   \new ChoirStaff <<
     \new Staff <<
-      \new Voice = "Bass" {
-        \global
-        \BassMusic
+      \new Voice = "Soprano" {
+		    \global
+        \SopranoMusic
       }
-      \new Lyrics \lyricsto "Bass" {
+     \new Lyrics \lyricsto "Soprano" {
        \stanzaOneLyrics
-      }
+     }
     >>
   >>
   \midi {

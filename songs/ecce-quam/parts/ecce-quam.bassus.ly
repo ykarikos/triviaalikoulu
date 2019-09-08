@@ -1,11 +1,11 @@
 \version "2.19.80"
 \include "suomi.ly"
 
-\include "../template.music.ily"
-\include "template.header.ily"
+\include "../ecce-quam.music.ily"
+\include "ecce-quam.header.ily"
 
 \header {
-  title = "The Song Title (bassus)"
+  title = "Ecce quam (bassus)"
 }
 
 \score {

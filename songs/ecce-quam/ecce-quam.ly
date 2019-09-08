@@ -1,10 +1,10 @@
 \version "2.19.80"
 \include "suomi.ly"
 
-\include "template.music.ily"
+\include "ecce-quam.music.ily"
 
 \header {
-  title = "The Song Title"
+  title = "Ecce quam"
 %  subtitle = ""
   composer = "tuntematon"
   mutopiacomposer = "Anonymous"
@@ -16,6 +16,7 @@
 }
 
 \paper {
+    system-system-spacing.basic-distance = #16
     #(define fonts
         (make-pango-font-tree "Palatino"
                               "Nimbus Sans"

@@ -95,6 +95,11 @@
 
     \clearpage
     \phantomsection
+    \addcontentsline{toc}{section}{Ecce quam}
+    \lilypondfile{songs/ecce-quam/ecce-quam.ly}
+
+    \clearpage
+    \phantomsection
     \addcontentsline{toc}{section}{Gloria et honore}
     \lilypondfile{songs/gloria-et-honore/gloria-et-honore.ly}
 
