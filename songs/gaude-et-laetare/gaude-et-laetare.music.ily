@@ -61,6 +61,30 @@ stanzaOneLyrics = \lyricmode {
   Al -- le -- lu -- ja.
 }
 
+stanzaOneLyricsAlto = \lyricmode {
+	Gau -- de et lae -- ta -- re, Gau -- de et lae -- ta -- re,
+  Gau -- de et lae -- ta -- re, Hie -- ru -- sa -- lem.
+  Et ca -- ni -- to Al -- le -- lu -- ja, Al -- le -- lu -- ja,
+  Al -- le -- lu -- ja, Al -- le -- lu -- ja
+
+  Rex Re -- gum at -- que coe -- lo -- rum
+  Et Do -- mi -- nus An -- ge -- lo -- rum,
+  An -- ge -- lo -- rum,
+  Et Do -- mi -- nus An -- ge -- lo -- rum,
+  An -- ge -- lo -- rum,
+  App -- ro -- ping -- va -- bit,
+
+  As -- sump -- ta car -- _ ne ex Ma -- ri -- a Vir -- gi -- ne.
+  Par -- vo que lac -- te pas -- tus est,
+  per -- quem to -- ti -- us mun -- di
+  mac -- hi -- na re -- gi -- tur,
+
+  Et fac -- tus est ser -- vus hu -- mi -- lis.
+  Et in car -- _ _ ne no -- bis si -- mi -- lis.
+  Al -- le -- lu -- ja,
+  Al -- le -- lu -- ja.
+}
+
 stanzaOneLyricsTenore = \lyricmode {
 	Gau -- de et __ _ lae -- ta -- re,
 }
@@ -72,9 +96,28 @@ AltoMusic = \relative c' {
 	\incipit { \clef "mensural-c3" \key f \major \time 2/2 r1 f }
 
   \set Timing.measureLength = #(ly:make-moment 4/2)
-	r1 f | e2 f1 f2 |
-  \omit Slur d2.( e4) f1 |
-%  d\breve\fermata
+	r1 f | e2 f1 f2 | \omit Slur d2.( e4) f1 |
+  r2 a g f | f e f1 |
+  \undo \omit Slur
+  e1. e2 | e1 e2 f( | f) e d d | c c r e | f g a g |
+  e c c c | d d g,1 | r2 d' d f | c1. c2 |
+  \undo \omit Slur d( b) d1 | c\breve\fermata |
+% 2
+  f1 f | f2 e d d | c c r e | f f d e |
+  f a g e | d2. e4 f2 f | f e d d |
+  \set Timing.measureLength = #(ly:make-moment 2/2)
+  c c |
+  \set Timing.measureLength = #(ly:make-moment 4/2)
+  c c d d | g,1 r2 g | a b g1 |
+  \set Timing.measureLength = #(ly:make-moment 2/2)
+  f |
+  \set Timing.measureLength = #(ly:make-moment 4/2)
+  r\breve | r1 f' | f2 f d2. e4 | f2 f d2. e4 | f2 f g1( | g) f |
+% 3
+  r2 c d d | c c d d | g,1 r2 e'2 | f f g g |
+  a1 g2 f | f e f f | e1 r2 e | e1 e2 f( | f) e d d | c c r e |
+  f( g) a2. g4 | e2 c c c | d d g,1 | r2 d' d b c1. c2 |
+  d( b) d1 | c\breve \bar "|."
 }
 
 TenoreMusic = \relative c' {
