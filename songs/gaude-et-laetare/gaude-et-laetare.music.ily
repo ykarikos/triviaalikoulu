@@ -146,7 +146,7 @@ AltoMusic = \relative c' {
   r2 a g f | f e f1 |
   \undo \omit Slur
   e1. e2 | e1 e2 f( | f) e d d | c c r e | f g a g |
-  e c c c | d d g,1 | r2 d' d f | c1. c2 |
+  e c c c | d d g,1 | r2 d' d b | c1. c2 |
   \undo \omit Slur d( b) d1 | c\breve\fermata |
 % 2
   f1 f | f2 e d d | c c r e | f f d e |
