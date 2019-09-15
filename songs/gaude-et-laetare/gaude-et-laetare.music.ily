@@ -86,7 +86,28 @@ stanzaOneLyricsAlto = \lyricmode {
 }
 
 stanzaOneLyricsTenore = \lyricmode {
-	Gau -- de et __ _ lae -- ta -- re,
+	Gau -- de et __ _ lae -- ta -- re, Gau -- de et lae -- ta -- re,
+  Gau -- de et lae -- ta -- re, Hie -- ru -- sa -- lem.
+  Et ca -- ni -- to Al -- le -- _ _ _ _ _ lu -- ja, __ _ _
+  Al -- le -- lu -- ja,
+  Al -- le -- _ _ lu -- _ _ ja.
+
+  Rex Re -- gum at -- que coe -- lo -- rum
+  Et Do -- mi -- nus An -- ge -- lo -- rum,
+  An -- ge -- lo -- rum,
+  Et Do -- mi -- nus An -- ge -- lo -- rum,
+  An -- ge -- lo -- rum,
+  App -- ro -- ping -- va -- bit,
+
+  As -- sump -- ta car -- ne ex Ma -- ri -- a Vir -- gi -- ne.
+  Par -- vo que lac -- te pas -- tus est,
+  per -- quem to -- ti -- us mun -- di
+  mac -- hi -- na re -- gi -- tur,
+
+  Et fac -- tus est ser -- vus hu -- mi -- lis.
+  Et in car -- ne no -- bis si -- _ _ _ _ mi -- lis.
+  Al -- le -- _ lu -- ja,
+  Al -- le -- _ _ _ _ _ lu -- ja.
 }
 
 AltoMusic = \relative c' {
@@ -112,7 +133,7 @@ AltoMusic = \relative c' {
   \set Timing.measureLength = #(ly:make-moment 2/2)
   f |
   \set Timing.measureLength = #(ly:make-moment 4/2)
-  r\breve | r1 f' | f2 f d2. e4 | f2 f d2. e4 | f2 f g1( | g) f |
+  R\breve | r1 f' | f2 f d2. e4 | f2 f d2. e4 | f2 f g1( | g) f |
 % 3
   r2 c d d | c c d d | g,1 r2 e'2 | f f g g |
   a1 g2 f | f e f f | e1 r2 e | e1 e2 f( | f) e d d | c c r e |
@@ -128,8 +149,26 @@ TenoreMusic = \relative c' {
 
 	\clef "treble_8"
   \set Timing.measureLength = #(ly:make-moment 4/2)
-	c1 a2 c( | c) a1 a2 | b1 c |
-%  g\breve\fermata
+	c1 a2 c( | c) a1 a2 | b1 c | r2 f d c | d b c1 |
+  c1. c2 | c1 c2 c( | c) c a b | g g r c | c e f d |
+  c f,4 g a b c2( | c) h c2. b4 | a2 b a( f) | a1 g2. a4 |
+  b c d2 d c4 b | a\breve\fermata |
+% 2
+  c1 c | c2 c a b | g g r c | c a b c |
+  c a b c | d g, c1 | R\breve |
+  \set Timing.measureLength = #(ly:make-moment 2/2)
+  r2 a |
+  \set Timing.measureLength = #(ly:make-moment 4/2)
+  f g a b | c2. b4 a2 g | f f c'1 |
+  \set Timing.measureLength = #(ly:make-moment 2/2)
+  r2 c |
+  \set Timing.measureLength = #(ly:make-moment 4/2)
+  d f f( e) | f1 r2 c | d c b1 | c2 c b b | c c es1( | es) c |
+% 3
+  r2 a b b | a c c b | c1 r2 c | c d e e |
+  f1 d2 c | d b c c | c1 r2 c | c1 c2 c( | c) c a b | g g r c |
+  c e f d | c f,4 g a b c2( | c) h c2. b4 | a2 b a f |
+  a1 g2. a4 | b c d2. c4 b2 | a\breve \bar "|."
 }
 
 BassMusic = \relative c {
