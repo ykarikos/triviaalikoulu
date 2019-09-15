@@ -110,6 +110,31 @@ stanzaOneLyricsTenore = \lyricmode {
   Al -- le -- _ _ _ _ _ lu -- ja.
 }
 
+stanzaOneLyricsBass = \lyricmode {
+	Gau -- de et lae -- ta -- re, Gau -- de et lae -- ta -- re,
+  Gau -- de et lae -- ta -- re, Hie -- ru -- sa -- lem.
+  Et ca -- ni -- to Al -- le -- _ _ lu -- ja,
+  Al -- le -- lu -- _ _ ja,
+  Al -- le -- lu -- ja.
+
+  Rex Re -- gum at -- que coe -- lo -- rum
+  Et Do -- mi -- nus An -- ge -- lo -- rum,
+  An -- ge -- lo -- rum,
+  Et Do -- mi -- nus An -- ge -- lo -- rum,
+  An -- ge -- lo -- rum,
+  App -- ro -- ping -- va -- bit,
+
+  As -- sump -- ta car -- ne ex Ma -- ri -- a Vir -- gi -- ne.
+  Par -- vo que lac -- te pas -- tus est,
+  per -- quem to -- ti -- us mun -- di
+  mac -- hi -- na re -- gi -- tur,
+
+  Et fac -- tus est ser -- vus hu -- mi -- lis.
+  Et in car -- ne no -- bis si -- mi -- lis.
+  Al -- le -- lu -- _ _ ja,
+  Al -- le -- lu -- ja.
+}
+
 AltoMusic = \relative c' {
 	\set Staff.instrumentName = #"Altus"
 	\set Staff.shortInstrumentName = "A"
@@ -179,6 +204,22 @@ BassMusic = \relative c {
 
 	\clef bass
   \set Timing.measureLength = #(ly:make-moment 4/2)
-	r1 f | c2 f1 f2 | g1 f |
-%  g,\breve\fermata
+	r1 f | c2 f1 f2 | g1 f | r2 f g a | b g f1 |
+  c1. c2 | c1 c2 f( | f) c d b | c c r c | f c f g |
+  a2. g4 f2 e | d1 c2 c | d b d1 | c\breve | b1 b4( c) d( e) | f\breve |
+% 2
+  f1 f | f2 c d b | c c r c | f f g c, | f f g a | b g f1 | R\breve |
+  \set Timing.measureLength = #(ly:make-moment 2/2)
+  r2 f |
+  \set Timing.measureLength = #(ly:make-moment 4/2)
+  f e d d | c2. c4 f2 e | d d c1 |
+  \set Timing.measureLength = #(ly:make-moment 2/2)
+  r2 f |
+  \set Timing.measureLength = #(ly:make-moment 4/2)
+  b a( g) g | f1 r2 f | f f g1 | f2 f g g | f f es1( | es) f |
+% 3
+  r2 f d d | f2. e4 d2 d | c1 r2 c | f d c c |
+  f1 g2 a | b g f f | c1 r2 c | c1 c2 f( | f) c d b | c c r c |
+  f c f g | a2.( g4) f2 e | d1 c2 c | d b d1 | c\breve |
+  b1 b2 b | f'\breve \bar "|."
 }
