@@ -36,11 +36,13 @@ Ladonnan voi suorittaa `make`-komennolla:
 2. Christe tibi vivo (á 4) – säveltäjä tuntematon
 3. Christus adest justus (á 4) - säveltäjä tuntematon
 4. Christus factus est pro nobis (á 4) – säveltäjä tuntematon
-5. Gloria et honore (á 8) - säveltäjä: Jacobus Gallus (1550–1591)
-6. Gud wälsigna thetta huus (á 4) – säveltäjä tuntematon
-7. Jucundar jugiter (á 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
-8. Nunc Zymphonizate (á 5) - säveltäjä: Giovanni Gastoldi (n. 1554–1609)
-9. Susanna se, videns (á 4) – säveltäjä: Didier Lupi (n. 1520–1560)
+4. Ecce quam (á 4) - säveltäjä tuntematon
+5. Gaude et laetare (á 4) - säveltäjä tuntematon
+6. Gloria et honore (á 8) - säveltäjä: Jacobus Gallus (1550–1591)
+7. Gud wälsigna thetta huus (á 4) – säveltäjä tuntematon
+8. Jucundar jugiter (á 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
+9. Nunc Zymphonizate (á 5) - säveltäjä: Giovanni Gastoldi (n. 1554–1609)
+10. Susanna se, videns (á 4) – säveltäjä: Didier Lupi (n. 1520–1560)
 
 ## Lisenssi
 
