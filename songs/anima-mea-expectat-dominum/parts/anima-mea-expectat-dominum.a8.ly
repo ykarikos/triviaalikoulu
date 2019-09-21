@@ -42,7 +42,7 @@ global = {
         \SopranoOneMusic
       }
      \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneSoprano
      }
     >>
     \new Staff <<
@@ -51,7 +51,7 @@ global = {
         \AltoOneMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneAlto
      }
     >>
     \new Staff <<
@@ -60,7 +60,7 @@ global = {
         \TenoreOneMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneTenore
       }
     >>
     \new Staff <<
@@ -69,7 +69,7 @@ global = {
         \BassOneMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneBass
       }
     >>
   >>
@@ -81,7 +81,7 @@ global = {
         \SopranoTwoMusic
       }
      \new Lyrics \lyricsto "SopranoTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoSoprano
      }
     >>
     \new Staff <<
@@ -90,7 +90,7 @@ global = {
         \AltoTwoMusic
       }
      \new Lyrics \lyricsto "AltoTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoAlto
      }
     >>
     \new Staff <<
@@ -99,7 +99,7 @@ global = {
         \TenoreTwoMusic
       }
       \new Lyrics \lyricsto "TenoreTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoTenore
       }
     >>
     \new Staff <<
@@ -108,7 +108,7 @@ global = {
         \BassTwoMusic
       }
       \new Lyrics \lyricsto "BassTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoBass
       }
     >>
   >>
