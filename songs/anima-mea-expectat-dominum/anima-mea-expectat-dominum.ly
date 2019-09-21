@@ -62,7 +62,7 @@ global = {
         \SopranoOneMusic
       }
      \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneSoprano
      }
     >>
     \new Staff <<

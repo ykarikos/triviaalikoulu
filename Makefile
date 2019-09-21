@@ -32,3 +32,8 @@ clean:
 	rm -rf $(OUTDIR)
 	rm -f $(PARTS_PDF) $(PARTS_MIDI)
 	rm -f $(BOOK).pdf
+
+.PHONY: clean-book
+clean-book:
+	rm -rf $(OUTDIR)
+	rm -f $(BOOK).pdf

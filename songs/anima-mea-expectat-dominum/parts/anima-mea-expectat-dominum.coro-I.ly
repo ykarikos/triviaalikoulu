@@ -36,7 +36,7 @@ global = {
         \SopranoOneMusic
       }
      \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneSoprano
      }
     >>
     \new Staff <<
@@ -45,7 +45,7 @@ global = {
         \AltoOneMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneAlto
      }
     >>
     \new Staff <<
@@ -54,7 +54,7 @@ global = {
         \TenoreOneMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneTenore
       }
     >>
     \new Staff <<
@@ -63,7 +63,7 @@ global = {
         \BassOneMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneBass
       }
     >>
   >>
@@ -75,7 +75,6 @@ global = {
     \context {
       \Staff
       \consists "Ambitus_engraver"
-		
     }
     indent = 4\cm
     incipit-width = 2.5\cm
