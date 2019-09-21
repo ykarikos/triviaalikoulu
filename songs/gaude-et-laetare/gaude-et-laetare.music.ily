@@ -17,9 +17,9 @@ SopranoMusic = \relative c'' {
 	\incipit { \clef "mensural-c1" \key f \major \time 2/2 c''1. }
 
   \set Timing.measureLength = #(ly:make-moment 4/2)
-	c1. a2 | c1 a2( c) | b1 a | r2 c b a | f g a1 |
+	c1. a2 | c1 a2 c | b1 a | r2 c b a | f g a1 |
   g1. g2 | g1 g2 a( | a) g f f | e e r g | a c c h |
-  c2.( b4 a2) g | f1 e4 f g e | f1. e4 d | e2 f f1( | f) f2 f2 | f\breve\fermata |
+  c2. b4 a2 g | f1 e4 f g e | f1. e4 d | e2 f f1( | f) f2 f2 | f\breve\fermata |
 % 2
   a1 a | a2 g f f | e e r g | a c b g |
   a c b a | f g a a | f g a b |
@@ -39,9 +39,9 @@ SopranoMusic = \relative c'' {
 }
 
 stanzaOneLyrics = \lyricmode {
-	Gau -- de et lae -- ta -- re, Gau -- de et lae -- ta -- re,
+	Gau -- de et lae -- _ ta -- re, Gau -- de et lae -- ta -- re,
   Gau -- de et lae -- ta -- re, Hie -- ru -- sa -- lem.
-  Et ca -- ni -- to Al -- le -- lu -- ja,
+  Et ca -- ni -- to Al -- le -- _ _ lu -- ja,
   Al -- _ _ _ le -- _ _  lu -- ja, Al -- le -- lu -- ja
 
   Rex Re -- gum at -- que coe -- lo -- rum
@@ -65,7 +65,7 @@ stanzaOneLyricsAlto = \lyricmode {
 	Gau -- de et lae -- ta -- re, Gau -- de et lae -- ta -- re,
   Gau -- de et lae -- ta -- re, Hie -- ru -- sa -- lem.
   Et ca -- ni -- to Al -- le -- lu -- ja, Al -- le -- lu -- ja,
-  Al -- le -- lu -- ja, Al -- le -- lu -- ja
+  Al -- le -- lu -- ja, Al -- le -- _ lu -- ja
 
   Rex Re -- gum at -- que coe -- lo -- rum
   Et Do -- mi -- nus An -- ge -- lo -- rum,
@@ -80,16 +80,16 @@ stanzaOneLyricsAlto = \lyricmode {
   mac -- hi -- na re -- gi -- tur,
 
   Et fac -- tus est ser -- vus hu -- mi -- lis.
-  Et in car -- _ _ ne no -- bis si -- mi -- lis.
+  Et in __ _ car -- _ _ ne no -- bis si -- mi -- lis.
   Al -- le -- lu -- ja,
-  Al -- le -- lu -- ja.
+  Al -- le -- _ lu -- ja.
 }
 
 stanzaOneLyricsTenore = \lyricmode {
 	Gau -- de et __ _ lae -- ta -- re, Gau -- de et lae -- ta -- re,
   Gau -- de et lae -- ta -- re, Hie -- ru -- sa -- lem.
   Et ca -- ni -- to Al -- le -- _ _ _ _ _ lu -- ja, __ _ _
-  Al -- le -- lu -- ja,
+  Al -- le -- _ lu -- ja,
   Al -- le -- _ _ lu -- _ _ ja.
 
   Rex Re -- gum at -- que coe -- lo -- rum
@@ -97,7 +97,7 @@ stanzaOneLyricsTenore = \lyricmode {
   An -- ge -- lo -- rum,
   Et Do -- mi -- nus An -- ge -- lo -- rum,
   An -- ge -- lo -- rum,
-  App -- ro -- ping -- va -- bit,
+  App -- ro -- ping -- va -- _ bit,
 
   As -- sump -- ta car -- ne ex Ma -- ri -- a Vir -- gi -- ne.
   Par -- vo que lac -- te pas -- tus est,
@@ -115,14 +115,14 @@ stanzaOneLyricsBass = \lyricmode {
   Gau -- de et lae -- ta -- re, Hie -- ru -- sa -- lem.
   Et ca -- ni -- to Al -- le -- _ _ lu -- ja,
   Al -- le -- lu -- _ _ ja,
-  Al -- le -- lu -- ja.
+  Al -- le -- _ lu -- _ ja.
 
   Rex Re -- gum at -- que coe -- lo -- rum
   Et Do -- mi -- nus An -- ge -- lo -- rum,
   An -- ge -- lo -- rum,
   Et Do -- mi -- nus An -- ge -- lo -- rum,
   An -- ge -- lo -- rum,
-  App -- ro -- ping -- va -- bit,
+  App -- ro -- ping -- _ va -- bit,
 
   As -- sump -- ta car -- ne ex Ma -- ri -- a Vir -- gi -- ne.
   Par -- vo que lac -- te pas -- tus est,
@@ -130,7 +130,7 @@ stanzaOneLyricsBass = \lyricmode {
   mac -- hi -- na re -- gi -- tur,
 
   Et fac -- tus est ser -- vus hu -- mi -- lis.
-  Et in car -- ne no -- bis si -- mi -- lis.
+  Et in car -- ne no -- bis __ _ si -- mi -- lis.
   Al -- le -- lu -- _ _ ja,
   Al -- le -- lu -- ja.
 }
@@ -147,7 +147,7 @@ AltoMusic = \relative c' {
   \undo \omit Slur
   e1. e2 | e1 e2 f( | f) e d d | c c r e | f g a g |
   e c c c | d d g,1 | r2 d' d b | c1. c2 |
-  \undo \omit Slur d( b) d1 | c\breve\fermata |
+  \undo \omit Slur d b d1 | c\breve\fermata |
 % 2
   f1 f | f2 e d d | c c r e | f f d e |
   f a g e | d2. e4 f2 f | f e d d |
@@ -162,8 +162,8 @@ AltoMusic = \relative c' {
 % 3
   r2 c d d | c c d d | g,1 r2 e'2 | f f g g |
   a1 g2 f | f e f f | e1 r2 e | e1 e2 f( | f) e d d | c c r e |
-  f( g) a2. g4 | e2 c c c | d d g,1 | r2 d' d b c1. c2 |
-  d( b) d1 | c\breve \bar "|."
+  f g a2. g4 | e2 c c c | d d g,1 | r2 d' d b c1. c2 |
+  d b d1 | c\breve \bar "|."
 }
 
 TenoreMusic = \relative c' {
@@ -176,7 +176,7 @@ TenoreMusic = \relative c' {
   \set Timing.measureLength = #(ly:make-moment 4/2)
 	c1 a2 c( | c) a1 a2 | b1 c | r2 f d c | d b c1 |
   c1. c2 | c1 c2 c( | c) c a b | g g r c | c e f d |
-  c f,4 g a b c2( | c) h c2. b4 | a2 b a( f) | a1 g2. a4 |
+  c f,4 g a b c2( | c) h c2. b4 | a2 b a f | a1 g2. a4 |
   b c d2 d c4 b | a\breve\fermata |
 % 2
   c1 c | c2 c a b | g g r c | c a b c |
@@ -188,7 +188,7 @@ TenoreMusic = \relative c' {
   \set Timing.measureLength = #(ly:make-moment 2/2)
   r2 c |
   \set Timing.measureLength = #(ly:make-moment 4/2)
-  d f f( e) | f1 r2 c | d c b1 | c2 c b b | c c es1( | es) c |
+  d f f e | f1 r2 c | d c b1 | c2 c b b | c c es1( | es) c |
 % 3
   r2 a b b | a c c b | c1 r2 c | c d e e |
   f1 d2 c | d b c c | c1 r2 c | c1 c2 c( | c) c a b | g g r c |
@@ -206,7 +206,7 @@ BassMusic = \relative c {
   \set Timing.measureLength = #(ly:make-moment 4/2)
 	r1 f | c2 f1 f2 | g1 f | r2 f g a | b g f1 |
   c1. c2 | c1 c2 f( | f) c d b | c c r c | f c f g |
-  a2. g4 f2 e | d1 c2 c | d b d1 | c\breve | b1 b4( c) d( e) | f\breve |
+  a2. g4 f2 e | d1 c2 c | d b d1 | c\breve | b1 b4 c d e | f\breve |
 % 2
   f1 f | f2 c d b | c c r c | f f g c, | f f g a | b g f1 | R\breve |
   \set Timing.measureLength = #(ly:make-moment 2/2)
@@ -216,10 +216,10 @@ BassMusic = \relative c {
   \set Timing.measureLength = #(ly:make-moment 2/2)
   r2 f |
   \set Timing.measureLength = #(ly:make-moment 4/2)
-  b a( g) g | f1 r2 f | f f g1 | f2 f g g | f f es1( | es) f |
+  b a g g | f1 r2 f | f f g1 | f2 f g g | f f es1( | es) f |
 % 3
   r2 f d d | f2. e4 d2 d | c1 r2 c | f d c c |
   f1 g2 a | b g f f | c1 r2 c | c1 c2 f( | f) c d b | c c r c |
-  f c f g | a2.( g4) f2 e | d1 c2 c | d b d1 | c\breve |
+  f c f g | a2. g4 f2 e | d1 c2 c | d b d1 | c\breve |
   b1 b2 b | f'\breve \bar "|."
 }
