@@ -80,6 +80,11 @@
 
     \clearpage
     \phantomsection
+    \addcontentsline{toc}{section}{Anima mea expectat Dominum}
+    \lilypondfile{songs/anima-mea-expectat-dominum/anima-mea-expectat-dominum.ly}
+
+    \clearpage
+    \phantomsection
     \addcontentsline{toc}{section}{Christe tibi vivo}
     \lilypondfile{songs/christe-tibi-vivo/christe-tibi-vivo.ly}
 
