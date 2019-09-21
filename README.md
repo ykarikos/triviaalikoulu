@@ -10,7 +10,7 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 
 ## Lähteet
 
-- [Porin triviaalikoulun ääni- eli stemmakirjat - JYX/Nuottijulkaisut](https://jyx.jyu.fi/handle/123456789/19464):
+- [Porin triviaalikoulun ääni- eli stemmakirjat – JYX/Nuottijulkaisut](https://jyx.jyu.fi/handle/123456789/19464):
  1. [Discantus](https://jyx.jyu.fi/dspace/handle/123456789/18957)
  2. [Altus](https://jyx.jyu.fi/dspace/handle/123456789/18955)
  3. [Tenor](https://jyx.jyu.fi/dspace/handle/123456789/18958)
@@ -33,18 +33,18 @@ Ladonnan voi suorittaa `make`-komennolla:
 
 ## Sisällys
 
-1. Ætas carmen melodiæ (á 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
-1. Anima mea expectat Dominum (á 8) – säveltäjä: Friedrich Weissensee (1560-1622)
-2. Christe tibi vivo (á 4) – säveltäjä tuntematon
-3. Christus adest justus (á 4) - säveltäjä tuntematon
-4. Christus factus est pro nobis (á 4) – säveltäjä tuntematon
-4. Ecce quam (á 4) - säveltäjä tuntematon
-5. Gaude et laetare (á 4) - säveltäjä tuntematon
-6. Gloria et honore (á 8) - säveltäjä: Jacobus Gallus (1550–1591)
-7. Gud wälsigna thetta huus (á 4) – säveltäjä tuntematon
-8. Jucundar jugiter (á 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
-9. Nunc Zymphonizate (á 5) - säveltäjä: Giovanni Gastoldi (n. 1554–1609)
-10. Susanna se, videns (á 4) – säveltäjä: Didier Lupi (n. 1520–1560)
+1. Ætas carmen melodiæ (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
+1. Anima mea expectat Dominum (à 8) – säveltäjä: Friedrich Weissensee (1560-1622)
+2. Christe tibi vivo (à 4) – säveltäjä tuntematon
+3. Christus adest justus (à 4) – säveltäjä tuntematon
+4. Christus factus est pro nobis (à 4) – säveltäjä tuntematon
+4. Ecce quam (à 4) – säveltäjä tuntematon
+5. Gaude et laetare (à 4) – säveltäjä tuntematon
+6. Gloria et honore (à 8) – säveltäjä: Jacobus Gallus (1550–1591)
+7. Gud wälsigna thetta huus (à 4) – säveltäjä tuntematon
+8. Jucundare jugiter (à 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
+9. Nunc Zymphonizate (à 5) – säveltäjä: Giovanni Gastoldi (n. 1554–1609)
+10. Susanna se, videns (à 4) – säveltäjä: Didier Lupi (n. 1520–1560)
 
 ## Lisenssi
 
