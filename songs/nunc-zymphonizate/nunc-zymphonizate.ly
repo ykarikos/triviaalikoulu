@@ -15,8 +15,6 @@
   tagline = "Lähde: https://triviaalikoulu.sonusborealis.fi"
 }
 
-#(set-global-staff-size 16)
-
 \paper {
   system-system-spacing.basic-distance = #18
   #(define fonts
