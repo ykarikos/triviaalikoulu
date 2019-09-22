@@ -2,6 +2,7 @@
 \header {
   title = "I Herrans Tienare"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
+  subsubtitle = "alla quarta bassa"
   composer = "tuntematon"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
