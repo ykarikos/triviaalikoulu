@@ -3,7 +3,7 @@
 global = {
 %  \numericTimeSignature
   \time 2/2
-%	\set Timing.measureLength = #(ly:make-moment 4/2)
+	\set Timing.measureLength = #(ly:make-moment 4/2)
 %  \autoBeamOff
   \key f \major
   \set Staff.midiInstrument = #"voice oohs"
@@ -14,9 +14,16 @@ SopranoMusic = \relative c'' {
 	\set Staff.instrumentName = #"Cantus"
 	\set Staff.shortInstrumentName = "C"
 
-	\incipit { \clef "mensural-c1" \key f \major \time 2/2 c''1. }
+	\incipit {
+    \clef "mensural-g"
+    \set Staff.middleCClefPosition = #3
+    \set Staff.middleCPosition = #3
+    \set Staff.clefPosition = #0
+    \key f \major
+    \time 2/2
+    c'1.
+  }
 
-  \set Timing.measureLength = #(ly:make-moment 4/2)
 	c1. a2 | c1 a2 c | b1 a | r2 c b a | f g a1 |
   g1. g2 | g1 g2 a( | a) g f f | e e r g | a c c h |
   c2. b4 a2 g | f1 e4 f g e | f1. e4 d | e2 f f1( | f) f2 f2 | f\breve\fermata |
@@ -139,9 +146,8 @@ AltoMusic = \relative c' {
 	\set Staff.instrumentName = #"Altus"
 	\set Staff.shortInstrumentName = "A"
 
-	\incipit { \clef "mensural-c3" \key f \major \time 2/2 r1 f }
+	\incipit { \clef "mensural-c3" \key f \major \time 2/2 r1 f' }
 
-  \set Timing.measureLength = #(ly:make-moment 4/2)
 	r1 f | e2 f1 f2 | \omit Slur d2.( e4) f1 |
   r2 a g f | f e f1 |
   \undo \omit Slur
@@ -170,10 +176,9 @@ TenoreMusic = \relative c' {
 	\set Staff.instrumentName = #"Tenor"
 	\set Staff.shortInstrumentName = "T"
 
-	\incipit { \clef "mensural-c4" \key f \major \time 2/2 c1 }
+	\incipit { \clef "mensural-c3" \key f \major \time 2/2 c'1 }
 
 	\clef "treble_8"
-  \set Timing.measureLength = #(ly:make-moment 4/2)
 	c1 a2 c( | c) a1 a2 | b1 c | r2 f d c | d b c1 |
   c1. c2 | c1 c2 c( | c) c a b | g g r c | c e f d |
   c f,4 g a b c2( | c) h c2. b4 | a2 b a f | a1 g2. a4 |
@@ -200,10 +205,17 @@ BassMusic = \relative c {
 	\set Staff.instrumentName = #"Bassus"
 	\set Staff.shortInstrumentName = "B"
 
-	\incipit { \clef "mensural-f" \key f \major \time 2/2 r1 f }
+  \incipit {
+    \clef "mensural-f"
+    \set Staff.middleCClefPosition = #4
+    \set Staff.middleCPosition = #4
+    \set Staff.clefPosition = #0
+    \override Staff.KeySignature.flat-positions = #'((-5 . 5))
+    \key f \major
+    \time 2/2 r1 f
+  }
 
 	\clef bass
-  \set Timing.measureLength = #(ly:make-moment 4/2)
 	r1 f | c2 f1 f2 | g1 f | r2 f g a | b g f1 |
   c1. c2 | c1 c2 f( | f) c d b | c c r c | f c f g |
   a2. g4 f2 e | d1 c2 c | d b d1 | c\breve | b1 b4 c d e | f\breve |
