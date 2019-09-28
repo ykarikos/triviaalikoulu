@@ -60,14 +60,14 @@ SopranoTwoMusic = \relative c' {
 	\incipit { \clef "mensural-g" \key a \minor \time 2/2 a'2 }
 
   \repeat volta 2 {
-    e2 a8 h c4 | c2 h4 h | a8 h c d e4 h | c8 h a4 g2 | a4. a8 c2 | h4 h8 a g4 f8 e |
+    e2 a8 h c4 | c2 h4 h | a8 h c d e4 h | c8 h a4 g2 | a4. a8 c2 | h4 h8 a g4 fis8 e |
     dis4 e2 dis4 | e2 r4 e'4( | e8) d c4 h a | g a e2 | e1 | e2
   }
   \repeat volta 2 {
-    r4 c' h c g g | r g h a | g g r g | g4. g8 a4. a8 | a4. a8 h4 h |
+    r4 c' h a g g | r g h a | g g r g | g4. g8 a4. a8 | a4. a8 h4 h |
 % 2
     c4. c8 h4. h8 | a4 a gis2 | a2 r4 a8 a | a4 a gis gis | a a r h8 a |
-    g4 g fis fis | g g r h8 a | g4 g fis fis | g g r c | h a e e | e e r fis |
+    g4 g fis fis | g g r h8 a | g4 g fis fis | g g r c | a a e e | e e r fis |
     e2 r4 fis | g2 r4 g4 | fis a a e8 e | e2. e4 | e2 r4 fis |
     e2 r4 fis | g2 r4 g4 | fis a a e8 e | e2. e4 | e2
   }
@@ -131,5 +131,32 @@ BassMusic = \relative c {
   }
 
 	\clef bass
-	a2 a8 h c4 | c2 g4 g | a2 e4 e | r a e'2 |
+  \repeat volta 2 {
+  	a2 a8 h c4 | c2 g4 g | a a e e | r a e'2 | a, a | e4. fis8 g4. a8 |
+    h4 c h2 | e4. fis8 g4 a | e2 e | e e4 e | e e e2 | a,2
+  }
+}
+
+stanzaOneLyricsBass = \lyricmode {
+	I Her -- _ rans Tie -- na -- re
+  lof -- wer Her -- ran och prij -- sar
+  Hans hel -- ga namn.
+  Lof -- wer med flöjt,
+  lof -- wer med flöjt,
+  lof -- wer med psal -- ta -- re och har -- por.
+
+  Ty han är nå -- dig och så barm -- her -- tig,
+  ja tå -- lig och af sto -- ra god -- het,
+  sto -- ra god -- het, sto -- ra god -- het,
+
+  lof -- wer med kla -- ra cym -- ba -- ler,
+  lå -- ter och the lu -- tor klin -- ga
+  lå -- ter och the lu -- tor klin -- ga
+  siun -- ger med ett gladt hiär -- ta,
+
+  lof prijs, lof prijs,
+  prijs _ wa -- re Gud _ i sin _ hög -- da thron
+
+  lof prijs, lof prijs,
+  prijs _ wa -- re Gud _ i sin _ hög -- da thron
 }
