@@ -42,7 +42,7 @@
         \SopranoTwoMusic
       }
      \new Lyrics \lyricsto "SopranoTwo" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsSopranoTwo
      }
     >>
     \new Staff <<

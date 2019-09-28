@@ -17,7 +17,7 @@ SopranoMusic = \relative c'' {
 	\incipit { \clef "mensural-g" \key a \minor \time 2/2 d''2 }
 
   \repeat volta 2 {
-  	a2 c8 d e4 | e2 d4 d | c2 h4 h | e8 d c4 h2 | a4 e e e8 fis | g4 g8 a h4 h |
+  	a2 c8 d e4 | e2 d4 d | c2 h4 h | e8 d c4 h2 | a4 e e e8 fis | g4 g8 a h4 g |
     fis e fis2 | g4 g8 a h4 a | g e'4. d8 c4 | h4 a g a | h a gis2 | a2
   }
   \repeat volta 2 {
@@ -59,11 +59,43 @@ SopranoTwoMusic = \relative c' {
 
 	\incipit { \clef "mensural-g" \key a \minor \time 2/2 a'2 }
 
-	e2 a8 h c4 | c2 h4 h |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata \bar "|."
+  \repeat volta 2 {
+    e2 a8 h c4 | c2 h4 h | a8 h c d e4 h | c8 h a4 g2 | a4. a8 c2 | h4 h8 a g4 f8 e |
+    dis4 e2 dis4 | e2 r4 e'4( | e8) d c4 h a | g a e2 | e1 | e2
+  }
+  \repeat volta 2 {
+    r4 c' h c g g | r g h a | g g r g | g4. g8 a4. a8 | a4. a8 h4 h |
+% 2
+    c4. c8 h4. h8 | a4 a gis2 | a2 r4 a8 a | a4 a gis gis | a a r h8 a |
+    g4 g fis fis | g g r h8 a | g4 g fis fis | g g r c | h a e e | e e r fis |
+    e2 r4 fis | g2 r4 g4 | fis a a e8 e | e2. e4 | e2 r4 fis |
+    e2 r4 fis | g2 r4 g4 | fis a a e8 e | e2. e4 | e2
+  }
 }
+
+stanzaOneLyricsSopranoTwo = \lyricmode {
+	I Her -- _ rans Tie -- na -- re
+  lof -- _ _ wer Her -- ran och _ prij -- sar
+  Hans hel -- ga hel -- ga _ namn.
+  Lof -- _ _ wer med flöjt,
+  lof -- wer ho -- nom med psal -- tare och har -- por.
+
+  Ty han är nå -- dig och så barm -- her -- tig,
+  ja tå -- lig och af sto -- ra god -- het,
+  sto -- ra god -- het, sto -- ra god -- het,
+
+  lof -- wer med kla -- ra cym -- ba -- ler,
+  lå -- ter och the lu -- tor klin -- ga
+  lå -- ter och the lu -- tor klin -- ga
+  siun -- ger med ett gladt hiär -- ta,
+
+  lof prijs, lof prijs,
+  prijs wa -- re Gud i sin hög -- da thron
+
+  lof prijs, lof prijs,
+  prijs wa -- re Gud i sin  hög -- da thron
+}
+
 
 AltoMusic = \relative c' {
 	\set Staff.instrumentName = #"Altus"
@@ -72,9 +104,6 @@ AltoMusic = \relative c' {
 	\incipit { \clef "mensural-c2" \key a \minor \time 2/2 f'2 }
 
 	c2 e4 c | c2 d4 h |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  d\breve\fermata
 }
 
 TenoreMusic = \relative c' {
@@ -85,9 +114,6 @@ TenoreMusic = \relative c' {
 
 	\clef "treble_8"
 	a2 a4 a | g2 g4 g |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata
 }
 
 BassMusic = \relative c {
@@ -106,7 +132,4 @@ BassMusic = \relative c {
 
 	\clef bass
 	a2 a8 h c4 | c2 g4 g | a2 e4 e | r a e'2 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g,\breve\fermata
 }
