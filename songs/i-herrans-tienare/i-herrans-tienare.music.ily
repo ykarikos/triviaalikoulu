@@ -16,25 +16,41 @@ SopranoMusic = \relative c'' {
 
 	\incipit { \clef "mensural-g" \key a \minor \time 2/2 d''2 }
 
-	a2 c8 d e4 | e2 d4 d | c2 h4 h | e8 d c4 h2 |
+  \repeat volta 2 {
+  	a2 c8 d e4 | e2 d4 d | c2 h4 h | e8 d c4 h2 | a4 e e e8 fis | g4 g8 a h4 h |
+    fis e fis2 | g4 g8 a h4 a | g e'4. d8 c4 | h4 a g a | h a gis2 | a2
+  }
+  \repeat volta 2 {
+    r4 e | g e e e | r e' d c | h h r h | h4. h8 c4. c8 | d4. d8 d4 d |
+% 2
+    e4. e8 d4. d8 | c4 c h2 | a r4 e'8 d | c4 c h  h | a a r d8 c |
+    h4 h a a | g g r d'8 c | h4 h a a | g g r  e' | c a gis gis | a a r a |
+    a2 r4 a | h2 r4 h8 c | d4. d8 c h a4( | a) gis8 fis gis4 gis | a2 r4 a |
+    a2 r4 a | h2 r4 h8 c | d4. d8 c h a4( | a) gis8 fis gis4 gis | a2
+  }
 }
 
 stanzaOneLyrics = \lyricmode {
 	I Her -- _ rans Tie -- na -- re
-  lof -- wer Her -- ran och prij -- sar Hans hel -- ga namn.
-  Lof -- wer med flöjt, lof -- wer ho -- nom med psal -- ta -- re och har -- por.
+  lof -- wer Her -- ran och prij -- sar
+  Hans _ hel -- _ _ _ _ _ _ ga hel -- ga namn.
+  Lof -- _ _ wer med flöjt,
+  lof -- wer ho -- nom med psal -- ta -- re och har -- por.
 
   Ty han är nå -- dig och så barm -- her -- tig,
-  ja tå -- lig och af sto -- ra god -- het, sto -- ra god -- het,
+  ja tå -- lig och af sto -- ra god -- het,
+  sto -- ra god -- het, sto -- ra god -- het,
 
-  lof -- wer med kla -- ra cym -- ba -- ler, lå -- ter och the lu -- tor klin -- ga
+  lof -- wer med kla -- ra cym -- ba -- ler,
+  lå -- ter och the lu -- tor klin -- ga
+  lå -- ter och the lu -- tor klin -- ga
   siun -- ger med ett gladt hiär -- ta,
 
   lof prijs, lof prijs,
-  prijs wa -- re Gud i sin hög -- da thron
+  prijs _ wa -- re Gud _ i sin _ hög -- da thron
 
   lof prijs, lof prijs,
-  prijs wa -- re Gud i sin hög -- da thron
+  prijs _ wa -- re Gud _ i sin _ hög -- da thron
 }
 
 SopranoTwoMusic = \relative c' {
