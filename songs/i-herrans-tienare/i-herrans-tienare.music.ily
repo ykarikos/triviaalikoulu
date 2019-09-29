@@ -135,6 +135,13 @@ BassMusic = \relative c {
   	a2 a8 h c4 | c2 g4 g | a a e e | r a e'2 | a, a | e4. fis8 g4. a8 |
     h4 c h2 | e4. fis8 g4 a | e2 e | e e4 e | e e e2 | a,2
   }
+  \repeat volta 2 {
+    r4 c | g a e' e | r c g a | e' e r e | e4. e8 a,4. a8 | d4. d8 g,4. g8 |
+    c4. c8 g4. g8 | a4 a e'2 | a, r4 a8 a | a4 a e' e | a, a r g8 g |
+    g4 g d' d | g, g r g8 g | g4 g d' d | g, g r a | a a e' e | a, a r d |
+    a2 r4 d | g,2 r4 g' | d4. d8 a4 a8 a | e'2. e4 | a,2 r4 d |
+    a2 r4 d | g,2 r4 g' | d4. d8 a4 a8 a | e'2. e4 | a,2
+  }
 }
 
 stanzaOneLyricsBass = \lyricmode {
@@ -155,8 +162,8 @@ stanzaOneLyricsBass = \lyricmode {
   siun -- ger med ett gladt hiär -- ta,
 
   lof prijs, lof prijs,
-  prijs _ wa -- re Gud _ i sin _ hög -- da thron
+  prijs wa -- re Gud i sin hög -- da thron
 
   lof prijs, lof prijs,
-  prijs _ wa -- re Gud _ i sin _ hög -- da thron
+  prijs wa -- re Gud i sin hög -- da thron
 }
