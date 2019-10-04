@@ -56,10 +56,11 @@ stanzaOneLyrics = \lyricmode {
   siun -- ger med ett gladt hiär -- ta,
 
   lof prijs, lof prijs,
-  prijs _ wa -- re Gud _ i sin _ hög -- da thron
+  prijs _ wa -- re Gud i sin hög -- _ _ da thron,
 
   lof prijs, lof prijs,
-  prijs _ wa -- re Gud _ i sin _ hög -- da thron
+  prijs _ wa -- re Gud i sin hög -- _ _ da thron,
+  thron.
 }
 
 SopranoTwoMusic = \relative c' {
@@ -109,10 +110,11 @@ stanzaOneLyricsSopranoTwo = \lyricmode {
   siun -- ger med ett gladt hiär -- ta,
 
   lof prijs, lof prijs,
-  prijs wa -- re Gud i sin hög -- da thron
+  prijs wa -- re Gud i sin hög -- da thron,
 
   lof prijs, lof prijs,
-  prijs wa -- re Gud i sin  hög -- da thron
+  prijs wa -- re Gud i sin  hög -- da thron,
+  thron.
 }
 
 
@@ -150,6 +152,32 @@ AltoMusic = \relative c' {
   }
 }
 
+stanzaOneLyricsAlto = \lyricmode {
+	I Her -- rans Tie -- na -- re
+  lof -- wer Her -- ran och prij -- sar
+  Hans hel -- ga namn.
+  Lof -- wer med flöjt,
+  lof -- wer med flöjt,
+  lof -- wer med psal -- ta -- re och har -- por.
+
+  Ty han är nå -- dig och så barm -- her -- tig,
+  ja tå -- lig och af sto -- ra god -- het,
+  sto -- ra god -- het, sto -- ra god -- het,
+
+  lof -- wer med kla -- ra cym -- ba -- ler,
+  lå -- ter och the lu -- tor klin -- ga
+  lå -- ter och the lu -- tor klin -- ga
+  siun -- ger med ett gladt hiär -- ta,
+
+  lof prijs, lof prijs,
+  prijs wa -- re Gud i sin hög -- da thron,
+
+  lof prijs, lof prijs,
+  prijs wa -- re Gud i sin hög -- da thron,
+  thron.
+}
+
+
 TenoreMusic = \relative c' {
 	\set Staff.instrumentName = #"Tenor"
 	\set Staff.shortInstrumentName = "T"
@@ -184,6 +212,33 @@ TenoreMusic = \relative c' {
     }
   }
 }
+
+stanzaOneLyricsTenore = \lyricmode {
+	I Her -- rans Tie -- na -- re
+  lof -- wer Her -- ran och _ prij -- _ sar
+  Hans hel -- ga _ namn.
+  Lof -- _ wer med flöjt,
+  lof -- wer med flöjt,
+  lof -- wer med flöjt,
+  lof -- wer med psal -- ta -- re och har -- por.
+
+  Ty han är nå -- dig och så barm -- her -- tig,
+  ja tå -- lig och af sto -- ra god -- het,
+  sto -- ra god -- het, sto -- ra god -- het,
+
+  lof -- wer med kla -- ra cym -- ba -- ler,
+  lå -- ter och the lu -- tor klin -- ga
+  lå -- ter och the lu -- tor klin -- ga
+  siun -- ger med ett gladt hiär -- ta,
+
+  lof prijs, lof prijs,
+  prijs wa -- re Gud i sin hög -- _ _ da thron,
+
+  lof prijs, lof prijs,
+  prijs wa -- re Gud i sin hög -- _ _ da thron,
+  thron.
+}
+
 
 BassMusic = \relative c {
 	\set Staff.instrumentName = #"Bassus"
@@ -241,8 +296,9 @@ stanzaOneLyricsBass = \lyricmode {
   siun -- ger med ett gladt hiär -- ta,
 
   lof prijs, lof prijs,
-  prijs wa -- re Gud i sin hög -- da thron
+  prijs wa -- re Gud i sin hög -- da thron,
 
   lof prijs, lof prijs,
-  prijs wa -- re Gud i sin hög -- da thron
+  prijs wa -- re Gud i sin hög -- da thron,
+  thron.
 }
