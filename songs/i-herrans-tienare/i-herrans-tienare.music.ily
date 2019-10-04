@@ -103,7 +103,22 @@ AltoMusic = \relative c' {
 
 	\incipit { \clef "mensural-c2" \key a \minor \time 2/2 f'2 }
 
-	c2 e4 c | c2 d4 h |
+  \repeat volta 2 {
+  	c2 e4 c | c2 d4 h | e2 e |
+    r4 a, h2 | c4 c8 d e2( | e) d |
+    h4 g h2 | r4 e4. d8 c4 | h4. a8 gis4 a |
+    e' e r e( | e8) d c4 h2 | cis
+  }
+  \repeat volta 2 {
+    r4 e | d c h h | r e g e | e e r e |
+    e4. e8 e4. e8 | fis4. fis8 g4 g |
+    g4. g8 g4. g8 | e4 e e2 | e r4 e8 e |
+    e4 e e e | e e r g8 g |
+    d4 d d d | d d r g8 g | d4 d d d |
+    d d r c8 d | e4 c h h | cis cis r d |
+    cis2 r4 d | d2 r4 d | d4. d8 e4 c8 c | e2 h | cis r4 d4 |
+    cis2 r4 d | d2 r4 d | d4. d8 e4 c8 c | e2 h | cis
+  }
 }
 
 TenoreMusic = \relative c' {
