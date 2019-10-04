@@ -3,7 +3,6 @@
 global = {
 %  \numericTimeSignature
   \time 2/2
-%  \set Timing.measureLength = #(ly:make-moment 4/2)
 %  \autoBeamOff
   \key a \minor
   \set Staff.midiInstrument = #"voice oohs"
@@ -26,7 +25,17 @@ SopranoMusic = \relative c'' {
     e4. e8 d4. d8 | c4 c h2 | a r4 e'8 d | c4 c h  h | a a r d8 c |
     h4 h a a | g g r d'8 c | h4 h a a | g g r  e' | c a gis gis | a a r a |
     a2 r4 a | h2 r4 h8 c | d4. d8 c h a4( | a) gis8 fis gis4 gis | a2 r4 a |
-    a2 r4 a | h2 r4 h8 c | d4. d8 c h a4( | a) gis8 fis gis4 gis | a2
+    a2 r4 a | h2 r4 h8 c | d4. d8 c h a4( | a) gis8 fis gis4 gis |
+  }
+  \alternative {
+    {
+      \set Timing.measureLength = #(ly:make-moment 1/2)
+      a2 |
+    }
+    {
+      \set Timing.measureLength = #(ly:make-moment 4/2)
+      a\breve \bar "|."
+    }
   }
 }
 
@@ -69,7 +78,17 @@ SopranoTwoMusic = \relative c' {
     c4. c8 h4. h8 | a4 a gis2 | a2 r4 a8 a | a4 a gis gis | a a r h8 a |
     g4 g fis fis | g g r h8 a | g4 g fis fis | g g r c | a a e e | e e r fis |
     e2 r4 fis | g2 r4 g4 | fis a a e8 e | e2. e4 | e2 r4 fis |
-    e2 r4 fis | g2 r4 g4 | fis a a e8 e | e2. e4 | e2
+    e2 r4 fis | g2 r4 g4 | fis a a e8 e | e2. e4 |
+  }
+  \alternative {
+    {
+      \set Timing.measureLength = #(ly:make-moment 1/2)
+      e2 |
+    }
+    {
+      \set Timing.measureLength = #(ly:make-moment 4/2)
+      e\breve \bar "|."
+    }
   }
 }
 
@@ -117,7 +136,17 @@ AltoMusic = \relative c' {
     d4 d d d | d d r g8 g | d4 d d d |
     d d r c8 d | e4 c h h | cis cis r d |
     cis2 r4 d | d2 r4 d | d4. d8 e4 c8 c | e2 h | cis r4 d4 |
-    cis2 r4 d | d2 r4 d | d4. d8 e4 c8 c | e2 h | cis
+    cis2 r4 d | d2 r4 d | d4. d8 e4 c8 c | e2 h |
+  }
+  \alternative {
+    {
+      \set Timing.measureLength = #(ly:make-moment 1/2)
+      cis2 |
+    }
+    {
+      \set Timing.measureLength = #(ly:make-moment 4/2)
+      cis\breve \bar "|."
+    }
   }
 }
 
@@ -142,7 +171,17 @@ TenoreMusic = \relative c' {
     d4 g, a a | h h r h8 c | d4 g, a a |
     h h r a | a a h h | a a r a |
     a2 r4 a | g2 r4 h | a fis e a | c h8 a h4 h | a2 r4 a |
-    a2 r4 a | g2 r4 h | a fis e a | c h8 a h4 h | a2
+    a2 r4 a | g2 r4 h | a fis e a | c h8 a h4 h |
+  }
+  \alternative {
+    {
+      \set Timing.measureLength = #(ly:make-moment 1/2)
+      a2 |
+    }
+    {
+      \set Timing.measureLength = #(ly:make-moment 4/2)
+      a\breve \bar "|."
+    }
   }
 }
 
@@ -170,7 +209,17 @@ BassMusic = \relative c {
     c4. c8 g4. g8 | a4 a e'2 | a, r4 a8 a | a4 a e' e | a, a r g8 g |
     g4 g d' d | g, g r g8 g | g4 g d' d | g, g r a | a a e' e | a, a r d |
     a2 r4 d | g,2 r4 g' | d4. d8 a4 a8 a | e'2. e4 | a,2 r4 d |
-    a2 r4 d | g,2 r4 g' | d4. d8 a4 a8 a | e'2. e4 | a,2
+    a2 r4 d | g,2 r4 g' | d4. d8 a4 a8 a | e'2. e4 |
+  }
+  \alternative {
+    {
+      \set Timing.measureLength = #(ly:make-moment 1/2)
+      a,2 |
+    }
+    {
+      \set Timing.measureLength = #(ly:make-moment 4/2)
+      a\breve \bar "|."
+    }
   }
 }
 
