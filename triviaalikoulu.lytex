@@ -120,6 +120,11 @@
 
     \clearpage
     \phantomsection
+    \addcontentsline{toc}{section}{I Herrans Tienare}
+    \lilypondfile{songs/i-herrans-tienare/i-herrans-tienare.ly}
+
+    \clearpage
+    \phantomsection
     \addcontentsline{toc}{section}{Jucundare jugiter}
     \lilypondfile{songs/jucundare-jugiter/jucundare-jugiter.ly}
 
