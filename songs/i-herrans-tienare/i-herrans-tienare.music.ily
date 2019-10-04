@@ -215,9 +215,8 @@ TenoreMusic = \relative c' {
 stanzaOneLyricsTenore = \lyricmode {
 	I Her -- rans Tie -- na -- re
   lof -- wer Her -- ran och _ prij -- _ sar
-  Hans hel -- ga _ namn.
-  Lof -- _ wer med flöjt,
-  lof -- wer med flöjt,
+  Hans hel -- ga, _ hel -- ga, _ hel -- ga namn.
+  Lof -- wer med flöjt,
   lof -- wer med flöjt,
   lof -- wer med psal -- ta -- re och har -- por.
 
@@ -280,7 +279,7 @@ BassMusic = \relative c {
 stanzaOneLyricsBass = \lyricmode {
 	I Her -- _ rans Tie -- na -- re
   lof -- wer Her -- ran och prij -- sar
-  Hans hel -- ga, helg -- ga, hel -- ga namn.
+  Hans hel -- ga, hel -- ga, hel -- ga namn.
   Lof -- wer med flöjt,
   lof -- wer med psal -- ta -- re och har -- por.
 

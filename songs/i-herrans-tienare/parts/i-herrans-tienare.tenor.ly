@@ -16,12 +16,12 @@
         \TenoreMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsTenore
       }
     >>
   >>
   \midi {
-    \tempo 4 = 160
+    \tempo 4 = 120
   }
   \layout {
     \context {
