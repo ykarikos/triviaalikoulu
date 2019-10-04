@@ -128,7 +128,7 @@ AltoMusic = \relative c' {
   	c2 e4 c | c2 d4 h | e2 e |
     r4 a, h2 | c4 c8 d e2( | e) d |
     h4 g h2 | r4 e4. d8 c4 | h4. a8 gis4 a |
-    e' e r e( | e8) d c4 h2 | cis
+    e' e r e | e8 d c4 h2 | cis
   }
   \repeat volta 2 {
     r4 e | d c h h | r e g e | e e r e |
@@ -154,10 +154,9 @@ AltoMusic = \relative c' {
 
 stanzaOneLyricsAlto = \lyricmode {
 	I Her -- rans Tie -- na -- re
-  lof -- wer Her -- ran och prij -- sar
-  Hans hel -- ga namn.
-  Lof -- wer med flöjt,
-  lof -- wer med flöjt,
+  lof -- wer och prij -- sar
+  Hans _ hel -- ga, hel -- ga namn.
+  Lof -- wer ho -- nom med flöjt,
   lof -- wer med psal -- ta -- re och har -- por.
 
   Ty han är nå -- dig och så barm -- her -- tig,
@@ -167,7 +166,7 @@ stanzaOneLyricsAlto = \lyricmode {
   lof -- wer med kla -- ra cym -- ba -- ler,
   lå -- ter och the lu -- tor klin -- ga
   lå -- ter och the lu -- tor klin -- ga
-  siun -- ger med ett gladt hiär -- ta,
+  siun -- _ ger med ett gladt hiär -- ta,
 
   lof prijs, lof prijs,
   prijs wa -- re Gud i sin hög -- da thron,
