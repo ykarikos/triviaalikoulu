@@ -280,9 +280,8 @@ BassMusic = \relative c {
 stanzaOneLyricsBass = \lyricmode {
 	I Her -- _ rans Tie -- na -- re
   lof -- wer Her -- ran och prij -- sar
-  Hans hel -- ga namn.
+  Hans hel -- ga, helg -- ga, hel -- ga namn.
   Lof -- wer med flöjt,
-  lof -- wer med flöjt,
   lof -- wer med psal -- ta -- re och har -- por.
 
   Ty han är nå -- dig och så barm -- her -- tig,
