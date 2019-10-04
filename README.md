@@ -42,9 +42,27 @@ Ladonnan voi suorittaa `make`-komennolla:
 5. Gaude et laetare (à 4) – säveltäjä tuntematon
 6. Gloria et honore (à 8) – säveltäjä: Jacobus Gallus (1550–1591)
 7. Gud wälsigna thetta huus (à 4) – säveltäjä tuntematon
+8. I Herrans Tienare (à 5) – säveltäjä tuntematon
 8. Jucundare jugiter (à 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
 9. Nunc Zymphonizate (à 5) – säveltäjä: Giovanni Gastoldi (n. 1554–1609)
 10. Susanna se, videns (à 4) – säveltäjä: Didier Lupi (n. 1520–1560)
+
+## Kappaleet työn alla
+
+Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
+- Ainoan Jumalan korkeudes'
+- Repleatur os meum
+- Cedit hiems eminus
+- Veni Sancte Spiritus (longum) à 5
+- Veni Sancte Spiritus (sovitus JV)
+- Veni Sancte Spiritus (originaali)
+- Si Angelus de coelo
+- Laus tibi Christe
+- Lobt Gott ihr Christen alle
+* Omnes gentes plaudite manibus
+* Mens confisa Deo
+* Ah Jesu mellitissime
+
 
 ## Lisenssi
 
