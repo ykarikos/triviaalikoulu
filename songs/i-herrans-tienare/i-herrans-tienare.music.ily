@@ -128,7 +128,22 @@ TenoreMusic = \relative c' {
 	\incipit { \clef "mensural-c3" \key a \minor \time 2/2 d'2 }
 
 	\clef "treble_8"
-	a2 a4 a | g2 g4 g |
+  \repeat volta 2 {
+	  a2 a4 a | g2 g4 g | e4. fis8 g4 g |
+    a8 h c d e4 e | e c8 h a4 g8 a | h4 g g2 |
+    r4 a h h | h2 h4 c8 d | e2 r4 e4(
+    | e8) d c4 h a | gis4 a h2 | a
+  }
+  \repeat volta 2 {
+    r4 g | g a e e | r c' d a | h h r h |
+    h4. h8 a4. a8 | a4. a8 g4 g |
+    g c d4. d8 | a4 a h2 | cis r4 c8 h |
+    a4 a h h | cis cis r h8 c |
+    d4 g, a a | h h r h8 c | d4 g, a a |
+    h h r a | a a h h | a a r a |
+    a2 r4 a | g2 r4 h | a fis e a | c h8 a h4 h | a2 r4 a |
+    a2 r4 a | g2 r4 h | a fis e a | c h8 a h4 h | a2
+  }
 }
 
 BassMusic = \relative c {
