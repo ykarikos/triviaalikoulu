@@ -19,7 +19,7 @@ SopranoOneMusic = \relative c'' {
   \repeat volta 2 {
   	\partial 4 c4 | a d c b | a2 a4 e' | f4. e8 d4 d |
     e2 r4 c | d c d e | f2 e4 e | f e d c |
-    g2 a4 c8 b | a4 f f e | f2 r4
+    b2 a4 c8 b | a4 f f e | f2 r4
   }
   \repeat volta 2 {
     c'4 | d4. d8 d4 c |
@@ -70,5 +70,16 @@ BassMusic = \relative c {
 	\incipit { \clef "mensural-f" \key d \minor \time 2/2 f4 }
 
 	\clef bass
-	\partial 4 f4 | f b a g | f2 f4
+  \repeat volta 2 {
+  	\partial 4 f4 | f b a g | f2 f4 c | f4. c8 g'4 g |
+    c,2 r4 f | d a b c | f,2 c'4 c | f c d a |
+    b2 f4 f8 g | a4 b c c | f,2 f'4(
+  }
+  \repeat volta 2 {
+    f4) | b,4. b8 b4 f' |
+    g4. g8 g4 f8 f | d4 c f g | c,2 r4 c8 c |
+    f2 r4 c8 c | d2 r4 a8 a | b2 r4 f8 f | c'2 r4 f,8 g |
+    a4 f c' c | f,2 r4 c'8 c | f4 c8 c d4 a8 a |
+    b4 f8 f c'4 f,8 g | a4 f c' c | f2.
+  }
 }
