@@ -32,7 +32,18 @@ SopranoOneMusic = \relative c'' {
 
 stanzaOneLyrics = \lyricmode {
 	Lobt Gott ihr Chris -- ten al -- le
-	% Mu -- si -- cirt, tri -- um -- phirt, ju -- bi -- lirt,
+  lobt Gott in him -- mels thron,
+  sing fröh -- lich und mitt schal -- le
+  sing fröh -- lich und mitt schal -- le
+  mitt den he -- li -- gen ? ?
+  Ge -- bo -- ren ist der Her -- re Christ,
+  Got -- tes und Ma -- ri -- as Son
+  Mu -- si -- cirt, tri -- um -- phirt,
+  ju -- bi -- lirt, mo -- du -- lirt
+  lo -- bet Gott in sü -- ßen thron.
+  Mu -- si -- cirt, tri -- um -- phirt,
+  ju -- bi -- lirt, mo -- du -- lirt
+  lo -- bet Gott in sü -- ßen thron.
 }
 
 SopranoTwoMusic = \relative c'' {
