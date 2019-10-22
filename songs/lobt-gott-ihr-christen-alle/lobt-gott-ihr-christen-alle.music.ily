@@ -16,7 +16,18 @@ SopranoOneMusic = \relative c'' {
 
 	\incipit { \clef "mensural-c1" \key d \minor \time 2/2 c'4 }
 
-	\partial 4 c4 | a d c b | a2 a4
+  \repeat volta 2 {
+  	\partial 4 c4 | a d c b | a2 a4 e' | f4. e8 d4 d |
+    e2 r4 c | d c d e | f2 e4 e | f e d c |
+    g2 a4 c8 b | a4 f f e | f2 r4
+  }
+  \repeat volta 2 {
+    c'4 | d4. d8 d4 c |
+    h4. h8 h4 c8 c | d4 e f d | e2 r4 e8 e |
+    f2 r4 e8 e | d2 r4 c8 c | b2 r4 a8 a | g2 r4 c8 b |
+    a4 a g g | a2 r4 e'8 e | f4 e8 e d4 c8 c |
+    b4 a8 a g4 c8 b | a4 a g g | a2.
+  }
 }
 
 stanzaOneLyrics = \lyricmode {
@@ -49,7 +60,7 @@ TenoreMusic = \relative c' {
 	\incipit { \clef "mensural-c4" \key d \minor \time 2/2 c'4 }
 
 	\clef "treble_8"
-	\partial 4 c4 | c d a b | c2 c4 
+	\partial 4 c4 | c d a b | c2 c4
 }
 
 BassMusic = \relative c {
