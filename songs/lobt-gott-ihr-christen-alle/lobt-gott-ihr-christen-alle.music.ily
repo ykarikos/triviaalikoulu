@@ -41,7 +41,18 @@ SopranoTwoMusic = \relative c'' {
 
 	\incipit { \clef "mensural-c1" \key d \minor \time 2/2 a'4 }
 
-	\partial 4 a4 | c b a b | c2 c4
+  \repeat volta 2 {
+  	\partial 4 a4 | c b a b | c2 c4 c | a4. c8 c4 h |
+    c2 r4 a4 | a c b g | a2 g4 c | c c a a |
+    f2 f4 a8 g | f4 f c' c | a2 r4
+  }
+  \repeat volta 2 {
+    a4 | b4. b8 b4 a |
+    g4. g8 g4 a8 a | f4 c' c h | c2 r4 c8 c |
+    c2 r4 c8 c | a2 r4 a8 a | f2 r4 f8 f | e2 r4 f8 d |
+    c4 f e e | f2 r4 c'8 c | c4 c8 c a4 a8 a |
+    f4 f8 f e4 f8 d | c4 f e e | f2.
+  }
 }
 
 AltoMusic = \relative c' {
