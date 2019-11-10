@@ -30,20 +30,22 @@ SopranoOneMusic = \relative c'' {
   }
 }
 
+% Sanojen lähde: "Psalm-singende Und Lobgesäng-spielende Kirche Christi In Des H. Röm. Reichs"
+% https://books.google.fi/books?id=_IbEDNe32scC&lpg=PA64&ots=gOW-IaE6Rp&hl=fi&pg=PA64#v=onepage&q&f=true
 stanzaOneLyrics = \lyricmode {
 	Lobt Gott ihr Chris -- ten al -- le
-  lobt Gott in him -- mels thron,
-  sing fröh -- lich und mitt schal -- le
-  sing fröh -- lich und mitt schal -- le
-  mitt den he -- li -- gen ? ?
+  lobt Gott ins him -- mels thron,
+  singt frö -- lich und mitt schal -- le
+  singt frö -- lich und mitt schal -- le
+  mitt den hei -- ligen En -- geln schon.
   Ge -- bo -- ren ist der Her -- re Christ,
   Got -- tes und Ma -- ri -- as Son
   Mu -- si -- cirt, tri -- um -- phirt,
   ju -- bi -- lirt, mo -- du -- lirt
-  lo -- bet Gott in sü -- ßen thron.
+  lo -- bet Gott in sü -- ßen thon.
   Mu -- si -- cirt, tri -- um -- phirt,
   ju -- bi -- lirt, mo -- du -- lirt
-  lo -- bet Gott in sü -- ßen thron.
+  lo -- bet Gott in sü -- ßen thon.
 }
 
 SopranoTwoMusic = \relative c'' {

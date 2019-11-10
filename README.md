@@ -16,6 +16,7 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
  3. [Tenor](https://jyx.jyu.fi/dspace/handle/123456789/18958)
  4. [Bassus](https://jyx.jyu.fi/dspace/handle/123456789/18956)
 - [Piae Cantiones](http://www.lillhannus.net/piae-cantiones/), edition © Mats Lillhannus, lupa käyttää lähteenä
+- [Psalm-singende Und Lobgesäng-spielende Kirche Christi In Des H. Röm. Reichs](https://books.google.fi/books?id=_IbEDNe32scC&lpg=PA64&ots=gOW-IaE6Rp&hl=fi&pg=PA64#v=onepage&q&f=true), lähteenä _Lobt Gott ihr Christen alle_ -kappaleen sanoituksessa
 
 
 ## Kirjan latominen
@@ -50,7 +51,6 @@ Ladonnan voi suorittaa `make`-komennolla:
 ## Kappaleet työn alla
 
 Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
-- Ainoan Jumalan korkeudes'
 - Repleatur os meum
 - Cedit hiems eminus
 - Veni Sancte Spiritus (longum) à 5
@@ -58,6 +58,7 @@ Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
 - Veni Sancte Spiritus (originaali)
 - Si Angelus de coelo
 - Laus tibi Christe
+* Ainoan Jumalan korkeudes'
 * Omnes gentes plaudite manibus
 * Mens confisa Deo
 * Ah Jesu mellitissime
