@@ -72,7 +72,18 @@ AltoMusic = \relative c' {
 
 	\incipit { \clef "mensural-c3" \key d \minor \time 2/2 f'4 }
 
-	\partial 4 f4 | f f f f | f2 f4
+  \repeat volta 2 {
+  	\partial 4 f4 | f f f f | f2 f4 g | f4. g8 g4 g |
+    g2 r4 f | f e d c | c2 e4 g | a g f e |
+    d2 c4 f8 d | c4 d c c | c2 r4
+  }
+  \repeat volta 2 {
+    f4 | f4. f8 f4 f |
+    d4. d8 d4 f8 f | f4 g a g | g2 r4 g8 g |
+    a2 r4 g8 g | f2 r4 e8 e | d2 r4 c8 c | c2 r4 a8 b |
+    c4 c c c | c2 r4 g'8 g | a4 g8 g f4 e8 e |
+    d4 c8 c c4 a8 b | c4 c c c | c2.
+  }
 }
 
 TenoreMusic = \relative c' {
