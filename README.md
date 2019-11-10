@@ -16,6 +16,7 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
  3. [Tenor](https://jyx.jyu.fi/dspace/handle/123456789/18958)
  4. [Bassus](https://jyx.jyu.fi/dspace/handle/123456789/18956)
 - [Piae Cantiones](http://www.lillhannus.net/piae-cantiones/), edition © Mats Lillhannus, lupa käyttää lähteenä
+- [Psalm-singende Und Lobgesäng-spielende Kirche Christi In Des H. Röm. Reichs](https://books.google.fi/books?id=_IbEDNe32scC&lpg=PA64&ots=gOW-IaE6Rp&hl=fi&pg=PA64#v=onepage&q&f=true), lähteenä _Lobt Gott ihr Christen alle_ -kappaleen sanoituksessa
 
 
 ## Kirjan latominen
@@ -44,13 +45,13 @@ Ladonnan voi suorittaa `make`-komennolla:
 7. Gud wälsigna thetta huus (à 4) – säveltäjä tuntematon
 8. I Herrans Tienare (à 5) – säveltäjä tuntematon
 8. Jucundare jugiter (à 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
+9. Lobt Gott ihr Christen alle (à 5) – säveltäjä tuntematon
 9. Nunc Zymphonizate (à 5) – säveltäjä: Giovanni Gastoldi (n. 1554–1609)
 10. Susanna se, videns (à 4) – säveltäjä: Didier Lupi (n. 1520–1560)
 
 ## Kappaleet työn alla
 
 Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
-- Ainoan Jumalan korkeudes'
 - Repleatur os meum
 - Cedit hiems eminus
 - Veni Sancte Spiritus (longum) à 5
@@ -58,7 +59,7 @@ Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
 - Veni Sancte Spiritus (originaali)
 - Si Angelus de coelo
 - Laus tibi Christe
-- Lobt Gott ihr Christen alle
+* Ainoan Jumalan korkeudes'
 * Omnes gentes plaudite manibus
 * Mens confisa Deo
 * Ah Jesu mellitissime

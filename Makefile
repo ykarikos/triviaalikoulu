@@ -9,7 +9,7 @@ PARTS_PDF := $(subst .ly,.pdf,$(PARTS))
 PARTS_MIDI := $(subst .ly,.midi,$(PARTS))
 PDF_CMD = cd $(OUTDIR) && xelatex $(BOOK)
 
-$(BOOK).pdf: $(BOOK).lytex introduction.tex copyright.tex $(NOTATION) facsimile/bassus.jpg cc-by-sa.png facsimile/christus-adest-justus.jpg
+$(BOOK).pdf: $(BOOK).lytex introduction.tex copyright.tex booksongs.tex $(NOTATION) facsimile/bassus.jpg cc-by-sa.png facsimile/christus-adest-justus.jpg
 	lilypond-book $(INCLUDESPEC) --output=$(OUTDIR) --pdf $<
 	$(PDF_CMD)
 	cd $(OUTDIR) && makeindex $(BOOK)
