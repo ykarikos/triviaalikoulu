@@ -16,14 +16,35 @@ SopranoMusic = \relative c'' {
 
 	\incipit { \clef "mensural-c1" \key d \minor \time 2/2 g'1 }
 
-	g1 g |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata \bar "|."
+  \repeat volta 2 {
+	  g1 | f2 g | a1 | b | a2 g | f g | g fis |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+  }
+  \alternative {
+    {
+      g1. g2
+    }
+    {
+      g\breve
+    }
+  }
+%  \set Timing.measureLength = #(ly:make-moment 4/2)
 }
 
 stanzaOneLyrics = \lyricmode {
-	Chris -- te
+	Laus ti -- bi Chris -- te qui sal -- vos nos ho -- mi -- nes.
+  Et \skip 1
+  De -- o  qui nos ho -- mi -- nes co -- pu -- las,
+  a -- vul -- sos pri -- us de -- lic -- tis La -- ren -- tum
+  Sus -- ci -- pe nos su -- mus e -- nim tu -- i
+}
+
+stanzaTwoLyrics = \lyricmode {
+   pro -- tec -- ti -- o -- ne tu -- a nos sus -- ci -- _
+   \repeat unfold 2 { \skip 1 }
+   pis.
+  \repeat unfold 21 { \skip 1 }
+  Et mi -- se -- re -- re nos -- tri Do -- mi -- nus.
 }
 
 AltoMusic = \relative c' {
@@ -32,23 +53,17 @@ AltoMusic = \relative c' {
 
 	\incipit { \clef "mensural-c3" \key d \minor \time 2/2 d'1 }
 
-	d1 d |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  d\breve\fermata
+	d1 | d2 d | f1 | f |
 }
 
 TenoreMusic = \relative c' {
 	\set Staff.instrumentName = #"Tenor"
 	\set Staff.shortInstrumentName = "T"
 
-	\incipit { \clef "mensural-c4" \key d \minor \time 2/2 b1 }
+	\incipit { \clef "mensural-c4" \key d \minor \time 2/2 g1 }
 
 	\clef "treble_8"
-	b1 b |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata
+	g1 | a2 b | c1 | d |
 }
 
 BassMusic = \relative c' {
@@ -58,8 +73,5 @@ BassMusic = \relative c' {
 	\incipit { \clef "mensural-f" \key d \minor \time 2/2 g1 }
 
 	\clef bass
-	g1 g |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g,\breve\fermata
+	g1 | d2 g | f1 | b |
 }
