@@ -28,7 +28,20 @@ SopranoMusic = \relative c'' {
       g\breve
     }
   }
-%  \set Timing.measureLength = #(ly:make-moment 4/2)
+  \set Timing.measureLength = #(ly:make-moment 2/2)
+  \repeat volta 2 {
+    g1 | g2 a | b1 | c | a2 d | d cis |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+    d\breve |
+    \set Timing.measureLength = #(ly:make-moment 2/2)
+    a1 | c2 b | a1 | a | g2 a | b a | g1 |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+    fis\breve
+    \set Timing.measureLength = #(ly:make-moment 2/2)
+    b1 | a2 g | f1 | g | b2 a | g1 | fis |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+    g\breve
+  }
 }
 
 stanzaOneLyrics = \lyricmode {
