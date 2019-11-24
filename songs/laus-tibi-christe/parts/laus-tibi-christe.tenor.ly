@@ -18,10 +18,13 @@
       \new Lyrics \lyricsto "Tenore" {
        \stanzaOneLyrics
       }
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaTwoLyrics
+      }
     >>
   >>
   \midi {
-    \tempo 4 = 160
+    \tempo 4 = 200
   }
   \layout {
     \context {

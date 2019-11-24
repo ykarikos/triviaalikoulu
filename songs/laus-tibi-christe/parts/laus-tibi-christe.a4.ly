@@ -9,11 +9,14 @@
   \new ChoirStaff <<
     \new Staff <<
       \new Voice = "Soprano" {
-		    \global
+        \global
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {
        \stanzaOneLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyrics
      }
     >>
     \new Staff <<
@@ -24,6 +27,9 @@
      \new Lyrics \lyricsto "Alto" {
        \stanzaOneLyrics
      }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaTwoLyrics
+     }
     >>
     \new Staff <<
       \new Voice = "Tenore" {
@@ -33,6 +39,9 @@
       \new Lyrics \lyricsto "Tenore" {
        \stanzaOneLyrics
       }
+      \new Lyrics \lyricsto "Tenore" {
+        \stanzaTwoLyrics
+      }
     >>
     \new Staff <<
       \new Voice = "Bass" {
@@ -41,6 +50,9 @@
       }
       \new Lyrics \lyricsto "Bass" {
        \stanzaOneLyrics
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaTwoLyrics
       }
     >>
   >>

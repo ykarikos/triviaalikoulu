@@ -79,6 +79,7 @@ AltoMusic = \relative c' {
 
   \repeat volta 2 {
 	  d1 | d2 d | f1 | f | f2 d | d r4 g, | d'2 d |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
   }
   \alternative {
     {
@@ -113,6 +114,7 @@ TenoreMusic = \relative c' {
 	\clef "treble_8"
   \repeat volta 2 {
 	  g1 | a2 b | c1 | d | c2 b | a g | a a |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
   }
   \alternative {
     {
