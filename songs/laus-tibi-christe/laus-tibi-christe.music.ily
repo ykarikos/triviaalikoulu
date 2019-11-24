@@ -65,8 +65,31 @@ AltoMusic = \relative c' {
 	\set Staff.shortInstrumentName = "A"
 
 	\incipit { \clef "mensural-c3" \key d \minor \time 2/2 d'1 }
-
-	d1 | d2 d | f1 | f |
+  \repeat volta 2 {
+	  d1 | d2 d | f1 | f | f2 d | d r4 g, | d'2 d |
+  }
+  \alternative {
+    {
+      d1. d2
+    }
+    {
+      d\breve
+    }
+  }
+  \set Timing.measureLength = #(ly:make-moment 2/2)
+  \repeat volta 2 {
+    d1 | d2 f | f1 | c | c2 d | a' a |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+    fis\breve |
+    \set Timing.measureLength = #(ly:make-moment 2/2)
+    d1 | c2 f | f1 | f | d2 f | f f | d1 |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+    d\breve |
+    \set Timing.measureLength = #(ly:make-moment 2/2)
+    f1 | f2 d | d1 | d | f2 f| d1 | d |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+    d\breve
+  }
 }
 
 TenoreMusic = \relative c' {
