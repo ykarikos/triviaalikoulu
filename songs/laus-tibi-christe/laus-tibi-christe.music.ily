@@ -99,7 +99,31 @@ TenoreMusic = \relative c' {
 	\incipit { \clef "mensural-c4" \key d \minor \time 2/2 g1 }
 
 	\clef "treble_8"
-	g1 | a2 b | c1 | d |
+  \repeat volta 2 {
+	  g1 | a2 b | c1 | d | c2 b | a g | a a |
+  }
+  \alternative {
+    {
+      g1. g2
+    }
+    {
+      g\breve
+    }
+  }
+  \set Timing.measureLength = #(ly:make-moment 2/2)
+  \repeat volta 2 {
+    g1 | b2 c | d1 | e | f2 f | e e |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+    d\breve |
+    \set Timing.measureLength = #(ly:make-moment 2/2)
+    f1 | e2 d | c1 | a | b2 c | d c | b1 |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+    a\breve |
+    \set Timing.measureLength = #(ly:make-moment 2/2)
+    d1 | c2 b | a1 | b | d2 c | b1 | a |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+    g\breve
+  }
 }
 
 BassMusic = \relative c' {
