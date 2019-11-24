@@ -86,5 +86,31 @@ BassMusic = \relative c' {
 	\incipit { \clef "mensural-f" \key d \minor \time 2/2 g1 }
 
 	\clef bass
-	g1 | d2 g | f1 | b |
+  \repeat volta 2 {
+	  g1 | d2 g | f1 | b | f2 g | d c | d d |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+  }
+  \alternative {
+    {
+      g1. g2
+    }
+    {
+      g\breve
+    }
+  }
+  \set Timing.measureLength = #(ly:make-moment 2/2)
+  \repeat volta 2 {
+    g1 | g2 f | b1 | a | f2 b | a a |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+    d,\breve |
+    \set Timing.measureLength = #(ly:make-moment 2/2)
+    d1 | a'2 b | f1 | f | g2 f | b, f' | g1 |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+    d\breve |
+    \set Timing.measureLength = #(ly:make-moment 2/2)
+    b1 | f'2 g | d1 | g | b,2 f' | g1 | d |
+    \set Timing.measureLength = #(ly:make-moment 4/2)
+    g\breve
+  }
+
 }
