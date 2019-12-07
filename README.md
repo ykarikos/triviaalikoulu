@@ -48,6 +48,7 @@ Ladonnan voi suorittaa `make`-komennolla:
 9. Laus tibi Christe (à 4) – säveltäjä tuntematon
 9. Lobt Gott ihr Christen alle (à 5) – säveltäjä tuntematon
 9. Nunc Zymphonizate (à 5) – säveltäjä: Giovanni Gastoldi (n. 1554–1609)
+10. Si Angelus de coelo (à 4) – säveltäjä tuntematon
 10. Susanna se, videns (à 4) – säveltäjä: Didier Lupi (n. 1520–1560)
 
 ## Kappaleet työn alla
@@ -58,7 +59,6 @@ Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
 - Veni Sancte Spiritus (longum) à 5
 - Veni Sancte Spiritus (sovitus JV)
 - Veni Sancte Spiritus (originaali)
-- Si Angelus de coelo
 * Ainoan Jumalan korkeudes'
 * Omnes gentes plaudite manibus
 * Mens confisa Deo

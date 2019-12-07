@@ -42,7 +42,7 @@ SopranoMusic = \relative c'' {
 stanzaOneLyrics = \lyricmode {
 	I Her -- _ rans Tie -- na -- re
   lof -- wer Her -- ran och prij -- sar
-  Hans _ hel -- _ _ _ _ _ _ ga hel -- ga namn.
+  Hans _ hel -- ga, _ hel -- ga, _ hel -- ga, hel -- ga namn.
   Lof -- _ _ wer med flöjt,
   lof -- wer ho -- nom med psal -- ta -- re och har -- por.
 
@@ -95,10 +95,10 @@ SopranoTwoMusic = \relative c' {
 
 stanzaOneLyricsSopranoTwo = \lyricmode {
 	I Her -- _ rans Tie -- na -- re
-  lof -- _ _ wer Her -- ran och _ prij -- sar
-  Hans hel -- ga hel -- ga _ namn.
-  Lof -- _ _ wer med flöjt,
-  lof -- wer ho -- nom med psal -- tare och har -- por.
+  lof -- _ wer _ Her -- ran och _ prij -- sar
+  Hans hel -- ga, hel -- ga, _
+  hel -- ga, _ he -- _ ga namn.
+  Lof -- _ wer med psal -- ta -- re och har -- por.
 
   Ty han är nå -- dig och så barm -- her -- tig,
   ja tå -- lig och af sto -- ra god -- het,
