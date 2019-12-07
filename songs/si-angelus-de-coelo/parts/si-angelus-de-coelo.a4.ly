@@ -15,6 +15,9 @@
      \new Lyrics \lyricsto "Soprano" {
        \stanzaOneLyrics
      }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyrics
+     }
     >>
     \new Staff <<
       \new Voice = "Alto" {

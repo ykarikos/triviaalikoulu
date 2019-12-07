@@ -22,17 +22,37 @@ SopranoMusic = \relative c' {
   }
   \repeat volta 2 {
     r2 a | h4 c c h | c2 a |
-    b4 a g2 | g f( | f) f | e1 |
+    b4 a g2 | g f | f f | e1 |
     r2 f | g a | g4 f g2 |
-    g2 a | b c | h4 c2 h4 | c2 a |
-    b4 a g f | e2 a | g f | f e |
+    g2 a | b c | h4 c2 h4 | c2 a4 a |
+    b a g f | e2 a | g f4 f | f2 e |
     \set Timing.measureLength = #(ly:make-moment 4/2)
     f\breve |
   }
 }
 
 stanzaOneLyrics = \lyricmode {
-	Si An -- ge -- lus de coe -- lo, a -- li -- ud
+	Si An -- ge -- lus de coe -- lo,
+  a -- li -- ud do -- cu -- e -- rit
+  quam nos do -- cu -- i -- mus.
+  Si An -- ge -- lus de coe -- lo
+  a -- li -- ud, do -- cu -- e -- rit vos,
+  a -- li -- ud a -- na -- the -- ma
+  sit do -- cu -- e -- _ rit vos,
+  a -- _ li -- ud a -- na -- the -- ma
+  sit, a -- na -- the -- ma sit.
+}
+
+stanzaTwoLyrics = \lyricmode {
+  Is -- tam e -- go di -- le -- xi
+  a ju -- ven -- tu -- te me -- a
+  hanc e -- go qua -- si -- vi.
+  Hanc stu -- du -- _ i ad -- jun -- ge -- _ re
+  mi -- hi in spon -- tam,
+  et pul -- chri -- tu -- di -- nis e -- jus,
+  pul -- chri -- tu -- di -- nis e -- jus,
+  a -- mo -- re cap -- tus sum
+  a -- mo -- re _ cap -- tus sum.
 }
 
 AltoMusic = \relative c' {
