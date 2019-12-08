@@ -31,7 +31,7 @@ global = {
         \TenoreTwoMusic
       }
       \new Lyrics \lyricsto "TenoreTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoTenore
       }
     >>
   >>
@@ -43,7 +43,7 @@ global = {
     \context {
       \Staff
       \consists "Ambitus_engraver"
-		
+
     }
     indent = 4\cm
     incipit-width = 2.5\cm

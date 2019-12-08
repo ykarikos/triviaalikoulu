@@ -42,7 +42,7 @@ global = {
         \SopranoOneMusic
       }
      \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneSoprano
      }
     >>
     \new Staff <<
@@ -99,7 +99,7 @@ global = {
         \TenoreTwoMusic
       }
       \new Lyrics \lyricsto "TenoreTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoTenore
       }
     >>
     \new Staff <<
