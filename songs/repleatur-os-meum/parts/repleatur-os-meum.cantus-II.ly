@@ -11,8 +11,6 @@ global = {
   \set Staff.midiInstrument = #"voice oohs"
 }
 
-\include "../repleatur-os-meum.lyrics.ily"
-
 % Second choir
 
 \include "../repleatur-os-meum.soprano-two.ily"
@@ -34,7 +32,7 @@ global = {
         \SopranoTwoMusic
       }
      \new Lyrics \lyricsto "SopranoTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoSoprano
      }
     >>
   >>
@@ -46,7 +44,7 @@ global = {
     \context {
       \Staff
       \consists "Ambitus_engraver"
-		
+
     }
     indent = 4\cm
     incipit-width = 2.5\cm
