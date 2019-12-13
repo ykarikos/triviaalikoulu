@@ -11,8 +11,6 @@ global = {
   \set Staff.midiInstrument = #"voice oohs"
 }
 
-\include "../repleatur-os-meum.lyrics.ily"
-
 % First choir
 
 \include "../repleatur-os-meum.soprano-one.ily"
@@ -51,7 +49,7 @@ global = {
         \AltoOneMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneAlto
      }
     >>
     \new Staff <<
@@ -60,7 +58,7 @@ global = {
         \TenoreOneMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneTenor
       }
     >>
     \new Staff <<

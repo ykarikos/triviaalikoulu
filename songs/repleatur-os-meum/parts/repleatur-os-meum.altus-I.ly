@@ -11,12 +11,9 @@ global = {
   \set Staff.midiInstrument = #"voice oohs"
 }
 
-\include "../repleatur-os-meum.lyrics.ily"
-
 % First choir
 
 \include "../repleatur-os-meum.alto-one.ily"
-
 
 \include "repleatur-os-meum.header.ily"
 
@@ -33,7 +30,7 @@ global = {
         \AltoOneMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneAlto
      }
     >>
   >>
@@ -45,7 +42,7 @@ global = {
     \context {
       \Staff
       \consists "Ambitus_engraver"
-		
+
     }
     indent = 4\cm
     incipit-width = 2.5\cm

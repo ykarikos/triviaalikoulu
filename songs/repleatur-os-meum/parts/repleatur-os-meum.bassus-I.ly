@@ -11,12 +11,9 @@ global = {
   \set Staff.midiInstrument = #"voice oohs"
 }
 
-\include "../repleatur-os-meum.lyrics.ily"
-
 % First choir
 
 \include "../repleatur-os-meum.bass-one.ily"
-
 
 \include "repleatur-os-meum.header.ily"
 
