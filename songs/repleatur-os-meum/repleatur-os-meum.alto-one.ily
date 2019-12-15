@@ -26,7 +26,7 @@ AltoOneMusic = \relative c' {
 	}
 	\alternative {
 		{
-			g\breve f1 |
+			g\breve fis1 |
 		}
 		{
 			g\breve r1 |
