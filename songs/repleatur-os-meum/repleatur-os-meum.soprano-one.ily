@@ -14,8 +14,11 @@ SopranoOneMusic = \relative c'' {
 % p3
 	r4 h2 d4 cis2 d | r1 r2 d2 |
 	\time 3/1
+	\tempo 1 = 320
+	\set Score.tempoHideNote = ##t
 	\repeat volta 2 {
-		d\breve d1 | d1. d2 d1 | c\breve a1 | c\breve d1 | b1. b2 g1 | a b c |
+		d\breve^\markup { \halign #6 \note #"2" #1 = \note #"breve" #0 }
+		d1 | d1. d2 d1 | c\breve a1 | c\breve d1 | b1. b2 g1 | a b c |
 		g a\breve | h\breve r1 | \repeat unfold 7 { R\breve. }
 % p4
 		r\breve d1 | d\breve d1 | d1. d2 d1 | c\breve c1 | c\breve d1 |
