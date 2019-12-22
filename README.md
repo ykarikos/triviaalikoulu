@@ -55,7 +55,7 @@ Ladonnan voi suorittaa `make`-komennolla:
 	```
 1. Lado kirja komennolla
 	```
-	docker run  -v "$PWD:/tk" -w "/tk" triviaalikoulu-make
+	docker run --rm -v "$PWD:/tk" -w "/tk" triviaalikoulu-make
 	```
 
 ## Sisällys
