@@ -1,10 +1,16 @@
 #!/bin/bash
 
 SONG="$1"
+PART="$2"
 SONGFILENAME=`echo -n $SONG | tr [:upper:] [:lower:] | sed 's/ /-/g'`
-SONGDIR="songs/${SONGFILENAME}"
-SOURCE="${SONGFILENAME}.ly"
 BASEDIR="/triviaalikoulu"
+SONGDIR="songs/${SONGFILENAME}"
+
+if [ "$PART" == "" ]; then
+	SOURCE="${SONGFILENAME}.ly"
+else
+	SOURCE="parts/${SONGFILENAME}.${PART}.ly"
+fi
 
 if [ ! -f "$PWD/${SONGDIR}/$SOURCE" ]; then
 	echo "$PWD/${SONGDIR}/$SOURCE source for ${SONG} does not exist."

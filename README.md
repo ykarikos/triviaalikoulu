@@ -35,9 +35,11 @@ Ladonnan voi suorittaa `make`-komennolla:
 
 1. Asenna [Docker](https://www.docker.com/)
 1. Luo docker-image: [lilypond](https://github.com/ykarikos/lilypond-docker)
-1. Lado yksittäinen nuotti esim. komennolla: 
+1. Lado yksittäinen nuotti esimerkiksi seuraavilla komennoilla: 
 	```
 	docker/build-song.sh "Ecce Quam"
+	docker/build-song.sh "Ecce Quam" a4
+	docker/build-song.sh "Repleatur os meum" coro-I
 	```
 
 ### Koko kirjan latominen Dockerilla
