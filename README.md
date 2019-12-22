@@ -51,7 +51,7 @@ Ladonnan voi suorittaa `make`-komennolla:
 	- `Palatino.ttc`
 1. Luo docker-image *triviaalikoulu-make*:
 	```
-	docker build -t triviaalikoulu-make .
+	docker build -t triviaalikoulu-make docker
 	```
 1. Lado kirja komennolla
 	```
