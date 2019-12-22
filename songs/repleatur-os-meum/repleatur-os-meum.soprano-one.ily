@@ -17,8 +17,7 @@ SopranoOneMusic = \relative c'' {
 	\tempo 1 = 320
 	\set Score.tempoHideNote = ##t
 	\repeat volta 2 {
-		d\breve^\markup { \halign #6 \note #"2" #1 = \note #"breve" #0 }
-		d1 | d1. d2 d1 | c\breve a1 | c\breve d1 | b1. b2 g1 | a b c |
+		d\breve d1 | d1. d2 d1 | c\breve a1 | c\breve d1 | b1. b2 g1 | a b c |
 		g a\breve | h\breve r1 | \repeat unfold 7 { R\breve. }
 % p4
 		r\breve d1 | d\breve d1 | d1. d2 d1 | c\breve c1 | c\breve d1 |
@@ -39,10 +38,10 @@ SopranoOneMusic = \relative c'' {
 }
 
 stanzaOneLyricsChoirOneSoprano = \lyricmode {
-    Rep -- le -- a -- tur os me -- um,
-    rep -- le -- a -- tur lau -- de tu -- a,
-    lau -- de tu -- a, lau -- de tu -- a,
-    lau -- _ _ _ de tu -- a.
+    Rep -- le -- a -- _ _ _ _ _ tur __ _ os me -- um,
+    lau -- _ _ de tu -- a, 
+    lau -- _ _ de,
+    lau -- de __ _ _ _ tu -- a.
     Al -- le -- lu -- ja, al -- le -- lu -- ja
     Al -- le -- lu -- ja
     Al -- le -- lu -- ja, al -- le -- lu -- ja,
