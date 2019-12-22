@@ -31,6 +31,31 @@ Ladonnan voi suorittaa `make`-komennolla:
 * `make all` – latoo sekä kirjan että erilliset nuotit
 * `make clean` – poistaa kaikki ladotut tiedostot
 
+### Yksittäisen nuotin latominen Dockerilla
+
+1. Asenna [Docker](https://www.docker.com/)
+1. Luo docker-image: [lilypond](https://github.com/ykarikos/lilypond-docker)
+1. Lado yksittäinen nuotti esim. komennolla: 
+	```
+	docker/build-song.sh "Ecce Quam"
+	```
+
+### Koko kirjan latominen Dockerilla
+
+1. Luo docker-image [lilypond-book](https://github.com/ykarikos/lilypond-docker)
+1. Kopioi seuraavat fontit `docker`-hakemistoon:
+	- `Casablanca-Antique.ttf`
+	- `Helvetica.ttc`
+	- `Palatino.ttc`
+1. Luo docker-image *triviaalikoulu-make*:
+	```
+	docker build -t triviaalikoulu-make .
+	```
+1. Lado kirja komennolla
+	```
+	docker run  -v "$PWD:/tk" -w "/tk" triviaalikoulu-make
+	```
+
 ## Sisällys
 
 1. Ætas carmen melodiæ (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
