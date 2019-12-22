@@ -17,4 +17,4 @@ if [ ! -f "$PWD/${SONGDIR}/$SOURCE" ]; then
 	exit 1;
 fi
 
-docker run --rm -v "${PWD}:${BASEDIR}" -w "${BASEDIR}/${SONGDIR}" lilypond "${SOURCE}"
+docker run --rm -v "${PWD}:${BASEDIR}" -w "${BASEDIR}/${SONGDIR}" ykarikos/lilypond "${SOURCE}"
