@@ -1,7 +1,7 @@
 \version "2.19.49"
 \include "suomi.ly"
 
-#(set-global-staff-size 16)
+\include "../paper-margins.ily"
 
 global = {
 %  \numericTimeSignature
@@ -41,16 +41,6 @@ global = {
   copyright = "Nuotit on lisensoitu Creative Commons Nimeä-JaaSamoin 3.0 (CC BY-SA 3.0) -ehdoin."
   tagline = "Lähde: https://triviaalikoulu.sonusborealis.fi"
 }
-
-\paper {
-	system-separator-markup = \slashSeparator
-    #(define fonts
-        (make-pango-font-tree "Palatino"
-                              "Nimbus Sans"
-                              "Luxi Mono"
-                              (/ staff-height pt 20)))
-}
-
 
 
 \score {
