@@ -39,8 +39,7 @@ BassOneMusic = \relative c' {
 stanzaOneLyricsChoirOneBass = \lyricmode {
     Rep -- le -- a -- tur os me -- um,
     lau -- _ _ _ _ de tu -- a,
-    lau -- _ de tu -- a,
-		lau -- de __ _ _ _ tu -- a.
+		lau -- _ _ _ de tu -- _ _ _ _ _ a.
     Al -- le -- lu -- ja, al -- le -- lu -- ja
     Al -- le -- lu -- ja
     Al -- le -- lu -- ja, al -- le -- lu -- ja,

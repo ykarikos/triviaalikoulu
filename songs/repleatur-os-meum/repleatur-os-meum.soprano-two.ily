@@ -42,13 +42,9 @@ SopranoTwoMusic = \relative c'' {
 
 
 stanzaOneLyricsChoirTwoSoprano = \lyricmode {
-    Rep -- le -- a -- tur os me -- um,
-		rep -- le -- a -- tur
-		lau -- de tu -- a,
-		lau -- de tu -- _ _ _ a,
-		lau -- de tu -- a,
-		lau -- de tu -- a,
-		lau -- de tu -- _ _ a.
+    Rep -- le -- a -- _ _ _ _ _ _ tur os me -- um,
+		lau -- _ _ de tu -- _ _ _ a,
+		lau -- _ _ de, lau -- _ _ _ de tu -- _ _ _ a.
 
     Al -- le -- lu -- ja, al -- le -- lu -- ja
     Al -- le -- lu -- ja

@@ -38,8 +38,7 @@ AltoOneMusic = \relative c' {
 }
 
 stanzaOneLyricsChoirOneAlto = \lyricmode {
-    Rep -- le -- a -- tur os me -- um,
-    rep -- le -- a -- tur
+    Rep -- _ _ _ _ le -- a -- tur os me -- um
     lau -- de tu -- _ _ _ _ _ _ _ a,
     lau -- _ _ _ _ _ de tu -- a.
     Al -- le -- lu -- ja, al -- le -- lu -- ja
