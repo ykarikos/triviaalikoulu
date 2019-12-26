@@ -17,12 +17,13 @@ stanzaOneLyricsChoirOneSoprano = \lyricmode {
 
 stanzaOneLyricsChoirOneAlto = \lyricmode {
     A -- ni -- ma me -- a,
-    a -- ni -- ma me -- a ex -- pec -- tat Do -- _ _ _ _ _ mi -- num
+    a -- ni -- ma me -- a ex -- pec -- tat
+    Do -- _ _ _ _ _ mi -- num
     ad vi -- gi -- li -- a ad vi -- gi -- li -- a
-    ma -- tu -- ti -- nam us -- _ que ad vi -- gi -- li -- _ _ am
+    ma -- tu -- ti -- _ _ _ _ nam
+    us -- que ad __ _ _ _
     ma -- tu -- ti -- nam us -- que
-    ad _ vi -- gi -- li -- _ _ _ am
-    ma -- tu -- ti -- nam.
+    ad __ _ _ ma -- _ _ _ _ tu -- ti -- nam.
     Spe -- ret Is -- _ _ ra -- el in De -- o, qui -- a a -- pud e -- um
     mi -- se -- ri -- cor -- di -- a,
     mi -- se -- ri -- cor -- di -- a,
@@ -38,11 +39,12 @@ stanzaOneLyricsChoirOneAlto = \lyricmode {
 
 stanzaOneLyricsChoirOneTenore = \lyricmode {
   A -- ni -- ma me -- a,
-  a -- ni -- ma me -- a ex -- pec -- _ tat Do -- _ mi -- num
+  a -- ni -- ma me -- a ex -- pec -- _ _ tat Do -- mi -- num
   ad vi -- gi -- li -- a ad vi -- gi -- li -- a
-  ma -- tu -- ti -- _ _ _ nam
-  us -- _ _ _ _ _ _ que ad vi -- gi -- li -- am
-  ma -- tu -- _ ti -- _ _ _ nam.
+  ma -- tu -- ti -- _ _ nam
+  us -- que __ _ _ _ _ _ ad vi -- gi -- li -- _ am
+  ma -- tu -- ti -- _ nam,
+  ma -- tu -- ti -- nam.
   Spe -- ret Is -- ra -- el in __ _ _ De -- o,
   qui -- a a -- pud e -- _ um
   mi -- se -- ri -- cor -- di -- a,
@@ -96,10 +98,10 @@ stanzaOneLyricsChoirTwoAlto = \lyricmode {
     A -- ni -- ma me -- a,
     a -- ni -- ma me -- a ex -- pec -- tat Do -- _ _ _ _ _  mi -- num
     ad vi -- gi -- li -- a ad vi -- gi -- li -- a
-    ma -- tu -- _ ti -- _ _ _ nam.
-    Us -- que _ ad vi -- _ _ _ gi -- _ _ _ _ li -- am
-    ad vi -- gi -- li -- am
-    ma -- _ _ tu -- ti -- nam.
+    ma -- tu -- _ _ ti -- _ _ nam.
+    Us -- que __ _ _ ad __ _ _ _ _ _ _ _ _ _
+    vi -- gi -- _ _ _ _ li -- am
+    ma -- tu -- ti -- nam.
     Mi -- se -- ri -- cor -- di -- a,
     mi -- se -- ri -- cor -- di -- a,
     mi -- se -- ri -- cor -- di -- a,
@@ -115,11 +117,11 @@ stanzaOneLyricsChoirTwoAlto = \lyricmode {
 
 stanzaOneLyricsChoirTwoTenore = \lyricmode {
     A -- ni -- ma me -- a,
-    a -- ni -- ma me -- a ex -- pec -- _ tat Do -- _  mi -- num
+    a -- ni -- ma me -- a ex -- pec -- _ _ tat Do -- mi -- num
     ad vi -- gi -- li -- a ad vi -- gi -- li -- a
-    ma -- tu -- ti -- nam us -- que _  ad __ _ _ _
-    vi -- gi -- li -- _ am _ ma -- tu -- ti -- nam,
-    us -- que ad  ma -- tu -- ti -- nam.
+    ma -- tu -- ti -- nam us -- que __ _ _ _ _ _ _
+    ad vi -- _ _ _ _ gi -- li -- am
+    us -- que ad ma -- tu -- ti -- nam.
     Mi -- se -- ri -- cor -- di -- a,
     mi -- se -- ri -- cor -- di -- a,
     mi -- se -- ri -- cor -- di -- a,
@@ -135,11 +137,13 @@ stanzaOneLyricsChoirTwoTenore = \lyricmode {
 
 stanzaOneLyricsChoirTwoBass = \lyricmode {
     A -- ni -- ma me -- a,
-    a -- ni -- ma me -- a ex -- pec -- _ _ _ _ tat Do -- mi -- num
+    a -- ni -- ma me -- a ex -- pec -- _ _ _ _ tat
+    Do -- mi -- num
     ad vi -- gi -- li -- a ad vi -- gi -- li -- a
-    ma -- tu -- ti -- _ nam us -- que ad __ vi -- gi -- li -- am
+    ma -- tu -- ti -- nam __ _
+    us -- que ad __ vi -- gi -- li -- am
     ma -- tu -- ti -- nam, ma -- tu -- ti -- nam.
-    mi -- se -- ri -- cor -- di -- a,
+    Mi -- se -- ri -- cor -- di -- a,
     mi -- se -- ri -- cor -- di -- a,
     mi -- se -- ri -- cor -- di -- a,
     mi -- se -- ri -- cor -- di -- a,
