@@ -1,6 +1,7 @@
-\version "2.19.49"
+\version "2.19.80"
 \include "suomi.ly"
 
+\include "../paper-margins.ily"
 \include "aetas-carmen-melodiae.music.ily"
 
 \header {
@@ -13,14 +14,6 @@
   maintainer = "Yrjö Kari-Koskinen"
   copyright = "Nuotit on lisensoitu Creative Commons Nimeä-JaaSamoin 3.0 (CC BY-SA 3.0) -ehdoin."
   tagline = "Lähde: https://triviaalikoulu.sonusborealis.fi"
-}
-
-\paper {
-    #(define fonts
-        (make-pango-font-tree "Palatino"
-                              "Nimbus Sans"
-                              "Luxi Mono"
-                              (/ staff-height pt 20)))
 }
 
 \score {

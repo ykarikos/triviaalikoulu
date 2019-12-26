@@ -1,6 +1,8 @@
 \version "2.19.49"
 \include "suomi.ly"
 
+\include "../paper-margins.ily"
+
 #(set-global-staff-size 16)
 
 global = {
@@ -42,14 +44,7 @@ global = {
 
 \paper {
 	system-separator-markup = \slashSeparator
-    #(define fonts
-        (make-pango-font-tree "Palatino"
-                              "Nimbus Sans"
-                              "Luxi Mono"
-                              (/ staff-height pt 20)))
 }
-
-
 
 \score {
 <<

@@ -39,10 +39,9 @@ TenoreOneMusic = \relative c' {
 }
 
 stanzaOneLyricsChoirOneTenor = \lyricmode {
-    Rep -- le -- a -- _ tur _ os me -- _ _ um,
-    lau -- _ _ de tu -- _ _ a,
-    lau -- _ de tu -- _ _ a,
-		lau -- _ de _ tu -- a.
+    Rep -- le -- a -- _ _ _ _ tur os me -- um,
+    lau -- _ _ de tu -- _ _ _ a, __ _ _
+    lau -- _ _ de tu -- _ _ _ _ a.
     Al -- le -- lu -- ja, al -- le -- lu -- ja
     Al -- le -- lu -- ja
     Al -- le -- lu -- ja,

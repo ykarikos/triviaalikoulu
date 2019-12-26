@@ -1,6 +1,8 @@
 \version "2.19.80"
 \include "suomi.ly"
 
+\include "../paper-margins.ily"
+
 \include "nunc-zymphonizate.music.ily"
 
 \header {
@@ -17,13 +19,7 @@
 
 \paper {
   system-system-spacing.basic-distance = #18
-  #(define fonts
-      (make-pango-font-tree "Palatino"
-                            "Nimbus Sans"
-                            "Luxi Mono"
-                            (/ staff-height pt 20)))
 }
-
 
 \score {
   \new ChoirStaff <<

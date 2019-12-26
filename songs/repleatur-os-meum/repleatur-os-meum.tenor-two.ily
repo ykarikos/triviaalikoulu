@@ -41,8 +41,8 @@ TenoreTwoMusic = \relative c' {
 }
 
 stanzaOneLyricsChoirTwoTenore = \lyricmode {
-    Rep -- le -- a -- _ tur _ os me -- _ um,
-		lau -- _ _ _ _ _ _ _ _ de tu -- a,
+    Rep -- le -- a -- _ _ _ _ tur os me -- um,
+		lau -- _ _ _ _ _ _ _ de tu -- a,
 		tu -- _ _ _ _ a.
     Al -- le -- lu -- ja, al -- le -- lu -- ja
     Al -- le -- lu -- ja

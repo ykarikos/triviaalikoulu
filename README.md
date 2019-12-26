@@ -10,13 +10,14 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 
 ## Lähteet
 
-- [Porin triviaalikoulun ääni- eli stemmakirjat – JYX/Nuottijulkaisut](https://jyx.jyu.fi/handle/123456789/19464):
+- Ensisijainen nuottilähde: [Porin triviaalikoulun ääni- eli stemmakirjat – JYX/Nuottijulkaisut](https://jyx.jyu.fi/handle/123456789/19464), 1725
  1. [Discantus](https://jyx.jyu.fi/dspace/handle/123456789/18957)
  2. [Altus](https://jyx.jyu.fi/dspace/handle/123456789/18955)
  3. [Tenor](https://jyx.jyu.fi/dspace/handle/123456789/18958)
  4. [Bassus](https://jyx.jyu.fi/dspace/handle/123456789/18956)
 - [Piae Cantiones](http://www.lillhannus.net/piae-cantiones/), edition © Mats Lillhannus, lupa käyttää lähteenä
-- [Psalm-singende Und Lobgesäng-spielende Kirche Christi In Des H. Röm. Reichs](https://books.google.fi/books?id=_IbEDNe32scC&lpg=PA64&ots=gOW-IaE6Rp&hl=fi&pg=PA64#v=onepage&q&f=true), lähteenä _Lobt Gott ihr Christen alle_ -kappaleen sanoituksessa
+- [Florilegium Portense I](https://imslp.org/wiki/Florilegium_Portense_I_(Bodenschatz%2C_Erhard)), 1618, lähteenä _Repleatur os meum_ -kappaleen tavutuksessa
+- [Psalm-singende Und Lobgesäng-spielende Kirche Christi In Des H. Röm. Reichs](https://books.google.fi/books?id=_IbEDNe32scC&lpg=PA64&ots=gOW-IaE6Rp&hl=fi&pg=PA64#v=onepage&q&f=true), 1704, lähteenä _Lobt Gott ihr Christen alle_ -kappaleen sanoituksessa
 
 
 ## Kirjan latominen
@@ -31,6 +32,33 @@ Ladonnan voi suorittaa `make`-komennolla:
 * `make all` – latoo sekä kirjan, erilliset nuotit että html-sivun
 * `make clean` – poistaa kaikki ladotut tiedostot
 * `make index.html` - latoo html-sivun, jossa on linkit kaikkiin yksittäisten kappaleiden nuotteihin ja midi-stemmoihin
+
+### Yksittäisen nuotin latominen Dockerilla
+
+1. Asenna [Docker](https://www.docker.com/)
+1. Luo docker-image: [lilypond](https://github.com/ykarikos/lilypond-docker)
+1. Lado yksittäinen nuotti esimerkiksi seuraavilla komennoilla:
+	```
+	docker/build-song.sh "Ecce Quam"
+	docker/build-song.sh "Ecce Quam" a4
+	docker/build-song.sh "Repleatur os meum" coro-I
+	```
+
+### Koko kirjan latominen Dockerilla
+
+1. Luo docker-image [lilypond-book](https://github.com/ykarikos/lilypond-docker)
+1. Kopioi seuraavat fontit `docker`-hakemistoon:
+	- `Casablanca-Antique.ttf`
+	- `Helvetica.ttc`
+	- `Palatino.ttc`
+1. Luo docker-image *triviaalikoulu-make*:
+	```
+	docker build -t triviaalikoulu-make docker
+	```
+1. Lado kirja komennolla
+	```
+	docker run --rm -v "$PWD:/tk" -w "/tk" triviaalikoulu-make
+	```
 
 ## Sisällys
 

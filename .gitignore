@@ -2,3 +2,5 @@ facsimile/*.pdf
 out/
 texput.log
 html/.cpcache
+*.ttf
+*.ttc
