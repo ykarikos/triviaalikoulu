@@ -95,4 +95,4 @@ Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
 
 ## Lisenssi
 
-Tämä teos on lisensoitu [Creative Commons Nimeä-JaaSamoin 3.0 (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/deed.fi) -ehdoin.
+Tämä teoksen tekijänoikeudet on luovutettu [CC0:n](https://creativecommons.org/publicdomain/zero/1.0/deed.fi) mukaisesti. Teosta voi lupaa pyytämättä kopioida, muokata, levittää ja esittää, mukaan lukien kaupallisessa tarkoituksessa.
