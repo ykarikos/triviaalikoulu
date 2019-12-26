@@ -11,15 +11,46 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 ## Lähteet
 
 - Ensisijainen nuottilähde: [Porin triviaalikoulun ääni- eli stemmakirjat – JYX/Nuottijulkaisut](https://jyx.jyu.fi/handle/123456789/19464), 1725
- 1. [Discantus](https://jyx.jyu.fi/dspace/handle/123456789/18957)
- 2. [Altus](https://jyx.jyu.fi/dspace/handle/123456789/18955)
- 3. [Tenor](https://jyx.jyu.fi/dspace/handle/123456789/18958)
- 4. [Bassus](https://jyx.jyu.fi/dspace/handle/123456789/18956)
+	- [Discantus](https://jyx.jyu.fi/dspace/handle/123456789/18957)
+	- [Altus](https://jyx.jyu.fi/dspace/handle/123456789/18955)
+	- [Tenor](https://jyx.jyu.fi/dspace/handle/123456789/18958)
+	- [Bassus](https://jyx.jyu.fi/dspace/handle/123456789/18956)
 - [Piae Cantiones](http://www.lillhannus.net/piae-cantiones/), edition © Mats Lillhannus, lupa käyttää lähteenä
 - [Florilegium Portense I](https://imslp.org/wiki/Florilegium_Portense_I_(Bodenschatz%2C_Erhard)), 1618, lähteenä _Repleatur os meum_ -kappaleen tavutuksessa
 - [Florilegii Musicii Portensis II](https://imslp.org/wiki/Florilegii_Musicii_Portensis_II_(Bodenschatz%2C_Erhard)), 1621, lähteenä _Anima mea expectat Dominum_ -kappaleen tavutuksessa
 - [Psalm-singende Und Lobgesäng-spielende Kirche Christi In Des H. Röm. Reichs](https://books.google.fi/books?id=_IbEDNe32scC&lpg=PA64&ots=gOW-IaE6Rp&hl=fi&pg=PA64#v=onepage&q&f=true), 1704, lähteenä _Lobt Gott ihr Christen alle_ -kappaleen sanoituksessa
 
+## Sisällys
+
+1. Ætas carmen melodiæ (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
+1. Anima mea expectat Dominum (à 8) – säveltäjä: Friedrich Weissensee (1560-1622)
+1. Christe tibi vivo (à 4) – säveltäjä tuntematon
+1. Christus adest justus (à 4) – säveltäjä tuntematon
+1. Christus factus est pro nobis (à 4) – säveltäjä tuntematon
+1. Ecce quam (à 4) – säveltäjä tuntematon
+1. Gaude et laetare (à 4) – säveltäjä tuntematon
+1. Gloria et honore (à 8) – säveltäjä: Jacobus Gallus (1550–1591)
+1. Gud wälsigna thetta huus (à 4) – säveltäjä tuntematon
+1. I Herrans Tienare (à 5) – säveltäjä tuntematon
+1. Jucundare jugiter (à 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
+1. Laus tibi Christe (à 4) – säveltäjä tuntematon
+1. Lobt Gott ihr Christen alle (à 5) – säveltäjä tuntematon
+1. Nunc Zymphonizate (à 5) – säveltäjä: Giovanni Gastoldi (n. 1554–1609)
+1. Repleatur os meum (à 8) – säveltäjä: Gabriele Fattorini (1570-1615)
+1. Si Angelus de coelo (à 4) – säveltäjä tuntematon
+1. Susanna se, videns (à 4) – säveltäjä: Didier Lupi (n. 1520–1560)
+
+## Kappaleet työn alla
+
+Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
+- Cedit hiems eminus
+- Veni Sancte Spiritus (longum) à 5
+- Veni Sancte Spiritus (sovitus JV)
+- Veni Sancte Spiritus (originaali)
+* Ainoan Jumalan korkeudes'
+* Omnes gentes plaudite manibus
+* Mens confisa Deo
+* Ah Jesu mellitissime
 
 ## Kirjan latominen
 
@@ -59,39 +90,6 @@ Ladonnan voi suorittaa `make`-komennolla:
 	```
 	docker run --rm -v "$PWD:/tk" -w "/tk" triviaalikoulu-make
 	```
-
-## Sisällys
-
-1. Ætas carmen melodiæ (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
-1. Anima mea expectat Dominum (à 8) – säveltäjä: Friedrich Weissensee (1560-1622)
-1. Christe tibi vivo (à 4) – säveltäjä tuntematon
-1. Christus adest justus (à 4) – säveltäjä tuntematon
-1. Christus factus est pro nobis (à 4) – säveltäjä tuntematon
-1. Ecce quam (à 4) – säveltäjä tuntematon
-1. Gaude et laetare (à 4) – säveltäjä tuntematon
-1. Gloria et honore (à 8) – säveltäjä: Jacobus Gallus (1550–1591)
-1. Gud wälsigna thetta huus (à 4) – säveltäjä tuntematon
-1. I Herrans Tienare (à 5) – säveltäjä tuntematon
-1. Jucundare jugiter (à 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
-1. Laus tibi Christe (à 4) – säveltäjä tuntematon
-1. Lobt Gott ihr Christen alle (à 5) – säveltäjä tuntematon
-1. Nunc Zymphonizate (à 5) – säveltäjä: Giovanni Gastoldi (n. 1554–1609)
-1. Repleatur os meum (à 8) – säveltäjä: Gabriele Fattorini (1570-1615)
-1. Si Angelus de coelo (à 4) – säveltäjä tuntematon
-1. Susanna se, videns (à 4) – säveltäjä: Didier Lupi (n. 1520–1560)
-
-## Kappaleet työn alla
-
-Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
-- Cedit hiems eminus
-- Veni Sancte Spiritus (longum) à 5
-- Veni Sancte Spiritus (sovitus JV)
-- Veni Sancte Spiritus (originaali)
-* Ainoan Jumalan korkeudes'
-* Omnes gentes plaudite manibus
-* Mens confisa Deo
-* Ah Jesu mellitissime
-
 
 ## Lisenssi
 
