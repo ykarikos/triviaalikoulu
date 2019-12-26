@@ -17,6 +17,7 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
  4. [Bassus](https://jyx.jyu.fi/dspace/handle/123456789/18956)
 - [Piae Cantiones](http://www.lillhannus.net/piae-cantiones/), edition © Mats Lillhannus, lupa käyttää lähteenä
 - [Florilegium Portense I](https://imslp.org/wiki/Florilegium_Portense_I_(Bodenschatz%2C_Erhard)), 1618, lähteenä _Repleatur os meum_ -kappaleen tavutuksessa
+- [Florilegii Musicii Portensis II](https://imslp.org/wiki/Florilegii_Musicii_Portensis_II_(Bodenschatz%2C_Erhard)), 1621, lähteenä _Anima mea expectat Dominum_ -kappaleen tavutuksessa
 - [Psalm-singende Und Lobgesäng-spielende Kirche Christi In Des H. Röm. Reichs](https://books.google.fi/books?id=_IbEDNe32scC&lpg=PA64&ots=gOW-IaE6Rp&hl=fi&pg=PA64#v=onepage&q&f=true), 1704, lähteenä _Lobt Gott ihr Christen alle_ -kappaleen sanoituksessa
 
 

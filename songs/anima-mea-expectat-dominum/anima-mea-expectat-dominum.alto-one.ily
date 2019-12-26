@@ -9,8 +9,8 @@ AltoOneMusic = \relative c' {
 	R\breve | r2 g4 g g g g2 | r2 g4 g g g g2 | R\breve |
 % 2
 	r1 r2 g | g d2. e4 h c | d2 d2. d4 g2 | g4 fis8 e d2 g g |
-	a e r e | e e4 fis g g g2( | g4) f e f g2  g |
-	a d, d1 | r2 g g a4 g |
+	a e r e | e e4 fis g2 g( | g4) f e f g2  g |
+	a d, r1 | r2 g g a4 g |
 	\repeat volta 2 {
 		f2. e4 d2 d | d1 e2 d |
 % 3
