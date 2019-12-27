@@ -37,11 +37,11 @@ SopranoMusic = \relative c' {
 
 stanzaOneLyrics = \lyricmode {
 	Ve -- ni  Sanc -- te Spi -- ri -- tus.
-  Ve -- ni, ve -- ni, ve -- ni, ve -- ni
+  Ve -- ni, ve -- ni, ve -- ni, ve -- ni,
   ve -- ni Sanc -- te Spi -- ri -- tus.
   Rep -- le -- tu -- o -rum, rep -- le -- tu -- o -rum,
   cor -- da fi -- de -- li -- um.
-  Cor -- da, cor -- da, cor -- da, cor -- da
+  Cor -- da, cor -- da, cor -- da, cor -- da,
   cor -- da fi -- de -- li -- um.
 }
 
@@ -59,7 +59,18 @@ AltoMusic = \relative c' {
     c'1
   }
 
-	c1 |
+  \repeat volta 2 {
+	  c1 | c | a | d | c2 c | c1 |
+  }
+  \repeat volta 2 {
+    c2 c | c c | a a | g g | a g | a d | c c | c1 |
+  }
+  \repeat volta 2 {
+    c2 c4 c | c2 c | a2 a4 a | g2 g | a4 g a2 | c c | c1 |
+  }
+  \repeat volta 2 {
+    c2 c | c c | a a | g g | a4 g a2 | c c | c1 |
+  }
 }
 
 TenoreMusic = \relative c' {
@@ -77,7 +88,18 @@ TenoreMusic = \relative c' {
   }
 
 	\clef "treble_8"
-	a1 |
+  \repeat volta 2 {
+	  a1 | g | a | b | a2 g | a1 |
+  }
+  \repeat volta 2 {
+    a2 a | g g | f f | e e | f e | d f | g g | a1 |
+  }
+  \repeat volta 2 {
+    a2 a4 a | g2 g | f f4 f | f2 e | f e | f g4 g | a1 |
+  }
+  \repeat volta 2 {
+    a2 a | g g | f f | e e | f e | f g4 g | a1 |
+  }
 }
 
 BassMusic = \relative c {
@@ -95,5 +117,16 @@ BassMusic = \relative c {
   }
 
 	\clef bass
-	f1 |
+  \repeat volta 2 {
+	  f1 | c | d | g | f2 c | f1 |
+  }
+  \repeat volta 2 {
+    f2 f | c c | d d | c c | c c | d b | c c | f1 |
+  }
+  \repeat volta 2 {
+    f2 f4 f | c2 c | d d4 d | c2 c | d c4 d | c2 c | f1 |
+  }
+  \repeat volta 2 {
+    f2 f | c c | d d | c c | d c4 d | c2 c | f1 |
+  }
 }
