@@ -94,4 +94,4 @@ Ladonnan voi suorittaa `make`-komennolla:
 
 ## Lisenssi
 
-Tämä teoksen tekijänoikeudet on luovutettu [CC0:n](https://creativecommons.org/publicdomain/zero/1.0/deed.fi) mukaisesti. Teosta voi lupaa pyytämättä kopioida, muokata, levittää ja esittää, mukaan lukien kaupallisessa tarkoituksessa.
+Tämän teoksen tekijänoikeudet on luovutettu vapaaseen yleiseen käyttöön [Creative Commons 0:n](https://creativecommons.org/publicdomain/zero/1.0/deed.fi) mukaisesti. Teosta voi lupaa pyytämättä kopioida, muokata, levittää ja esittää, mukaan lukien kaupallisessa tarkoituksessa.
