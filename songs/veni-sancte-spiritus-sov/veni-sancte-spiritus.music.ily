@@ -124,7 +124,17 @@ SopranoMusic = \relative c' {
   \repeat volta 2 {
     \SopranoThemeTwo
   } \break
-%  \bar "|."
+
+  a2 a4 a | g2 g | R1 | R1 |
+  a2 g4 g | a2 c | a1 | \break
+  R1 | R1 | f2 f4 f | g2 g |
+  a2 g4 g | a2 c | a1 | \break
+
+  a2 a | g g | R1 | R1 |
+  a2 g4 g | a2 c | a1 | \break
+
+  \SopranoThemeFour
+  \bar "|."
 }
 
 AltoMusic = \relative c' {
@@ -167,7 +177,16 @@ AltoMusic = \relative c' {
   \repeat volta 2 {
     \AltoThemeTwo
   } \break
-  %  \bar "|."
+
+  f2 f4 f | e2 e | R1 | R1 |
+  f2 e4 f | f2 e | f1 | \break
+  R1 | R1 | d2 d4 d | e2 e |
+  f2 e4 f | f2 e | f1 | \break
+
+  f2 f | e e | R1 | R1 |
+  f2 e4 f | f2 e | f1 | \break
+  \AltoThemeFour
+  \bar "|."
 }
 
 TenoreMusic = \relative c {
@@ -211,7 +230,17 @@ TenoreMusic = \relative c {
   \repeat volta 2 {
     \TenorThemeTwo
   } \break
-  %  \bar "|."
+
+  f,2 f4 f | c2 c | f f4 f | g2 g |
+  a2 c4 c | c2 c | c1 | \break
+  a2 a4 a | g2 g | d d4 d4 | c2 c |
+  a' c4 c | c2 c | c1 | \break
+
+  f,2 f | c c | f f | g g |
+  a2 c4 c | c2 c | c1 |
+
+  \TenorThemeFour
+  \bar "|."
 }
 
 BassMusic = \relative c {
@@ -255,5 +284,10 @@ BassMusic = \relative c {
   \repeat volta 2 {
     \BassThemeTwo
   } \break
-  %  \bar "|."
+
+  \BassThemeThree \break
+  \BassThemeThree \break
+  \BassThemeFour \break
+  \BassThemeFour \break
+  \bar "|."
 }

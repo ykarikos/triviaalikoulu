@@ -35,6 +35,15 @@ stanzaOneLyricsSoprano = \lyricmode {
   \VeniSancte
   \VeniSancte
   \VeniVeni
+
+  Rep -- le -- tu -- o -- rum,
+  cor -- da fi -- de -- li -- um.
+  Rep -- le -- tu -- o -- rum,
+  cor -- da fi -- de -- li -- um.
+
+  Cor -- da, cor -- da,
+  cor -- da fi -- de -- li -- um.
+  \Corda
 }
 
 stanzaOneLyricsAlto = \lyricmode {
@@ -49,6 +58,15 @@ stanzaOneLyricsAlto = \lyricmode {
   \VeniSancteVar
   \VeniSancteVar
   \VeniVeni
+
+  Rep -- le -- tu -- o -- rum,
+  cor -- da fi -- de -- li -- um.
+  Rep -- le -- tu -- o -- rum,
+  cor -- da fi -- de -- li -- um.
+
+  Cor -- da, cor -- da,
+  cor -- da fi -- de -- li -- um.
+  \Corda
 }
 
 stanzaOneLyricsTenore = \lyricmode {
@@ -65,6 +83,18 @@ stanzaOneLyricsTenore = \lyricmode {
   \VeniSancte
   \VeniSancte
   \VeniVeni
+
+  \repeat unfold 5 { \skip 1 }
+  Rep -- le -- tu -- o -- rum,
+  cor -- da fi -- de -- li -- um.
+  Rep -- le -- tu -- o -- rum,
+  rep -- le -- tu -- o -- rum,
+  cor -- da fi -- de -- li -- um.
+
+  \repeat unfold 4 { \skip 1 }
+  Cor -- da, cor -- da,
+  cor -- da fi -- de -- li -- um.
+  \Corda
 }
 
 stanzaOneLyricsBass = \lyricmode {
@@ -80,4 +110,16 @@ stanzaOneLyricsBass = \lyricmode {
   \VeniSancte
   \VeniSancte
   \VeniVeni
+  
+  \repeat unfold 5 { \skip 1 }
+  Rep -- le -- tu -- o -- rum,
+  cor -- da fi -- de -- li -- um.
+  Rep -- le -- tu -- o -- rum,
+  rep -- le -- tu -- o -- rum,
+  cor -- da fi -- de -- li -- um.
+
+  \repeat unfold 4 { \skip 1 }
+  Cor -- da, cor -- da,
+  cor -- da fi -- de -- li -- um.
+  \Corda
 }
