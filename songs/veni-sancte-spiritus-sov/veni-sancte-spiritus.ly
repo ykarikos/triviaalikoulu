@@ -4,6 +4,7 @@
 \include "../paper-margins.ily"
 
 \include "veni-sancte-spiritus.music.ily"
+\include "veni-sancte-spiritus.lyrics.ily"
 
 \header {
   title = "Veni Sancte Spiritus (sov)"
@@ -26,7 +27,7 @@
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsSoprano
      }
     >>
     \new Staff <<
@@ -35,7 +36,7 @@
         \AltoMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsAlto
      }
     >>
     \new Staff <<
@@ -44,7 +45,7 @@
         \TenoreMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsTenore
       }
     >>
     \new Staff <<
@@ -53,7 +54,7 @@
         \BassMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsBass
       }
     >>
   >>
