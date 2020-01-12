@@ -2,6 +2,7 @@
 \include "suomi.ly"
 
 \include "../veni-sancte-spiritus.music.ily"
+\include "../veni-sancte-spiritus.lyrics.ily"
 \include "veni-sancte-spiritus.header.ily"
 
 \header {
@@ -16,20 +17,19 @@
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsSoprano
      }
     >>
   >>
   \midi {
-    \tempo 4 = 160
+    \tempo 2 = 240
   }
   \layout {
     \context {
       \Voice
       \consists "Ambitus_engraver"
     }
-    indent = 3.5\cm
-    incipit-width = 2\cm
+    indent = 1.5\cm
     \context {
      \Staff \RemoveEmptyStaves
    }
