@@ -76,4 +76,6 @@
 
     \input{booksongs}
 
+    \input{bibliography}
+
 \end{document}
