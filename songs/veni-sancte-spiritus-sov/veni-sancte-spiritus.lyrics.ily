@@ -88,7 +88,7 @@ stanzaOneLyricsTenore = \lyricmode {
   Rep -- le -- tu -- o -- rum,
   cor -- da fi -- de -- li -- um.
   Rep -- le -- tu -- o -- rum,
-  rep -- le -- tu -- o -- rum,
+  \repeat unfold 5 { \skip 1 }
   cor -- da fi -- de -- li -- um.
 
   \repeat unfold 4 { \skip 1 }
@@ -110,12 +110,12 @@ stanzaOneLyricsBass = \lyricmode {
   \VeniSancte
   \VeniSancte
   \VeniVeni
-  
+
   \repeat unfold 5 { \skip 1 }
   Rep -- le -- tu -- o -- rum,
   cor -- da fi -- de -- li -- um.
   Rep -- le -- tu -- o -- rum,
-  rep -- le -- tu -- o -- rum,
+  \repeat unfold 5 { \skip 1 }
   cor -- da fi -- de -- li -- um.
 
   \repeat unfold 4 { \skip 1 }

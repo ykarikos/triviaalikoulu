@@ -114,7 +114,7 @@ SopranoMusic = \relative c' {
     \SopranoThemeFour
   } \break
 
-  \repeat unfold 3 { R1 | }
+  R1 | R1-\markup{\italic{(chitarra o liuto ad lib)}} | R1 |
   \bar "||"
   \SopranoThemeOne
   \SopranoThemeOne \break
@@ -231,12 +231,12 @@ TenoreMusic = \relative c {
     \TenorThemeTwo
   } \break
 
-  f,2 f4 f | c2 c | f f4 f | g2 g |
+  f,2-\markup{\italic{B. c. senza canto}} f4 f | c2 c | f f4 f | g2 g |
   a2 c4 c | c2 c | c1 | \break
-  a2 a4 a | g2 g | d d4 d4 | c2 c |
+  a2 a4 a | g2 g | d-\markup{\italic{B. c. senza canto}} d4 d4 | c2 c |
   a' c4 c | c2 c | c1 | \break
 
-  f,2 f | c c | f f | g g |
+  f,2-\markup{\italic{B. c. senza canto}} f | c c | f f | g g |
   a2 c4 c | c2 c | c1 |
 
   \TenorThemeFour
@@ -285,9 +285,13 @@ BassMusic = \relative c {
     \BassThemeTwo
   } \break
 
-  \BassThemeThree \break
-  \BassThemeThree \break
-  \BassThemeFour \break
+  f2-\markup{\italic{B. c. senza canto}} f4 f | c2 c |
+  d d4 d | c2 c | d c4 d | c2 c | f1 | \break
+  f2 f4 f | c2 c | d-\markup{\italic{B. c. senza canto}} d4 d |
+  c2 c | d c4 d | c2 c | f1 | \break
+
+  f2-\markup{\italic{B. c. senza canto}} f | c c | d d | c c |
+  d2 c4 d | c2 c | f1 | \break
   \BassThemeFour \break
   \bar "|."
 }
