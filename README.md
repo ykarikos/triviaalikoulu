@@ -41,13 +41,13 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 1. Si Angelus de coelo (à 4) – säveltäjä tuntematon
 1. Susanna se, videns (à 4) – säveltäjä: Didier Lupi (n. 1520–1560)
 1. Veni Sancte Spiritus (à 4) – säveltäjä tuntematon
+1. Veni Sancte Spiritus (à 4, sovitus) – säveltäjä tuntematon, sovitus: Johannes Vesterinen (1979–)
 
 ## Kappaleet työn alla
 
 Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
 - Cedit hiems eminus
 - Veni Sancte Spiritus (longum) à 5
-- Veni Sancte Spiritus (sovitus JV)
 * Ainoan Jumalan korkeudes'
 * Omnes gentes plaudite manibus
 * Mens confisa Deo
