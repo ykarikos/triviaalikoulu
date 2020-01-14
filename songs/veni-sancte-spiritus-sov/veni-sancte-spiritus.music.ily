@@ -21,7 +21,7 @@ SopranoThemeThree = {
 }
 
 SopranoThemeFour = {
-  a2 a | g g | f f | g g | a g4 g | a2 c | a1 |
+  a2 a | g g | f f | g g | a g4 g | a2 c | 
 }
 
 AltoThemeOne = {
@@ -37,7 +37,7 @@ AltoThemeThree = {
 }
 
 AltoThemeFour = {
-  f2 f | e e | d d | e e | f e4 f | f2 e | f1 |
+  f2 f | e e | d d | e e | f e4 f | f2 e | 
 }
 
 AltoThemeFive = {
@@ -65,7 +65,7 @@ TenorThemeThree = {
 }
 
 TenorThemeFour = {
-  c2 c | c c | a a | c c | a2 c4 c | c2 c | c1 |
+  c2 c | c c | a a | c c | a2 c4 c | c2 c |
 }
 
 BassThemeOne = {
@@ -81,7 +81,7 @@ BassThemeThree = {
 }
 
 BassThemeFour = {
-  f2 f | c c | d d | c c | d2 c4 d | c2 c | f1 |
+  f2 f | c c | d d | c c | d2 c4 d | c2 c | 
 }
 
 SopranoMusic = \relative c' {
@@ -112,12 +112,20 @@ SopranoMusic = \relative c' {
 
   \repeat volta 2 {
     \SopranoThemeFour
-  } \break
+  }
+  \alternative {
+    {
+      a1 | \break
+    }
+    {
+      a1( | a) |
+    }
+  }
 
-  R1 | R1-\markup{\italic{(chitarra o liuto ad lib)}} | R1 |
+  R1 | R1 |
   \bar "||"
   \SopranoThemeOne
-  \SopranoThemeOne \break
+  f1 | g | a | b | \break a2 g | a1 |
   \repeat unfold 6 { R1 | }
   \SopranoThemeOne \break
 
@@ -133,7 +141,7 @@ SopranoMusic = \relative c' {
   a2 a | g g | R1 | R1 |
   a2 g4 g | a2 c | a1 | \break
 
-  \SopranoThemeFour
+  \SopranoThemeFour a1
   \bar "|."
 }
 
@@ -165,12 +173,20 @@ AltoMusic = \relative c' {
 
   \repeat volta 2 {
     \AltoThemeFour
-  } \break
+  }
+  \alternative {
+    {
+      f1 | \break
+    }
+    {
+      f1(^\markup{\italic{(chitarra o liuto ad lib)}} | f) |
+    }
+  }
 
-  \repeat unfold 3 { R1 | }
+  \repeat unfold 2 { R1 | }
   \bar "||"
   c2 f( | f) e | f1 | d2. e4 | f2 e | f1 |
-  \AltoThemeFive \break
+  \AltoThemeFive
   \repeat unfold 6 { R1 | }
   \AltoThemeFive \break
 
@@ -185,7 +201,8 @@ AltoMusic = \relative c' {
 
   f2 f | e e | R1 | R1 |
   f2 e4 f | f2 e | f1 | \break
-  \AltoThemeFour
+
+  \AltoThemeFour f1
   \bar "|."
 }
 
@@ -218,12 +235,20 @@ TenoreMusic = \relative c {
 
   \repeat volta 2 {
     \TenorThemeFour
-  } \break
+  }
+  \alternative {
+    {
+      c1 | \break
+    }
+    {
+      c1( | c) |
+    }
+  }
 
-  \repeat unfold 3 { R1 | }
+  \repeat unfold 2 { R1 | }
   \bar "||"
-  \BassThemeOneTenor
-  \TenorThemeOne \break
+  \repeat unfold 6 { R1 | }
+  \TenorThemeOne
   \SopranoThemeOneTenor
   \TenorThemeOne \break
 
@@ -231,15 +256,15 @@ TenoreMusic = \relative c {
     \TenorThemeTwo
   } \break
 
-  f,2-\markup{\italic{B. c. senza canto}} f4 f | c2 c | f f4 f | g2 g |
+  R1 | R1 | f,2 f4 f | g2 g |
   a2 c4 c | c2 c | c1 | \break
-  a2 a4 a | g2 g | d-\markup{\italic{B. c. senza canto}} d4 d4 | c2 c |
-  a' c4 c | c2 c | c1 | \break
+  a2 a4 a | g2 g | R1 | R1 |
+  a2 c4 c | c2 c | c1 | \break
 
-  f,2-\markup{\italic{B. c. senza canto}} f | c c | f f | g g |
+  R1 | R1 | f,2 f | g g |
   a2 c4 c | c2 c | c1 |
 
-  \TenorThemeFour
+  \TenorThemeFour c1
   \bar "|."
 }
 
@@ -272,12 +297,20 @@ BassMusic = \relative c {
 
   \repeat volta 2 {
     \BassThemeFour
-  } \break
+  }
+  \alternative {
+    {
+      f1 | \break
+    }
+    {
+      f1( | f) |
+    }
+  }
 
-  \repeat unfold 3 { R1 | }
+  \repeat unfold 2 { R1 | }
   \bar "||"
-  f1 | c | d | g | f2 c | f1 |
-  \BassThemeOne \break
+  f1-\markup{\italic{B. c. senza canto}} | c | d | g | d2 c | f1 |
+  \BassThemeOne
   \BassThemeOne
   \BassThemeOne \break
 
@@ -292,6 +325,7 @@ BassMusic = \relative c {
 
   f2-\markup{\italic{B. c. senza canto}} f | c c | d d | c c |
   d2 c4 d | c2 c | f1 | \break
-  \BassThemeFour \break
+
+  \BassThemeFour f1 
   \bar "|."
 }
