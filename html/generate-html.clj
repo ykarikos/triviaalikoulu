@@ -56,7 +56,7 @@
 (defn parse-filename [files filename]
   (let [path-parts (s/split filename #"/")
         filename-parts (s/split (last path-parts) #"\.")
-        id (first filename-parts)]
+        id (nth path-parts 2)]
     (merge-with
      into files
      {(keyword id)
