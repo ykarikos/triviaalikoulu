@@ -7,7 +7,7 @@
 \include "veni-sancte-spiritus.lyrics.ily"
 
 \header {
-  title = "Veni Sancte Spiritus (sov)"
+  title = "Veni Sancte Spiritus (sovitus)"
 %  subtitle = ""
   composer = "tuntematon"
   arranger = "sov: Johannes Vesterinen (1979–)"

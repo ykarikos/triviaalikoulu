@@ -1,6 +1,6 @@
 
 \header {
-  title = "Veni Sancte Spiritus (sov)"
+  title = "Veni Sancte Spiritus (sovitus)"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
   composer = "tuntematon"
   arranger = "sov: Johannes Vesterinen (1979–)"
