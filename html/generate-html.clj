@@ -92,8 +92,9 @@
   (let [header (slurp filename)
         composer (parse-header header "composer")
         poet (parse-header header "poet")
+        arranger (parse-header header "arranger")
         title (parse-header header "title")]
-    [title composer poet]))
+    [title composer poet arranger]))
 
 (defn- parse-meta [m [id parts]]
   (merge m
@@ -101,7 +102,7 @@
 
 (defn- song-html [songs-meta]
   (fn [[id parts]]
-    (let [[title composer poet] (id songs-meta)]
+    (let [[title composer poet arranger] (id songs-meta)]
       (list
        [:h2 {:id id}
         title]
@@ -109,7 +110,8 @@
         (when composer
           [:dt {:class "composer"}
            "säveltäjä: " composer
-           (when poet [:span ", " [:br] poet])])
+           (when poet [:span ", " [:br] poet])
+           (when arranger [:span ", " [:br] arranger])])
         (for [part (sort-parts parts)]
           (part-html part))]))))
 
