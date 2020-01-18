@@ -3,8 +3,8 @@
 
 \include "../paper-margins.ily"
 
-\include "veni-sancte-spiritus.music.ily"
-\include "veni-sancte-spiritus.lyrics.ily"
+\include "veni-sancte-spiritus-sov.music.ily"
+\include "veni-sancte-spiritus-sov.lyrics.ily"
 
 \header {
   title = "Veni Sancte Spiritus (sovitus)"

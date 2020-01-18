@@ -1,24 +1,24 @@
 \version "2.19.80"
 \include "suomi.ly"
 
-\include "../veni-sancte-spiritus.music.ily"
-\include "../veni-sancte-spiritus.lyrics.ily"
-\include "veni-sancte-spiritus.header.ily"
+\include "../veni-sancte-spiritus-sov.music.ily"
+\include "../veni-sancte-spiritus-sov.lyrics.ily"
+\include "veni-sancte-spiritus-sov.header.ily"
 
 \header {
-  title = "Veni Sancte Spiritus (altus)"
+  title = "Veni Sancte Spiritus (tenor)"
 }
 
 \score {
   \new ChoirStaff <<
     \new Staff <<
-      \new Voice = "Alto" {
+      \new Voice = "Tenore" {
         \global
-        \AltoMusic
+        \TenoreMusic
       }
-     \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyricsAlto
-     }
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaOneLyricsTenore
+      }
     >>
   >>
   \midi {
