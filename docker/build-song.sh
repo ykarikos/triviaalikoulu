@@ -2,7 +2,7 @@
 
 SONG="$1"
 PART="$2"
-SONGFILENAME=`echo -n $SONG | tr [:upper:] [:lower:] | sed 's/ /-/g'`
+SONGFILENAME=$(echo -n "$SONG" | tr "[:upper:]" "[:lower:]" | sed 's/ /-/g')
 BASEDIR="/triviaalikoulu"
 SONGDIR="songs/${SONGFILENAME}"
 
