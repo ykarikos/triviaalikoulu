@@ -1,6 +1,6 @@
 
 \header {
-  title = "Veni Sancte Spiritus"
+  title = "Veni Sancte Spiritus (à 4)"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
   composer = "tuntematon"
   mutopiacomposer = "Anonymous"

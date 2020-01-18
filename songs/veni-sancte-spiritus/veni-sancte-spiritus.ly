@@ -6,7 +6,7 @@
 \include "veni-sancte-spiritus.music.ily"
 
 \header {
-  title = "Veni Sancte Spiritus"
+  title = "Veni Sancte Spiritus (à 4)"
 %  subtitle = ""
   composer = "tuntematon"
   mutopiacomposer = "Anonymous"
