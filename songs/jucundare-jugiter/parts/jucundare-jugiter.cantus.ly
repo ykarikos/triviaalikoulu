@@ -18,6 +18,12 @@
      \new Lyrics \lyricsto "Soprano" {
        \stanzaOneLyrics
      }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaThreeLyrics
+     }
     >>
   >>
   \midi {
@@ -27,7 +33,6 @@
     \context {
       \Voice
       \consists "Ambitus_engraver"
-		\hide Slur
     }
     indent = 3.5\cm
     incipit-width = 2\cm
