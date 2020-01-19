@@ -70,36 +70,36 @@ stanzaOneLyricsTenor = \lyricmode {
 
 stanzaTwoLyrics = \lyricmode {
 	Ää -- nell, ää -- nell cau -- nist mo -- nen mut -- cain
-	Caik Chris -- tu -- xen cun -- jat veisad -- cam
-	Chris -- tu -- xen cun -- jat vei -- sad -- cam.
+	Caick Chris -- tu -- xen cunn -- jat veisad -- cam
+	Chris -- tu -- xen cunn -- jat vei -- sad -- cam.
 	Kii -- tos vird -- hell i -- loid -- cam,
 	kii -- tos vird -- hell i -- loid -- cam,
 	kii -- tos vird -- hell i -- loid -- cam.
-	Hän on kel -- vol -- li -- nen kunn -- jaan
+	Hän on kel -- vol -- li -- nen cunn -- jaan
 	Quin pii -- nal -- lans saat lep -- py -- män
 	Ar -- mon I -- sän Ju -- ma -- lan. lan.
 }
 
 stanzaTwoLyricsSoprano = \lyricmode {
 	Ää -- nell, ää -- nell cau -- nist mo -- nen mut -- cain
-	Caik Chris -- tu -- xen cun -- jat_vei -- sad -- cam
-	Chris -- tu -- xen cun -- jat vei -- sad -- cam.
+	Caick Chris -- tu -- xen cunn -- jat_vei -- sad -- cam
+	Chris -- tu -- xen cunn -- jat vei -- sad -- cam.
 	Kii -- tos vird -- hell i -- loid -- cam,
 	kii -- tos vird -- hell i -- loid -- cam,
 	kii -- tos vird -- hell i -- loid -- cam.
-	Hän on kel -- vol -- li -- nen kunn -- jaan
+	Hän on kel -- vol -- li -- nen cunn -- jaan
 	Quin pii -- nal -- lans saat lep -- py -- män
 	Ar -- mon I -- sän Ju -- ma -- lan. lan.
 }
 
 stanzaTwoLyricsTenor = \lyricmode {
 	Ää -- nell, ää -- nell cau -- nist mo -- nen mut -- cain
-	Caik Chris -- tu -- xen cun -- jat veisad -- cam
-	Chris -- tu -- xen cun -- jat vei -- sad -- cam.
+	Caick Chris -- tu -- xen cunn -- jat veisad -- cam
+	Chris -- tu -- xen cunn -- jat vei -- sad -- cam.
 	Kii -- tos vird -- hell i -- loid -- cam,
 	kii -- tos, kii -- tos vird -- hell i -- loid -- cam,
 	kii -- tos vird -- hell i -- loid -- cam.
-	Hän on kel -- vol -- li -- nen kunn -- jaan
+	Hän on kel -- vol -- li -- nen cunn -- jaan
 	Quin pii -- nal -- lans saat lep -- py -- män
 	Ar -- mon I -- sän Ju -- ma -- lan. lan.
 }
