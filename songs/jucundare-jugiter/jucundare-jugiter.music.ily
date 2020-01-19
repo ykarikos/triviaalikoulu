@@ -258,7 +258,7 @@ BassMusic = \relative c {
 	\set Staff.instrumentName = #"Bassus"
 	\set Staff.shortInstrumentName = "B"
 
-	\incipit { \clef "mensural-f" \key a \minor \numericTimeSignature \time 3/2 a\breve }
+	\incipit { \clef "mensural-f" \key a \minor \numericTimeSignature \time 3/2 a,\breve }
 
 	\clef bass
   \set melismaBusyProperties = #'()
