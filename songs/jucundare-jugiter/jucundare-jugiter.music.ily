@@ -23,7 +23,7 @@ SopranoMusic = \relative c' {
   e\breve a1 | gis\breve a1 | h a\breve | gis\breve. |
   c\breve c1 | h\breve e1 |
   \set melismaBusyProperties = #'()
-  \undo \omit Slur \slurDashed d( c) h | a\breve. |
+  \undo \omit Slur \slurDashed d( c) h | a\breve. | \break
 
   \repeat volta 2 {
     \unset melismaBusyProperties
@@ -107,7 +107,7 @@ AltoMusic = \relative c' {
   cis\breve e1 | e\breve e1 | g( e) f | e\breve. |
   g\breve g1 | g\breve g1 |
   \set melismaBusyProperties = #'()
-  \undo \omit Slur \slurDashed g( e) e | cis\breve.
+  \undo \omit Slur \slurDashed g( e) e | cis\breve. | \break
 
   \repeat volta 2 {
     e1 e e | e\breve. | e1 e e | g\breve. |
@@ -188,7 +188,7 @@ TenoreMusic = \relative c' {
   a\breve c1 | h\breve c1 | d2( h c1) d | h\breve. |
   e\breve e1 | d\breve c1 |
   \set melismaBusyProperties = #'()
-  \undo \omit Slur \slurDashed h( a) gis | a\breve. |
+  \undo \omit Slur \slurDashed h( a) gis | a\breve. | \break
 
   \repeat volta 2 {
     h1 h h | cis\breve. | cis1 cis cis | d\breve. |
@@ -270,7 +270,7 @@ BassMusic = \relative c {
   a\breve a1 | e'\breve a1 | g( a) d, | e\breve.
   c\breve c1 | g'\breve c,1 |
   \set melismaBusyProperties = #'()
-  \undo \omit Slur \slurDashed g'( a) e | a,\breve. |
+  \undo \omit Slur \slurDashed g'( a) e | a,\breve. | \break
 
   \repeat volta 2 {
     e'1 e e | a\breve. | a1 a a | g\breve. |
