@@ -73,11 +73,23 @@ stanzaTwoLyrics = \lyricmode {
   Pii -- nal -- lans meit,
   pii -- nal -- lans meit,
   pii -- nal -- lans meit, __
-  u -- los sai
+  ul -- vos -- sai
   cuo -- _ lon,
   cuo -- _ lon,
   cuo -- _ lon,
-  cuo -- lon rid -- hast ja kid -- _ hast. hast.
+  cuo -- lon rid -- hast ja ki -- _ dhast.
+}
+
+stanzaThreeLyrics = \lyricmode {
+  \repeat unfold 30 { \skip 1 }
+  Cuo -- le -- mal -- lans,
+  cuo -- le -- mal -- lans,
+  cuo -- le -- mal -- lans, __
+  ul -- vos -- toi
+  hel -- ve -- tin,
+  hel -- ve -- tin,
+  hel -- ve -- tin,
+  hel -- ve -- tin sy -- väst hao -- _ _ dhast.
 }
 
 AltoMusic = \relative c' {
@@ -125,7 +137,7 @@ stanzaOneLyricsAlto = \lyricmode {
   Chri -- sti Je -- su me -- _ ri -- tis.
   Qui te tu -- lit,
   qui te tu -- lit,
-  qui te tu -- lit __
+  qui te tu -- lit
   a -- cri -- ter,
   vin -- cu -- lis,
   vin -- cu -- lis,
@@ -140,12 +152,24 @@ stanzaTwoLyricsAlto = \lyricmode {
   Je -- su -- xen an -- si -- ost ae -- vast.
   Pii -- nal -- lans meit,
   pii -- nal -- lans meit,
-  pii -- nal -- lans meit, __
-  u -- los sai
+  pii -- nal -- lans meit,
+  ul -- vos -- sai
   cuo -- _ lon,
   cuo -- _ lon,
   cuo -- _ lon, __
-  cuo -- lon rid -- hast ja kid -- hast. hast.
+  cuo -- lon rid -- hast ja ki -- dhast.
+}
+
+stanzaThreeLyricsAlto = \lyricmode {
+  \repeat unfold 30 { \skip 1 }
+  Cuo -- le -- mal -- lans,
+  cuo -- le -- mal -- lans,
+  cuo -- le -- mal -- lans,
+  ul -- vos -- toi
+  hel -- ve -- tin,
+  hel -- ve -- tin,
+  hel -- ve -- tin, __
+  hel -- ve -- tin sy -- väst hao -- _ dhast.
 }
 
 TenoreMusic = \relative c' {
@@ -210,12 +234,25 @@ stanzaTwoLyricsTenor = \lyricmode {
   Pii -- nal -- lans meit,
   pii -- nal -- lans meit,
   pii -- nal -- lans meit, __
-  u -- los sai
+  ul -- vos -- sai
   cuo -- _ lon, __
   cuo -- _ lon,
   cuo -- _ lon, __
-  cuo -- lon rid -- hast ja __ kid -- hast. hast.
+  cuo -- lon rid -- hast ja __ ki -- dhast.
 }
+
+stanzaThreeLyricsTenor = \lyricmode {
+  \repeat unfold 30 { \skip 1 }
+  Cuo -- le -- mal -- lans,
+  cuo -- le -- mal -- lans,
+  cuo -- le -- mal -- lans, __
+  ul -- vos -- toi
+  hel -- ve -- tin, __
+  hel -- ve -- tin,
+  hel -- ve -- tin, __
+  hel -- ve -- tin sy -- väst __ hao -- _ dhast.
+}
+
 
 BassMusic = \relative c {
 	\set Staff.instrumentName = #"Bassus"
@@ -261,7 +298,7 @@ stanzaOneLyricsBass = \lyricmode {
   Chri -- sti Je -- su me -- _ ri -- tis.
   Qui te tu -- lit,
   qui te tu -- lit,
-  qui te tu -- lit __
+  qui te tu -- lit
   a -- cri -- ter,
   vin -- cu -- lis,
   vin -- cu -- lis,
@@ -276,10 +313,23 @@ stanzaTwoLyricsBass = \lyricmode {
   Je -- su -- xen an -- si -- ost ae -- vast.
   Pii -- nal -- lans meit,
   pii -- nal -- lans meit,
-  pii -- nal -- lans meit, __
-  u -- los sai
+  pii -- nal -- lans meit,
+  ul -- vos -- sai
   cuo -- _ lon,
   cuo -- _ lon,
   cuo -- _ lon,
-  cuo -- lon rid -- hast ja kid -- hast. hast.
+  cuo -- lon rid -- hast ja ki -- dhast.
 }
+
+stanzaThreeLyricsBass = \lyricmode {
+  \repeat unfold 30 { \skip 1 }
+  Cuo -- le -- mal -- lans,
+  cuo -- le -- mal -- lans,
+  cuo -- le -- mal -- lans,
+  ul -- vos -- toi
+  hel -- ve -- tin,
+  hel -- ve -- tin,
+  hel -- ve -- tin,
+  hel -- ve -- tin sy -- väst hao -- _ dhast.
+}
+

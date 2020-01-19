@@ -18,6 +18,9 @@
      \new Lyrics \lyricsto "Soprano" {
        \stanzaTwoLyrics
      }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaThreeLyrics
+     }
     >>
     \new Staff <<
       \new Voice = "Alto" {
@@ -29,6 +32,9 @@
       }
       \new Lyrics \lyricsto "Alto" {
         \stanzaTwoLyricsAlto
+      }
+      \new Lyrics \lyricsto "Alto" {
+        \stanzaThreeLyricsAlto
       }
     >>
     \new Staff <<
@@ -42,6 +48,9 @@
       \new Lyrics \lyricsto "Tenore" {
        \stanzaTwoLyricsTenor
       }
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaThreeLyricsTenor
+      }
     >>
     \new Staff <<
       \new Voice = "Bass" {
@@ -54,6 +63,9 @@
       \new Lyrics \lyricsto "Bass" {
        \stanzaTwoLyricsBass
       }
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaThreeLyricsBass
+      }
     >>
   >>
   \midi {
@@ -63,7 +75,6 @@
     \context {
       \Voice
       \consists "Ambitus_engraver"
-		\hide Slur
     }
     indent = 3.5\cm
     incipit-width = 2\cm
