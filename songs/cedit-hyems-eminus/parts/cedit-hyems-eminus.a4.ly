@@ -2,6 +2,7 @@
 \include "suomi.ly"
 
 \include "../cedit-hyems-eminus.music.ily"
+\include "../cedit-hyems-eminus.lyrics.ily"
 \include "cedit-hyems-eminus.header.ily"
 
 
@@ -49,7 +50,34 @@
         \AltoMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsAlto
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaTwoLyricsAlto
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaThreeLyricsAlto
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaFourLyricsAlto
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaFiveLyricsAlto
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaOneLyricsAltoFin
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaTwoLyricsAltoFin
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaThreeLyricsAltoFin
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaFourLyricsAltoFin
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaFiveLyricsAltoFin
      }
     >>
     \new Staff <<
