@@ -63,5 +63,14 @@ BassMusic = \relative c' {
 	\incipit { \clef "mensural-f" \key d \minor \time 2/2 g2. }
 
 	\clef bass
-	g2. g4 |
+  \repeat volta 2 {
+  	g2. g4 | d2 g4 f( | f) g d2 | r4 d g f |
+    b,8 c d e f4 g | c,4. d8 es4 b |
+    f' g c, d | g,2. g'4 | fis g c, d | g,1 |
+  }
+  \repeat volta 2 {
+    d'4. d8 d4 d | g c, d2 | d4. g8 f4 b, | f' f b,2 |
+    f'4. f8 f4 d | g es d2 | g4. b8 f4 g |
+    c, d g,2( | g4) g'2 g4 | c, g d' d | g,1 |
+  }
 }

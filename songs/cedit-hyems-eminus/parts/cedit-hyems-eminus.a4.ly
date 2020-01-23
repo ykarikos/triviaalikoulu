@@ -65,12 +65,24 @@
         \BassMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyrics
+        \stanzaOneLyricsBass
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaTwoLyricsBass
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaThreeLyricsBass
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaFourLyricsBass
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaFiveLyricsBass
       }
     >>
   >>
   \midi {
-    \tempo 4 = 160
+    \tempo 4 = 120
   }
   \layout {
     \context {
