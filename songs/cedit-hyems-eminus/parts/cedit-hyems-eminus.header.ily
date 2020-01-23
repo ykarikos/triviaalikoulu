@@ -3,7 +3,6 @@
   title = "Cedit hyems eminus"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
   composer = "Daniel Friderici (1584-1638)"
-  poet = "suom. sanat Hemminki Maskulainen (n. 1550–1619)"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"

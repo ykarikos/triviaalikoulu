@@ -6,9 +6,9 @@
 \include "cedit-hyems-eminus.music.ily"
 
 \header {
-  title = "Cedit hyems eminus"
-%  subtitle = ""
+  title = "Tuiman talven taucomast (Cedit hyems eminus)"
   composer = "Daniel Friderici (1584-1638)"
+  poet = "suom. sanat Hemminki Maskulainen (n. 1550–1619)"
   mutopiacomposer = "Daniel Friderici (1584-1638)"
 %  instrument = "Voice (SATB)"
   style = "early music"
@@ -24,18 +24,42 @@
 		    \global
         \SopranoMusic
       }
-     \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyrics
-     }
+      \new Lyrics \lyricsto "Soprano" {
+        \stanzaOneLyricsFin
+      }
+      \new Lyrics \lyricsto "Soprano" {
+        \stanzaTwoLyricsFin
+      }
+      \new Lyrics \lyricsto "Soprano" {
+        \stanzaThreeLyricsFin
+      }
+      \new Lyrics \lyricsto "Soprano" {
+        \stanzaFourLyricsFin
+      }
+      \new Lyrics \lyricsto "Soprano" {
+        \stanzaFiveLyricsFin
+      }
     >>
     \new Staff <<
       \new Voice = "Alto" {
         \global
         \AltoMusic
       }
-     \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
-     }
+      \new Lyrics \lyricsto "Alto" {
+        \stanzaOneLyricsAltoFin
+      }
+      \new Lyrics \lyricsto "Alto" {
+        \stanzaTwoLyricsAltoFin
+      }
+      \new Lyrics \lyricsto "Alto" {
+        \stanzaThreeLyricsAltoFin
+      }
+      \new Lyrics \lyricsto "Alto" {
+        \stanzaFourLyricsAltoFin
+      }
+      \new Lyrics \lyricsto "Alto" {
+        \stanzaFiveLyricsAltoFin
+      }
     >>
     \new Staff <<
       \new Voice = "Tenore" {

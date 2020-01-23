@@ -28,21 +28,6 @@
      \new Lyrics \lyricsto "Soprano" {
        \stanzaFiveLyrics
      }
-     \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyricsFin
-     }
-     \new Lyrics \lyricsto "Soprano" {
-       \stanzaTwoLyricsFin
-     }
-     \new Lyrics \lyricsto "Soprano" {
-       \stanzaThreeLyricsFin
-     }
-     \new Lyrics \lyricsto "Soprano" {
-       \stanzaFourLyricsFin
-     }
-     \new Lyrics \lyricsto "Soprano" {
-       \stanzaFiveLyricsFin
-     }
     >>
     \new Staff <<
       \new Voice = "Alto" {
@@ -63,21 +48,6 @@
      }
      \new Lyrics \lyricsto "Alto" {
        \stanzaFiveLyricsAlto
-     }
-     \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyricsAltoFin
-     }
-     \new Lyrics \lyricsto "Alto" {
-       \stanzaTwoLyricsAltoFin
-     }
-     \new Lyrics \lyricsto "Alto" {
-       \stanzaThreeLyricsAltoFin
-     }
-     \new Lyrics \lyricsto "Alto" {
-       \stanzaFourLyricsAltoFin
-     }
-     \new Lyrics \lyricsto "Alto" {
-       \stanzaFiveLyricsAltoFin
      }
     >>
     \new Staff <<

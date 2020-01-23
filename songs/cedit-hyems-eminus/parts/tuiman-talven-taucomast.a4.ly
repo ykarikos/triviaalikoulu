@@ -1,20 +1,13 @@
 \version "2.19.80"
 \include "suomi.ly"
 
-\include "../paper-margins.ily"
-
-\include "cedit-hyems-eminus.music.ily"
+\include "../cedit-hyems-eminus.music.ily"
+\include "../cedit-hyems-eminus.lyrics.ily"
+\include "cedit-hyems-eminus.header.ily"
 
 \header {
-  title = "Cedit hyems eminus"
-%  subtitle = ""
-  composer = "Daniel Friderici (1584-1638)"
-  mutopiacomposer = "Daniel Friderici (1584-1638)"
-%  instrument = "Voice (SATB)"
-  style = "early music"
-  maintainer = "Yrjö Kari-Koskinen"
-  copyright = "Nuottien tekijänoikeudet on luovutettu vapaaseen yleiseen käyttöön Creative Commons 0:n mukaisesti."
-  tagline = "Lähde: https://triviaalikoulu.sonusborealis.fi"
+  title = "Tuiman talven taucomast (Cedit hyems eminus)"
+  poet = "suom. sanat Hemminki Maskulainen (n. 1550–1619)"
 }
 
 \score {
@@ -25,7 +18,19 @@
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsFin
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyricsFin
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaThreeLyricsFin
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaFourLyricsFin
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaFiveLyricsFin
      }
     >>
     \new Staff <<
@@ -34,7 +39,19 @@
         \AltoMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsAltoFin
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaTwoLyricsAltoFin
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaThreeLyricsAltoFin
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaFourLyricsAltoFin
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaFiveLyricsAltoFin
      }
     >>
     \new Staff <<
@@ -56,6 +73,9 @@
       }
     >>
   >>
+  \midi {
+    \tempo 4 = 160
+  }
   \layout {
     \context {
       \Voice
