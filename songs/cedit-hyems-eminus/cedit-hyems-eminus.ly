@@ -4,6 +4,7 @@
 \include "../paper-margins.ily"
 
 \include "cedit-hyems-eminus.music.ily"
+\include "cedit-hyems-eminus.lyrics.ily"
 
 \header {
   title = "Cedit hyems eminus"
@@ -21,11 +22,23 @@
   \new ChoirStaff <<
     \new Staff <<
       \new Voice = "Soprano" {
-		    \global
+        \global
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {
        \stanzaOneLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaThreeLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaFourLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaFiveLyrics
      }
     >>
     \new Staff <<
@@ -34,7 +47,19 @@
         \AltoMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsAlto
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaTwoLyricsAlto
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaThreeLyricsAlto
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaFourLyricsAlto
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaFiveLyricsAlto
      }
     >>
     \new Staff <<
@@ -43,7 +68,19 @@
         \TenoreMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsTenor
+      }
+      \new Lyrics \lyricsto "Tenore" {
+        \stanzaTwoLyricsTenor
+      }
+      \new Lyrics \lyricsto "Tenore" {
+        \stanzaThreeLyricsTenor
+      }
+      \new Lyrics \lyricsto "Tenore" {
+        \stanzaFourLyricsTenor
+      }
+      \new Lyrics \lyricsto "Tenore" {
+        \stanzaFiveLyricsTenor
       }
     >>
     \new Staff <<
@@ -52,7 +89,19 @@
         \BassMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyrics
+        \stanzaOneLyricsBass
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaTwoLyricsBass
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaThreeLyricsBass
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaFourLyricsBass
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaFiveLyricsBass
       }
     >>
   >>

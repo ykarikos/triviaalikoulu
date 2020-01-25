@@ -4,6 +4,7 @@
 \include "../paper-margins.ily"
 
 \include "cedit-hyems-eminus.music.ily"
+\include "cedit-hyems-eminus.lyrics.ily"
 
 \header {
   title = "Tuiman talven taucomast (Cedit hyems eminus)"
