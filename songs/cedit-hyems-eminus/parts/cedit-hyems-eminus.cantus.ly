@@ -15,13 +15,25 @@
 		    \global
         \SopranoMusic
       }
-     \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyrics
-     }
+      \new Lyrics \lyricsto "Soprano" {
+        \stanzaOneLyrics
+      }
+      \new Lyrics \lyricsto "Soprano" {
+        \stanzaTwoLyrics
+      }
+      \new Lyrics \lyricsto "Soprano" {
+        \stanzaThreeLyrics
+      }
+      \new Lyrics \lyricsto "Soprano" {
+        \stanzaFourLyrics
+      }
+      \new Lyrics \lyricsto "Soprano" {
+        \stanzaFiveLyrics
+      }
     >>
   >>
   \midi {
-    \tempo 4 = 160
+    \tempo 4 = 120
   }
   \layout {
     \context {

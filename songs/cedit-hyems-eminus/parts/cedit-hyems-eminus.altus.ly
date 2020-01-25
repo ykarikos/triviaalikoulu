@@ -15,13 +15,25 @@
         \global
         \AltoMusic
       }
-     \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
-     }
+      \new Lyrics \lyricsto "Alto" {
+        \stanzaOneLyricsAlto
+      }
+      \new Lyrics \lyricsto "Alto" {
+        \stanzaTwoLyricsAlto
+      }
+      \new Lyrics \lyricsto "Alto" {
+        \stanzaThreeLyricsAlto
+      }
+      \new Lyrics \lyricsto "Alto" {
+        \stanzaFourLyricsAlto
+      }
+      \new Lyrics \lyricsto "Alto" {
+        \stanzaFiveLyricsAlto
+      }
     >>
   >>
   \midi {
-    \tempo 4 = 160
+    \tempo 4 = 120
   }
   \layout {
     \context {
