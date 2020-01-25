@@ -9,7 +9,6 @@ global = {
   \set Staff.midiInstrument = #"voice oohs"
 }
 
-
 SopranoMusic = \relative c'' {
 	\set Staff.instrumentName = #"Cantus"
 	\set Staff.shortInstrumentName = "C"
@@ -26,8 +25,6 @@ SopranoMusic = \relative c'' {
     d2 d4 d | e g g fis | g1 |
   }
 }
-
-
 
 AltoMusic = \relative c' {
 	\set Staff.instrumentName = #"Altus"
@@ -53,7 +50,15 @@ TenoreMusic = \relative c' {
 	\incipit { \clef "mensural-c4" \key d \minor \time 2/2 b2. }
 
 	\clef "treble_8"
-	b2. b4 |
+  \repeat volta 2 {
+	  b2. b4 | a2 b4 c( | c) b a2 | r4 a h c | d2 c8 a h4 |
+    c4. a8 g4 d' | c h c a | b8 a g a b4 g | a b c a | g1 |
+  }
+  \repeat volta 2 {
+    a4. a8 a4 a | h c a2 | a4. b8 c4 d | c c d2 |
+    a4. a8 a4 b | g g a8 d, d'4 | d4. d8 c4 b | c a b2 |
+    g2. g4 | g b a a | g1 |
+  }
 }
 
 BassMusic = \relative c' {

@@ -60,7 +60,19 @@
         \TenoreMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsTenorFin
+      }
+      \new Lyrics \lyricsto "Tenore" {
+        \stanzaTwoLyricsTenorFin
+      }
+      \new Lyrics \lyricsto "Tenore" {
+        \stanzaThreeLyricsTenorFin
+      }
+      \new Lyrics \lyricsto "Tenore" {
+        \stanzaFourLyricsTenorFin
+      }
+      \new Lyrics \lyricsto "Tenore" {
+        \stanzaFiveLyricsTenorFin
       }
     >>
     \new Staff <<
