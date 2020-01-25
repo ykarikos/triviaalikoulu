@@ -8,7 +8,7 @@ stanzaOneLyrics = \lyricmode {
   Re -- vi -- vis -- cunt a -- ri -- da,
   Post -- quam ver in -- te -- pu -- it,
   Re -- ca -- les -- cunt fri -- gi -- da, __ _ _ _
-  re -- ca -- les -- cunt fri -- gi -- da.
+  re -- ca -- les -- cunt fri -- gi -- da. da.
 }
 
 stanzaTwoLyrics = \lyricmode {
@@ -21,7 +21,7 @@ stanzaTwoLyrics = \lyricmode {
   Cru -- cis poe -- nam ma -- xi -- mam.
   Sol -- vit quae non ra -- pu -- it,
   Per mor -- tem tur -- pis -- si -- mam, __ _ _ _
-  per mor -- tem tur -- pis -- si -- mam.
+  per mor -- tem tur -- pis -- si -- mam. mam.
 }
 
 stanzaThreeLyrics = \lyricmode {
@@ -34,7 +34,7 @@ stanzaThreeLyrics = \lyricmode {
   Mag -- num gre -- gem o -- vi -- um,
   A -- bit, quae -- rit, re -- pe -- rit,
   Er -- ran -- tem per de -- vi -- um, __ _ _ _
-  er -- ran -- tem per de -- vi -- um.
+  er -- ran -- tem per de -- vi -- um. um.
 }
 
 stanzaFourLyrics = \lyricmode {
@@ -46,8 +46,8 @@ stanzaFourLyrics = \lyricmode {
   Non est do -- lor si -- mi -- lis,
   Do -- lo -- ri, quem pa -- te -- ris,
   Je -- su, qui sic hu -- mi -- lis.
-  Fac -- tus es prae ce -- te -- ris,  __ _ _ _
-  fac -- tus es prae ce -- te -- ris.
+  Fac -- tus es prae ce -- te -- ris, __ _ _ _
+  fac -- tus es prae ce -- te -- ris. ris.
 }
 
 stanzaFiveLyrics = \lyricmode {
@@ -60,7 +60,7 @@ stanzaFiveLyrics = \lyricmode {
   Cap -- ri -- vos et mi -- se -- ros,
   Du -- cens ab im -- pe -- ri -- o,
   Cho -- ros us -- que su -- pe -- ros, __ _ _ _
-  cho -- ros us -- que su -- pe -- ros.
+  cho -- ros us -- que su -- pe -- ros. -- ros.
 }
 
 stanzaOneLyricsFin = \lyricmode {
@@ -73,7 +73,7 @@ stanzaOneLyricsFin = \lyricmode {
   Kyl -- met -- ty -- ned läm -- byi -- sit
   Ked -- hod cans caick cu -- cois -- tuit
   Cui -- vet -- tu -- ned vir -- coi -- sit, __ _ _ _
-  cui -- vet -- tu -- ned vir -- coi -- sit.
+  cui -- vet -- tu -- ned vir -- coi -- sit. sit.
 }
 
 stanzaTwoLyricsFin = \lyricmode {
@@ -86,7 +86,7 @@ stanzaTwoLyricsFin = \lyricmode {
   Mie -- le -- läns on ma -- xa -- nut
   Caut -- ta cat -- ke -- ran sur -- man
   Cauh -- jan ris -- tin cuo -- le -- man, __ _ _ _
-  Cauh -- jan ris -- tin cuo -- le -- man.
+  Cauh -- jan ris -- tin cuo -- le -- man. man.
 }
 
 stanzaThreeLyricsFin = \lyricmode {
@@ -99,7 +99,7 @@ stanzaThreeLyricsFin = \lyricmode {
   Me -- nep yh -- tä ed -- zi -- män
   E -- xy -- mäst co -- van löy -- täp
   Hart -- joil -- lans sen sä -- lyt -- täp, __ _ _ _
-  Hart -- joil -- lans sen sä -- lyt -- täp.
+  Hart -- joil -- lans sen sä -- lyt -- täp. täp.
 }
 
 stanzaFourLyricsFin = \lyricmode {
@@ -112,7 +112,7 @@ stanzaFourLyricsFin = \lyricmode {
   Quins kär -- seid kyll kip -- jäs -- tä
   Tänn tu -- lid näin nöy -- rä -- xi
   Mei -- dhän täh -- tem or -- ja -- xi, __ _ _ _
-  mei -- dhän täh -- tem or -- ja -- xi.
+  mei -- dhän täh -- tem or -- ja -- xi. xi.
 }
 
 stanzaFiveLyricsFin = \lyricmode {
@@ -125,7 +125,7 @@ stanzaFiveLyricsFin = \lyricmode {
   Pääs -- tid va -- pax vae -- vaa -- sed
   O -- tid pois or -- ju -- dhes -- ta
   Saa -- tad ty -- ghös tae -- va -- sen, __ _ _ _
-  saa -- tad ty -- ghös tae -- va -- sen.
+  saa -- tad ty -- ghös tae -- va -- sen. sen.
 }
 
 % Alto
@@ -140,7 +140,7 @@ stanzaOneLyricsAlto = \lyricmode {
   Re -- vi -- vis -- cunt a -- ri -- da,
   Post -- quam ver in -- te -- pu -- it,
   Re -- ca -- les -- cunt fri -- gi -- da,
-  re -- ca -- les -- cunt fri -- gi -- da.
+  re -- ca -- les -- cunt fri -- gi -- da. da.
 }
 
 stanzaTwoLyricsAlto = \lyricmode {
@@ -153,7 +153,7 @@ stanzaTwoLyricsAlto = \lyricmode {
   Cru -- cis poe -- nam ma -- xi -- mam.
   Sol -- vit quae non ra -- pu -- it,
   Per mor -- tem tur -- pis -- si -- mam,
-  per mor -- tem tur -- pis -- si -- mam.
+  per mor -- tem tur -- pis -- si -- mam. mam.
 }
 
 stanzaThreeLyricsAlto = \lyricmode {
@@ -166,7 +166,7 @@ stanzaThreeLyricsAlto = \lyricmode {
   Mag -- num gre -- gem o -- vi -- um,
   A -- bit, quae -- rit, re -- pe -- rit,
   Er -- ran -- tem per de -- vi -- um,
-  er -- ran -- tem per de -- vi -- um.
+  er -- ran -- tem per de -- vi -- um. um.
 }
 
 stanzaFourLyricsAlto = \lyricmode {
@@ -179,7 +179,7 @@ stanzaFourLyricsAlto = \lyricmode {
   Do -- lo -- ri, quem pa -- te -- ris,
   Je -- su, qui sic hu -- mi -- lis.
   Fac -- tus es prae ce -- te -- ris,
-  fac -- tus es prae ce -- te -- ris.
+  fac -- tus es prae ce -- te -- ris. ris.
 }
 
 stanzaFiveLyricsAlto = \lyricmode {
@@ -192,7 +192,7 @@ stanzaFiveLyricsAlto = \lyricmode {
   Cap -- ri -- vos et mi -- se -- ros,
   Du -- cens ab im -- pe -- ri -- o,
   Cho -- ros us -- que su -- pe -- ros,
-  cho -- ros us -- que su -- pe -- ros.
+  cho -- ros us -- que su -- pe -- ros. ros.
 }
 
 stanzaOneLyricsAltoFin = \lyricmode {
@@ -205,7 +205,7 @@ stanzaOneLyricsAltoFin = \lyricmode {
   Kyl -- met -- ty -- ned läm -- byi -- sit
   Ked -- hod cans caick cu -- cois -- tuit
   Cui -- vet -- tu -- ned vir -- coi -- sit,
-  cui -- vet -- tu -- ned vir -- coi -- sit.
+  cui -- vet -- tu -- ned vir -- coi -- sit. sit.
 }
 
 stanzaTwoLyricsAltoFin = \lyricmode {
@@ -218,7 +218,7 @@ stanzaTwoLyricsAltoFin = \lyricmode {
   Mie -- le -- läns on ma -- xa -- nut
   Caut -- ta cat -- ke -- ran sur -- man
   Cauh -- jan ris -- tin cuo -- le -- man,
-  Cauh -- jan ris -- tin cuo -- le -- man.
+  Cauh -- jan ris -- tin cuo -- le -- man. man.
 }
 
 stanzaThreeLyricsAltoFin = \lyricmode {
@@ -231,7 +231,7 @@ stanzaThreeLyricsAltoFin = \lyricmode {
   Me -- nep yh -- tä ed -- zi -- män
   E -- xy -- mäst co -- van löy -- täp
   Hart -- joil -- lans sen sä -- lyt -- täp,
-  Hart -- joil -- lans sen sä -- lyt -- täp.
+  Hart -- joil -- lans sen sä -- lyt -- täp. täp.
 }
 
 stanzaFourLyricsAltoFin = \lyricmode {
@@ -244,7 +244,7 @@ stanzaFourLyricsAltoFin = \lyricmode {
   Quins kär -- seid kyll kip -- jäs -- tä
   Tänn tu -- lid näin nöy -- rä -- xi
   Mei -- dhän täh -- tem or -- ja -- xi,
-  mei -- dhän täh -- tem or -- ja -- xi.
+  mei -- dhän täh -- tem or -- ja -- xi. xi.
 }
 
 stanzaFiveLyricsAltoFin = \lyricmode {
@@ -257,7 +257,7 @@ stanzaFiveLyricsAltoFin = \lyricmode {
   Pääs -- tid va -- pax vae -- vaa -- sed
   O -- tid pois or -- ju -- dhes -- ta
   Saa -- tad ty -- ghös tae -- va -- sen,
-  saa -- tad ty -- ghös tae -- va -- sen.
+  saa -- tad ty -- ghös tae -- va -- sen. sen.
 }
 
 % Tenor
@@ -272,7 +272,7 @@ stanzaOneLyricsTenor = \lyricmode {
   Re -- vi -- vis -- cunt a -- ri -- da,
   Post -- quam ver in -- te -- pu -- it, __ _ _
   Re -- ca -- les -- cunt fri -- gi -- da,
-  re -- ca -- les -- cunt fri -- gi -- da.
+  re -- ca -- les -- cunt fri -- gi -- da. da.
 }
 
 stanzaTwoLyricsTenor = \lyricmode {
@@ -285,7 +285,7 @@ stanzaTwoLyricsTenor = \lyricmode {
   Cru -- cis poe -- nam ma -- xi -- mam.
   Sol -- vit quae non ra -- pu -- it, __ _ _
   Per mor -- tem tur -- pis -- si -- mam,
-  per mor -- tem tur -- pis -- si -- mam.
+  per mor -- tem tur -- pis -- si -- mam. mam.
 }
 
 stanzaThreeLyricsTenor = \lyricmode {
@@ -298,7 +298,7 @@ stanzaThreeLyricsTenor = \lyricmode {
   Mag -- num gre -- gem o -- vi -- um,
   A -- bit, quae -- rit, re -- pe -- rit, __ _ _
   Er -- ran -- tem per de -- vi -- um,
-  er -- ran -- tem per de -- vi -- um.
+  er -- ran -- tem per de -- vi -- um. um.
 }
 
 stanzaFourLyricsTenor = \lyricmode {
@@ -311,7 +311,7 @@ stanzaFourLyricsTenor = \lyricmode {
   Do -- lo -- ri, quem pa -- te -- ris,
   Je -- su, qui sic hu -- mi -- lis. __ _ _
   Fac -- tus es prae ce -- te -- ris,
-  fac -- tus es prae ce -- te -- ris.
+  fac -- tus es prae ce -- te -- ris. ris.
 }
 
 stanzaFiveLyricsTenor = \lyricmode {
@@ -324,7 +324,7 @@ stanzaFiveLyricsTenor = \lyricmode {
   Cap -- ri -- vos et mi -- se -- ros,
   Du -- cens ab im -- pe -- ri -- o, __ _ _
   Cho -- ros us -- que su -- pe -- ros,
-  cho -- ros us -- que su -- pe -- ros.
+  cho -- ros us -- que su -- pe -- ros. ros.
 }
 
 stanzaOneLyricsTenorFin = \lyricmode {
@@ -337,7 +337,7 @@ stanzaOneLyricsTenorFin = \lyricmode {
   Kyl -- met -- ty -- ned läm -- byi -- sit
   Ked -- hod cans caick cu -- cois -- tuit __ _ _
   Cui -- vet -- tu -- ned vir -- coi -- sit,
-  cui -- vet -- tu -- ned vir -- coi -- sit.
+  cui -- vet -- tu -- ned vir -- coi -- sit. sit.
 }
 
 stanzaTwoLyricsTenorFin = \lyricmode {
@@ -350,7 +350,7 @@ stanzaTwoLyricsTenorFin = \lyricmode {
   Mie -- le -- läns on ma -- xa -- nut
   Caut -- ta cat -- ke -- ran sur -- man __ _ _
   Cauh -- jan ris -- tin cuo -- le -- man,
-  Cauh -- jan ris -- tin cuo -- le -- man.
+  Cauh -- jan ris -- tin cuo -- le -- man. man.
 }
 
 stanzaThreeLyricsTenorFin = \lyricmode {
@@ -363,7 +363,7 @@ stanzaThreeLyricsTenorFin = \lyricmode {
   Me -- nep yh -- tä ed -- zi -- män
   E -- xy -- mäst co -- van löy -- täp __ _ _
   Hart -- joil -- lans sen sä -- lyt -- täp,
-  Hart -- joil -- lans sen sä -- lyt -- täp.
+  Hart -- joil -- lans sen sä -- lyt -- täp. täp.
 }
 
 stanzaFourLyricsTenorFin = \lyricmode {
@@ -376,7 +376,7 @@ stanzaFourLyricsTenorFin = \lyricmode {
   Quins kär -- seid kyll kip -- jäs -- tä
   Tänn tu -- lid näin nöy -- rä -- xi  __ _ _
   Mei -- dhän täh -- tem or -- ja -- xi,
-  mei -- dhän täh -- tem or -- ja -- xi.
+  mei -- dhän täh -- tem or -- ja -- xi. xi.
 }
 
 stanzaFiveLyricsTenorFin = \lyricmode {
@@ -389,7 +389,7 @@ stanzaFiveLyricsTenorFin = \lyricmode {
   Pääs -- tid va -- pax vae -- vaa -- sed
   O -- tid pois or -- ju -- dhes -- ta __ _ _
   Saa -- tad ty -- ghös tae -- va -- sen,
-  saa -- tad ty -- ghös tae -- va -- sen.
+  saa -- tad ty -- ghös tae -- va -- sen. sen.
 }
 
 
@@ -406,7 +406,7 @@ stanzaOneLyricsBass = \lyricmode {
   Re -- vi -- vis -- cunt a -- ri -- da,
   Post -- quam ver in -- te -- pu -- it,
   Re -- ca -- les -- cunt fri -- gi -- da, __
-  re -- ca -- les -- cunt fri -- gi -- da.
+  re -- ca -- les -- cunt fri -- gi -- da. da.
 }
 
 stanzaTwoLyricsBass = \lyricmode {
@@ -419,7 +419,7 @@ stanzaTwoLyricsBass = \lyricmode {
   Cru -- cis poe -- nam ma -- xi -- mam.
   Sol -- vit quae non ra -- pu -- it,
   Per mor -- tem tur -- pis -- si -- mam, __
-  per mor -- tem tur -- pis -- si -- mam.
+  per mor -- tem tur -- pis -- si -- mam. mam.
 }
 
 stanzaThreeLyricsBass = \lyricmode {
@@ -432,7 +432,7 @@ stanzaThreeLyricsBass = \lyricmode {
   Mag -- num gre -- gem o -- vi -- um,
   A -- bit, quae -- rit, re -- pe -- rit,
   Er -- ran -- tem per de -- vi -- um, __
-  er -- ran -- tem per de -- vi -- um.
+  er -- ran -- tem per de -- vi -- um. um.
 }
 
 stanzaFourLyricsBass = \lyricmode {
@@ -445,7 +445,7 @@ stanzaFourLyricsBass = \lyricmode {
   Do -- lo -- ri, quem pa -- te -- ris,
   Je -- su, qui sic hu -- mi -- lis.
   Fac -- tus es prae ce -- te -- ris, __
-  fac -- tus es prae ce -- te -- ris.
+  fac -- tus es prae ce -- te -- ris. ris.
 }
 
 stanzaFiveLyricsBass = \lyricmode {
@@ -458,7 +458,7 @@ stanzaFiveLyricsBass = \lyricmode {
   Cap -- ri -- vos et mi -- se -- ros,
   Du -- cens ab im -- pe -- ri -- o,
   Cho -- ros us -- que su -- pe -- ros, __
-  cho -- ros us -- que su -- pe -- ros.
+  cho -- ros us -- que su -- pe -- ros. ros.
 }
 
 stanzaOneLyricsBassFin = \lyricmode {
@@ -471,7 +471,7 @@ stanzaOneLyricsBassFin = \lyricmode {
   Kyl -- met -- ty -- ned läm -- byi -- sit
   Ked -- hod cans caick cu -- cois -- tuit
   Cui -- vet -- tu -- ned vir -- coi -- sit, __
-  cui -- vet -- tu -- ned vir -- coi -- sit.
+  cui -- vet -- tu -- ned vir -- coi -- sit. sit.
 }
 
 stanzaTwoLyricsBassFin = \lyricmode {
@@ -484,7 +484,7 @@ stanzaTwoLyricsBassFin = \lyricmode {
   Mie -- le -- läns on ma -- xa -- nut
   Caut -- ta cat -- ke -- ran sur -- man
   Cauh -- jan ris -- tin cuo -- le -- man, __
-  Cauh -- jan ris -- tin cuo -- le -- man.
+  Cauh -- jan ris -- tin cuo -- le -- man. man.
 }
 
 stanzaThreeLyricsBassFin = \lyricmode {
@@ -497,7 +497,7 @@ stanzaThreeLyricsBassFin = \lyricmode {
   Me -- nep yh -- tä ed -- zi -- män
   E -- xy -- mäst co -- van löy -- täp
   Hart -- joil -- lans sen sä -- lyt -- täp, __
-  Hart -- joil -- lans sen sä -- lyt -- täp.
+  Hart -- joil -- lans sen sä -- lyt -- täp. täp.
 }
 
 stanzaFourLyricsBassFin = \lyricmode {
@@ -510,7 +510,7 @@ stanzaFourLyricsBassFin = \lyricmode {
   Quins kär -- seid kyll kip -- jäs -- tä
   Tänn tu -- lid näin nöy -- rä -- xi
   Mei -- dhän täh -- tem or -- ja -- xi, __
-  mei -- dhän täh -- tem or -- ja -- xi.
+  mei -- dhän täh -- tem or -- ja -- xi. xi.
 }
 
 stanzaFiveLyricsBassFin = \lyricmode {
@@ -523,5 +523,5 @@ stanzaFiveLyricsBassFin = \lyricmode {
   Pääs -- tid va -- pax vae -- vaa -- sed
   O -- tid pois or -- ju -- dhes -- ta
   Saa -- tad ty -- ghös tae -- va -- sen, __
-  saa -- tad ty -- ghös tae -- va -- sen.
+  saa -- tad ty -- ghös tae -- va -- sen. sen.
 }

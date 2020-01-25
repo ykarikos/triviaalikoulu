@@ -22,7 +22,16 @@ SopranoMusic = \relative c'' {
   \repeat volta 2 {
     fis4. fis8 fis4 fis | g g fis2 | f!4. g8 a4 b | b a b2 |
     c4. c8 c4 d | h c d2 | b4. b8 a4 g | g fis g4. f16 e |
-    d2 d4 d | e g g fis | g1 |
+    d2 d4 d | e g g fis |
+  }
+  \alternative {
+    {
+      g1 |
+    }
+    {
+      \set Timing.measureLength = #(ly:make-moment 4/2)
+      g\breve \bar "|."
+    }
   }
 }
 
@@ -39,7 +48,16 @@ AltoMusic = \relative c' {
   \repeat volta 2 {
     d4. d8 d4 d | d es d2 | d4. d8 f4 f | f f f2 |
     f4. f8 f4 f | d g fis2 | g4. f!8 f4 d | es d d2 |
-    h2. h4 | c d d d | h1 |
+    h2. h4 | c d d d |
+  }
+  \alternative {
+    {
+      h1 |
+    }
+    {
+      \set Timing.measureLength = #(ly:make-moment 4/2)
+      h\breve \bar "|."
+    }
   }
 }
 
@@ -57,7 +75,16 @@ TenoreMusic = \relative c' {
   \repeat volta 2 {
     a4. a8 a4 a | h c a2 | a4. b8 c4 d | c c d2 |
     a4. a8 a4 b | g g a8 d, d'4 | d4. d8 c4 b | c a b2 |
-    g2. g4 | g b a a | g1 |
+    g2. g4 | g b a a | 
+  }
+  \alternative {
+    {
+      g1 |
+    }
+    {
+      \set Timing.measureLength = #(ly:make-moment 4/2)
+      g\breve \bar "|."
+    }
   }
 }
 
@@ -76,6 +103,15 @@ BassMusic = \relative c' {
   \repeat volta 2 {
     d'4. d8 d4 d | g c, d2 | d4. g8 f4 b, | f' f b,2 |
     f'4. f8 f4 d | g es d2 | g4. b8 f4 g |
-    c, d g,2( | g4) g'2 g4 | c, g d' d | g,1 |
+    c, d g,2( | g4) g'2 g4 | c, g d' d |
+  }
+  \alternative {
+    {
+      g,1 |
+    }
+    {
+      \set Timing.measureLength = #(ly:make-moment 4/2)
+      g\breve \bar "|."
+    }
   }
 }
