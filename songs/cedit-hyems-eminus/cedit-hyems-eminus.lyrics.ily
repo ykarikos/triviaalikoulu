@@ -108,7 +108,7 @@ stanzaFourLyricsFin = \lyricmode {
   Jong sä pa -- ras pai -- men Je -- su
   Mei -- dhän coh -- tam can -- noid, __ _ _ _ _
   mei -- dhän coh -- tam can -- noid:
-  Ei o-le ki -- puu sem -- mois -- ta
+  Ei ole ki -- puu sem -- mois -- ta
   Quins kär -- seid kyll kip -- jäs -- tä
   Tänn tu -- lid näin nöy -- rä -- xi
   Mei -- dhän täh -- tem or -- ja -- xi, __ _ _ _
@@ -121,7 +121,7 @@ stanzaFiveLyricsFin = \lyricmode {
   Nos -- tu -- as kär -- men pään pol -- jid
   Hel -- ve -- tin hä -- vi -- tid, __ _ _ _ _
   hel -- ve -- tin hä -- vi -- tid.
-  Fan -- gid Pha -- ra-on kä -- dhes -- tä
+  Fan -- gid Pha -- raon kä -- dhes -- tä
   Pääs -- tid va -- pax vae -- vaa -- sed
   O -- tid pois or -- ju -- dhes -- ta
   Saa -- tad ty -- ghös tae -- va -- sen, __ _ _ _
@@ -240,7 +240,7 @@ stanzaFourLyricsAltoFin = \lyricmode {
   Jong sä pa -- ras pai -- men Je -- su
   Mei -- dhän coh -- tam can -- noid,
   mei -- dhän coh -- tam can -- noid:
-  Ei o-le ki -- puu sem -- mois -- ta
+  Ei ole ki -- puu sem -- mois -- ta
   Quins kär -- seid kyll kip -- jäs -- tä
   Tänn tu -- lid näin nöy -- rä -- xi
   Mei -- dhän täh -- tem or -- ja -- xi,
@@ -253,7 +253,7 @@ stanzaFiveLyricsAltoFin = \lyricmode {
   Nos -- tu -- as kär -- men pään pol -- jid
   Hel -- ve -- tin hä -- vi -- tid,
   hel -- ve -- tin hä -- vi -- tid.
-  Fan -- gid Pha -- ra-on kä -- dhes -- tä
+  Fan -- gid Pha -- raon kä -- dhes -- tä
   Pääs -- tid va -- pax vae -- vaa -- sed
   O -- tid pois or -- ju -- dhes -- ta
   Saa -- tad ty -- ghös tae -- va -- sen,
@@ -372,7 +372,7 @@ stanzaFourLyricsTenorFin = \lyricmode {
   Jong sä pa -- ras __ _ _ pai -- men Je -- su
   Mei -- dhän coh -- tam can -- noid, __ _ _ _ _
   mei -- dhän coh -- tam can -- noid:
-  Ei o-le ki -- puu sem -- mois -- ta
+  Ei ole ki -- puu sem -- mois -- ta
   Quins kär -- seid kyll kip -- jäs -- tä
   Tänn tu -- lid näin nöy -- rä -- xi  __ _ _
   Mei -- dhän täh -- tem or -- ja -- xi,
@@ -385,7 +385,7 @@ stanzaFiveLyricsTenorFin = \lyricmode {
   Nos -- tu -- as kär -- _ _ men pään pol -- jid
   Hel -- ve -- tin hä -- vi -- tid, __ _ _ _ _
   hel -- ve -- tin hä -- vi -- tid.
-  Fan -- gid Pha -- ra-on kä -- dhes -- tä
+  Fan -- gid Pha -- raon kä -- dhes -- tä
   Pääs -- tid va -- pax vae -- vaa -- sed
   O -- tid pois or -- ju -- dhes -- ta __ _ _
   Saa -- tad ty -- ghös tae -- va -- sen,
@@ -506,7 +506,7 @@ stanzaFourLyricsBassFin = \lyricmode {
   Jong sä pa -- ras __ _ _ _ _ pai -- men Je -- su
   Mei -- dhän coh -- tam can -- noid,
   mei -- dhän coh -- tam can -- noid:
-  Ei o-le ki -- puu sem -- mois -- ta
+  Ei ole ki -- puu sem -- mois -- ta
   Quins kär -- seid kyll kip -- jäs -- tä
   Tänn tu -- lid näin nöy -- rä -- xi
   Mei -- dhän täh -- tem or -- ja -- xi, __
@@ -519,7 +519,7 @@ stanzaFiveLyricsBassFin = \lyricmode {
   Nos -- tu -- as kär -- _ _ _ _ men pään pol -- jid
   Hel -- ve -- tin hä -- vi -- tid,
   hel -- ve -- tin hä -- vi -- tid.
-  Fan -- gid Pha -- ra-on kä -- dhes -- tä
+  Fan -- gid Pha -- raon kä -- dhes -- tä
   Pääs -- tid va -- pax vae -- vaa -- sed
   O -- tid pois or -- ju -- dhes -- ta
   Saa -- tad ty -- ghös tae -- va -- sen, __
