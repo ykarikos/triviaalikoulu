@@ -2,6 +2,7 @@
 \include "suomi.ly"
 
 \include "../cedit-hyems-eminus.music.ily"
+\include "../cedit-hyems-eminus.lyrics.ily"
 \include "cedit-hyems-eminus.header.ily"
 
 \header {
