@@ -47,8 +47,8 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 ## Kappaleet työn alla
 
 Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
-- Veni Sancte Spiritus (longum) à 5
-* Ainoan Jumalan korkeudes'
+* Veni Sancte Spiritus (longum) à 5
+* Allenaste Gud i himmelrik / Ainoan Jumalan corkiudhes
 * Omnes gentes plaudite manibus
 * Mens confisa Deo
 * Ah Jesu mellitissime
@@ -71,9 +71,9 @@ Ladonnan voi suorittaa `make`-komennolla:
 1. Luo docker-image: [lilypond](https://github.com/ykarikos/lilypond-docker)
 1. Lado yksittäinen nuotti esimerkiksi seuraavilla komennoilla:
 	```
-	docker/build-song.sh "Ecce Quam"
-	docker/build-song.sh "Ecce Quam" a4
-	docker/build-song.sh "Repleatur os meum" coro-I
+	./build-song.sh songs/ecce-quam/ecce-quam.ly
+	./build-song.sh songs/ecce-quam/parts/ecce-quam.a4.ly
+	cd songs/repleatur-os-meum && ../../build-song.sh parts/repleatur-os-meum.coro-I.ly
 	```
 
 ### Koko kirjan latominen Dockerilla
