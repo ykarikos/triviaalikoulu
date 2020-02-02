@@ -13,16 +13,100 @@ SopranoMusic = \relative c'' {
 
 	\incipit { \clef "mensural-g" \key c \major \time 2/2 e''4. }
 
-	e4. e8 d4. d8 | h4. c8 c4. h8 | c2 r |
-	R1 | R1 | R1 | 
-	h4. h8 c4. c8 | e4. e8 d4. d8 | e2 r |
-	c4. c8 h4. c8 | c4. c8 e2 |
+	\repeat volta 2 {
+		e4. e8 d4. d8 | h4. c8 c4. h8 | c2 r |
+		R1 | R1 | R1 | 
+		h4. h8 c4. c8 | e4. e8 d4. d8 | e2 r |
+		c4. c8 h4. c8 | c4. c8 e2 |
+% p2
+		\time 3/1
+		c1 c h | c\breve c1 | e\breve d1 | e\breve c1 | e e d | e\breve r1 |
+	}
+	\repeat volta 2 {
+		\time 2/2
+		d2 d4 d8 d | e4 e8 d c4 h | c2 h4 c | d2 e |
+		d2 d4 d8 d | c4 c8 h a4 a | c2 c4 h | h2 a |
+% p3
+		e'4. e8 d4. d8 | R1 | R1 |
+		\time 3/1
+		e1 e d |
+		e\breve e1 | e\breve d1 | e\breve c1 | e e d | e\breve r1 |
+	}
+	\repeat volta 2 {
+		\time 2/2
+		r2 e | d8 d d d d4 d8 d | e4 e8 e e4 e | e2 e4 e | c c a a |
+% p4
+		a4. h8 cis2 | e4 c d2 | e1 | e4 e d2 | e1 |
+		\time 3/1
+		e e d | e\breve r1 | e\breve d1 | e\breve c1 | e e d | e\breve r1 |
+		e2 e e e e e | e\breve e1 | c2 c c c c c | c\breve c1 |
+		c2 c c c c c | c\breve c1 |
+% p5
+		c1 e d | e\breve r1 | d2 d d d d d | c\breve h1 |
+		e e e | e1. d2 c1 | e\breve. |
+	}
+}
+
+stanzaOneLyricsSoprano = \lyricmode {
+	Ve -- ni Sanc -- te, Sanc -- te Spi -- ri -- tus,
+	Ve -- ni Sanc -- te, Sanc -- te Spi -- ri -- tus,
+	Ve -- ni Sanc -- te Spi -- ri -- tus
+
+	Rep -- le -- tu -- o -- rum
+	cor -- da, cor -- da fi -- de -- li -- um.
+	Et tu -- i a -- mo -- ris in e -- is
+	ig -- nem ac -- cen -- de,
+	et tu -- i a -- mo -- ris in e -- is
+	ig -- nem ac -- cen -- de,
+
+	Ve -- ni, ve -- ni
+	Rep -- le -- tu -- o -- rum
+	cor -- da, cor -- da fi -- de -- li -- um.
+
+	Qui per di -- ver -- si -- ta -- tem lin -- gua -- rum
+	qunq -- ta -- rum gen -- tes in u -- ni -- ta -- te
+	fi -- de -- i con -- gre -- gas -- ti.
+
+	Al -- le -- lu -- ja.
+
+	Al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	al -- le -- lu, al -- le -- lu -- ja.
 }
 
 stanzaOneLyrics = \lyricmode {
 	Ve -- ni Sanc -- te, Sanc -- te Spi -- ri -- tus,
 	Ve -- ni Sanc -- te, Sanc -- te Spi -- ri -- tus,
 	Ve -- ni Sanc -- te Spi -- ri -- tus
+
+	Rep -- le -- tu -- o -- rum
+	cor -- da, cor -- da fi -- de -- li -- um.
+	Et tu -- i a -- mo -- ris in e -- is
+	ig -- nem ac -- cen -- de,
+	et tu -- i a -- mo -- ris in e -- is
+	ig -- nem ac -- cen -- de,
+
+	Ve -- ni, ve -- ni, Sanc -- te Spi -- ri -- tus
+	Rep -- le -- tu -- o -- rum
+	cor -- da, cor -- da fi -- de -- li -- um.
+
+	Qui per di -- ver -- si -- ta -- tem lin -- gua -- rum
+	qunq -- ta -- rum gen -- tes in u -- ni -- ta -- te
+	fi -- de -- i con -- gre -- gas -- ti.
+
+	Al -- le -- lu -- ja.
+
+	Al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	al -- le -- lu, al -- le -- lu -- ja.
 }
 
 SopranoTwoMusic = \relative c'' {

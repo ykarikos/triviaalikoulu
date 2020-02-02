@@ -16,7 +16,7 @@
         \SopranoTwoMusic
       }
      \new Lyrics \lyricsto "SopranoTwo" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsSoprano
      }
     >>
   >>

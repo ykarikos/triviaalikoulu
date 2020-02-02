@@ -25,7 +25,7 @@
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsSoprano
      }
     >>
     \new Staff <<
@@ -34,7 +34,7 @@
         \SopranoTwoMusic
       }
      \new Lyrics \lyricsto "SopranoTwo" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsSoprano
      }
     >>
     \new Staff <<
