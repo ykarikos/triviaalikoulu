@@ -15,7 +15,7 @@ SopranoMusic = \relative c'' {
 
 	\repeat volta 2 {
 		e4. e8 d4. d8 | h4. c8 c4. h8 | c2 r |
-		R1 | R1 | R1 | 
+		R1 | R1 | R1 |
 		h4. h8 c4. c8 | e4. e8 d4. d8 | e2 r |
 		c4. c8 h4. c8 | c4. c8 e2 |
 % p2
@@ -36,7 +36,7 @@ SopranoMusic = \relative c'' {
 		\time 2/2
 		r2 e | d8 d d d d4 d8 d | e4 e8 e e4 e | e2 e4 e | c c a a |
 % p4
-		a4. h8 cis2 | e4 c d2 | e1 | e4 e d2 | e1 |
+		c4. h8 cis2 | e4 c d2 | e1 | e4 e d2 | e1 |
 		\time 3/1
 		e e d | e\breve r1 | e\breve d1 | e\breve c1 | e e d | e\breve r1 |
 		e2 e e e e e | e\breve e1 | c2 c c c c c | c\breve c1 |
@@ -69,12 +69,12 @@ stanzaOneLyricsSoprano = \lyricmode {
 
 	Al -- le -- lu -- ja.
 
-	Al -- le -- lu -- ja, al -- le -- lu -- ja, 
-	al -- le -- lu -- ja, al -- le -- lu -- ja, 
-	al -- le -- lu -- ja, al -- le -- lu -- ja, 
-	al -- le -- lu -- ja, al -- le -- lu -- ja, 
-	al -- le -- lu -- ja, al -- le -- lu -- ja, 
-	al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	Al -- le -- lu -- ja, al -- le -- lu -- ja,
+	al -- le -- lu -- ja, al -- le -- lu -- ja,
+	al -- le -- lu -- ja, al -- le -- lu -- ja,
+	al -- le -- lu -- ja, al -- le -- lu -- ja,
+	al -- le -- lu -- ja, al -- le -- lu -- ja,
+	al -- le -- lu -- ja, al -- le -- lu -- ja,
 	al -- le -- lu, al -- le -- lu -- ja.
 }
 
@@ -100,12 +100,12 @@ stanzaOneLyrics = \lyricmode {
 
 	Al -- le -- lu -- ja.
 
-	Al -- le -- lu -- ja, al -- le -- lu -- ja, 
-	al -- le -- lu -- ja, al -- le -- lu -- ja, 
-	al -- le -- lu -- ja, al -- le -- lu -- ja, 
-	al -- le -- lu -- ja, al -- le -- lu -- ja, 
-	al -- le -- lu -- ja, al -- le -- lu -- ja, 
-	al -- le -- lu -- ja, al -- le -- lu -- ja, 
+	Al -- le -- lu -- ja, al -- le -- lu -- ja,
+	al -- le -- lu -- ja, al -- le -- lu -- ja,
+	al -- le -- lu -- ja, al -- le -- lu -- ja,
+	al -- le -- lu -- ja, al -- le -- lu -- ja,
+	al -- le -- lu -- ja, al -- le -- lu -- ja,
+	al -- le -- lu -- ja, al -- le -- lu -- ja,
 	al -- le -- lu, al -- le -- lu -- ja.
 }
 
@@ -115,10 +115,39 @@ SopranoTwoMusic = \relative c'' {
 
 	\incipit { \clef "mensural-c1" \key c \major \time 2/2 c''4. }
 
-	c4. c8 a4. a8 | g4. a8 g4. g8 | g2 r |
-	R1 | R1 | R1 | 
-	g4. g8 a4. a8 | c4. c8 h4. h8 | c2 r |
-	a4. a8 g4. a8 | g4. g8 c2 |	
+  \repeat volta 2 {
+  	c4. c8 a4. a8 | g4. a8 g4. g8 | g2 r |
+  	R1 | R1 | R1 |
+  	g4. g8 a4. a8 | c4. c8 h4. h8 | c2 r |
+  	a4. a8 g4. a8 | g4. g8 c2 |
+    \time 3/1
+% p2
+    g1 g g | g\breve g1 | c\breve h1 | c\breve g1 | c c h | c\breve r1 |
+  }
+  \repeat volta 2 {
+    \time 2/2
+    h2 h4 h8 h | c4 c8 g a4 g | a2 g4 a | h2 c |
+    a h4 h8 h | a4 a8 g f4 f | a2 g4 fis | gis2 a |
+% p3
+    c4. c8 a4. a8 | R1 | R1 |
+    \time 3/1
+    c1 c h |
+    c\breve c1 | c\breve d1 | c\breve g1 | c c h | c\breve r1 |
+  }
+  \repeat volta 2 {
+    \time 2/2
+    r2 c |
+    h8 h h h h4 h8 h | c4 c8 c c4 c | c2 c4 c | a a f f |
+% p4
+    a4. gis8 a2 | c!4 a h2 | c1 | c4 c h2 | c1 |
+    \time 3/1
+    c1 c h | c\breve r1 | c\breve h1 | c\breve g1 | c c h | c\breve r1 |
+    c2 c c c c c | c\breve c1 | g2 g g g g g | g\breve g1 |
+    a2 a a a a a | a\breve a1 |
+% p5
+    a c h | c\breve r1 | a2 a a a a a | g\breve g1 |
+    c c c | c1. a2 g1 | c\breve. |
+  }
 }
 
 AltoMusic = \relative c'' {
@@ -142,7 +171,7 @@ TenoreMusic = \relative c' {
 	\clef "treble_8"
 	g4. g8 a4. a8 | h4. a8 g4. g8 | g2 r |
 	e'4. e8 d4. d8 | c4. c8 g4. g8 | g2 r |
-	R1 | R1 | R1 | 
+	R1 | R1 | R1 |
 	c4. c8 h4. c8 | c4. h8 c2 |
 }
 
@@ -155,6 +184,6 @@ BassMusic = \relative c {
 	\clef bass
 	c4. c8 d4. d8 | e4. f8 g4. g8 | c,2 r |
 	g'4. g8 f4. f8 | e4. e8 d4. d8 | e2 r |
-	R1 | R1 | R1 | 
+	R1 | R1 | R1 |
 	f4. f8 e4. f8 | g4. g8 c,2 |
 }
