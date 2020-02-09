@@ -14,7 +14,7 @@ SopranoMusic = \relative c'' {
 	\incipit { \clef "mensural-g" \key c \major \time 2/2 e''4. }
 
 	\repeat volta 2 {
-		e4. e8 d4. d8 | h4. c8 c4. h8 | c2 r |
+		e4. e8 d4. d8 | h4. c8 c4. c8 | c2 r |
 		R1 | R1 | R1 |
 		h4. h8 c4. c8 | e4. e8 d4. d8 | e2 r |
 		c4. c8 h4. c8 | c4. c8 e2 |
@@ -24,12 +24,11 @@ SopranoMusic = \relative c'' {
 	}
 	\repeat volta 2 {
 		\time 2/2
-		d2 d4 d8 d | e4 e8 d c4 h | c2 h4 c | d2 e |
-		d2 d4 d8 d | c4 c8 h a4 a | c2 c4 h | h2 a |
+		d2 d4 d8 d | e4 e8 d c4 h | c2 h4 c | e2 e |
+		d2 d4 d8 d | c4 c8 h a4 a | c2 c4 h | a2 e' |
 % p3
-		e'4. e8 d4. d8 | R1 | R1 |
-		\time 3/1
-		e1 e d |
+		e4. e8 d4. d8 | R1 | R1 |
+		\time 3/1	e1 e d |
 		e\breve e1 | e\breve d1 | e\breve c1 | e e d | e\breve r1 |
 	}
 	\repeat volta 2 {
@@ -57,7 +56,7 @@ stanzaOneLyricsSoprano = \lyricmode {
 	Et tu -- i a -- mo -- ris in e -- is
 	ig -- nem ac -- cen -- de,
 	et tu -- i a -- mo -- ris in e -- is
-	ig -- nes ac -- cen -- de,
+	ig -- nem ac -- cen -- de,
 
 	Ve -- ni, ve -- ni
 	Rep -- le -- tu -- o -- rum
@@ -126,13 +125,12 @@ SopranoTwoMusic = \relative c'' {
   }
   \repeat volta 2 {
     \time 2/2
-    h2 h4 h8 h | c4 c8 g a4 g | a2 g4 a | h2 c |
-    a h4 h8 h | a4 a8 g f4 f | a2 g4 fis | gis2 a |
+    h2 h4 h8 h | c4 c8 h a4 g | a2 g4 a | c2 c |
+    a h4 h8 h | a4 a8 g f4 f | a2 a4 g | f2 c' |
 % p3
     c4. c8 a4. a8 | R1 | R1 |
-    \time 3/1
-    c1 c h |
-    c\breve c1 | c\breve d1 | c\breve g1 | c c h | c\breve r1 |
+    \time 3/1 c1 c h |
+    c\breve c1 | c\breve h1 | c\breve g1 | c c h | c\breve r1 |
   }
   \repeat volta 2 {
     \time 2/2
@@ -150,29 +148,29 @@ SopranoTwoMusic = \relative c'' {
   }
 }
 
-AltoMusic = \relative c'' {
+AltoMusic = \relative c' {
 	\set Staff.instrumentName = #"Altus"
 	\set Staff.shortInstrumentName = "A"
 
 	\incipit { \clef "mensural-c3" \key c \major \time 2/2 e'4. } % !! e or g?
 
   \repeat volta 2 {
-  	g4. g8 f4. f8 | e4. f8 d4. d8 | e2 r |
+  	e4. e8 d4. d8 | e4. f8 e4. e8 | e2 r |
   	g4. g8 f4. f8 | e4. e8 h4. h8 | c2 r |
   	R1 | R1 | R1 |
-  	f4. f8 e4. f8 | e4. e8 g2 |
+  	f4. f8 e4. f8 | e4. e8 e2 |
 % p2
     \time 3/1
     e1 e d | e\breve e1 | g\breve g1 | g\breve e1 | e e g | g\breve r1 |
   }
   \repeat volta 2 {
     \time 2/2
-    g2 g4 g8 g | g4 g8 d e4 d | e2 e4 f | g2 g |
-    f2 g4 g8 g| f4 f8 e d4 d | e2 e4 d | e2 e |
+    g2 g4 g8 g | g4 g8 g e4 d | e2 e4 f | g2 e |
+    f2 g4 g8 g | f4 f8 e d4 d | e2 e4 d | d2 e |
 % p3
     g4. g8 f4. f8 | e4. e8 d4. d8 | e2 r |
-    \time 3/1 g1 g g |
-    g\breve g1 | g\breve g1 | g\breve e1 | g g g | g\breve r1 |
+    \time 3/1 e1 e d |
+    e\breve e1 | g\breve g1 | g\breve e1 | e e g | g\breve r1 |
   }
   \repeat volta 2 {
     \time 2/2 r2 g |
@@ -197,22 +195,23 @@ TenoreMusic = \relative c' {
 
 	\clef "treble_8"
   \repeat volta 2 {
-  	g4. g8 a4. a8 | h4. a8 g4. g8 | g2 r |
-  	e'4. e8 d4. d8 | c4. c8 g4. g8 | g2 r |
+  	g4. g8 a4. a8 | h4. c8 c4. c8 | c2 r |
+  	e4. e8 d4. d8 | c4. c8 g4. g8 | g2 r |
   	R1 | R1 | R1 |
   	c4. c8 h4. c8 | c4. c8 c2 |
 % p2
     \time 3/1
-    g1 g g | g\breve g1 | g\breve g1 | g\breve g1 | g g g | c\breve r1 |
+    c1 c h | c\breve c1 | e\breve d1 | c\breve c1 |
+    c c h | c\breve r1 |
   }
   \repeat volta 2 {
     \time 2/2
-    d2 d4 d8 d | c4 c8 d c4 h | a2 h4 a | g2 g |
-    d'2 d4 d8 d | c4 c8 h a4 a | a2 c4 h | a2 cis |
+    d2 d4 d8 d | e4 e8 d c4 h | c2 h4 c | e2 c |
+    d2 d4 d8 d | c4 c8 h a4 a | a2 c4 h | a2 c |
 % p3
-    e4. e8 d4. d8 | c4. c8 h4 h | c2 r |
-    \time 3/1 c1 c d |
-    c\breve c1 | c\breve g1 | c\breve c1 | c c g | c\breve r1 |
+    e4. e8 d4. d8 | c4. c8 h4. h8 | c2 r |
+    \time 3/1 c1 c h |
+    c\breve c1 | e\breve d1 | c\breve c1 | c c h | c\breve r1 |
   }
   \repeat volta 2 {
     \time 2/2 r2 g |
@@ -248,9 +247,9 @@ BassMusic = \relative c {
   \repeat volta 2 {
     \time 2/2
     g'2 g4 g8 g | c4 c8 h a4 g | a2 e4 f | g2 c, |
-    d g4 g8 g | f4 f8 e d4 d | a'2 c,4 d | e2 a, |
+    d g4 g8 g | f4 f8 e d4 d | e2 a,4 h | d2 c |
 % p3
-    c4. c8 d4. d8 | e4. f8 g4 g | c,2 r |
+    c4. c8 d4. d8 | e4. f8 g4. g8 | c,2 r |
     \time 3/1 c1 c g' |
     c,\breve c1 | c\breve h1 | c\breve e1 | c c g' | c,\breve r1 |
   }
