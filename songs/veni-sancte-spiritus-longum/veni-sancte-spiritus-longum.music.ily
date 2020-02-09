@@ -156,10 +156,37 @@ AltoMusic = \relative c'' {
 
 	\incipit { \clef "mensural-c3" \key c \major \time 2/2 e'4. } % !! e or g?
 
-	g4. g8 f4. f8 | e4. f8 d4. d8 | e2 r |
-	g4. g8 f4. f8 | e4. e8 h4. h8 | c2 r |
-	R1 | R1 | R1 |
-	f4. f8 e4. f8 | e4. e8 g2 |
+  \repeat volta 2 {
+  	g4. g8 f4. f8 | e4. f8 d4. d8 | e2 r |
+  	g4. g8 f4. f8 | e4. e8 h4. h8 | c2 r |
+  	R1 | R1 | R1 |
+  	f4. f8 e4. f8 | e4. e8 g2 |
+% p2
+    \time 3/1
+    e1 e d | e\breve e1 | g\breve g1 | g\breve e1 | e e g | g\breve r1 |
+  }
+  \repeat volta 2 {
+    \time 2/2
+    g2 g4 g8 g | g4 g8 d e4 d | e2 e4 f | e2 e |
+    f2 g4 g8 g| f4 f8 e d4 d | e2 e4 d | e2 e |
+% p3
+    g4. g8 f4. f8 | e4. e8 d4. d8 | e2 r |
+    \time 3/1 g1 g g |
+    g\breve g1 | g\breve g1 | g\breve e1 | g g g | g\breve r1 |
+  }
+  \repeat volta 2 {
+    \time 2/2 r2 g |
+    g8 g g g g4 g8 g | g4 g8 g g4 g | g2 g4 g | f c d d |
+% p4
+    e4. e8 e2 | g4 f8( e) d4( g) | g1 | g4 g g2 | g1 |
+    \time 3/1
+    g1 g g | g\breve r1 | g\breve g1 | g\breve e1 | e e g | g\breve r1 |
+    g2 g g g g g | g\breve g1 | e2 e e e e e | e\breve e1 |
+    f2 f f f f f | f\breve f1 |
+% p5
+    f g g | g\breve r1 | f2 f f f f f | e\breve e1 |
+    g g g | g1. f2 e( g) | g\breve. |
+  }
 }
 
 TenoreMusic = \relative c' {
