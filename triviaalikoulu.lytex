@@ -1,5 +1,5 @@
 \documentclass[a4paper,twoside]{report}
-\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage[a4paper,margin=1.8cm]{geometry}
 
 \usepackage{ifxetex}
 \ifxetex
