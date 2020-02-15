@@ -26,3 +26,27 @@ stanzaOneLyricsChoirOne = \lyricmode {
     al -- le -- lu -- ja.
 }
 
+
+
+stanzaOneLyricsChoirTwo = \lyricmode {
+    Al -- le -- lu -- ja, al -- le -- lu -- ja, 
+    al -- le -- lu -- ja, al -- le -- lu -- ja, 
+    al -- le -- lu -- ja.
+
+    coe -- lum et ter -- ra lae -- ten -- tur,
+    al -- le -- lu -- ja, al -- le -- lu -- ja,
+    al -- le -- lu -- ja, al -- le -- lu -- ja,
+    al -- le -- lu -- ja, al -- le -- lu -- ja.
+
+    Qui pro no -- bis pe -- pen -- dit in li -- gno,
+    al -- le -- lu -- ja, al -- le -- lu -- ja,
+    al -- le -- lu -- ja, al -- le -- lu -- ja,
+    al -- le -- lu -- ja.
+
+    Vi -- so Do -- mi -- no, al -- le -- lu -- ja,
+    al -- le -- lu -- ja, al -- le -- lu -- ja,
+    al -- le -- lu -- ja, __ _ _ _ _
+    al -- le -- lu -- ja, __ _ _ _ _
+    al -- le -- lu -- ja. __ _ _ _ _ _ _
+}
+

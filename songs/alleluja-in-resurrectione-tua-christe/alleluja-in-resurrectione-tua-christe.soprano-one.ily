@@ -20,7 +20,7 @@ SopranoOneMusic = \relative c' {
     \tempo 2 = 240	
 	c1 c b | a\breve g1 | fis1. g2 a1 | b a g | g2 a1 d2 cis1 |
 	d2 b1 a2 g1 | a\breve r1 | 
-	\repeat unfold 4 { R\breve. }
+	\repeat unfold 4 { R\breve. | }
 	a1 a g | a2 b c d c1 |
 	c a g | a2 b c d c1 |
 	c a g | a2 b c d c1 |
