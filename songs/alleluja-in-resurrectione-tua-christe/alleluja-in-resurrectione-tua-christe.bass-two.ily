@@ -9,5 +9,5 @@ BassTwoMusic = \relative c {
 	}
 
 	\clef bass
-	R1 | f1 | d2 c | f,1 |
+	R1 | R | f1 | d2 c | f,1 |
 }

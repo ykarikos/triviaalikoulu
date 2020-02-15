@@ -7,5 +7,5 @@ AltoTwoMusic = \relative c' {
 		r1 c'1
 	}
 
-	R1 | c1 | d2 e | f1 |
+	R1 | R | c1 | d2 e | f1 |
 }

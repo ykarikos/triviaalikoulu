@@ -7,5 +7,5 @@ SopranoTwoMusic = \relative c' {
 		r1 f'1
 	}
 
-	R1 | f1 | f2 g | a1 |
+	R1 | R | f1 | f2 g | a1 |
 }

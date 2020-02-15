@@ -8,5 +8,5 @@ TenoreTwoMusic = \relative c' {
 	}
 
 	\clef "treble_8"
-	R1 | a1 | a2 c | c1 |
+	R1 | R | a1 | a2 c | c1 |
 }
