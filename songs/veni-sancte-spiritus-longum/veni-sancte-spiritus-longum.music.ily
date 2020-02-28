@@ -20,24 +20,34 @@ SopranoMusic = \relative c'' {
 		c4. c8 h4. c8 | c4. c8 e2 |
 % p2
 		\time 3/1
+    \tempo 1 = 320
+    \set Score.tempoHideNote = ##t
 		c1 c h | c\breve c1 | e\breve d1 | e\breve c1 | e e d | e\breve r1 |
 	}
 	\repeat volta 2 {
 		\time 2/2
+    \tempo 4 = 100
+    \set Score.tempoHideNote = ##t
 		d2 d4 d8 d | e4 e8 d c4 h | c2 h4 c | d2 e |
 		d2 d4 d8 d | c4 c8 h a4 a | c2 c4 h | h2 a |
 % p3
 		e'4. e8 d4. d8 | R1 | R1 |
 		\time 3/1
+    \tempo 1 = 320
+    \set Score.tempoHideNote = ##t
 		e1 e d |
 		e\breve e1 | e\breve d1 | e\breve c1 | e e d | e\breve r1 |
 	}
 	\repeat volta 2 {
 		\time 2/2
+    \tempo 4 = 100
+    \set Score.tempoHideNote = ##t
 		r2 e | d8 d d d d4 d8 d | e4 e8 e e4 e | e2 e4 e | c c a a |
 % p4
 		c4. h8 cis2 | e4 c d2 | e1 | e4 e d2 | e1 |
 		\time 3/1
+    \tempo 1 = 320
+    \set Score.tempoHideNote = ##t
 		e e d | e\breve r1 | e\breve d1 | e\breve c1 | e e d | e\breve r1 |
 		e2 e e e e e | e\breve e1 | c2 c c c c c | c\breve c1 |
 		c2 c c c c c | c\breve c1 |
@@ -57,7 +67,7 @@ stanzaOneLyricsSoprano = \lyricmode {
 	Et tu -- i a -- mo -- ris in e -- is
 	ig -- nem ac -- cen -- de,
 	et tu -- i a -- mo -- ris in e -- is
-	ig -- nes ac -- cen -- de,
+	ig -- nem ac -- cen -- de,
 
 	Ve -- ni, ve -- ni
 	Rep -- le -- tu -- o -- rum
@@ -208,7 +218,7 @@ TenoreMusic = \relative c' {
   \repeat volta 2 {
     \time 2/2
     d2 d4 d8 d | c4 c8 d c4 h | a2 h4 a | g2 g |
-    d'2 d4 d8 d | c4 c8 h a4 a | a2 c4 h | a2 cis |
+    d'2 d4 d8 d | c4 c8 h a4 a | a2 c4 h | h2 cis |
 % p3
     e4. e8 d4. d8 | c4. c8 h4 h | c2 r |
     \time 3/1 c1 c d |
