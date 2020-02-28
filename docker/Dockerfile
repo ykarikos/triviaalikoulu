@@ -1,7 +1,7 @@
 FROM ykarikos/lilypond-book
 RUN apt-get install -qq -y openjdk-11-jre-headless locales
-RUN curl -sO https://download.clojure.org/install/linux-install-1.10.1.492.sh
-RUN bash linux-install-1.10.1.492.sh
+RUN curl -sO https://download.clojure.org/install/linux-install-1.10.1.507.sh
+RUN bash linux-install-1.10.1.507.sh
 
 COPY Casablanca-Antique.ttf Palatino.ttc Helvetica.ttc /usr/local/share/fonts/
 RUN fc-cache
