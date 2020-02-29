@@ -50,7 +50,7 @@
         \TenoreOneMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneAlto
       }
     >>
     \new Staff <<
@@ -59,7 +59,7 @@
         \BassOneMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneBass
       }
     >>
   >>
@@ -80,7 +80,7 @@
         \AltoTwoMusic
       }
      \new Lyrics \lyricsto "AltoTwo" {
-       \stanzaOneLyricsChoirTwo
+       \stanzaOneLyricsChoirTwoBass
      }
     >>
     \new Staff <<
@@ -89,7 +89,7 @@
         \TenoreTwoMusic
       }
       \new Lyrics \lyricsto "TenoreTwo" {
-       \stanzaOneLyricsChoirTwo
+       \stanzaOneLyricsChoirTwoBass
       }
     >>
     \new Staff <<
