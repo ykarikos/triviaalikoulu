@@ -18,7 +18,7 @@
   \new StaffGroup = choirOneStaff <<
     \new Staff <<
       \new Voice = "Soprano" {
-		\global
+    \global
         \SopranoOneMusic
       }
      \new Lyrics \lyricsto "Soprano" {

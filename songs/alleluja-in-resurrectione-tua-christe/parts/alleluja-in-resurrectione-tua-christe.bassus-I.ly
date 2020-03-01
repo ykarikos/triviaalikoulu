@@ -22,7 +22,7 @@
         \BassOneMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneBass
       }
     >>
   >>

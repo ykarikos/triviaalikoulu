@@ -18,11 +18,11 @@
   \new StaffGroup = choirTwoStaff <<
     \new Staff <<
       \new Voice = "SopranoTwo" {
-		\global
+    \global
         \SopranoTwoMusic
       }
      \new Lyrics \lyricsto "SopranoTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwo
      }
     >>
   >>

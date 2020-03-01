@@ -20,7 +20,7 @@
   \new StaffGroup = choirOneStaff <<
     \new Staff <<
       \new Voice = "Soprano" {
-		\global
+    \global
         \SopranoOneMusic
       }
      \new Lyrics \lyricsto "Soprano" {
@@ -33,7 +33,7 @@
         \AltoOneMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneAlto
      }
     >>
     \new Staff <<
@@ -42,7 +42,7 @@
         \TenoreOneMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneAlto
       }
     >>
     \new Staff <<
@@ -51,7 +51,7 @@
         \BassOneMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneBass
       }
     >>
   >>
