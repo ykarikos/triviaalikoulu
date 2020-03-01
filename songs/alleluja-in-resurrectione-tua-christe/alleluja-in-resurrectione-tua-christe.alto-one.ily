@@ -18,12 +18,14 @@ AltoOneMusic = \relative c' {
 
 	r2 e | f4 f g2 | r4 f e e | f2 r4 f | f2 g | a1 |
 	\time 3/1
+    \set Score.tempoHideNote = ##t
+    \tempo 2 = 240
 	f1 f f | f\breve e1 | d1. d2 f1 | f f d | 
 	e2 f1 a2 a1 | a2 g1 f e2 | f\breve r1 |
 	\repeat unfold 4 { R\breve. | }
 
-	f1 f e | f\breve r1 |
-	f1 f e | f\breve r1 |
-	f1 f f | f\breve r1 |
+	f1 f e | f\breve. |
+	f1 f e | f\breve. |
+	f1 f e | f\breve. |
 	f1 f f | f\breve. \bar "|."
 }
