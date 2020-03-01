@@ -24,8 +24,8 @@ AltoOneMusic = \relative c' {
 	e2 f1 a2 a1 | a2 g1 f e2 | f\breve r1 |
 	\repeat unfold 4 { R\breve. | }
 
-	f1 f e | f\breve. |
-	f1 f e | f\breve. |
-	f1 f e | f\breve. |
+	f1 f e | f\breve r1 |
+	f1 f e | f\breve r1 |
+	f1 f e | f\breve r1 |
 	f1 f f | f\breve. \bar "|."
 }

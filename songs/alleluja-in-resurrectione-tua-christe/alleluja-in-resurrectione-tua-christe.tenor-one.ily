@@ -22,8 +22,8 @@ TenoreOneMusic = \relative c' {
 	a1 a d | c\breve c1 | a1. h2 c1 | d c h | c2 c1 f2 e1 |
 	f2 es1 c2 c1 | c\breve r1 |
 	\repeat unfold 4 { R\breve. | }
-	c1 c c | a\breve. |
-	c1 c c | a\breve. |
-	c1 c c | a\breve. |
+	c1 c c | a\breve r1 |
+	c1 c c | a\breve r1 |
+	c1 c c | a\breve r1 |
 	f1 c' c | a\breve. \bar "|."
 }

@@ -26,8 +26,8 @@ AltoTwoMusic = \relative c' {
     c\breve r1 |
     \repeat unfold 5 { R\breve. | }
     f\breve e1 | f1. e2 d1 | d f e | g2 f1 f2 d1 |
-    es2 es1 d2 c1 | c\breve. |
-    f1 f e | f\breve. |
-    f1 f e | f\breve. |
+    es2 es1 d2 c1 | c\breve r1 |
+    f1 f e | f\breve r1 |
+    f1 f e | f\breve r1 |
     f,1 f f | f2 f'1 c2 c1 | c\breve. \bar "|."
 }

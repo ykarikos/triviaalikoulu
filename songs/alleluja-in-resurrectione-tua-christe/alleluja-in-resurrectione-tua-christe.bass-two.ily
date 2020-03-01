@@ -26,7 +26,7 @@ BassTwoMusic = \relative c {
 	\time 3/1
     \set Score.tempoHideNote = ##t
     \tempo 2 = 240	
-	f1 r\breve |
+	f\breve r1 |
 	\repeat unfold 5 { R\breve. | }
 	f'\breve c1 | f1. c2 d1 | g d a' |
 	g2 b1 f2 g1 | c,2 es1 b2 c1 | c\breve r1 |
