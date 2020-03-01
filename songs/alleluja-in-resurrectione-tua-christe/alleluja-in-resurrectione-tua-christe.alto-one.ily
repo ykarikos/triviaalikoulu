@@ -7,7 +7,7 @@ AltoOneMusic = \relative c' {
 	c1 | d2 e | f1 | R | f | f2 f | d4 e f d | e c d c | c1 |
 	R | R | R |
 	f1 | d2 c | f1 | r2 c | b b | d2. d4 | f2 f | a2. a4 |
-	a2 a4 a( | a) g g2 | g1 | 
+	a2 a4 b( | b) g g2 | g1 |
 	\repeat unfold 5 { R | }
 	
 	c,1 | d2 e | f1 | R | f | f2 f | d4 f f d | f f f d | f1 |

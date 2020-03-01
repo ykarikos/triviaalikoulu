@@ -80,7 +80,7 @@
         \AltoTwoMusic
       }
      \new Lyrics \lyricsto "AltoTwo" {
-       \stanzaOneLyricsChoirTwoBass
+       \stanzaOneLyricsChoirTwoAlto
      }
     >>
     \new Staff <<
@@ -89,7 +89,7 @@
         \TenoreTwoMusic
       }
       \new Lyrics \lyricsto "TenoreTwo" {
-       \stanzaOneLyricsChoirTwoBass
+       \stanzaOneLyricsChoirTwoAlto
       }
     >>
     \new Staff <<
