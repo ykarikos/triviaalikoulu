@@ -102,10 +102,15 @@
 
 (defn- song-html [songs-meta]
   (fn [[id parts]]
-    (let [[title composer poet arranger] (id songs-meta)]
+    (let [[title composer poet arranger] (id songs-meta)
+          preview (str "preview/" (name id) ".png")]
       (list
        [:h2 {:id id}
         title]
+       [:div {:class "preview"}
+       	[:img {:src preview}]
+       	[:span
+       	 [:img {:src preview}]]]
        [:dl
         (when composer
           [:dt {:class "composer"}
