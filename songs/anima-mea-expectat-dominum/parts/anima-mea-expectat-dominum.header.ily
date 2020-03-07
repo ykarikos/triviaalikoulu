@@ -1,7 +1,7 @@
 \header {
   title = "Anima mea expectat Dominum"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
-  composer = "Friedrich Weissensee (1560–1622)"
+  composer = "Friedrich Weißensee (1560–1622)"
   style = "early music"
   maintainer = "Yrjö Kari-Koskinen"
   copyright = "Nuottien tekijänoikeudet on luovutettu vapaaseen yleiseen käyttöön Creative Commons 0:n mukaisesti."

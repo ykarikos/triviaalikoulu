@@ -33,7 +33,7 @@ global = {
 \header {
   title = "Anima mea expectat Dominum"
 %  subtitle = ""
-  composer = "Friedrich Weissensee (1560–1622)"
+  composer = "Friedrich Weißensee (1560–1622)"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"
