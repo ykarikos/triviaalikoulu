@@ -17,8 +17,8 @@ stanzaOneLyricsChoirOne = \lyricmode {
     Is -- ti  sunt,
     qui ve -- ne -- runt,
     qui ve -- ne -- runt,
-    ex mag -- na tri -- bu -- ti -- o -- ne
-    et la -- ve -- runt sto -- las su -- as
+    ex mag -- na tri -- bu -- la -- ti -- o -- ne
+    et la -- ve -- runt sto -- las su -- _ _ as
     in san -- gui -- ne ag -- ni
 
     Mo -- do co -- ro -- nan -- tur,
