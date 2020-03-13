@@ -34,5 +34,5 @@ SopranoOneMusic = \relative c'' {
 	r2 d4 f | e d cis2 | d1 | R |
 	r2 a | b1 | d2 d | d1 |
 	\set Timing.measureLength = #(ly:make-moment 4/2)
-	c\breve | c\breve \bar "|."
+	c\breve | c\breve( | c) \bar "|."
 }
