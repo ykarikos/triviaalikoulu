@@ -42,7 +42,7 @@
         \AltoOneMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirOneAlto
      }
     >>
     \new Staff <<
