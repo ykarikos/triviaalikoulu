@@ -25,7 +25,7 @@
         \SopranoTwoMusic
       }
      \new Lyrics \lyricsto "SopranoTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwo
      }
     >>
     \new Staff <<
@@ -34,7 +34,7 @@
         \AltoTwoMusic
       }
      \new Lyrics \lyricsto "AltoTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoAlto
      }
     >>
     \new Staff <<
@@ -52,7 +52,7 @@
         \BassTwoMusic
       }
       \new Lyrics \lyricsto "BassTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoBass
       }
     >>
   >>
