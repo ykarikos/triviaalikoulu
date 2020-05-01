@@ -1,5 +1,7 @@
 Aetas carmen melodie            30
 Ah Jesu mellitissime            38
+Alleluja in resurrectione I  	74
+Alleluja in resurrectione II 	81
 Anima mea in expectat dominum I 65
 Anima mea in expectat dominum II 76
 Cedit hyems eminus              5
@@ -15,6 +17,8 @@ Gaudete                         13
 Gud wälsigna theetta huus       33
 I Herrans Tienare               52
 In te Domine                    39
+Isti sunt triumphatores I       68
+Isti sunt triumphatores II      79
 Jucundare Jugiter               48
 Juvenes cum virginibus          43
 Lobt Gott ihr Christen alle		6

@@ -23,6 +23,7 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 
 ## Sisällys
 
+1. Alleluja in resurrectione tua Christe – säveltäjä: Jacobus Gallus (1550–1591)
 1. Ætas carmen melodiæ (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
 1. Anima mea expectat Dominum (à 8) – säveltäjä: Friedrich Weißensee (1560-1622)
 1. Cedit hiems eminus (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
@@ -34,6 +35,7 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 1. Gloria et honore (à 8) – säveltäjä: Jacobus Gallus (1550–1591)
 1. Gud wälsigna thetta huus (à 4) – säveltäjä tuntematon
 1. I Herrans Tienare (à 5) – säveltäjä tuntematon
+1. Isti sunt triumphatores (à 8) – säveltäjä: Jacobus Gallus
 1. Jucundare jugiter (à 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
 1. Laus tibi Christe (à 4) – säveltäjä tuntematon
 1. Lobt Gott ihr Christen alle (à 5) – säveltäjä tuntematon
