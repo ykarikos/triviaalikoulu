@@ -24,6 +24,7 @@
      \new Lyrics \lyricsto "AltoTwo" {
        \stanzaOneLyricsChoirTwoAlto
      }
+    >>
   >>
 
   \midi {
