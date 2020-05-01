@@ -9,8 +9,6 @@ BassOneMusic = \relative c {
 	f r4 f, | f' f f2 | f1 | r2 f4 f | g d g2 | f1 | R |
 	r2 f4 a | b g a2 | d,1 | R | 
 
-%   r2 c | c c | f c4 f | g d4. d8 g4 | f2. c4 | d2 a | 
-%   d4. c8 d2 | f4 f, c'2 | f,1 |
 	r2 c | c c | f c4 f( | f) g d4. d8 |
 	g2 f( | f4) c d2 | a d4. c8 | f4 f, c'2 | f,1 |
 	\repeat unfold 7 { R | }

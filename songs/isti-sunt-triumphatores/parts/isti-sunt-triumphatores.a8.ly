@@ -60,7 +60,7 @@
         \BassOneMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsBass
       }
     >>
   >>
@@ -90,7 +90,7 @@
         \TenoreTwoMusic
       }
       \new Lyrics \lyricsto "TenoreTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwoTenor
       }
     >>
     \new Staff <<
@@ -99,7 +99,7 @@
         \BassTwoMusic
       }
       \new Lyrics \lyricsto "BassTwo" {
-       \stanzaOneLyricsChoirTwoBass
+       \stanzaOneLyricsBass
       }
     >>
   >>

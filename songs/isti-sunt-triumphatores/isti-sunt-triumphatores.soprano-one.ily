@@ -12,10 +12,9 @@ SopranoOneMusic = \relative c'' {
 	g2 a( | a4) g f2 | e f4. g8 | a4 c c2 | a1 |
 	\repeat unfold 7 { R | }
 
-	%  d4 ?
 	r2 c4 f | e d cis2 | d1 | R |
 	r2 d4 f | e d cis2 | d1 | R |
-	%  b ?
+
 	r2 a | b1 | d2 d | d1 |
 	\set Timing.measureLength = #(ly:make-moment 4/2)
 	c\breve | c\breve |
