@@ -34,6 +34,7 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 1. Gloria et honore (à 8) – säveltäjä: Jacobus Gallus (1550–1591)
 1. Gud wälsigna thetta huus (à 4) – säveltäjä tuntematon
 1. I Herrans Tienare (à 5) – säveltäjä tuntematon
+1. Isti sunt triumphatores (à 8) – säveltäjä: Jacobus Gallus
 1. Jucundare jugiter (à 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
 1. Laus tibi Christe (à 4) – säveltäjä tuntematon
 1. Lobt Gott ihr Christen alle (à 5) – säveltäjä tuntematon
