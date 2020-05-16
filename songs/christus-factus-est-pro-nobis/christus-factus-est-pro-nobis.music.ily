@@ -42,8 +42,8 @@ SopranoMusic = \relative c'' {
 		c( c) |
 		\unset melismaBusyProperties
 		\undo \slurDashed
-		\omit Slur b4( a g b) | a1 | r | r |
-		r2 a | g b | a1 | r1 |
+		\omit Slur b4( a g b) | a1 | R | R |
+		r2 a | g b | a1 | R1 |
 		r2 a | 
 		\set melismaBusyProperties = #'()
 		\slurDashed
@@ -103,8 +103,8 @@ AltoMusic = \relative c' {
         \unset melismaBusyProperties
         \undo \slurDashed
         \omit Slur
-		g4( f e g) | f1 | r1 | r |
-		r2 f | e d | f1 | r |
+		g4( f e g) | f1 | R1 | R |
+		r2 f | e d | f1 | R |
 		r2 f |
         \set melismaBusyProperties = #'()
         \slurDashed
@@ -158,7 +158,7 @@ TenoreMusic = \relative c' {
 	}
 	\repeat volta 2 {
 		\time 2/2
-		r1 | r | r |
+		R1 | R | R |
 		r2 a | 
 		\set melismaBusyProperties = #'()
 		\slurDashed
@@ -167,7 +167,7 @@ TenoreMusic = \relative c' {
 		\unset melismaBusyProperties
 		\undo \slurDashed
 		\omit Slur
-		b4( a g b) | a1 | r |
+		b4( a g b) | a1 | R |
 		r2 a | g b | a c |
 		b a | g f | 
 		\set melismaBusyProperties = #'()
@@ -221,7 +221,7 @@ BassMusic = \relative c {
 	}
 	\repeat volta 2 {
 		\time 2/2
-		r1 | r | r |
+		R1 | R | R |
 		r2 f' |
 		\set melismaBusyProperties = #'()
 		\slurDashed
@@ -230,7 +230,7 @@ BassMusic = \relative c {
 		\unset melismaBusyProperties
 		\undo \slurDashed
 		\omit Slur
-		g'4( f e g) | f1 | r |
+		g'4( f e g) | f1 | R |
 		r2 f | c g' | f1 |
 		r2 f | c d | c c |
 		\time 4/2
