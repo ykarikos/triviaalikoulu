@@ -51,6 +51,9 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 
 Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
 * Allenaste Gud i himmelrik / Ainoan Jumalan corkiudhes
+* In te Domine speravi
+* A Deo principum
+* Lät oss liufliga siunga
 * Omnes gentes plaudite manibus
 * Mens confisa Deo
 * Ah Jesu mellitissime
