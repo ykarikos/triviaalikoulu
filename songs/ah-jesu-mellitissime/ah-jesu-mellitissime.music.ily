@@ -19,12 +19,30 @@ SopranoMusic = \relative c'' {
 	c1 | c2 c | d2. c4 | b2 a | b a | g1 | a | f |
 	g2 a | g a | b1 | a2 f' | e e | f2. e4 | d2 c | 
 	d c( | c) h | c1( | c) | c | d2 e | f1 | e |
+% p2
+	r2 a, | a b | c1 | r2 c( | c4) b a g | 
+	a2 f'( | f4) e d c | d1 | c |
+	r2 a | c4 b a a | g f g2 | g a( | a4) a g2 | f1 | e |
+	r2 f( | f) e | d b'( | b) a4 g | a1 |
+% p3
+	r2 f'( | f4) f e2 | d1 | cis |
+	r2 c | a4 g a b | c2 d( | d) c( | c) h | c c |
+	c4 c c c | c2 d( | d) c | f1 | e |
+	r2 f | e d( | d4) d c2 | b1 | g | a2 f'( | f) e |
+% p4
+	d2. d4 | c1 | d | c | a |
+	r2 c | a4 g a b | c2 d( | d4) d c2( | c) h | c c |
+	c4 c c c | c2 d( | d) c | f1 | e |
+	r2 f | e d( | d4) d c2 | b1 | g |
+% p5
+	a2 f'( | f) e | d2. d4 | c1 | d | c | a |
+	r2 c( | c) d | d c | b1 | b | a\fermata \bar "|."
 }
 
 stanzaOneLyrics = \lyricmode {
 	Ah Je -- su mel -- li -- tis -- si -- me,
 	ah Je -- su,
-	ah Je -- su mel -- li -- tis -- si -- me,
+	Je -- su mel -- li -- tis -- si -- me,
 	ah Je -- su mel -- li -- tis -- si -- me,
 	ah Je -- su mel -- li -- tis -- si -- me,
 	mel -- li -- tis -- si -- me,
