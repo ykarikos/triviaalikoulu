@@ -20,7 +20,7 @@ SopranoMusic = \relative c'' {
 	g2 a | g a | b1 | a2 f' | e e | f2. e4 | d2 c | 
 	d c( | c) h | c1( | c) | c | d2 e | f1 | e |
 % p2
-	r2 a, | a b | c1 | r2 c( | c4) b a g | 
+	r2 a, | a b | c c | r c( | c4) b a g | 
 	a2 f'( | f4) e d c | d1 | c |
 	r2 a | c4 b a a | g f g2 | g a( | a4) a g2 | f1 | e |
 	r2 f( | f) e | d b'( | b) a4 g | a1 |
@@ -36,7 +36,11 @@ SopranoMusic = \relative c'' {
 	r2 f | e d( | d4) d c2 | b1 | g |
 % p5
 	a2 f'( | f) e | d2. d4 | c1 | d | c | a |
-	r2 c( | c) d | d c | b1 | b | a\fermata \bar "|."
+	r2 c( | c) d | d c | b1 | b2 b | 
+
+    \time 4/2
+    \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+    a\breve \bar "|."
 }
 
 stanzaOneLyrics = \lyricmode {
@@ -47,10 +51,11 @@ stanzaOneLyrics = \lyricmode {
 	ah Je -- su mel -- li -- tis -- si -- me,
 	mel -- li -- tis -- si -- me,
 	mel -- li -- tis -- si -- me,
-	mel -- li -- tis -- si -- me.
+	mel -- li -- tis -- _ si -- me.
 
-	Fac ti -- bi lec -- tu -- lum in me,
-	lec -- tu -- lum in me, lec -- tu -- lum in me,
+	Fac ti -- bi lec -- tu -- lum _ in me,
+	lec -- tu -- lum in me,
+	lec -- tu -- lum in __ _ _ me,
 	lec -- tu -- lum in me.
 
 	Qui -- es -- ce in me -- o, me -- o cor -- de.
@@ -59,7 +64,7 @@ stanzaOneLyrics = \lyricmode {
 	Ut nun -- quam ob -- li -- vis -- car te.
 	Ut nun -- quam ob -- li -- vis -- car te.
 	
-	Qui -- es -- ce in me -- o, me -- o cor -- de.	
+	Qui -- es -- ce in me -- o, me -- _ o cor -- de.	
 	Qui -- es -- ce in me -- o, me -- o cor -- de.	
 
 	Ut nun -- quam ob -- li -- vis -- car te.
