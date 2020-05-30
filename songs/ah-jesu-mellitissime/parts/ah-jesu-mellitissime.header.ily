@@ -2,7 +2,7 @@
 \header {
   title = "Ah Jesu mellitissime"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
-  composer = "tuntematon"
+  composer = "Gallus Dressler (1533–1585)"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"

@@ -8,7 +8,7 @@
 \header {
   title = "Ah Jesu mellitissime"
 %  subtitle = ""
-  composer = "tuntematon"
+  composer = "Gallus Dressler (1533–1585)"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"
