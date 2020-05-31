@@ -150,8 +150,61 @@ TenoreMusic = \relative c' {
 
 	\clef "treble_8"
 	\repeat unfold 5 { R1 | }
-	c |
+	c | c2 c | d2. c4 |
+  b2 a | b a | g1 | a2 a' | g g | f d | f2. f4 | f2 e |
+  d1 | c2 g' | g e | f2 f,4 g | a b c2( | c4) h8 h h2 |
+% p2
+  c c( | c4) c f2( | f) d | c4 b c d | e d c b | c2 c |
+  c d( | d4) c b a | b1 | a |
+  r2 c | a4 b c a | b c b2 | c c( | c4) c c2 | a1 | a |
+  r2 a( | a4) a c2 | d1 | c( | c) |
+% p3
+  r2 c( | c4) c c2 | a1 | a |
+  r2 f' | f4 g f d | c2 f( | f) e |
+  d1 | c2 e | f4 g f e | f2 f( | f) f | f1 g |
+  r2 f | c d( | d4) d a2 | b1 | c | f,2 c'( | c) c |
+% p4
+  a1( | a2) c | b2. a4 | g1 | f |
+  r2 f' | f4 g f e | c2 f( | f) e |
+  d1 | c2 e | f4 g f e | f2 f( | f) f |
+  f1 | g | r2 f | c d( | d4) d a2 | b1 | c |
+% p5
+  f,2 c'( | c) c | a1( | a2) c | b2. a4 | g1 | f |
+  a( | a2) b | b a | d1 | d2 d |
+
+  \time 4/2
+  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+  c\breve \bar "|."
 }
+
+stanzaOneLyricsTenor = \lyricmode {
+	Ah Je -- su mel -- li -- tis -- si -- me,
+	ah Je -- su,
+	ah Je -- su mel -- li -- tis -- si -- me,
+	ah Je -- su,
+  ah Je -- su
+  mel -- _ _ _ _ _ _ _ _ li --  tis -- si -- me,
+  mel -- _ _ _ _ _ _ _ _ _ li -- tis -- si -- _ _ _ _ me.
+
+	Fac ti -- bi lec -- tu -- lum _ in me,
+	lec -- tu -- lum in me,
+	lec -- tu -- lum in me,
+	lec -- tu -- lum in me.
+
+	Qui -- es -- ce in me -- o, me -- o cor -- de.
+	Qui -- es -- ce in me -- o, me -- o cor -- de.
+
+	Ut nun -- quam ob -- li -- vis -- car te.
+	Ut nun -- quam ob -- li -- vis -- car te.
+
+	Qui -- es -- ce in me -- o, me -- o cor -- de.
+	Qui -- es -- ce in me -- o, me -- o cor -- de.
+
+	Ut nun -- quam ob -- li -- vis -- car te.
+	Ut nun -- quam ob -- li -- vis -- car te.
+	Ut nun -- quam ob -- li -- vis -- car te.
+}
+
 
 BassMusic = \relative c {
 	\set Staff.instrumentName = #"Bassus"
