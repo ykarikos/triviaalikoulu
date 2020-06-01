@@ -40,7 +40,7 @@
         \BassMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsBass
       }
     >>
   >>

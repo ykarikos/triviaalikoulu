@@ -99,7 +99,7 @@ AltoMusic = \relative c' {
   f a( | a) g |
 % p4
   f2. f4 | e2 a | g f( | f) e | f1 |
-  r2 c | c4 c c b | a2 d( | d) f |
+  r2 c | c4 c c b | a2 d( | d) e |
   g1 | e2 g | a4 g a g | a2 b( | b) a | a1 | c |
   r2 a | g f( | f4) f e2 | g f( | f4) e8 d e2 |
 % p5
@@ -182,9 +182,9 @@ stanzaOneLyricsTenor = \lyricmode {
 	ah Je -- su,
 	ah Je -- su mel -- li -- tis -- si -- me,
 	ah Je -- su,
-  ah Je -- su
-  mel -- _ _ _ _ _ _ _ _ li --  tis -- si -- me,
-  mel -- _ _ _ _ _ _ _ _ _ li -- tis -- si -- _ _ _ _ me.
+	ah Je -- su
+	mel -- _ _ _ _ _ _ _ _ li --  tis -- si -- me,
+	mel -- _ _ _ _ _ _ _ _ _ li -- tis -- si -- _ _ _ _ me.
 
 	Fac ti -- bi lec -- tu -- lum _ in me,
 	lec -- tu -- lum in me,
@@ -224,5 +224,55 @@ BassMusic = \relative c {
 
 	\clef bass
 	\repeat unfold 5 { R | }
-	c |
+	c | f2 f | b2. a4 | g2 f | g f( | f) e | f f |
+	c' c | d2. c4 | b2 a | b c | g1 | c, | c' |
+	f,( | f2) e | d1 | c | 
+% p2 
+	f( | f2) g | a4 g a b | c b a g | a g f e | f e d c |
+	b1( | b) | f' |
+	r2 f2 | f4 g a f | g a g2 | c, f( | f4) f c2 | d1 | a |
+	r2 d( | d4) d c2 | b1 | f'( | f) |
+% p3
+	r2 f( | f4) f c2 | d1 | a |
+	r2 f' | f4 e f g | a2 b( | b) c |
+	g1 | c,2 c | f4 e f c | f2 b,( | b) f' | d1 | c |
+	\repeat unfold 5 { R | } |
+% p4
+	r2 f( | f) c | d2. d4 | a1 | b | c | f |
+	r2 f | f4 e f g | a2 b( | b) c |
+	g1 | c,2 c | f4 e f c | f2 b,( | b) f' | d1 | c |
+	\repeat unfold 5 { R | } |
+% p5
+	r2 f( | f) c | d2. d4 | a1 | b | c | f |
+	f( | f2) b, | f'2. f4 | b,1 | b2 b |
+
+	\time 4/2
+	\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+	f'\breve \bar "|."
 }
+
+stanzaOneLyricsBass = \lyricmode {
+	Ah Je -- su mel -- li -- tis -- si -- me,
+	ah Je -- su,
+	ah Je -- su mel -- li -- tis -- si -- me,
+	ah Je -- su,
+	ah Je -- _ su
+	mel -- li -- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ tis -- _ si -- me.
+
+	Fac ti -- bi lec -- tu -- lum _ in me,
+	lec -- tu -- lum in me,
+	lec -- tu -- lum in me,
+	lec -- tu -- lum in me.
+
+	Qui -- es -- ce in me -- o, me -- o cor -- de.
+	Qui -- es -- ce in me -- o, me -- o cor -- de.
+
+	Ut nun -- quam ob -- li -- vis -- car te.
+
+	Qui -- es -- ce in me -- o, me -- o cor -- de.
+	Qui -- es -- ce in me -- o, me -- o cor -- de.
+
+	Ut nun -- quam ob -- li -- vis -- car te.
+	Ut nun -- quam ob -- li -- vis -- car te.
+}
+
