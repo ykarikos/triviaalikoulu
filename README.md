@@ -23,6 +23,7 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 
 ## Sisällys
 
+1. Ah Jesu mellitissime – säveltäjä: Gallus Dressler (1533–1585)
 1. Alleluja in resurrectione tua Christe – säveltäjä: Jacobus Gallus (1550–1591)
 1. Ætas carmen melodiæ (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
 1. Anima mea expectat Dominum (à 8) – säveltäjä: Friedrich Weißensee (1560-1622)
@@ -56,7 +57,6 @@ Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
 * Lät oss liufliga siunga
 * Omnes gentes plaudite manibus
 * Mens confisa Deo
-* Ah Jesu mellitissime
 
 ## Kirjan latominen
 
