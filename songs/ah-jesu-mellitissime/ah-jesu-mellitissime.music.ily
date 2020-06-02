@@ -26,16 +26,24 @@ SopranoMusic = \relative c'' {
 	r2 f( | f) e | d b'( | b) a4 g | a1 |
 % p3
 	r2 f'( | f4) f e2 | d1 | cis |
-	r2 c | a4 g a b | c2 d( | d) c( | c) h | c c |
-	c4 c c c | c2 d( | d) c | f1 | e |
-	r2 f | e d( | d4) d c2 | b1 | g | a2 f'( | f) e |
-% p4
-	d2. d4 | c1 | d | c | a |
-	r2 c | a4 g a b | c2 d( | d4) d c2( | c) h | c c |
-	c4 c c c | c2 d( | d) c | f1 | e |
-	r2 f | e d( | d4) d c2 | b1 | g |
-% p5
-	a2 f'( | f) e | d2. d4 | c1 | d | c | a |
+
+	\break
+	\repeat volta 2 {
+		r2 c | a4 g a b | c2 d( | d) c( | c) h | c c |
+		c4 c c c | c2 d( | d) c | f1 | e |
+		r2 f | e d( | d4) d c2 | b1 | g | a2 f'( | f) e |
+	% p4
+		d2. d4 | c1 | d | c |
+	}
+	\alternative {
+	  {
+		 a |
+	  }
+	  {
+		 a |
+	  }
+	}
+
 	r2 c( | c) d | d c | b1 | b2 b |
 
     \time 4/2
@@ -64,11 +72,7 @@ stanzaOneLyrics = \lyricmode {
 	Ut nun -- quam ob -- li -- vis -- car te.
 	Ut nun -- quam ob -- li -- vis -- car te.
 
-	Qui -- es -- ce in me -- o, me -- _ o cor -- de.
-	Qui -- es -- ce in me -- o, me -- o cor -- de.
-
-	Ut nun -- quam ob -- li -- vis -- car te.
-	Ut nun -- quam ob -- li -- vis -- car te.
+	te.
 	Ut nun -- quam ob -- li -- vis -- car te.
 }
 
@@ -93,18 +97,25 @@ AltoMusic = \relative c' {
   r2 d( | d4) d e2 | f1 | f( | f) |
 % p3
   r2 a( | a4) a g2 | f1 | e |
-  r2 c | c4 c c b | a2 d( | d) e |
-  g1 | e2 g | a4 g a g | a2 b( | b) a | a1 | c |
-  r2 a | g f( | f4) f e2 | g f( | f4) e8 d e2 |
-  f a( | a) g |
-% p4
-  f2. f4 | e2 a | g f( | f) e | f1 |
-  r2 c | c4 c c b | a2 d( | d) e |
-  g1 | e2 g | a4 g a g | a2 b( | b) a | a1 | c |
-  r2 a | g f( | f4) f e2 | g f( | f4) e8 d e2 |
-% p5
-  f a( | a) g | f2. f4 | e2 a | g f( | f) e |
-  f1( | f)( | f)( | f)( | f)( | f)( |
+
+  \repeat volta 2 {
+	  r2 c | c4 c c b | a2 d( | d) e |
+	  g1 | e2 g | a4 g a g | a2 b( | b) a | a1 | c |
+	  r2 a | g f( | f4) f e2 | g f( | f4) e8 d e2 |
+	  f a( | a) g |
+	% p4
+	  f2. f4 | e2 a | g f( | f) e |
+  }
+  \alternative {
+  	{
+  		f1 |
+  	}
+  	{
+  		f1( |
+  	}
+  }
+
+  f)( | f)( | f)( | f)( | f)( |
 
   \time 4/2
   \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
@@ -133,12 +144,7 @@ stanzaOneLyricsAlto = \lyricmode {
 
 	Ut nun -- quam ob -- li -- vis -- car __ _ _ _ te.
 	Ut nun -- quam ob -- li -- vis -- car __ _ _ te.
-
-	Qui -- es -- ce in me -- o, me -- o cor -- de.
-	Qui -- es -- ce in me -- o, me -- o cor -- de.
-
-  Ut nun -- quam ob -- li -- vis -- car __ _ _ _ te.
-	Ut nun -- quam ob -- li -- vis -- car __ _ _ te. __
+	te. __
 }
 
 
@@ -160,16 +166,23 @@ TenoreMusic = \relative c' {
   r2 a( | a4) a c2 | d1 | c( | c) |
 % p3
   r2 c( | c4) c c2 | a1 | a |
-  r2 f' | f4 g f d | c2 f( | f) e |
-  d1 | c2 e | f4 g f e | f2 f( | f) f | f1 g |
-  r2 f | c d( | d4) d a2 | b1 | c | f,2 c'( | c) c |
-% p4
-  a1( | a2) c | b2. a4 | g1 | f |
-  r2 f' | f4 g f e | c2 f( | f) e |
-  d1 | c2 e | f4 g f e | f2 f( | f) f |
-  f1 | g | r2 f | c d( | d4) d a2 | b1 | c |
-% p5
-  f,2 c'( | c) c | a1( | a2) c | b2. a4 | g1 | f |
+
+  \repeat volta 2 {
+	  r2 f' | f4 g f d | c2 f( | f) e |
+	  d1 | c2 e | f4 g f e | f2 f( | f) f | f1 g |
+	  r2 f | c d( | d4) d a2 | b1 | c | f,2 c'( | c) c |
+	% p4
+	  a1( | a2) c | b2. a4 | g1 |
+  }
+  \alternative {
+  	{
+	  f |
+  	}
+  	{
+	  f |
+  	}
+  }
+
   a( | a2) b | b a | d1 | d2 d |
 
   \time 4/2
@@ -196,12 +209,7 @@ stanzaOneLyricsTenor = \lyricmode {
 
 	Ut nun -- quam ob -- li -- vis -- car te.
 	Ut nun -- quam ob -- li -- vis -- car te.
-
-	Qui -- es -- ce in me -- o, me -- o cor -- de.
-	Qui -- es -- ce in me -- o, me -- o cor -- de.
-
-	Ut nun -- quam ob -- li -- vis -- car te.
-	Ut nun -- quam ob -- li -- vis -- car te.
+	te.
 	Ut nun -- quam ob -- li -- vis -- car te.
 }
 
@@ -234,16 +242,23 @@ BassMusic = \relative c {
 	r2 d( | d4) d c2 | b1 | f'( | f) |
 % p3
 	r2 f( | f4) f c2 | d1 | a |
-	r2 f' | f4 e f g | a2 b( | b) c |
-	g1 | c,2 c | f4 e f c | f2 b,( | b) f' | d1 | c |
-	\repeat unfold 5 { R | } |
-% p4
-	r2 f( | f) c | d2. d4 | a1 | b | c | f |
-	r2 f | f4 e f g | a2 b( | b) c |
-	g1 | c,2 c | f4 e f c | f2 b,( | b) f' | d1 | c |
-	\repeat unfold 5 { R | } |
-% p5
-	r2 f( | f) c | d2. d4 | a1 | b | c | f |
+
+	\repeat volta 2 {
+		r2 f' | f4 e f g | a2 b( | b) c |
+		g1 | c,2 c | f4 e f c | f2 b,( | b) f' | d1 | c |
+		\repeat unfold 5 { R | } |
+	% p4
+		r2 f( | f) c | d2. d4 | a1 | b | c |
+	}
+	\alternative {
+		{
+		    f |
+		}
+		{
+		    f |
+		}
+	}
+
 	f( | f2) b, | f'2. f4 | b,1 | b2 b |
 
 	\time 4/2
@@ -268,11 +283,7 @@ stanzaOneLyricsBass = \lyricmode {
 	Qui -- es -- ce in me -- o, me -- o cor -- de.
 
 	Ut nun -- quam ob -- li -- vis -- car te.
-
-	Qui -- es -- ce in me -- o, me -- o cor -- de.
-	Qui -- es -- ce in me -- o, me -- o cor -- de.
-
-	Ut nun -- quam ob -- li -- vis -- car te.
+	te.
 	Ut nun -- quam ob -- li -- vis -- car te.
 }
 
