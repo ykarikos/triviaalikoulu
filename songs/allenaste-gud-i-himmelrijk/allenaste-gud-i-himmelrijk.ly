@@ -8,7 +8,7 @@
 \header {
   title = "Allenaste Gud i himmelrijk"
   subtitle = "Ainoan Jumalan corkiudhes"
-  composer = "tuntematon"
+  composer = "Hieronymus Praetorius (1560–1629)"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"
