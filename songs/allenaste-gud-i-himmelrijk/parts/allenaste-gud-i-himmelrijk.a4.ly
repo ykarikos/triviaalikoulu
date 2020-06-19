@@ -15,6 +15,9 @@
      \new Lyrics \lyricsto "Soprano" {
        \stanzaOneLyrics
      }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyrics
+     }
     >>
     \new Staff <<
       \new Voice = "Alto" {
@@ -22,7 +25,10 @@
         \AltoMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsAlto
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaTwoLyricsAlto
      }
     >>
     \new Staff <<
@@ -45,7 +51,7 @@
     >>
   >>
   \midi {
-    \tempo 4 = 160
+    \tempo 1 = 160
   }
   \layout {
     \context {

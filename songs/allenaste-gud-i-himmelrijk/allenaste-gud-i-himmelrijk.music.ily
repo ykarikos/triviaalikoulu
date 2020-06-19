@@ -18,14 +18,26 @@ SopranoMusic = \relative c' {
     \time 3/1 r1 r f'
   }
 
-	r1 r f1 | a\breve b1 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata \bar "|."
+  \repeat volta 2 {
+  	r1 r f | a\breve b1 | c\breve b1 | a\breve g1 | a\breve. |
+    r1 r a | a\breve g1 | b1. a2 g2 g | f\breve  e1 | f\breve. |
+  }
+  r1 r f | f\breve g2 g | b\breve a2 a | g\breve fis2 fis | g\breve. |
+  r1 r g | a\breve b1 | c\breve b1 | a\breve g1 | a\breve. |
+  r1 r f1 | g1. a2 b1 | a\breve g1 | f\breve e1 | f\breve. \bar "|."
 }
 
 stanzaOneLyrics = \lyricmode {
 	All -- e -- naste Gud i him -- mel -- rijk
+  ware lof och pris för al -- la nå -- _ der,
+  På jor -- den är kom -- men stor gläd -- ie och frid,
+  men -- nis -- kan må wäl glä -- dias wid
+  Guds yn -- nest och go -- da wil -- _ ja.
+}
+
+stanzaTwoLyrics = \lyricmode {
+  som_han haf -- wer giort i jor -- de -- rijk,
+  i thessa här nå -- de -- li -- ga da -- _ gar:
 }
 
 AltoMusic = \relative c' {
@@ -41,10 +53,26 @@ AltoMusic = \relative c' {
     \time 3/1 r1 r c'
   }
 
-	r1 r c1 | f\breve f1 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  d\breve\fermata
+  \repeat volta 2 {
+  	r1 r c | f\breve f1 | a\breve g1 | f d e | fis\breve. |
+    r1 r f | f\breve e1 | f\breve es1 | d2 d c\breve | c\breve. |
+  }
+  r1 r c | d\breve e2 e | f1 g e2 e | d1 es d2 d | d\breve. |
+  r1 r d | f\breve f1 | g\breve g1 | f d e | f\breve. |
+  r1 r c | e1. f2 f1 | f\breve e1 | c d c | c\breve. \bar "|."
+}
+
+stanzaOneLyricsAlto = \lyricmode {
+	All -- e -- naste Gud i him -- _ mel -- rijk
+  ware lof och pris för al -- la nå -- der,
+  På jor -- den är kom -- _ men stor gläd -- _ ie och frid,
+  men -- nis -- kan må wäl glä -- _ dias wid
+  Guds yn -- nest och go -- da wil -- _ _ ja.
+}
+
+stanzaTwoLyricsAlto = \lyricmode {
+  som_han haf -- wer giort i jor -- _ de -- rijk,
+  i thessa här nå -- de -- li -- ga da -- gar:
 }
 
 TenoreMusic = \relative c' {
