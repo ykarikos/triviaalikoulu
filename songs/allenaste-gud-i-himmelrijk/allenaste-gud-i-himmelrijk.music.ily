@@ -106,8 +106,19 @@ BassMusic = \relative c {
 	\incipit { \clef "mensural-f" \key f \major \time 3/1 r1 r f }
 
 	\clef bass
-	r1 r f1 | f\breve b,1 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g,\breve\fermata
+  \repeat volta 2 {
+	  r1 r f | f\breve b,1 | f'\breve g1 | a f g | d\breve. |
+    r1 r d | f\breve c1 | b\breve es1 | f2 f c\breve | f,\breve. |
+  }
+  r1 r f' | d\breve c2 c | b1 g a | b c d | g,\breve. |
+  r1 r g' | f\breve d1 | c2 d e c g'1 | a f g | d\breve. |
+  r1 r f | c1. f2 b,1 | f' f, g | a b c | f,\breve. \bar "|."
+}
+
+stanzaOneLyricsBass = \lyricmode {
+	All -- e -- naste Gud i him -- _ mel -- rijk
+  ware lof och pris för si -- na nå -- der,
+  På jor -- den är kom -- men stor gläd -- ie och frid,
+  men -- nis -- kan må __ _ _ _ wäl glä -- _ dias wid
+  Guds yn -- nest och go -- _ da wil -- _ _ ja.
 }
