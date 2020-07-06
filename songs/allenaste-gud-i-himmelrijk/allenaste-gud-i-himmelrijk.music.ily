@@ -19,7 +19,7 @@ SopranoMusic = \relative c' {
   }
 
   \repeat volta 2 {
-  	r1 r f | a\breve b1 | c\breve b1 | a\breve g1 | a\breve. |
+  	r1 r f | a\breve b2 b | c\breve b1 | a\breve g1 | a\breve. |
     r1 r a | a\breve g1 | b1. a2 g2 g | f\breve  e1 | f\breve. |
   }
   r1 r f | f\breve g2 g | b\breve a2 a | g\breve fis2 fis | g\breve. |
@@ -28,7 +28,7 @@ SopranoMusic = \relative c' {
 }
 
 stanzaOneLyrics = \lyricmode {
-	All -- e -- naste Gud i him -- mel -- rijk
+	All -- e -- nas -- te Gud i him -- mel -- rijk
   ware lof och pris för si -- na nå -- _ der,
   På jor -- den är kom -- men stor gläd -- ie och frid,
   men -- nis -- kan må wäl glä -- dias wid
@@ -36,7 +36,7 @@ stanzaOneLyrics = \lyricmode {
 }
 
 stanzaTwoLyrics = \lyricmode {
-  som_han haf -- wer giort i jor -- de -- rijk,
+  som han haf -- wer giort i jor -- de -- rijk,
   i thessa här nå -- de -- li -- ga da -- _ gar:
 }
 
@@ -54,7 +54,7 @@ AltoMusic = \relative c' {
   }
 
   \repeat volta 2 {
-  	r1 r c | f\breve f1 | a\breve g1 | f d e | fis\breve. |
+  	r1 r c | f\breve f2 f | a\breve g1 | f d e | fis\breve. |
     r1 r f | f\breve e1 | f\breve es1 | d2 d c\breve | c\breve. |
   }
   r1 r c | d\breve e2 e | f1 g e2 e | d1 es d2 d | d\breve. |
@@ -63,7 +63,7 @@ AltoMusic = \relative c' {
 }
 
 stanzaOneLyricsAlto = \lyricmode {
-	All -- e -- naste Gud i him -- _ mel -- rijk
+	All -- e -- nas -- te Gud i him -- _ mel -- rijk
   ware lof och pris för si -- na nå -- der,
   På jor -- den är kom -- _ men stor gläd -- _ ie och frid,
   men -- nis -- kan må wäl glä -- _ dias wid
@@ -71,7 +71,7 @@ stanzaOneLyricsAlto = \lyricmode {
 }
 
 stanzaTwoLyricsAlto = \lyricmode {
-  som_han haf -- wer giort i jor -- _ de -- rijk,
+  som han haf -- wer giort i jor -- _ de -- rijk,
   i thessa här nå -- de -- li -- ga da -- gar:
 }
 
@@ -83,7 +83,7 @@ TenoreMusic = \relative c' {
 
 	\clef "treble_8"
   \repeat volta 2 {
-  	r1 r a | c\breve d1 | c( a) b | c d b | a\breve. |
+  	r1 r a | c\breve d2 d | c1( a) b | c d b | a\breve. |
     r1 r d | c\breve c1 | d1. c2 b1 | a g\breve | a\breve. |
   }
   r1 r a | a\breve c2 c | d\breve c2 c | b b a\breve | g\breve. |
@@ -92,7 +92,7 @@ TenoreMusic = \relative c' {
 }
 
 stanzaOneLyricsTenore = \lyricmode {
-	All -- e -- naste Gud i him -- _ mel -- rijk
+	All -- e -- nas -- te Gud i him -- _ mel -- rijk
   ware lof och pris för si -- na nå -- der,
   På jor -- den är kom -- men stor gläd -- ie och frid,
   men -- nis -- kan må wäl glä -- dias wid
@@ -107,7 +107,7 @@ BassMusic = \relative c {
 
 	\clef bass
   \repeat volta 2 {
-	  r1 r f | f\breve b,1 | f'\breve g1 | a f g | d\breve. |
+	  r1 r f | f\breve b,2 b | f'\breve g1 | a f g | d\breve. |
     r1 r d | f\breve c1 | b\breve es1 | f2 f c\breve | f,\breve. |
   }
   r1 r f' | d\breve c2 c | b1 g a | b c d | g,\breve. |
@@ -116,7 +116,7 @@ BassMusic = \relative c {
 }
 
 stanzaOneLyricsBass = \lyricmode {
-	All -- e -- naste Gud i him -- _ mel -- rijk
+	All -- e -- nas -- te Gud i him -- _ mel -- rijk
   ware lof och pris för si -- na nå -- der,
   På jor -- den är kom -- men stor gläd -- ie och frid,
   men -- nis -- kan må __ _ _ _ wäl glä -- _ dias wid
