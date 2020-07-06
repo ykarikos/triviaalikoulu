@@ -37,7 +37,10 @@
         \TenoreMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsTenore
+      }
+      \new Lyrics \lyricsto "Tenore" {
+        \stanzaTwoLyricsAlto
       }
     >>
     \new Staff <<

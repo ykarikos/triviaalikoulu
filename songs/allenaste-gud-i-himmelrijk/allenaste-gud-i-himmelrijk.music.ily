@@ -29,7 +29,7 @@ SopranoMusic = \relative c' {
 
 stanzaOneLyrics = \lyricmode {
 	All -- e -- naste Gud i him -- mel -- rijk
-  ware lof och pris för al -- la nå -- _ der,
+  ware lof och pris för si -- na nå -- _ der,
   På jor -- den är kom -- men stor gläd -- ie och frid,
   men -- nis -- kan må wäl glä -- dias wid
   Guds yn -- nest och go -- da wil -- _ ja.
@@ -64,7 +64,7 @@ AltoMusic = \relative c' {
 
 stanzaOneLyricsAlto = \lyricmode {
 	All -- e -- naste Gud i him -- _ mel -- rijk
-  ware lof och pris för al -- la nå -- der,
+  ware lof och pris för si -- na nå -- der,
   På jor -- den är kom -- _ men stor gläd -- _ ie och frid,
   men -- nis -- kan må wäl glä -- _ dias wid
   Guds yn -- nest och go -- da wil -- _ _ ja.
@@ -82,10 +82,21 @@ TenoreMusic = \relative c' {
 	\incipit { \clef "mensural-c4" \key f \major \time 3/1 r1 r a }
 
 	\clef "treble_8"
-	r1 r a1 | c\breve d1 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata
+  \repeat volta 2 {
+  	r1 r a | c\breve d1 | c( a) b | c d b | a\breve. |
+    r1 r d | c\breve c1 | d1. c2 b1 | a g\breve | a\breve. |
+  }
+  r1 r a | a\breve c2 c | d\breve c2 c | b b a\breve | g\breve. |
+  r1 r b | c\breve d1 | g,\breve b1 | c\breve b1 | a\breve. |
+  r1 r a | c1. c2 d1 | c\breve b1 | a g\breve | a\breve. \bar "|."
+}
+
+stanzaOneLyricsTenore = \lyricmode {
+	All -- e -- naste Gud i him -- _ mel -- rijk
+  ware lof och pris för si -- na nå -- der,
+  På jor -- den är kom -- men stor gläd -- ie och frid,
+  men -- nis -- kan må wäl glä -- dias wid
+  Guds yn -- nest och go -- da wil -- _ ja.
 }
 
 BassMusic = \relative c {
