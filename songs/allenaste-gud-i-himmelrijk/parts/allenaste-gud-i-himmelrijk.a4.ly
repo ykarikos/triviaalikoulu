@@ -16,7 +16,7 @@
        \stanzaOneLyrics
      }
      \new Lyrics \lyricsto "Soprano" {
-       \stanzaTwoLyrics
+       \stanzaOneRepeatLyrics
      }
     >>
     \new Staff <<
@@ -28,7 +28,7 @@
        \stanzaOneLyricsAlto
      }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaTwoLyricsAlto
+       \stanzaOneRepeatLyricsAlto
      }
     >>
     \new Staff <<
@@ -40,7 +40,7 @@
        \stanzaOneLyricsTenore
       }
       \new Lyrics \lyricsto "Tenore" {
-        \stanzaTwoLyricsAlto
+        \stanzaOneRepeatLyricsAlto
       }
     >>
     \new Staff <<
@@ -52,7 +52,7 @@
        \stanzaOneLyricsBass
       }
       \new Lyrics \lyricsto "Bass" {
-        \stanzaTwoLyricsAlto
+        \stanzaOneRepeatLyricsAlto
       }
     >>
   >>
