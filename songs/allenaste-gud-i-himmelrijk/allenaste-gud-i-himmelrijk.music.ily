@@ -4,7 +4,8 @@ global = {
 %  \numericTimeSignature
   \time 3/1
   \key f \major
-  \set Staff.midiInstrument = #"voice oohs"
+  \set Staff.midiInstrument = #"voice oohs" %"
+  \slurDashed
 }
 
 
@@ -20,7 +21,7 @@ SopranoMusic = \relative c' {
 
   \repeat volta 2 {
   	r1 r f | a\breve b2 b | c\breve b1 | a\breve g1 | a\breve. |
-    r1 r a | a\breve g1 | b1. a2 g2 g | f\breve  e1 | f\breve. |
+    r1 r a2( a) | a1( a) g1 | b1. a2 g2 g | f\breve  e1 | f\breve. |
   }
   r1 r f | f\breve g2 g | b\breve a2 a | g\breve fis2 fis | g\breve. |
   r1 r g | a\breve b1 | c\breve b1 | a\breve g1 | a\breve. |
@@ -28,16 +29,17 @@ SopranoMusic = \relative c' {
 }
 
 stanzaOneLyrics = \lyricmode {
+  \set stanza = #"1. " %"
 	All -- e -- nas -- te Gud i him -- mel -- rijk
-  ware lof och pris för si -- na nå -- _ der,
+  wa-re lof och pris för si -- na nå -- _ der,
   På jor -- den är kom -- men stor gläd -- ie och frid,
   men -- nis -- kan må wäl glä -- dias wid
   Guds yn -- nest och go -- da wil -- _ ja.
 }
 
-stanzaTwoLyrics = \lyricmode {
+stanzaOneRepeatLyrics = \lyricmode {
   som han haf -- wer giort i jor -- de -- rijk,
-  i thessa här nå -- de -- li -- ga da -- _ gar:
+  i thes-sa här nå -- de -- li -- ga da -- _ gar:
 }
 
 AltoMusic = \relative c' {
@@ -55,7 +57,7 @@ AltoMusic = \relative c' {
 
   \repeat volta 2 {
   	r1 r c | f\breve f2 f | a\breve g1 | f d e | fis\breve. |
-    r1 r f | f\breve e1 | f\breve es1 | d2 d c\breve | c\breve. |
+    r1 r f2( f) | f1( f) e | f\breve es1 | d2 d c\breve | c\breve. |
   }
   r1 r c | d\breve e2 e | f1 g e2 e | d1 es d2 d | d\breve. |
   r1 r d | f\breve f1 | g\breve g1 | f d e | f\breve. |
@@ -63,16 +65,17 @@ AltoMusic = \relative c' {
 }
 
 stanzaOneLyricsAlto = \lyricmode {
+  \set stanza = #"1. " %"
 	All -- e -- nas -- te Gud i him -- _ mel -- rijk
-  ware lof och pris för si -- na nå -- der,
+  wa-re lof och pris för si -- na nå -- der,
   På jor -- den är kom -- _ men stor gläd -- _ ie och frid,
   men -- nis -- kan må wäl glä -- _ dias wid
   Guds yn -- nest och go -- da wil -- _ _ ja.
 }
 
-stanzaTwoLyricsAlto = \lyricmode {
+stanzaOneRepeatLyricsAlto = \lyricmode {
   som han haf -- wer giort i jor -- _ de -- rijk,
-  i thessa här nå -- de -- li -- ga da -- gar:
+  i thes-sa här nå -- de -- li -- ga da -- gar:
 }
 
 TenoreMusic = \relative c' {
@@ -84,7 +87,7 @@ TenoreMusic = \relative c' {
 	\clef "treble_8"
   \repeat volta 2 {
   	r1 r a | c\breve d2 d | c1( a) b | c d b | a\breve. |
-    r1 r d | c\breve c1 | d1. c2 b1 | a g\breve | a\breve. |
+    r1 r d2( d) | c1( c) c | d1. c2 b1 | a g\breve | a\breve. |
   }
   r1 r a | a\breve c2 c | d\breve c2 c | b b a\breve | g\breve. |
   r1 r b | c\breve d1 | g,\breve b1 | c\breve b1 | a\breve. |
@@ -92,8 +95,9 @@ TenoreMusic = \relative c' {
 }
 
 stanzaOneLyricsTenore = \lyricmode {
+  \set stanza = #"1. " %"
 	All -- e -- nas -- te Gud i him -- _ mel -- rijk
-  ware lof och pris för si -- na nå -- der,
+  wa-re lof och pris för si -- na nå -- der,
   På jor -- den är kom -- men stor gläd -- ie och frid,
   men -- nis -- kan må wäl glä -- dias wid
   Guds yn -- nest och go -- da wil -- _ ja.
@@ -108,7 +112,7 @@ BassMusic = \relative c {
 	\clef bass
   \repeat volta 2 {
 	  r1 r f | f\breve b,2 b | f'\breve g1 | a f g | d\breve. |
-    r1 r d | f\breve c1 | b\breve es1 | f2 f c\breve | f,\breve. |
+    r1 r d2( d) | f1( f) c | b\breve es1 | f2 f c\breve | f,\breve. |
   }
   r1 r f' | d\breve c2 c | b1 g a | b c d | g,\breve. |
   r1 r g' | f\breve d1 | c2 d e c g'1 | a f g | d\breve. |
@@ -116,8 +120,9 @@ BassMusic = \relative c {
 }
 
 stanzaOneLyricsBass = \lyricmode {
-	All -- e -- nas -- te Gud i him -- _ mel -- rijk
-  ware lof och pris för si -- na nå -- der,
+  \set stanza = #"1. " %"
+ 	All -- e -- nas -- te Gud i him -- _ mel -- rijk
+  wa-re lof och pris för si -- na nå -- der,
   På jor -- den är kom -- men stor gläd -- ie och frid,
   men -- nis -- kan må __ _ _ _ wäl glä -- _ dias wid
   Guds yn -- nest och go -- _ da wil -- _ _ ja.
