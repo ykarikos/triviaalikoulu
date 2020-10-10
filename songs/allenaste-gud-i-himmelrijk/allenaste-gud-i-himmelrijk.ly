@@ -6,8 +6,8 @@
 \include "allenaste-gud-i-himmelrijk.music.ily"
 
 \header {
-  title = "Allenaste Gud i himmelrijk"
-  subtitle = "Ainoan Jumalan corkiudhes"
+  title = "Allenaste Gud i himmelrik"
+  subtitle = ""
   composer = "Hieronymus Praetorius (1560–1629)"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
@@ -21,11 +21,20 @@
   \new ChoirStaff <<
     \new Staff <<
       \new Voice = "Soprano" {
-		    \global
+        \global
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {
        \stanzaOneLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaOneRepeatLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaOneLyricsFin
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaOneRepeatLyricsFin
      }
     >>
     \new Staff <<
@@ -34,7 +43,16 @@
         \AltoMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsAlto
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaOneRepeatLyricsAlto
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaOneLyricsAltoFin
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaOneRepeatLyricsAltoFin
      }
     >>
     \new Staff <<
@@ -43,7 +61,16 @@
         \TenoreMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsTenore
+      }
+      \new Lyrics \lyricsto "Tenore" {
+        \stanzaOneRepeatLyricsAlto
+      }
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaOneLyricsTenoreFin
+      }
+      \new Lyrics \lyricsto "Tenore" {
+        \stanzaOneRepeatLyricsTenoreFin
       }
     >>
     \new Staff <<
@@ -52,7 +79,16 @@
         \BassMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsBass
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaOneRepeatLyricsAlto
+      }
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaOneLyricsBassFin
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaOneRepeatLyricsAltoFin
       }
     >>
   >>
