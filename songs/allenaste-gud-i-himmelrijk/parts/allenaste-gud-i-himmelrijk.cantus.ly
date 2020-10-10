@@ -5,7 +5,7 @@
 \include "allenaste-gud-i-himmelrijk.header.ily"
 
 \header {
-  title = "Allenaste Gud i himmelrijk (cantus)"
+  title = "Allenaste Gud i himmelrik (cantus)"
 }
 
 \score {
@@ -17,6 +17,15 @@
       }
      \new Lyrics \lyricsto "Soprano" {
        \stanzaOneLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaOneRepeatLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaOneLyricsFin
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaOneRepeatLyricsFin
      }
     >>
   >>
