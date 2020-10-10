@@ -29,8 +29,7 @@ SopranoMusic = \relative c' {
 }
 
 stanzaOneLyrics = \lyricmode {
-  \set stanza = #"1. " %"
-	All -- e -- nas -- te Gud i him -- mel -- rijk
+	All -- e -- nas -- te Gud i him -- mel -- rik
   wa-re lof och pris för si -- na nå -- _ der,
   På jor -- den är kom -- men stor gläd -- ie och frid,
   men -- nis -- kan må wäl glä -- dias wid
@@ -38,9 +37,24 @@ stanzaOneLyrics = \lyricmode {
 }
 
 stanzaOneRepeatLyrics = \lyricmode {
-  som han haf -- wer giort i jor -- de -- rijk,
+  som han haf -- wer giort i jor -- de -- rik,
   i thes-sa här nå -- de -- li -- ga da -- _ gar:
 }
+
+stanzaOneLyricsFin = \lyricmode {
+  Ai -- no -- an _ Ju -- malan cor -- keu -- des
+  Kij -- tos ja cun -- ni -- a _ ol -- _ con.
+  Nyt on suu -- ri rau -- ha _ ta -- pah -- tunut maas
+  Ju -- mal on Ih -- misten ys -- täwä taas
+  Sijt ol -- con he suu -- resa i -- _ los.
+}
+
+stanzaOneRepeatLyricsFin = \lyricmode {
+  Hä-nen ar -- mons _ e -- dest_ja rac -- kau -- dens
+  Joll_ei cos -- can  lop -- _ pu _ tul -- _ co.
+}
+
+
 
 AltoMusic = \relative c' {
 	\set Staff.instrumentName = #"Altus"
@@ -65,8 +79,7 @@ AltoMusic = \relative c' {
 }
 
 stanzaOneLyricsAlto = \lyricmode {
-  \set stanza = #"1. " %"
-	All -- e -- nas -- te Gud i him -- _ mel -- rijk
+	All -- e -- nas -- te Gud i him -- _ mel -- rik
   wa-re lof och pris för si -- na nå -- der,
   På jor -- den är kom -- _ men stor gläd -- _ ie och frid,
   men -- nis -- kan må wäl glä -- _ dias wid
@@ -74,9 +87,23 @@ stanzaOneLyricsAlto = \lyricmode {
 }
 
 stanzaOneRepeatLyricsAlto = \lyricmode {
-  som han haf -- wer giort i jor -- _ de -- rijk,
+  som han haf -- wer giort i jor -- _ de -- rik,
   i thes-sa här nå -- de -- li -- ga da -- gar:
 }
+
+stanzaOneLyricsAltoFin = \lyricmode {
+  Ai -- no -- an _ Ju -- malan cor -- _ keu -- des
+  Kij -- tos ja cun -- ni -- a _ ol -- con.
+  Nyt on suu -- ri rau -- _ ha _ ta -- pah -- tu -- nut maas
+  Ju -- mal on Ih -- misten ys -- tä -- wä taas
+  Sijt ol -- con he suu -- resa i -- _ _ los.
+}
+
+stanzaOneRepeatLyricsAltoFin = \lyricmode {
+  Hä-nen ar -- mons _ e -- dest_ja rac -- _ kau -- dens
+  Joll_ei cos -- can  lop -- pu tul -- _ _ co.
+}
+
 
 TenoreMusic = \relative c' {
 	\set Staff.instrumentName = #"Tenor"
@@ -95,13 +122,26 @@ TenoreMusic = \relative c' {
 }
 
 stanzaOneLyricsTenore = \lyricmode {
-  \set stanza = #"1. " %"
-	All -- e -- nas -- te Gud i him -- _ mel -- rijk
+	All -- e -- nas -- te Gud i him -- _ mel -- rik
   wa-re lof och pris för si -- na nå -- der,
   På jor -- den är kom -- men stor gläd -- ie och frid,
   men -- nis -- kan må wäl glä -- dias wid
   Guds yn -- nest och go -- da wil -- _ ja.
 }
+
+stanzaOneLyricsTenoreFin = \lyricmode {
+  Ai -- no -- an _ Ju -- malan cor -- _ keu -- des
+  Kij -- tos ja cun -- ni -- a ol -- _ con.
+  Nyt on suu -- ri rau -- ha _ ta -- pah -- tunut maas
+  Ju -- mal on Ih -- misten ys -- täwä taas
+  Sijt ol -- con he suu -- resa i -- _ los.
+}
+
+stanzaOneRepeatLyricsTenoreFin = \lyricmode {
+  Hä-nen ar -- mons _ e -- dest_ja rac -- _ kau -- dens
+  Joll_ei cos -- can  lop -- _ pu tul -- _ co.
+}
+
 
 BassMusic = \relative c {
 	\set Staff.instrumentName = #"Bassus"
@@ -120,10 +160,17 @@ BassMusic = \relative c {
 }
 
 stanzaOneLyricsBass = \lyricmode {
-  \set stanza = #"1. " %"
- 	All -- e -- nas -- te Gud i him -- _ mel -- rijk
+ 	All -- e -- nas -- te Gud i him -- _ mel -- rik
   wa-re lof och pris för si -- na nå -- der,
   På jor -- den är kom -- men stor gläd -- ie och frid,
   men -- nis -- kan må __ _ _ _ wäl glä -- _ dias wid
   Guds yn -- nest och go -- _ da wil -- _ _ ja.
+}
+
+stanzaOneLyricsBassFin = \lyricmode {
+  Ai -- no -- an _ Ju -- malan cor -- _ keu -- des
+  Kij -- tos ja cun -- ni -- a _ ol -- con.
+  Nyt on suu -- ri rau -- _ ha ta -- pah -- tunut maas
+  Ju -- mal on Ih -- _ mis -- _ ten ys -- tä -- wä taas
+  Sijt ol -- con he suu -- re -- sa i -- _ _ los.
 }

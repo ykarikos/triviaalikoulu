@@ -18,6 +18,12 @@
      \new Lyrics \lyricsto "Soprano" {
        \stanzaOneRepeatLyrics
      }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaOneLyricsFin
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaOneRepeatLyricsFin
+     }
     >>
     \new Staff <<
       \new Voice = "Alto" {
@@ -29,6 +35,12 @@
      }
      \new Lyrics \lyricsto "Alto" {
        \stanzaOneRepeatLyricsAlto
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaOneLyricsAltoFin
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaOneRepeatLyricsAltoFin
      }
     >>
     \new Staff <<
@@ -42,6 +54,12 @@
       \new Lyrics \lyricsto "Tenore" {
         \stanzaOneRepeatLyricsAlto
       }
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaOneLyricsTenoreFin
+      }
+      \new Lyrics \lyricsto "Tenore" {
+        \stanzaOneRepeatLyricsTenoreFin
+      }
     >>
     \new Staff <<
       \new Voice = "Bass" {
@@ -53,6 +71,12 @@
       }
       \new Lyrics \lyricsto "Bass" {
         \stanzaOneRepeatLyricsAlto
+      }
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaOneLyricsBassFin
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaOneRepeatLyricsAltoFin
       }
     >>
   >>
