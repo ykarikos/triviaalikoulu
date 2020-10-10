@@ -1,6 +1,6 @@
 
 \header {
-  title = "Allenaste Gud i himmelrijk"
+  title = "Allenaste Gud i himmelrik"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
   composer = "Hieronymus Praetorius (1560–1629)"
   mutopiacomposer = "Anonymous"
