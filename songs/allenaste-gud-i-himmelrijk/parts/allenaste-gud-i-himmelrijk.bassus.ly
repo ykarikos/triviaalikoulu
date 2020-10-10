@@ -5,7 +5,7 @@
 \include "allenaste-gud-i-himmelrijk.header.ily"
 
 \header {
-  title = "Allenaste Gud i himmelrijk (bassus)"
+  title = "Allenaste Gud i himmelrik (bassus)"
 }
 
 \score {
@@ -16,7 +16,16 @@
         \BassMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsBass
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaOneRepeatLyricsAlto
+      }
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaOneLyricsBassFin
+      }
+      \new Lyrics \lyricsto "Bass" {
+        \stanzaOneRepeatLyricsAltoFin
       }
     >>
   >>

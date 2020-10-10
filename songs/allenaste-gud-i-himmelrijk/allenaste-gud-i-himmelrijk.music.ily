@@ -22,7 +22,7 @@ SopranoMusic = \relative c' {
   \repeat volta 2 {
   	r1 r f2( f) | a\breve b2 b | c\breve b2( b) | a\breve g1 | a\breve. |
     r1 r a2( a) | a\breve g2( g) | b1. a2 g2 g | f\breve  e1 | f\breve. |
-  }
+  } \break
   r1 r f | f\breve g2 g | b\breve a2 a | g\breve fis2 fis | g\breve. |
   r1 r g | a\breve b1 | c\breve b2( b) | a\breve g2( g) | a\breve. |
   r1 r f1 | g1. a2 b1 | a\breve g2( g) | f\breve e1 | f\breve. \bar "|."
@@ -72,7 +72,7 @@ AltoMusic = \relative c' {
   \repeat volta 2 {
   	r1 r c2( c) | f\breve f2 f | a\breve g2( g) | f1 d e | fis\breve. |
     r1 r f2( f) | f\breve e2( e) | f\breve es1 | d2 d c\breve | c\breve. |
-  }
+  } \break
   r1 r c | d\breve e2 e | f1 g e2 e | d1 es d2 d | d\breve. |
   r1 r d | f\breve f1 | g\breve g2( g) | f1 d e | f\breve. |
   r1 r c | e1. f2 f1 | f\breve e2( e) | c1 d c | c\breve. \bar "|."
@@ -115,7 +115,7 @@ TenoreMusic = \relative c' {
   \repeat volta 2 {
   	r1 r a2( a) | c\breve d2 d | \slurSolid c1( a) \slurDashed b2( b) | c1 d b | a\breve. |
     r1 r d2( d) | c\breve c2( c) | d1. c2 b1 | a g\breve | a\breve. |
-  }
+  } \break
   r1 r a | a\breve c2 c | d\breve c2 c | b b a\breve | g\breve. |
   r1 r b | c\breve d1 | g,\breve b2( b) | c\breve b2( b) | a\breve. |
   r1 r a | c1. c2 d1 | c\breve b2( b) | a1 g\breve | a\breve. \bar "|."
@@ -153,7 +153,7 @@ BassMusic = \relative c {
   \repeat volta 2 {
 	  r1 r f2( f) | f\breve b,2 b | f'\breve g2( g) | a1 f g | d\breve. |
     r1 r d2( d) | f\breve c2( c) | b\breve es1 | f2 f c\breve | f,\breve. |
-  }
+  } \break
   r1 r f' | d\breve c2 c | b1 g a | b c d | g,\breve. |
   r1 r g' | f\breve d1 | c2 d e c g'1 | a f g | d\breve. |
   r1 r f | c1. f2 b,1 | f' f, g | a b c | f,\breve. \bar "|."
