@@ -28,8 +28,8 @@ SopranoMusic = \relative c'' {
 	r2 f'( | f4) f e2 | d1 | cis |
 
 	\break
-	\repeat volta 2 {
-		r2 c | a4 g a b | c2 d( | d) c( | c) h | c c |
+	\repeat volta 2 { 
+		r2 c | a4 g a b | c2 d( | d4) d c2( | c) h | c c |
 		c4 c c c | c2 d( | d) c | f1 | e |
 		r2 f | e d( | d4) d c2 | b1 | g | a2 f'( | f) e |
 	% p4
@@ -66,7 +66,7 @@ stanzaOneLyrics = \lyricmode {
 	lec -- tu -- lum in __ _ _ me,
 	lec -- tu -- lum in me.
 
-	Qui -- es -- ce in me -- o, me -- o cor -- de.
+	Qui -- es -- ce in me -- o, me -- _ o cor -- de.
 	Qui -- es -- ce in me -- o, me -- o cor -- de.
 
 	Ut nun -- quam ob -- li -- vis -- car te.
@@ -158,7 +158,7 @@ TenoreMusic = \relative c' {
 	\repeat unfold 5 { R1 | }
 	c | c2 c | d2. c4 |
   b2 a | b a | g1 | a2 a' | g g | f d | f2. f4 | f2 e |
-  d1 | c2 g' | g e | f2 f,4 g | a b c2( | c4) h8 h h2 |
+  d1 | c2 g' | g e | f2 f,4 g | a b c2( | c4) h8 a h2 |
 % p2
   c c( | c4) c f2( | f) d | c4 b c d | e d c b | c2 c |
   c d( | d4) c b a | b1 | a |
