@@ -5,12 +5,12 @@ global = {
   \time 2/2
 %	\set Timing.measureLength = #(ly:make-moment 4/2)
 %  \autoBeamOff
-  \key f \major
+  \key c \major
   \set Staff.midiInstrument = #"voice oohs"
 }
 
 
-SopranoMusic = \relative c'' {
+SopranoMusic = \transpose f c { \relative c'' {
 	\set Staff.instrumentName = #"Cantus"
 	\set Staff.shortInstrumentName = "C"
 
@@ -49,6 +49,7 @@ SopranoMusic = \relative c'' {
     \time 4/2
     \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
     a\breve \bar "|."
+  }
 }
 
 stanzaOneLyrics = \lyricmode {
@@ -76,7 +77,7 @@ stanzaOneLyrics = \lyricmode {
 	Ut nun -- quam ob -- li -- vis -- car te.
 }
 
-AltoMusic = \relative c' {
+AltoMusic = \transpose f c { \relative c' {
 	\set Staff.instrumentName = #"Altus"
 	\set Staff.shortInstrumentName = "A"
 
@@ -88,7 +89,7 @@ AltoMusic = \relative c' {
 	  c'1
 	}
 
-	c1 | f2 f | b2. a4 | g2 f | g f( | f) e | f1 | R |
+  	c1 | f2 f | b2. a4 | g2 f | g f( | f) e | f1 | R |
 	r2 f | d f | g1 | c,2 c' | c c | a2. a4 | b2 c | b g |
 	g1 | e | r2 g | a1( | a2) g | f2. e8 d | g2 c | c c |
 % p2
@@ -120,6 +121,7 @@ AltoMusic = \relative c' {
   \time 4/2
   \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
   f\breve) \bar "|."
+  }
 }
 
 stanzaOneLyricsAlto = \lyricmode {
@@ -148,7 +150,7 @@ stanzaOneLyricsAlto = \lyricmode {
 }
 
 
-TenoreMusic = \relative c' {
+TenoreMusic = \transpose f c { \relative c' {
 	\set Staff.instrumentName = #"Tenor"
 	\set Staff.shortInstrumentName = "T"
 
@@ -188,6 +190,7 @@ TenoreMusic = \relative c' {
   \time 4/2
   \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
   c\breve \bar "|."
+  }
 }
 
 stanzaOneLyricsTenor = \lyricmode {
@@ -214,7 +217,7 @@ stanzaOneLyricsTenor = \lyricmode {
 }
 
 
-BassMusic = \relative c {
+BassMusic = \transpose f c { \relative c {
 	\set Staff.instrumentName = #"Bassus"
 	\set Staff.shortInstrumentName = "B"
 
@@ -228,7 +231,6 @@ BassMusic = \relative c {
     \time 2/2
     r\maxima r1 c
   }
-
 
 	\clef bass
 	\repeat unfold 5 { R | }
@@ -264,6 +266,7 @@ BassMusic = \relative c {
 	\time 4/2
 	\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 	f'\breve \bar "|."
+  }
 }
 
 stanzaOneLyricsBass = \lyricmode {
