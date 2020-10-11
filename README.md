@@ -25,9 +25,10 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 
 1. Ah Jesu mellitissime – säveltäjä: Gallus Dressler (1533–1585)
 1. Alleluja in resurrectione tua Christe – säveltäjä: Jacobus Gallus (1550–1591)
-1. Ætas carmen melodiæ (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
+1. Allenaste Gud i himmelrik / Ainoan Jumalan corkiudhes (à 4) – säveltäjä: Hieronymus Praetorius (1560–1629)
+1. Ætas carmen melodiæ / Äänel caunist monen mutcain (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
 1. Anima mea expectat Dominum (à 8) – säveltäjä: Friedrich Weißensee (1560-1622)
-1. Cedit hiems eminus (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
+1. Cedit hiems eminus / Tuiman talven taucomast (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
 1. Christe tibi vivo (à 4) – säveltäjä tuntematon
 1. Christus adest justus (à 4) – säveltäjä tuntematon
 1. Christus factus est pro nobis (à 4) – säveltäjä tuntematon
@@ -37,7 +38,7 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 1. Gud wälsigna thetta huus (à 4) – säveltäjä tuntematon
 1. I Herrans Tienare (à 5) – säveltäjä tuntematon
 1. Isti sunt triumphatores (à 8) – säveltäjä: Jacobus Gallus
-1. Jucundare jugiter (à 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
+1. Jucundare jugiter / Ain iloidca, ain riemuidca (à 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
 1. Laus tibi Christe (à 4) – säveltäjä tuntematon
 1. Lobt Gott ihr Christen alle (à 5) – säveltäjä tuntematon
 1. Nunc Zymphonizate (à 5) – säveltäjä: Giovanni Gastoldi (n. 1554–1609)
@@ -51,7 +52,6 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 ## Kappaleet työn alla
 
 Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
-* Allenaste Gud i himmelrik / Ainoan Jumalan corkiudhes
 * In te Domine speravi
 * A Deo principum
 * Lät oss liufliga siunga
