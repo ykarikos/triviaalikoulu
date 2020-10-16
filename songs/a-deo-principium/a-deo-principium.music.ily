@@ -16,14 +16,31 @@ SopranoMusic = \relative c'' {
 
 	\incipit { \clef "mensural-g" \key d \minor \time 2/2 d''4. }
 
-	a4. h8 c4 d | c h a2 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata \bar "|."
+	\repeat volta 2 {
+		a4. h8 c4 d | c h a2 | g4 a f2 | e1 |
+		c'4. h8 a4 g | a4. g8 f4 b | g b a4. a8 | a1 |
+	}
+	\repeat volta 2 {
+		d4 d8 d d4 c | h2 h4 d | c d h2 | a1 |
+		a4 a8 a a4 d | c4. h8 a4 b |
+% p2
+		b a c2 | a1 |
+		a4 h c d | c h a2 | e4 f g a | g f e2 |
+		f4 g a h | c4. h8 a4 g8 f | e4 d a' a |
+		\time 4/2
+		\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+		a\breve
+	}
 }
 
 stanzaOneLyrics = \lyricmode {
+	\set stanza = #"1. "
 	A De -- o prin -- ci -- pi -- um fi -- at nost -- rum,
+	in De -- o qui ter -- mi -- num fi -- ga -- _ mus tu -- tum.
+	O -- pe -- ris is -- te nos -- tri se -- cun -- det pri -- ma,
+	Pros -- pe -- ra red -- dat me -- di -- a tan -- dem post re -- ma,
+	ve -- lit hu -- ic con -- ces qui, u -- ni -- ver -- so coc -- tu -- i
+	at -- que to -- ti do -- mu -- i pat -- _ ro -- _ ci -- na -- ri.
 }
 
 AltoMusic = \relative c' {
