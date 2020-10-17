@@ -15,6 +15,9 @@
      \new Lyrics \lyricsto "Soprano" {
        \stanzaOneLyrics
      }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyrics
+     }
     >>
     \new Staff <<
       \new Voice = "Alto" {
@@ -23,6 +26,9 @@
       }
      \new Lyrics \lyricsto "Alto" {
        \stanzaOneLyrics
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaTwoLyrics
      }
     >>
     \new Staff <<
@@ -33,6 +39,9 @@
       \new Lyrics \lyricsto "Tenore" {
        \stanzaOneLyrics
       }
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaTwoLyrics
+      }
     >>
     \new Staff <<
       \new Voice = "Bass" {
@@ -40,7 +49,10 @@
         \BassMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsBass
+      }
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaTwoLyricsBass
       }
     >>
   >>

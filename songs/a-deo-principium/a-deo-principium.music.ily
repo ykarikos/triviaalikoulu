@@ -43,6 +43,16 @@ stanzaOneLyrics = \lyricmode {
 	at -- que to -- ti do -- mu -- i pat -- _ ro -- _ ci -- na -- ri.
 }
 
+stanzaTwoLyrics = \lyricmode {
+	\set stanza = #"2. "
+	Ab e -- o nam -- que bo -- na cunc -- ta flu -- unt,
+	ad il -- li -- bus glo -- ri -- am qunc -- _ ta re -- de -- unt.
+	Ma -- ne -- ra sac -- ri fla -- tus tri -- bu -- at cunc -- tis,
+	at que sin -- ce -- ro im -- bu -- at a -- mo -- re junc -- tos,
+	fa -- xit hic for -- tis -- si -- mos vi -- gi -- les An -- ge -- li -- cos
+	hos -- ce pro -- pe po -- pu -- los cast -- _ ra -- _ me -- ta -- ri.
+}
+
 AltoMusic = \relative c' {
 	\set Staff.instrumentName = #"Altus"
 	\set Staff.shortInstrumentName = "A"
@@ -82,8 +92,40 @@ BassMusic = \relative c {
 	\incipit { \clef "mensural-f" \key d \minor \time 2/2 d4. }
 
 	\clef bass
-	a4. g8 f4 d | a' e f2 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g,\breve\fermata
+	\repeat volta 2 {
+		a4. g8 f4 d | a' e f2 | c'4 a d2 | a1 |
+		a4. g8 f4 c' | f,4. g8 a4 b | b g a2 | d1 |
+	}
+	\repeat volta 2 {
+		d4 d8 d g,4 a | e'2 e4 d f d e2 | a,1 |
+		d4 d8 d c4 h | a4. g8 e4 b' |
+% p2
+		g f c'2 | f,1 |
+		f4. g8 a4 b | f g f2 | c'4. d8 e4 f | c d c2 |
+		d4. e8 f4 d | a'4. g8 f4 d | a' d, a2 |
+		\time 4/2
+		\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+		d\breve
+	}
 }
+
+stanzaOneLyricsBass = \lyricmode {
+	\set stanza = #"1. "
+	A De -- o prin -- ci -- pi -- um fi -- at nost -- rum,
+	in De -- o qui ter -- mi -- num fi -- ga -- mus tu -- tum.
+	O -- pe -- ris is -- te nos -- tri se -- cun -- det pri -- ma,
+	Pros -- pe -- ra red -- dat me -- di -- a tan -- dem post re -- ma,
+	ve -- lit hu -- ic con -- ces qui, u -- ni -- ver -- so coc -- tu -- i
+	at -- que to -- ti do -- mu -- i pat -- ro -- ci -- na -- ri.
+}
+
+stanzaTwoLyricsBass = \lyricmode {
+	\set stanza = #"2. "
+	Ab e -- o nam -- que bo -- na cunc -- ta flu -- unt,
+	ad il -- li -- bus glo -- ri -- am qunc -- ta re -- de -- unt.
+	Ma -- ne -- ra sac -- ri fla -- tus tri -- bu -- at cunc -- tis,
+	at que sin -- ce -- ro im -- bu -- at a -- mo -- re junc -- tos,
+	fa -- xit hic for -- tis -- si -- mos vi -- gi -- les An -- ge -- li -- cos
+	hos -- ce pro -- pe po -- pu -- los cast -- ra -- me -- ta -- ri.
+}
+
