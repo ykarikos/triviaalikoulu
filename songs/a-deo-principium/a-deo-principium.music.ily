@@ -111,10 +111,41 @@ TenoreMusic = \relative c {
 	\incipit { \clef "mensural-c4" \key d \minor \time 2/2 d'4. }
 
 	\clef "treble_8"
-	e4. g8 f4 f | e g a2 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata
+	\repeat volta 2 {
+		e4. g8 f4 f | e g a2 | e4 e f8 e d4 | e1 |
+		e4. e8 a4 e | f4. e8 f4 f | g d a'2 | a1 |
+	}
+	\repeat volta 2 {
+		a4 a8 a h4 a | g2. f8 g | a4 a gis8 fis e4 | e1 |
+		a4 a8 a a4 a | a4. a8 a4 f |
+% p2
+		g4 a e8 f g4 | f1 |
+		a4 a8 g f4 f | f d f2 | g4. g8 g4 f | g d g2 |
+		a4. a8 a4 f | a a a a | a2 a4 a |
+		\time 4/2
+		\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+		a\breve
+	}
+}
+
+stanzaOneLyricsTenore = \lyricmode {
+	\set stanza = #"1. "
+	A De -- o prin -- ci -- pi -- um fi -- at nost -- _ _ rum,
+	in De -- o qui ter -- mi -- num fi -- ga -- mus tu -- tum.
+	O -- pe -- ris is -- te nos -- tri se -- cun -- det pri -- _ _ ma,
+	Pros -- pe -- ra red -- dat me -- di -- a tan -- dem post re -- _ _ ma,
+	ve -- lit _ hu -- ic con -- ces qui, u -- ni -- ver -- so coc -- tu -- i
+	at -- que to -- ti do -- mu -- i pat -- ro -- ci -- na -- ri.
+}
+
+stanzaTwoLyricsTenore = \lyricmode {
+	\set stanza = #"2. "
+	Ab e -- o nam -- que bo -- na cunc -- ta flu -- _ _ unt,
+	ad il -- li -- bus glo -- ri -- am qunc -- ta re -- de -- unt.
+	Ma -- ne -- ra sac -- ri fla -- tus tri -- bu -- at cunc -- _ _ tis,
+	at que sin -- ce -- ro im -- bu -- at a -- mo -- re junc -- _ _ tos,
+	fa -- xit _ hic for -- tis -- si -- mos vi -- gi -- les An -- ge -- li -- cos
+	hos -- ce pro -- pe po -- pu -- los cast -- ra -- me -- ta -- ri.
 }
 
 BassMusic = \relative c {
