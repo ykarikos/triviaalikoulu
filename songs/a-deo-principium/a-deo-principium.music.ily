@@ -66,11 +66,43 @@ AltoMusic = \relative c' {
 		f'4.
 	}
 
-	c4. d8 a4 a | a e' c2 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  d\breve\fermata
+	\repeat volta 2 {
+		c4. d8 a4 a | a e' c2 | c4 c f,8 g a4 | a1 |
+		e'4. e8 c4 c | c4. c8 c4 d | d d2 cis4 | d1 |
+	}
+	\repeat volta 2 {
+		f4 f8 f g4 e | e2 e4 f | f f e2 | cis1 |
+		f4 d8 d e4 d | e c c d | 
+% p2
+		b c c2 | c1 | 
+		f4 f f d | a h c2 | c4 c c a | c a c2 |
+		f4. g8 d4 d | c c c d | cis d2 cis4 |
+		\time 4/2
+		\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+		d\breve
+	}
 }
+
+stanzaOneLyricsAlto = \lyricmode {
+	\set stanza = #"1. "
+	A De -- o prin -- ci -- pi -- um fi -- at nost -- _ _ rum,
+	in De -- o qui ter -- mi -- num fi -- ga -- mus tu -- tum.
+	O -- pe -- ris is -- te nos -- tri se -- cun -- det pri -- ma,
+	Pros -- pe -- ra red -- dat me -- di -- a tan -- dem post re -- ma,
+	ve -- lit hu -- ic con -- ces qui, u -- ni -- ver -- so coc -- tu -- i
+	at -- que to -- ti do -- mu -- i pat -- ro -- ci -- na -- ri.
+}
+
+stanzaTwoLyricsAlto = \lyricmode {
+	\set stanza = #"2. "
+	Ab e -- o nam -- que bo -- na cunc -- ta flu -- _ _ unt,
+	ad il -- li -- bus glo -- ri -- am qunc -- ta re -- de -- unt.
+	Ma -- ne -- ra sac -- ri fla -- tus tri -- bu -- at cunc -- tis,
+	at que sin -- ce -- ro im -- bu -- at a -- mo -- re junc -- tos,
+	fa -- xit hic for -- tis -- si -- mos vi -- gi -- les An -- ge -- li -- cos
+	hos -- ce pro -- pe po -- pu -- los cast -- ra -- me -- ta -- ri.
+}
+
 
 TenoreMusic = \relative c {
 	\set Staff.instrumentName = #"Tenor"
