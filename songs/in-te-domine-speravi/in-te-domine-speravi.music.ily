@@ -111,8 +111,42 @@ BassMusic = \relative c {
   }
 
 	\clef bass
-	f1 f2 f( | f) e4 d c2 c |
+	f1 f2 f( | f) e4 d c2 c | f c g'1 |
+	c, f2 g | f1 c | f2 d c1 |
+	f1 r2 f | c f1 c2 | f1 b,4 c d e | f2 d1 e2 |
+% p2
+	f g c,1 | r2 c f1 | f2 g f1 | b,2 f' g1 |
+	d2 f f c | f2. g4 a2 g | a b g1 | f r2 f |
+	c c f f | f2. e4 f2 c | g' a g1 | c, f2 f |
+% p3
+	b,4 c d e f1 | f2 f g1 | d r2 
 %  \time 4/2
 %  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 %  g,\breve\fermata
 }
+
+stanzaOneLyricsBass = \lyricmode {
+	In te Do -- _ _ _ mi -- ne spe -- ra -- vi
+	non con -- fun -- dar in ae -- ter -- num.
+	In jus -- ti -- ti -- a tu -- _ _ _ a li -- _ be -- ra me.
+	Inc -- li -- na ad me au -- rem tu -- am ac -- ce -- le -- ra __ _ _
+	ut  e -- qu -- as me. Es -- to mi -- hi in De -- _ _ um
+	Pro -- tec -- to -- rum et in lo -- _ _ _ cum 
+	re -- fu -- gu -- i, 
+	ut sal -- vum me fa -- _ _ ci -- as.
+
+	Quo -- ni -- am for -- ti -- tu -- do me -- a
+	et re -- fu -- gi -- um me -- um es -- tu,
+	et prop -- ter no -- men tu -- um
+	de -- du -- _ _ ces me 
+	e -- nut -- ri -- es me e -- le -- du -- ces me,
+	de -- la -- que -- o, quem abs con -- de -- -- _ _ _ runt
+	mi -- _ _ _ hi,
+	Quo -- ni -- am tu es pro -- tec -- _ _ _ _ tor me us.
+
+	In ma -- _ nus tu -- as Do -- mi -- ne 
+	com -- men -- _ do spi -- ri -- tum me -- um,
+	re -- de -- mis -- ti me,
+	Do -- mi -- ne De -- us ve -- _ _ _ ri -- _ ta -- tis.
+}
+
