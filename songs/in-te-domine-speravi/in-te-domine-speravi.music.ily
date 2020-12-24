@@ -35,9 +35,14 @@ SopranoMusic = \relative c' {
 % p5
 	c4) a h2 c1 | r2 a1 g2 | g1 r2 g2 | a1 r2 a |
 	a2. b4 c2 f,( | f4) g a2 b1 | a\breve\fermata |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata \bar "|."
+	\time 3/1
+	r\breve a1 | a1. b2 c1 | b\breve c1 |
+	a\breve g1 | a\breve a1 | a1. b2 c1 |
+% p6
+	b\breve a1 | a g\breve | fis\breve r1 | 
+	f!\breve g1 | a\breve g1 | a\breve r1 |
+	c\breve h1 | c\breve r1 | a\breve a1 | b2. a4 g1 f |
+	f2 d e\breve | f\breve. \bar "|."
 }
 
 stanzaOneLyrics = \lyricmode {
@@ -59,8 +64,10 @@ stanzaOneLyrics = \lyricmode {
 	mi -- _ _ _ hi,
 	Quo -- ni -- am tu es pro -- tec -- _ _ _ _ tor me us.
 
-	In ma -- nus tu -- as Do -- mi -- ne 
-	com -- men -- do 
+	In ma -- _ nus tu -- as Do -- mi -- ne 
+	com -- men -- _ do spi -- ri -- tum me -- um,
+	re -- de -- mis -- ti me,
+	Do -- mi -- ne De -- us ve -- _ _ _ ri -- _ ta -- tis.
 }
 
 AltoMusic = \relative c' {
