@@ -76,10 +76,36 @@ AltoMusic = \relative c' {
 
 	\incipit { \clef "mensural-c3" \key f \major \time 2/2 c'1 }
 
-	c1 c | f e |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  d\breve\fermata
+	c1 c | f e | f2 g g1 |
+	e1 r2 
+}
+
+stanzaOneLyricsAlto = \lyricmode {
+	In te Do -- mi -- ne spe -- ra -- vi
+	non con -- fun -- dar in ae -- ter -- num.
+	In jus -- ti -- ti -- a tu -- a li -- be -- ra me.
+	Inc -- li -- na ad me au -- rem tu -- am ac -- ce -- le -- ra 
+	ut e -- qu -- _ _ as me. Es -- to mi -- hi De -- um
+	Pro -- tec -- to -- rum et in lo -- cum 
+	re -- fu -- gu -- i, 
+	ut sal -- vum me fa -- _ _ ci -- as.
+
+	Quo -- ni -- am for -- ti -- tu -- do me -- a
+	et re -- fu -- gi -- um me -- um es -- _ _ tu,
+	et prop -- ter no -- men tu -- um
+	de -- du -- ces me
+	e -- nut -- ri -- es me __ _
+
+	de -- du -- ces me,
+	de -- la -- que -- o, 
+	quem abs con -- de -- runt _
+	mi -- hi,
+	Quo -- ni -- am tu es pro -- tec -- tor me -- _ _ us.
+
+	In ma -- _ nus tu -- as Do -- mi -- ne 
+	com -- men -- do spi -- ri -- tum me -- um,
+	re -- de -- mis -- ti me,
+	Do -- mi -- ne De -- us ve -- _ _ ri -- ta -- tis.
 }
 
 TenoreMusic = \relative c {
