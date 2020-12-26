@@ -50,7 +50,7 @@ stanzaOneLyrics = \lyricmode {
 	non con -- fun -- dar in ae -- _ _ ter -- num.
 	In jus -- ti -- tia tu -- _ _ _ a li -- _ be -- ra me.
 	Inc -- li -- na ad me au -- rem tu -- am ac -- ce -- le -- ra
-	ut  e -- qu -- _ as _ _ me. Es -- to mi -- hi in De -- um
+	ut e -- qu -- _ as _ _ me. Es -- to mi -- hi in De -- um
 	Pro -- tec -- to -- _ _ _ rum et in lo -- cum 
 	re -- fu -- gu -- i, 
 	ut sal -- vum me fa -- _ ci -- as.
@@ -89,11 +89,57 @@ TenoreMusic = \relative c {
 	\incipit { \clef "mensural-c3" \key f \major \time 2/2 f1 }
 
 	\clef "treble_8"
-	f1 a | c1. c2 |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata
+	f1 a | c1. c2 | c c d1 |
+	c a2 b | c1 c | a2 f g1 |
+	f r2 c' | c1 c | c2 c d1 | c2 f1 e2 |
+% p2
+	d1 c | r2 c c1 | a2 b c1 | d2 c b1 |
+	a2 a c c | c1 c2 d | c f2. d4 e2 | f1 r2 f |
+	e1 f | c2 f1 e2 | d c d1 | c c2 c |
+% p3
+	d1 c | a2 c b1 | a r2 c | c c c2. b4 |
+	a2 b g1 | f\breve\fermata |
+	c'1. c2 | c1 r2 c | c c1 c2 |
+	d1 c | r2 c c f( | f) e c d | c f2. d4 e2 |
+% p4
+	f1 r2 c | f f e c | d1 c2 c | d1 b |
+	c r2 c | c d1 c2 | b1 a | r1 r2 a |
+	c c c1 | r2 a c c | c1 r2 c | c f2. e4 d c |
+% p5
+	d1 c | r2 c1 c2 | c1 r2 c | c1 r2 c |
+	c1 c2 d( | d) c b1 | c\breve\fermata |
+
 }
+
+stanzaOneLyricsTenor = \lyricmode {
+	In te Do -- mi -- ne spe -- ra -- vi
+	non con -- fun -- dar in ae -- ter -- num.
+	In jus -- ti -- ti -- a tu -- a li -- be -- ra me.
+	Inc -- li -- na ad me au -- rem tu -- am ac -- ce -- le -- ra 
+	ut e -- qu -- _ _ as me. Es -- to mi -- hi De -- um
+	Pro -- tec -- to -- rum et in lo -- cum 
+	re -- fu -- gu -- i, 
+	ut sal -- vum me fa -- _ _ ci -- as.
+
+	Quo -- ni -- am for -- ti -- tu -- do me -- a
+	et re -- fu -- gi -- um me -- um es -- _ _ tu,
+	et prop -- ter no -- men tu -- um
+	de -- du -- ces me
+	e -- nut -- ri -- es me __ _
+
+	de -- du -- ces me,
+	de -- la -- que -- o, 
+	quem abs con -- de -- runt _
+	mi -- hi,
+	Quo -- ni -- am tu es pro -- tec -- tor me -- _ _ us.
+
+	In ma -- _ nus tu -- as Do -- mi -- ne 
+	com -- men -- do spi -- ri -- tum me -- um,
+	re -- de -- mis -- ti me,
+	Do -- mi -- ne De -- us ve -- _ _ ri -- ta -- tis.
+}
+
+
 
 BassMusic = \relative c {
 	\set Staff.instrumentName = #"Bassus"
@@ -145,7 +191,7 @@ stanzaOneLyricsBass = \lyricmode {
 	non con -- fun -- dar in ae -- ter -- num.
 	In jus -- ti -- ti -- a tu -- _ _ _ a li -- _ be -- ra me.
 	Inc -- li -- na ad me au -- rem tu -- am ac -- ce -- le -- ra __ _ _
-	ut  e -- qu -- as me. Es -- to mi -- hi in De -- _ _ um
+	ut e -- qu -- as me. Es -- to mi -- hi in De -- _ _ um
 	Pro -- tec -- to -- rum et in lo -- _ _ _ cum 
 	re -- fu -- gu -- i, 
 	ut sal -- vum me fa -- _ _ ci -- as.
