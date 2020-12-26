@@ -60,9 +60,9 @@ stanzaOneLyrics = \lyricmode {
 	et prop -- ter no -- men tu -- um
 	de -- du -- _ _ ces me 
 	e -- nut -- ri -- es me e -- le -- du -- ces me,
-	de -- la -- que -- o, quem abs con -- de -- -- _ _ _ runt
+	de -- la -- que -- o, quem abs con -- de -- _ _ _ runt
 	mi -- _ _ _ hi,
-	Quo -- ni -- am tu es pro -- tec -- _ _ _ _ tor me us.
+	Quo -- ni -- am tu es pro -- tec -- _ _ _ _ tor me -- us.
 
 	In ma -- _ nus tu -- as Do -- mi -- ne 
 	com -- men -- _ do spi -- ri -- tum me -- um,
@@ -119,7 +119,17 @@ BassMusic = \relative c {
 	d2 f f c | f2. g4 a2 g | a b g1 | f r2 f |
 	c c f f | f2. e4 f2 c | g' a g1 | c, f2 f |
 % p3
-	b,4 c d e f1 | f2 f g1 | d r2 
+	b,4 c d e f1 | f2 f g1 | d r2 c | f c f c |
+	f b, c1 | f\breve\fermata |
+	f1. c2 | f1 r2 f | c f1 f2 |
+	b,1 f' | r2 f f f( | f) c f b, | f'1 g |
+% p4
+	f r2 f | f f c' a | g1 a2 a | g1 g |
+	f r2 f | f b1 f2 | g1 d | r1 r2 c |
+	f f f1 | r2 c  f f | f1 r2 f | f f g a |
+% p5
+	g1 c, | r2 f1 c2 | c1 r2 c | f1 r2 f |
+	f2. g4 a2 b( | b) a g1 | f\breve\fermata |
 %  \time 4/2
 %  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 %  g,\breve\fermata
@@ -138,11 +148,14 @@ stanzaOneLyricsBass = \lyricmode {
 	Quo -- ni -- am for -- ti -- tu -- do me -- a
 	et re -- fu -- gi -- um me -- um es -- tu,
 	et prop -- ter no -- men tu -- um
-	de -- du -- _ _ ces me 
-	e -- nut -- ri -- es me e -- le -- du -- ces me,
-	de -- la -- que -- o, quem abs con -- de -- -- _ _ _ runt
-	mi -- _ _ _ hi,
-	Quo -- ni -- am tu es pro -- tec -- _ _ _ _ tor me us.
+	de -- du -- ces me
+	e -- nut -- ri -- es me __ _
+
+	de -- du -- ces me,
+	de -- la -- que -- o, 
+	quem abs con -- de -- runt
+	mi -- hi,
+	Quo -- ni -- am tu es pro -- tec -- _ tor me -- _ _ us.
 
 	In ma -- _ nus tu -- as Do -- mi -- ne 
 	com -- men -- _ do spi -- ri -- tum me -- um,
