@@ -130,9 +130,14 @@ BassMusic = \relative c {
 % p5
 	g1 c, | r2 f1 c2 | c1 r2 c | f1 r2 f |
 	f2. g4 a2 b( | b) a g1 | f\breve\fermata |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g,\breve\fermata
+	\time 3/1 r\breve f1 |
+	f1. g2 a1 | g\breve c,1 | f\breve c1 | f\breve f1 | f\breve c1 |
+% p6
+	g'\breve a1 | f g\breve | d\breve r1 |
+	d\breve g1 | f\breve c1 | f\breve r1 |
+	f\breve g1 | a\breve r1 |
+	f\breve f1 | d1. e2 f1 | b, c\breve |
+	f,\breve. \bar "|."
 }
 
 stanzaOneLyricsBass = \lyricmode {
@@ -158,8 +163,8 @@ stanzaOneLyricsBass = \lyricmode {
 	Quo -- ni -- am tu es pro -- tec -- _ tor me -- _ _ us.
 
 	In ma -- _ nus tu -- as Do -- mi -- ne 
-	com -- men -- _ do spi -- ri -- tum me -- um,
+	com -- men -- do spi -- ri -- tum me -- um,
 	re -- de -- mis -- ti me,
-	Do -- mi -- ne De -- us ve -- _ _ _ ri -- _ ta -- tis.
+	Do -- mi -- ne De -- us ve -- _ _ ri -- ta -- tis.
 }
 
