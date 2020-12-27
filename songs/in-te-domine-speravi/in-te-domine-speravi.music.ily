@@ -9,6 +9,9 @@ global = {
   \set Staff.midiInstrument = #"voice oohs"
 }
 
+% TODO: 
+% - bar 27 first beat
+% - bar 71 first beat
 
 SopranoMusic = \relative c' {
 	\set Staff.instrumentName = #"Cantus"
@@ -134,7 +137,14 @@ TenoreMusic = \relative c {
 % p5
 	d1 c | r2 c1 c2 | c1 r2 c | c1 r2 c |
 	c1 c2 d( | d) c b1 | c\breve\fermata |
-
+	\time 3/1 r\breve c1 |
+	c\breve c1 | d\breve e1 | f\breve e1 | 
+	f\breve f1 | c\breve c1 |
+% p6
+	d\breve c1 | a b\breve | a\breve r1 |
+	a\breve b1 | c\breve c1 | c\breve r1 |
+	f1. e2 d1 | c\breve r1 | c\breve c1 | d1. c2 b1 |
+	a g\breve | f\breve. \bar "|."
 }
 
 stanzaOneLyricsTenor = \lyricmode {
@@ -159,10 +169,10 @@ stanzaOneLyricsTenor = \lyricmode {
 	mi -- hi,
 	Quo -- ni -- am tu es pro -- tec -- tor me -- _ _ us.
 
-	In ma -- _ nus tu -- as Do -- mi -- ne 
+	In ma -- nus tu -- as Do -- mi -- ne 
 	com -- men -- do spi -- ri -- tum me -- um,
 	re -- de -- mis -- ti me,
-	Do -- mi -- ne De -- us ve -- _ _ ri -- ta -- tis.
+	Do -- _ mi -- ne De -- us ve -- _ _ ri -- ta -- tis.
 }
 
 
