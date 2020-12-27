@@ -12,6 +12,7 @@ global = {
 % TODO: 
 % - bar 27 first beat
 % - bar 71 first beat
+% la-que-do vs la-que-o
 
 SopranoMusic = \relative c' {
 	\set Staff.instrumentName = #"Cantus"
@@ -80,32 +81,62 @@ AltoMusic = \relative c' {
 	\incipit { \clef "mensural-c3" \key f \major \time 2/2 c'1 }
 
 	c1 c | f e | f2 g g1 |
-	e1 r2 
+	e1 r2 d2 | f f e2. d4 | c2 b c c |
+	c1 r2 f | e f1 e2 | f1 f | f2 a f g |
+% p2
+	a2. g8 f e1 | r2 e f1 | f2 e f1 | f2 f d1 |
+	d2 c f2. e4 | f2 a e g | f b,1 c2 | c1 r2 c |
+	c c c1 | f c2 g'( | g) f g1 | e f2 f |
+% p3
+	f1 f2. f4 | c2 f d d | d1 r2 e | f e f e4 d |
+	c2 d c1 | c\breve\fermata |
+	f1. e2 | f1 r2 f | e f1 f2 |
+	f1 f | r2 f f c( | c4) d e2 f1 | f2 d1 b2 |
+% p4
+	c1 r2 f | d d e f | g1 e | g2. f4 d2 e |
+	f1 r2 f2 | f f f f | d1 f | c2. d4 e f g e |
+	f2 f c2. d4 | e f g e f2 f | c f r f | c c g' f |
+% p5
+	g1 e | r2 f1 e2 | e1 r2 e | f1 r2 f |
+	f f r d | d f f e | f\breve\fermata |
+	\time 3/1 r\breve f1 |
+	f\breve e1 | g\breve g1 | c,\breve c1 |
+	c\breve c1 | f\breve g1 |
+% p6
+	g\breve f1 | f d\breve | d\breve r1 |
+	d\breve d1 | f\breve e1 | f\breve r1 |
+	a\breve g1 | e\breve r1 | f\breve f1 |
+	f1. e2 d1 | d c\breve | c\breve. \bar "|."
 }
 
 stanzaOneLyricsAlto = \lyricmode {
 	In te Do -- mi -- ne spe -- ra -- vi
-	non con -- fun -- dar in ae -- ter -- num.
-	In jus -- ti -- ti -- a tu -- a li -- be -- ra me.
-	Inc -- li -- na ad me au -- rem tu -- am ac -- ce -- le -- ra 
-	ut e -- qu -- _ _ as me. Es -- to mi -- hi De -- um
+	non con -- fun -- dar __ _ _ in ae -- ter -- num.
+	In jus -- ti -- tia tu -- a li -- _ be -- _ ra _ _ me.
+	Inc -- li -- na ad me au -- rem tu -- am 
+	ac -- ce -- le -- _ _  ra 
+	ut e -- qu -- as me. 
+
+	Es -- to mi -- hi in De -- _ um
 	Pro -- tec -- to -- rum et in lo -- cum 
 	re -- fu -- gu -- i, 
-	ut sal -- vum me fa -- _ _ ci -- as.
+	ut sal -- vum me fa -- _ _ _ ci -- as.
 
 	Quo -- ni -- am for -- ti -- tu -- do me -- a
-	et re -- fu -- gi -- um me -- um es -- _ _ tu,
+	et re -- fu -- _ gi -- um me -- um es -- tu,
 	et prop -- ter no -- men tu -- um
-	de -- du -- ces me
-	e -- nut -- ri -- es me __ _
+	de -- _ du -- ces me
+	e -- nut -- ri -- es me
 
-	de -- du -- ces me,
-	de -- la -- que -- o, 
-	quem abs con -- de -- runt _
+	e -- le -- du -- _ ces __ _ _ _ me,
+	de -- la -- _ que -- _ _ _ do, 
+	la -- que -- do,
+	quem abs con -- de -- runt
 	mi -- hi,
-	Quo -- ni -- am tu es pro -- tec -- tor me -- _ _ us.
+	Quo -- ni -- am tu es pro -- tec -- tor,
+	pro -- tec -- tor me -- _ us.
 
-	In ma -- _ nus tu -- as Do -- mi -- ne 
+	In ma -- nus tu -- as Do -- mi -- ne 
 	com -- men -- do spi -- ri -- tum me -- um,
 	re -- de -- mis -- ti me,
 	Do -- mi -- ne De -- us ve -- _ _ ri -- ta -- tis.
