@@ -1,4 +1,4 @@
-FROM ykarikos/lilypond-book:2.20.0
+FROM ykarikos/lilypond-book:2.22.0
 RUN apt-get update && apt-get install -qq -y openjdk-11-jre-headless locales
 RUN curl -sO https://download.clojure.org/install/linux-install-1.10.1.507.sh
 RUN bash linux-install-1.10.1.507.sh
