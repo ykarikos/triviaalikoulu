@@ -9,11 +9,6 @@ global = {
   \set Staff.midiInstrument = #"voice oohs"
 }
 
-% TODO: 
-% - bar 27 first beat
-% - bar 71 first beat
-% la-que-do vs la-que-o
-
 SopranoMusic = \relative c' {
 	\set Staff.instrumentName = #"Cantus"
 	\set Staff.shortInstrumentName = "C"
@@ -129,8 +124,8 @@ stanzaOneLyricsAlto = \lyricmode {
 	e -- nut -- ri -- es me
 
 	e -- le -- du -- _ ces __ _ _ _ me,
-	de -- la -- _ que -- _ _ _ do, 
-	la -- que -- do,
+	de -- la -- _ que -- _ _ _ o, 
+	la -- que -- o,
 	quem abs con -- de -- runt
 	mi -- hi,
 	Quo -- ni -- am tu es pro -- tec -- tor,
