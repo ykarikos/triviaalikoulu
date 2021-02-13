@@ -23,7 +23,7 @@ $(BOOK).pdf: $(BOOK).lytex *.tex $(NOTATION) facsimile/bassus.jpg cc-zero.png fa
 parts: $(PARTS_PDF)
 
 index.html: $(PARTS) html/generate-html.clj html/head.html
-	cd html && find ../songs/*/parts -name "*.ly" | clojure generate-html.clj >../index.html
+	cd html && find ../songs/*/parts -name "*.ly" | clojure -M generate-html.clj >../index.html
 
 all: $(BOOK).pdf parts index.html
 
