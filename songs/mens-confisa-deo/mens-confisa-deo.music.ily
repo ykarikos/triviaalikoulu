@@ -29,9 +29,16 @@ SopranoMusic = \relative c'' {
 		a gis a h | c8 h c d e2 | d4 c h2 | a4 e a h | c g r d' |
 		c h e2( | e8) d d4. c8 c4 | h8 h a4. gis16 fis gis4 | a1 |
 	}
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata \bar "|."
+% p2
+	\repeat volta 2 {
+		\time 3/1 a1 g c | h\breve a1 | gis\breve r1 | g a h | c\breve d1 | h\breve r1 |
+		gis a h | c\breve h1 |
+		\time 2/2 c2 r4 c | h4. h8 h4 a | a gis r a |
+		h4. c8 h4 a | gis a r a | a4. h8 g4 g | fis g r h | e,8 fis g a h4 c |
+% p3
+		h8 a h c h4 a | g8 f g a g4 a | h8 a h c h4 a | g8 e a4. gis16 fis16 gis4 |
+		a h c d | e2 d4 cis | d4. c8 h4 a | g8 e a4. gis16 fis gis4 | a1
+	}
 }
 
 stanzaOneLyrics = \lyricmode {
@@ -45,7 +52,18 @@ stanzaOneLyrics = \lyricmode {
   re -- ce -- _ dit,
   re -- ce -- _ _ dit.
   Sed fru -- i -- tur vo -- to,
-  nec ma -- la fa -- ta ti -- met.
+  sed fru -- i -- tur vo -- to,
+  sed fru -- i -- tur vo -- to,
+  nec ma -- la fa -- ta ti -- met,
+  nec ma -- la fa -- ta ti -- met,
+  nec ma -- la fa -- ta ti -- met,
+  nec ma -- _ _ la fa -- ta
+  ma -- _ _ la fa -- ta
+  ma -- _ _ la fa -- ta
+  ma -- _ _ la fa -- ta
+  ti -- _ _ _ _ _ met,
+  nec ma -- la fa -- _ _ _ _ _ ta
+  ti -- _ _ _ _ _ met.
 }
 
 AltoMusic = \relative c' {
