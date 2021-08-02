@@ -9,7 +9,7 @@ globaltime = {
 }
 
 globaltempo = {
-	\tempo 4 = 100
+	\tempo 4 = 130
 }
 
 global = {
@@ -35,7 +35,8 @@ SopranoMusic = \relative c'' {
 	}
 % p2
 	\repeat volta 2 {
-		\time 3/1 a1 g c | h\breve a1 | gis\breve r1 | g a h | c\breve d1 | h\breve r1 |
+		\time 3/1
+		a1 g c | h\breve a1 | gis\breve r1 | g a h | c\breve d1 | h\breve r1 |
 		gis a h | c\breve h1 |
 		\time 2/2 c2 r4 c | h4. h8 h4 a | a gis r a |
 		h4. c8 h4 a | gis a r a | a4. h8 g4 g | fis g r h | e,8 fis g a h4 c |
@@ -81,6 +82,17 @@ AltoMusic = \relative c' {
 		f e fis e | c2 g'( | g4) e e2 | cis2. e4 | e2 r4 g |
 		g1 | g2 r4 e | e c8 d e2 | e1
 	}
+% p2
+	\repeat volta 2 {
+		\time 3/1
+		e1 e g | g\breve e1 | e\breve r1 | e e g | a\breve a1 | gis\breve r1 |
+		e e g | g a g |
+		\time 2/2
+		g2 r4 g | g4. g8 g4 e | f e r e |
+		g4. g8 g4 e | e e r e | fis4. g8 e4 d | d d r g | g2 g4 g |
+		g2. e4 | e2. c4 | e1( | e) |
+		e4 e e g | g2. e4 | f1 | e | e |
+	}
 }
 
 stanzaOneLyricsAlto = \lyricmode {
@@ -93,17 +105,12 @@ stanzaOneLyricsAlto = \lyricmode {
   re -- ce -- _ _ _ dit.
   Sed fru -- i -- tur vo -- to,
   sed fru -- i -- tur vo -- to,
-  sed fru -- i -- tur vo -- to,
+  sed fru -- i -- tur __ _ vo -- to,
   nec ma -- la fa -- ta ti -- met,
   nec ma -- la fa -- ta ti -- met,
   nec ma -- la fa -- ta ti -- met,
-  nec ma -- _ _ la fa -- ta
-  ma -- _ _ la fa -- ta
-  ma -- _ _ la fa -- ta
-  ma -- _ _ la fa -- ta
-  ti -- _ _ _ _ _ met,
-  nec ma -- la fa -- _ _ _ _ _ ta
-  ti -- _ _ _ _ _ met.
+  nec ma -- la fa -- ta fa -- ta __ _ ti -- met,
+  nec ma -- la fa -- _ ta ti -- met.
 }
 
 
