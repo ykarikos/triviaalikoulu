@@ -8,6 +8,10 @@ globaltime = {
 	\time 2/2
 }
 
+globaltempo = {
+	\tempo 4 = 100
+}
+
 global = {
 %  \numericTimeSignature
   \globaltime
@@ -72,11 +76,36 @@ AltoMusic = \relative c' {
 
 	\incipit { \clef "mensural-c3" \globalkey \globaltime e'2. }
 
-	e2. g4 | a a gis2 | gis4
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  d\breve\fermata
+  \repeat volta 2 {
+		e2. g4 | a a gis2 | gis4 gis a e | e e r gis | a e e e |
+		f e fis e | c2 g'( | g4) e e2 | cis2. e4 | e2 r4 g |
+		g1 | g2 r4 e | e c8 d e2 | e1
+	}
 }
+
+stanzaOneLyricsAlto = \lyricmode {
+	Mens con -- fi -- sa De -- o,
+  nun -- quam con -- fu -- sa 
+  nun -- quam con -- fu -- _ sa 
+  nun -- quam con -- fu -- sa 
+  re -- ce -- dit,
+  nun -- quam con -- fu -- sa 
+  re -- ce -- _ _ _ dit.
+  Sed fru -- i -- tur vo -- to,
+  sed fru -- i -- tur vo -- to,
+  sed fru -- i -- tur vo -- to,
+  nec ma -- la fa -- ta ti -- met,
+  nec ma -- la fa -- ta ti -- met,
+  nec ma -- la fa -- ta ti -- met,
+  nec ma -- _ _ la fa -- ta
+  ma -- _ _ la fa -- ta
+  ma -- _ _ la fa -- ta
+  ma -- _ _ la fa -- ta
+  ti -- _ _ _ _ _ met,
+  nec ma -- la fa -- _ _ _ _ _ ta
+  ti -- _ _ _ _ _ met.
+}
+
 
 TenoreMusic = \relative c' {
 	\set Staff.instrumentName = #"Tenor"

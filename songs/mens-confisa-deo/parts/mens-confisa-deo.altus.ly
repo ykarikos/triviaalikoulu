@@ -16,12 +16,12 @@
         \AltoMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsAlto
      }
     >>
   >>
   \midi {
-    \tempo 4 = 160
+    \globaltempo
   }
   \layout {
     \context {
