@@ -3,7 +3,7 @@ TenoreTwoMusic = \relative c' {
 	\set Staff.shortInstrumentName = "T II"
 
 	\incipit {
-		\clef "mensural-c4" \key d \minor \time 2/2
+		\clef "mensural-c4" \globalkey \globaltime
 		r\maxima
 		r2 a2.
 	}
