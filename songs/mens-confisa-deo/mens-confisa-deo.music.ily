@@ -121,11 +121,37 @@ TenoreMusic = \relative c' {
 	\incipit { \clef "mensural-c4" \globalkey \globaltime cis'2. }
 
 	\clef "treble_8"
-	cis2. d4 | f f e2 | e2
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata
+	\repeat volta 2 {
+		cis2. d4 | f f e2 | e2 r4 a, | h cis d h | r a h cis |
+		d h r gis | a8 g a h c2 | h4 a2 gis4 | a2 r4 e | a h c g |
+		r d' c2 | r4 h e a,8 a | g4. a8 h2 | cis1 |
+	}
 }
+
+stanzaOneLyricsTenore = \lyricmode {
+	Mens con -- fi -- sa De -- o,
+  nun -- quam con -- fu -- sa 
+  nun -- quam con -- fu -- sa 
+  con -- fu -- _ _ _ sa 
+  re -- ce -- _ dit,
+  nun -- quam con -- fu -- sa 
+  nun -- quam con -- fu -- _ sa 
+  re -- _ ce -- dit.
+  Sed fru -- i -- tur vo -- to,
+  sed fru -- i -- tur vo -- to,
+  sed fru -- i -- tur vo -- to,
+  nec ma -- la fa -- ta ti -- met,
+  nec ma -- la fa -- ta ti -- met,
+  nec ma -- la fa -- ta ti -- met,
+  nec ma -- _ _ la fa -- ta
+  ma -- _ _ la fa -- ta
+  ma -- _ _ la fa -- ta
+  ma -- _ _ la fa -- ta
+  ti -- _ _ _ _ _ met,
+  nec ma -- la fa -- _ _ _ _ _ ta
+  ti -- _ _ _ _ _ met.
+}
+
 
 BassMusic = \relative c' {
 	\set Staff.instrumentName = #"Bassus"
