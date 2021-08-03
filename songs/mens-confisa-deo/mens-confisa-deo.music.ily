@@ -39,7 +39,7 @@ SopranoMusic = \relative c'' {
 		a1 g c | h\breve a1 | gis\breve r1 | g a h | c\breve d1 | h\breve r1 |
 		gis a h | c\breve h1 |
 		\time 2/2 c2 r4 c | h4. h8 h4 a | a gis r a |
-		h4. c8 h4 a | gis a r a | a4. h8 g4 g | fis g r h | e,8 fis g a h4 c |
+		h4. c8 h4 a | gis a r a | a4. h8 g!4 g | fis g r h | e,8 fis g a h4 c |
 % p3
 		h8 a h c h4 a | g8 f g a g4 a | h8 a h c h4 a | g8 e a4. gis16 fis16 gis4 |
 		a h c d | e2 d4 cis | d4. c8 h4 a | g8 e a4. gis16 fis gis4 | a1
@@ -67,7 +67,8 @@ stanzaOneLyrics = \lyricmode {
   ma -- _ _ la fa -- ta
   ma -- _ _ la fa -- ta
   ti -- _ _ _ _ _ met,
-  nec ma -- la fa -- _ _ _ _ _ ta
+  nec ma -- la fa -- ta
+  nec ma -- la fa -- ta
   ti -- _ _ _ _ _ met.
 }
 
@@ -126,6 +127,18 @@ TenoreMusic = \relative c' {
 		d h r gis | a8 g a h c2 | h4 a2 gis4 | a2 r4 e | a h c g |
 		r d' c2 | r4 h e a,8 a | g4. a8 h2 | cis1 |
 	}
+% p2
+	\repeat volta 2 {
+		\time 3/1
+		c1 c e d\breve c1 | h\breve r1 | h c d | f\breve f1 | e\breve r1 |
+		h cis d | e f d |
+		\time 2/2
+		e2 r4 e | d4. d8 d4 cis | d h r cis |
+		d4. e8 d4 c | h cis r cis | d4. d8 c!4 h | a g r d' | e2 d4 d |
+% p3
+		d8 c d e d4 c | h8 a h c h4 a | g8 fis g a h4 c | h a h2 |
+		a4 gis a h | c2 h4 a | a a d c | h a h2 | cis1 |
+	}
 }
 
 stanzaOneLyricsTenore = \lyricmode {
@@ -139,17 +152,18 @@ stanzaOneLyricsTenore = \lyricmode {
   re -- _ ce -- dit.
   Sed fru -- i -- tur vo -- to,
   sed fru -- i -- tur vo -- to,
-  sed fru -- i -- tur vo -- to,
+  sed fru -- i -- tur __ _ vo -- to,
   nec ma -- la fa -- ta ti -- met,
   nec ma -- la fa -- ta ti -- met,
   nec ma -- la fa -- ta ti -- met,
+  nec ma -- la 
   nec ma -- _ _ la fa -- ta
   ma -- _ _ la fa -- ta
   ma -- _ _ la fa -- ta
-  ma -- _ _ la fa -- ta
-  ti -- _ _ _ _ _ met,
-  nec ma -- la fa -- _ _ _ _ _ ta
-  ti -- _ _ _ _ _ met.
+  ti -- _ _ met,
+  nec ma -- la fa -- ta
+  nec ma -- la fa -- ta
+  ti -- _ _ met.
 }
 
 
