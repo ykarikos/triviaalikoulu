@@ -174,8 +174,43 @@ BassMusic = \relative c' {
 	\incipit { \clef "mensural-f" \globalkey \globaltime a2. }
 
 	\clef bass
-	a2. g4 | f d e2 | e2 
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g,\breve\fermata
+	\repeat volta 2 {
+		a2. g4 | f d e2 | e2 r4 a | gis a d, e | r a gis a |
+		d, e r e | a f c2 | g'4 a e2 | a, r | r4 e' a h |
+		c g r c, | c' g a2 | e4 f e2 | a,1 |
+	}
+% p2
+	\repeat volta 2 {
+		\time 3/1
+		a1 c c | g\breve a1 | e'\breve r1 | e a g | f\breve d1 | e\breve r1 |
+		e a g | c f, g |
+		\time 2/2
+		c,2 r4 c' | g4. g8 g4 a | d, e r a |
+		g4. c,8 g'4 a | e a, r a | d4. h8 c4 g | d' g, r g | c8 d e fis g4 c, |
+% p3
+		g'2. a4 | e2. f4 | e2. a,4 | e'1 |
+		a,4 e' a g | c,8 d e f g4 a | d,1 | e | a, |
+	}
+}
+
+stanzaOneLyricsBass = \lyricmode {
+	Mens con -- fi -- sa De -- o,
+  nun -- quam con -- fu -- sa 
+  nun -- quam con -- fu -- sa 
+  con -- fu -- _ sa 
+  re -- ce -- _ dit,
+  nun -- quam con -- fu -- sa 
+  nun -- quam con -- fu -- sa 
+  re -- ce -- dit.
+  Sed fru -- i -- tur vo -- to,
+  sed fru -- i -- tur vo -- to,
+  sed fru -- i -- tur __ _ vo -- to,
+  nec ma -- la fa -- ta ti -- met,
+  nec ma -- la fa -- ta ti -- met,
+  nec ma -- la fa -- ta ti -- met,
+  nec ma -- _ _ _ _ la fa -- ta
+  ma -- la fa -- ta
+  ti -- met,
+  nec ma -- la fa -- _ _ _ _ _ ta
+  ti -- met.
 }
