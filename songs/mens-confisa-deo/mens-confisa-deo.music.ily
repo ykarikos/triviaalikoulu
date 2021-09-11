@@ -41,7 +41,7 @@ SopranoMusic = \relative c'' {
 		\time 2/2 c2 r4 c | h4. h8 h4 a | a gis r a |
 		h4. c8 h4 a | gis a r a | a4. h8 g!4 g | fis g r h | e,8 fis g a h4 c |
 % p3
-		h8 a h c h4 a | g8 f g a g4 a | h8 a h c h4 a | g8 e a4. gis16 fis16 gis4 |
+		h8 a h c h4 a | g8 f! g a g4 a | h8 a h c h4 a | g8 e a4. gis16 fis16 gis4 |
 		a h c d | e2 d4 cis | d4. c8 h4 a | g8 e a4. gis16 fis gis4 | a1
 	}
 }
@@ -51,7 +51,7 @@ stanzaOneLyrics = \lyricmode {
   nun -- quam con -- fu -- sa 
   nun -- quam con -- fu -- _ sa 
   nun -- quam con -- fu -- _ _ _ sa 
-  re -- ce -- _ dit,
+  re -- _ ce -- dit,
   nun -- quam con -- fu -- sa 
   nun -- quam con -- fu -- _ sa 
   re -- ce -- _ dit,
@@ -67,8 +67,8 @@ stanzaOneLyrics = \lyricmode {
   ma -- _ _ la fa -- ta
   ma -- _ _ la fa -- ta
   ti -- _ _ _ _ _ met,
-  nec ma -- la fa -- ta
-  nec ma -- la fa -- ta
+  nec ma -- la fa -- _ ta
+  ma -- la fa -- ta
   ti -- _ _ _ _ _ met.
 }
 
@@ -110,7 +110,7 @@ stanzaOneLyricsAlto = \lyricmode {
   nec ma -- la fa -- ta ti -- met,
   nec ma -- la fa -- ta ti -- met,
   nec ma -- la fa -- ta ti -- met,
-  nec ma -- la fa -- ta fa -- ta __ _ ti -- met,
+  nec ma -- la nec ma -- la fa -- ta ti -- met,
   nec ma -- la fa -- _ ta ti -- met.
 }
 
@@ -134,7 +134,7 @@ TenoreMusic = \relative c' {
 		h cis d | e f d |
 		\time 2/2
 		e2 r4 e | d4. d8 d4 cis | d h r cis |
-		d4. e8 d4 c | h cis r cis | d4. d8 c!4 h | a g r d' | e2 d4 d |
+		d4. e8 d4 c! | h cis r cis | d4. d8 c!4 h | a g r d' | e2 d4 d |
 % p3
 		d8 c d e d4 c | h8 a h c h4 a | g8 fis g a h4 c | h a h2 |
 		a4 gis a h | c2 h4 a | a a d c | h a h2 | cis1 |
@@ -146,7 +146,7 @@ stanzaOneLyricsTenore = \lyricmode {
   nun -- quam con -- fu -- sa 
   nun -- quam con -- fu -- sa 
   con -- fu -- _ _ _ sa 
-  re -- ce -- _ dit,
+  re -- _ ce -- dit,
   nun -- quam con -- fu -- sa 
   nun -- quam con -- fu -- _ sa 
   re -- _ ce -- dit.
@@ -161,8 +161,8 @@ stanzaOneLyricsTenore = \lyricmode {
   ma -- _ _ la fa -- ta
   ma -- _ _ la fa -- ta
   ti -- _ _ met,
-  nec ma -- la fa -- ta
-  nec ma -- la fa -- ta
+  nec ma -- la fa -- _ ta
+  ma -- la fa -- ta
   ti -- _ _ met.
 }
 
@@ -198,7 +198,7 @@ stanzaOneLyricsBass = \lyricmode {
   nun -- quam con -- fu -- sa 
   nun -- quam con -- fu -- sa 
   con -- fu -- _ sa 
-  re -- ce -- _ dit,
+  re -- _ ce -- dit,
   nun -- quam con -- fu -- sa 
   nun -- quam con -- fu -- sa 
   re -- ce -- dit.
@@ -208,9 +208,9 @@ stanzaOneLyricsBass = \lyricmode {
   nec ma -- la fa -- ta ti -- met,
   nec ma -- la fa -- ta ti -- met,
   nec ma -- la fa -- ta ti -- met,
-  nec ma -- _ _ _ _ la fa -- ta
+  nec ma -- _ _ _ _ la 
   ma -- la fa -- ta
-  ti -- met,
+  ti -- _ _ met,
   nec ma -- la fa -- _ _ _ _ _ ta
   ti -- met.
 }
