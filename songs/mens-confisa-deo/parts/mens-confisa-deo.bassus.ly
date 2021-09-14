@@ -36,6 +36,7 @@
     \context {
      \Score
      \override VerticalAxisGroup.remove-first = ##t
+     \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
     }
   }
 }
