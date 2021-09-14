@@ -1,8 +1,8 @@
 \version "2.20.0"
 \include "suomi.ly"
 
-\include "../template.music.ily"
-\include "template.header.ily"
+\include "../mens-confisa-deo.music.ily"
+\include "mens-confisa-deo.header.ily"
 
 
 \score {
@@ -22,7 +22,7 @@
         \AltoMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsAlto
      }
     >>
     \new Staff <<
@@ -31,7 +31,7 @@
         \TenoreMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsTenore
       }
     >>
     \new Staff <<
@@ -40,7 +40,7 @@
         \BassMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsBass
       }
     >>
   >>
@@ -60,6 +60,7 @@
     \context {
      \Score
      \override VerticalAxisGroup.remove-first = ##t
+     \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
     }
   }
 }

@@ -1,21 +1,21 @@
 \version "2.20.0"
 \include "suomi.ly"
 
-\include "../template.music.ily"
-\include "template.header.ily"
+\include "../mens-confisa-deo.music.ily"
+\include "mens-confisa-deo.header.ily"
 
 \header {
-  title = "The Song Title (altus)"
+  title = "Mens confisa Deo (cantus)"
 }
 
 \score {
   \new ChoirStaff <<
     \new Staff <<
-      \new Voice = "Alto" {
-        \global
-        \AltoMusic
+      \new Voice = "Soprano" {
+		    \global
+        \SopranoMusic
       }
-     \new Lyrics \lyricsto "Alto" {
+     \new Lyrics \lyricsto "Soprano" {
        \stanzaOneLyrics
      }
     >>
@@ -36,6 +36,7 @@
     \context {
      \Score
      \override VerticalAxisGroup.remove-first = ##t
+     \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
     }
   }
 }

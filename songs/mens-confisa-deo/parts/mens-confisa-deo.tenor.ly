@@ -1,49 +1,42 @@
 \version "2.20.0"
 \include "suomi.ly"
 
-
-\include "../template.global.ily"
-\include "../template.lyrics.ily"
-
-% First choir
-
-\include "../template.tenor-one.ily"
-
-
-\include "template.header.ily"
+\include "../mens-confisa-deo.music.ily"
+\include "mens-confisa-deo.header.ily"
 
 \header {
-  title = "The Song Title (tenor I)"
+  title = "Mens confisa Deo (tenor)"
 }
 
-
 \score {
-  \new StaffGroup = choirOneStaff <<
+  \new ChoirStaff <<
     \new Staff <<
       \new Voice = "Tenore" {
         \global
-        \TenoreOneMusic
+        \TenoreMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsTenore
       }
     >>
   >>
-
   \midi {
     \globaltempo
   }
   \layout {
     \context {
-      \Staff
+      \Voice
       \consists "Ambitus_engraver"
-		
     }
-    indent = 4\cm
-    incipit-width = 2.5\cm
+    indent = 3.5\cm
+    incipit-width = 2\cm
+    \context {
+     \Staff \RemoveEmptyStaves
+   }
     \context {
      \Score
      \override VerticalAxisGroup.remove-first = ##t
+     \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
     }
   }
 }

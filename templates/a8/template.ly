@@ -3,15 +3,7 @@
 
 \include "../paper-margins.ily"
 
-global = {
-%  \numericTimeSignature
-  \time 2/2
-	\set Timing.measureLength = #(ly:make-moment 4/2)
-%  \autoBeamOff
-  \key d \minor
-  \set Staff.midiInstrument = #"voice oohs"
-}
-
+\include "template.global.ily"
 \include "template.lyrics.ily"
 
 % First choir

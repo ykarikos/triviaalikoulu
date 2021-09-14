@@ -26,11 +26,11 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 1. Ah Jesu mellitissime – säveltäjä: Gallus Dressler (1533–1585)
 1. Alleluja in resurrectione tua Christe – säveltäjä: Jacobus Gallus (1550–1591)
 1. Ætas carmen melodiæ (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
-1. Anima mea expectat Dominum (à 8) – säveltäjä: Friedrich Weißensee (1560-1622)
+1. Anima mea expectat Dominum (à 8) – säveltäjä: Friedrich Weißensee (1560-1622)
 1. Cedit hiems eminus (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
 1. Christe tibi vivo (à 4) – säveltäjä tuntematon
 1. Christus adest justus (à 4) – säveltäjä tuntematon
-1. Christus factus est pro nobis (à 4) – säveltäjä tuntematon
+1. Christus factus est pro nobis (à 4) – säveltäjä tuntematon
 1. Ecce quam (à 4) – säveltäjä tuntematon
 1. Gaude et laetare (à 4) – säveltäjä tuntematon
 1. Gloria et honore (à 8) – säveltäjä: Jacobus Gallus (1550–1591)
@@ -40,11 +40,12 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 1. Isti sunt triumphatores (à 8) – säveltäjä: Jacobus Gallus
 1. Jucundare jugiter (à 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
 1. Laus tibi Christe (à 4) – säveltäjä tuntematon
-1. Lobt Gott ihr Christen alle (à 5) – säveltäjä tuntematon
+1. Lobt Gott ihr Christen alle (à 5) – säveltäjä tuntematon
+1. Mens confisa Deo (à 4) – säveltäjä tuntematon)
 1. Nunc Zymphonizate (à 5) – säveltäjä: Giovanni Gastoldi (n. 1554–1609)
 1. Repleatur os meum (à 8) – säveltäjä: Gabriele Fattorini (1570-1615)
 1. Si Angelus de coelo (à 4) – säveltäjä tuntematon
-1. Susanna se, videns (à 4) – säveltäjä: Didier Lupi (n. 1520–1560)
+1. Susanna se, videns (à 4) – säveltäjä: Didier Lupi (n. 1520–1560)
 1. Veni Sancte Spiritus (à 4) – säveltäjä tuntematon
 1. Veni Sancte Spiritus (à 4, sovitus) – säveltäjä tuntematon, sovitus: Johannes Vesterinen (1979–)
 1. Veni Sancte Spiritus (longum) à 5 – säveltäjä tuntematon
@@ -56,7 +57,6 @@ Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
 * A Deo principum
 * Lät oss liufliga siunga
 * Omnes gentes plaudite manibus
-* Mens confisa Deo
 
 ## Kirjan latominen
 

@@ -4,7 +4,7 @@ BassTwoMusic = \relative c {
 	\set Staff.shortInstrumentName = "B II"
 
 	\incipit {
-		\clef "mensural-f" \key d \minor \time 2/2
+		\clef "mensural-f" \globalkey \globaltime
 		r\maxima
 		r2 d2.
 	}

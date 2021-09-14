@@ -1,9 +1,21 @@
 \version "2.20.0"
 \include "suomi.ly"
 
-\include "../template.music.ily"
-\include "template.header.ily"
+\include "../paper-margins.ily"
 
+\include "mens-confisa-deo.music.ily"
+
+\header {
+  title = "Mens confisa Deo"
+%  subtitle = ""
+  composer = "tuntematon"
+  mutopiacomposer = "Anonymous"
+%  instrument = "Voice (SATB)"
+  style = "early music"
+  maintainer = "Yrjö Kari-Koskinen"
+  copyright = "Nuottien tekijänoikeudet on luovutettu vapaaseen yleiseen käyttöön Creative Commons 0:n mukaisesti."
+  tagline = "Lähde: https://triviaalikoulu.sonusborealis.fi"
+}
 
 \score {
   \new ChoirStaff <<
@@ -22,7 +34,7 @@
         \AltoMusic
       }
      \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsAlto
      }
     >>
     \new Staff <<
@@ -31,7 +43,7 @@
         \TenoreMusic
       }
       \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsTenore
       }
     >>
     \new Staff <<
@@ -40,13 +52,10 @@
         \BassMusic
       }
       \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyrics
+       \stanzaOneLyricsBass
       }
     >>
   >>
-  \midi {
-    \globaltempo
-  }
   \layout {
     \context {
       \Voice
