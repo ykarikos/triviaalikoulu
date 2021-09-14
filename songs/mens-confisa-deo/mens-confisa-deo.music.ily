@@ -29,10 +29,10 @@ SopranoMusic = \relative c'' {
 	\incipit { \clef "mensural-c1" \globalkey \globaltime a'2. }
 
   \repeat volta 2 {
-		a2. h4 | c d c2 | h4 e c c | h a r e' | c c h a |
+		a2. h4 | c d h2 | h4 e c c | h a r e' | c c h a |
 		a gis a h | c8 h c d e2 | d4 c h2 | a4 e a h | c g r d' |
 		c h e2( | e8) d d4. c8 c4 | h8 h a4. gis16 fis gis4 | a1 |
-	}
+	} \break
 % p2
 	\repeat volta 2 {
 		\time 3/1
@@ -41,7 +41,7 @@ SopranoMusic = \relative c'' {
 		\time 2/2 c2 r4 c | h4. h8 h4 a | a gis r a |
 		h4. c8 h4 a | gis a r a | a4. h8 g!4 g | fis g r h | e,8 fis g a h4 c |
 % p3
-		h8 a h c h4 a | g8 f! g a g4 a | h8 a h c h4 a | g8 e a4. gis16 fis16 gis4 |
+		h8 a h c h4 a | g8 fis g a g4 a | h8 a h c h4 a | g8 e a4. gis16 fis16 gis4 |
 		a h c d | e2 d4 cis | d4. c8 h4 a | g8 e a4. gis16 fis gis4 | a1
 	}
 }
@@ -50,8 +50,8 @@ stanzaOneLyrics = \lyricmode {
 	Mens con -- fi -- sa De -- o,
   nun -- quam con -- fu -- sa 
   nun -- quam con -- fu -- _ sa 
-  nun -- quam con -- fu -- _ _ _ sa 
-  re -- _ ce -- dit,
+  nun -- quam con -- fu -- _ _ _ _ sa 
+  re -- ce -- dit,
   nun -- quam con -- fu -- sa 
   nun -- quam con -- fu -- _ sa 
   re -- ce -- _ dit,
@@ -82,7 +82,7 @@ AltoMusic = \relative c' {
 		e2. g4 | a a gis2 | gis4 gis a e | e e r gis | a e e e |
 		f e fis e | c2 g'( | g4) e e2 | cis2. e4 | e2 r4 g |
 		g1 | g2 r4 e | e c8 d e2 | e1
-	}
+	} \break
 % p2
 	\repeat volta 2 {
 		\time 3/1
@@ -126,7 +126,7 @@ TenoreMusic = \relative c' {
 		cis2. d4 | f f e2 | e2 r4 a, | h cis d h | r a h cis |
 		d h r gis | a8 g a h c2 | h4 a2 gis4 | a2 r4 e | a h c g |
 		r d' c2 | r4 h e a,8 a | g4. a8 h2 | cis1 |
-	}
+	} \break
 % p2
 	\repeat volta 2 {
 		\time 3/1
@@ -145,8 +145,8 @@ stanzaOneLyricsTenore = \lyricmode {
 	Mens con -- fi -- sa De -- o,
   nun -- quam con -- fu -- sa 
   nun -- quam con -- fu -- sa 
-  con -- fu -- _ _ _ sa 
-  re -- _ ce -- dit,
+  con -- fu -- _ _ _ _ sa 
+  re -- ce -- dit,
   nun -- quam con -- fu -- sa 
   nun -- quam con -- fu -- _ sa 
   re -- _ ce -- dit.
@@ -178,7 +178,7 @@ BassMusic = \relative c' {
 		a2. g4 | f d e2 | e2 r4 a | gis a d, e | r a gis a |
 		d, e r e | a f c2 | g'4 a e2 | a, r | r4 e' a h |
 		c g r c, | c' g a2 | e4 f e2 | a,1 |
-	}
+	} \break
 % p2
 	\repeat volta 2 {
 		\time 3/1
