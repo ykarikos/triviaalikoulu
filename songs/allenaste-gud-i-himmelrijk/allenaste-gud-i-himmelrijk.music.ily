@@ -21,11 +21,11 @@ SopranoMusic = \relative c' {
   }
 
   \repeat volta 2 {
-  	r1 r f | a( a) b | c( c) b | a\breve g1 | a\breve. |
+  	r1 r f | a( a) b | c( c) b | a\breve g1 | a\breve. | \break
     r1 r a | a( a) g | b1. a2 g2( g) | f\breve  e1 | f\breve. |
   } \break
-  r1 r f | f( f) g | b( b) a | g( g) fis | g\breve. |
-  r1 r g | a\breve b1 | c( c) b | a( a) g | a\breve. |
+  r1 r f | f( f) g | b( b) a | g( g) fis | g\breve. | \break
+  r1 r g | a\breve b1 | c( c) b | a( a) g | a\breve. | \break
   r1 r f1 | g1. a2 b1 | a( a) g | f\breve e1 | f\breve. \bar "|."
 }
 
@@ -71,11 +71,11 @@ AltoMusic = \relative c' {
   }
 
   \repeat volta 2 {
-  	r1 r c | f( f) f | a( a) g | f1 d e | fis\breve. |
+  	r1 r c | f( f) f | a( a) g | f1 d e | fis\breve. | \break
     r1 r f | f( f) e | f f es | d c\breve | c\breve. |
   } \break
-  r1 r c | d( d) e | f g e | d es d | d\breve. |
-  r1 r d | f\breve f1 | g( g) g | f d e | f\breve. |
+  r1 r c | d( d) e | f g e | d es d | d\breve. | \break
+  r1 r d | f\breve f1 | g( g) g | f d e | f\breve. | \break
   r1 r c | e1. f2 f1 | f( f) e | c1 d c | c\breve. \bar "|."
 }
 
@@ -114,11 +114,12 @@ TenoreMusic = \relative c' {
 
 	\clef "treble_8"
   \repeat volta 2 {
-  	r1 r a | c( c) d | \slurSolid c1( a) \slurDashed b | c d b | a\breve. |
+  	r1 r a | c( c) d | \slurSolid c1( a) \slurDashed b | 
+    c d b | a\breve. | \break
     r1 r d | c( c) c | d1. c2 b1 | a g\breve | a\breve. |
   } \break
-  r1 r a | a( a) c | d( d) c | b1 a( a) | g\breve. |
-  r1 r b | c\breve d1 | g,( g) b | c( c) b | a\breve. |
+  r1 r a | a( a) c | d( d) c | b1 a( a) | g\breve. | \break
+  r1 r b | c\breve d1 | g,( g) b | c( c) b | a\breve. | \break
   r1 r a | c1. c2 d1 | c( c) b | a g\breve | a\breve. \bar "|."
 }
 
@@ -152,11 +153,11 @@ BassMusic = \relative c {
 
 	\clef bass
   \repeat volta 2 {
-	  r1 r f | f( f) b, | f'( f) g | a f g | d\breve. |
+	  r1 r f | f( f) b, | f'( f) g | a f g | d\breve. | \break
     r1 r d | f( f) c | b( b) es | f c\breve | f,\breve. |
   } \break
-  r1 r f' | d( d) c | b g a | b c d | g,\breve. |
-  r1 r g' | f\breve d1 | c2 d e c g'1 | a f g | d\breve. |
+  r1 r f' | d( d) c | b g a | b c d | g,\breve. | \break
+  r1 r g' | f\breve d1 | c2 d e c g'1 | a f g | d\breve. | \break
   r1 r f | c1. f2 b,1 | f' f, g | a b c | f,\breve. \bar "|."
 }
 
