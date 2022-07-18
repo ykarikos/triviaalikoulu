@@ -25,8 +25,8 @@
 \header {
   title = "Omnes gentes plaudite manibus"
 %  subtitle = ""
-  composer = "tuntematon"
-  mutopiacomposer = "Anonymous"
+  composer = "Jacobus Gallus"
+  mutopiacomposer = "Jacobus Gallus"
 %  instrument = "Voice (SATB)"
   style = "early music"
   maintainer = "Yrjö Kari-Koskinen"
