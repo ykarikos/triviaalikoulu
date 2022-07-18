@@ -72,7 +72,7 @@
         \SopranoTwoMusic
       }
      \new Lyrics \lyricsto "SopranoTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwo
      }
     >>
     \new Staff <<
@@ -81,7 +81,7 @@
         \AltoTwoMusic
       }
      \new Lyrics \lyricsto "AltoTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwo
      }
     >>
     \new Staff <<
@@ -90,7 +90,7 @@
         \TenoreTwoMusic
       }
       \new Lyrics \lyricsto "TenoreTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwo
       }
     >>
     \new Staff <<
@@ -99,7 +99,7 @@
         \BassTwoMusic
       }
       \new Lyrics \lyricsto "BassTwo" {
-       \stanzaOneLyricsChoirOne
+       \stanzaOneLyricsChoirTwo
       }
     >>
   >>

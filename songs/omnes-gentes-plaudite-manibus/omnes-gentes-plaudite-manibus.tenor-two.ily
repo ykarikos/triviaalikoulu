@@ -4,10 +4,13 @@ TenoreTwoMusic = \relative c' {
 
 	\incipit {
 		\clef "mensural-c4" \globalkey \globaltime
-		r\maxima
-		r2 a2.
+		r\longa
+		c'\longa\rest
+		r\longa
+		c'2.
 	}
 
 	\clef "treble_8"
-	r\breve | r1 a2. a4 |
+	\repeat unfold 12 { R1 | }
+	c2. h4 | a2 g | a
 }

@@ -5,10 +5,13 @@ BassTwoMusic = \relative c {
 
 	\incipit {
 		\clef "mensural-f" \globalkey \globaltime
-		r\maxima
-		r2 d2.
+		r\longa
+		f\longa\rest
+		r\longa
+		c1.
 	}
 
 	\clef bass
-	r\breve | r1 d2. d4 |
+	\repeat unfold 12 { R1 | }
+	c1( | c2) c | f,
 }
