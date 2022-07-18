@@ -13,7 +13,7 @@ globaltempo = {
 global = {
 %  \numericTimeSignature
   \globaltime
-	\set Timing.measureLength = #(ly:make-moment 4/2)
+%	\set Timing.measureLength = #(ly:make-moment 4/2)
 %  \autoBeamOff
   \globalkey
   \set Staff.midiInstrument = #"voice oohs"

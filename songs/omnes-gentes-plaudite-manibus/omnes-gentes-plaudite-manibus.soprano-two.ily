@@ -1,12 +1,15 @@
-SopranoTwoMusic = \relative c' {
+SopranoTwoMusic = \relative c'' {
 	\set Staff.instrumentName = #"Cantus II"
 	\set Staff.shortInstrumentName = "C II"
 
 	\incipit {
 		\clef "mensural-c1" \globalkey \globaltime
-		r\maxima
-		r2 f'2.
+		h'\longa\rest
+		r\longa
+		h'\longa\rest
+		g'4.
 	}
 
-	r\breve | r1 f2. f4|
+	\repeat unfold 12 { R1 | }
+	g4. f8 e4 d e f2 e4 | f2
 }

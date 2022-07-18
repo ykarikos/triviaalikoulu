@@ -4,10 +4,12 @@ AltoTwoMusic = \relative c' {
 
 	\incipit {
 		\clef "mensural-c3" \globalkey \globaltime
-		r\maxima
-		r2 d'2.
+		r\longa
+		e'\longa\rest
+		r\longa
+		r2 c'2
 	}
 
-	r\breve | r1 d2. d4 |
-
+	\repeat unfold 12 { R1 | }
+	r2 c2( | c) c | c 
 }

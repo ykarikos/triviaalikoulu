@@ -1,7 +1,7 @@
 \header {
   title = "Omnes gentes plaudite manibus"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
-  composer = "tuntematon"
+  composer = "Jacobus Gallus"
   style = "early music"
   maintainer = "Yrjö Kari-Koskinen"
   copyright = "Nuottien tekijänoikeudet on luovutettu vapaaseen yleiseen käyttöön Creative Commons 0:n mukaisesti."
