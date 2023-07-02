@@ -44,7 +44,7 @@ stanzaOneLyrics = \lyricmode {
 	äls -- ka oss in -- bör -- de
 	af alt hjär -- ta af alt hjär -- ta
 	af alt hjär -- ta och o -- för -- skyllt
-	så som oss Je -- sus, så som oss Je -- sus,
+	så som oss Je -- sus, så som oss Je -- sus
 	Chris -- tus äls -- kat haf -- wer.
 }
 
