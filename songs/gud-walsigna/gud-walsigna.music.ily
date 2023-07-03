@@ -16,7 +16,7 @@ SopranoMusic = \relative c'' {
   \incipit { \clef "mensural-c1" \key d \minor \time 2/2 g'2 }
 
   g2 g | fis fis | g g | a a | b b | a g | fis fis |
-  g1\fermata | g2 fis4 fis | g2 g4 g | b2 c4 c | fis,2 g | fis4 fis a2 | fis1 |
+  g1\fermata | g2 fis4 fis | g2 g4 g | b2 c4 c | f,!2 g | f4 f a2 | fis1 |
   g\fermata | g2 fis | g1 | a | b4 b b b | a a a a | f2 g |
 % 2
   f g | a a | a1\fermata |
@@ -44,7 +44,7 @@ stanzaOneLyrics = \lyricmode {
 	äls -- ka oss in -- bör -- de
 	af alt hjär -- ta af alt hjär -- ta
 	af alt hjär -- ta och o -- för -- skyllt
-	så som oss Je -- sus, så som oss Je -- sus,
+	så som oss Je -- sus, så som oss Je -- sus
 	Chris -- tus äls -- kat haf -- wer.
 }
 
