@@ -2,8 +2,8 @@
 \header {
   title = "Mens confisa Deo"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
-  composer = "tuntematon"
-  mutopiacomposer = "Anonymous"
+  composer = "Daniel Friderici (1584-1638)"
+  mutopiacomposer = "Daniel Friderici (1584-1638)"
 %  instrument = "Voice (SATB)"
   style = "early music"
   maintainer = "Yrjö Kari-Koskinen"

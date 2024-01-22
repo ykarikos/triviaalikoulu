@@ -8,8 +8,8 @@
 \header {
   title = "Lobt Gott ihr Christen alle"
 %  subtitle = ""
-  composer = "tuntematon"
-  mutopiacomposer = "Anonymous"
+  composer = "Daniel Friderici (1584-1638)"
+  mutopiacomposer = "Daniel Friderici (1584-1638)"
 %  instrument = "Voice (SATB)"
   style = "early music"
   maintainer = "Yrjö Kari-Koskinen"
