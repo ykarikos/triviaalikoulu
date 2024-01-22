@@ -20,6 +20,7 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 - [Florilegium Portense I](https://imslp.org/wiki/Florilegium_Portense_I_(Bodenschatz%2C_Erhard)), 1618, lähteenä _Repleatur os meum_ -kappaleen tavutuksessa
 - [Florilegii Musicii Portensis II](https://imslp.org/wiki/Florilegii_Musicii_Portensis_II_(Bodenschatz%2C_Erhard)), 1621, lähteenä _Anima mea expectat Dominum_ -kappaleen tavutuksessa
 - [Psalm-singende Und Lobgesäng-spielende Kirche Christi In Des H. Röm. Reichs](https://books.google.fi/books?id=_IbEDNe32scC), 1704, lähteenä _Lobt Gott ihr Christen alle_ -kappaleen sanoituksessa
+- [Viridarium music sacrum, sive Cantiones Sacrae, quaternis et quinis vocibus](https://books.google.fi/books?id=vGWcIU4BfHgC&pg=PP1#v=onepage&q&f=false), 1625, lähteenä kappaleissa _Lobt Gott ihr Christen alle_ ja _Mens confisa Deo_
 
 ## Sisällys
 
@@ -41,8 +42,8 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 1. Isti sunt triumphatores (à 8) – säveltäjä: Jacobus Gallus
 1. Jucundare jugiter / Ain iloidca, ain riemuidca (à 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
 1. Laus tibi Christe (à 4) – säveltäjä tuntematon
-1. Lobt Gott ihr Christen alle (à 5) – säveltäjä tuntematon
-1. Mens confisa Deo (à 4) – säveltäjä tuntematon)
+1. Lobt Gott ihr Christen alle (à 5) – säveltäjä: Daniel Friderici
+1. Mens confisa Deo (à 4) – säveltäjä: Daniel Friderici
 1. Nunc Zymphonizate (à 5) – säveltäjä: Giovanni Gastoldi (n. 1554–1609)
 1. Repleatur os meum (à 8) – säveltäjä: Gabriele Fattorini (1570-1615)
 1. Si Angelus de coelo (à 4) – säveltäjä tuntematon
