@@ -13,5 +13,5 @@ BassTwoMusic = \relative c {
 
 	\clef bass
 	\repeat unfold 12 { R1 | }
-	c1( | c2) c | f,
+	c1( | c2) c | f, f'( | f4) f f2 |
 }

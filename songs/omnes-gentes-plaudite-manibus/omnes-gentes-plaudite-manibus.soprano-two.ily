@@ -11,5 +11,5 @@ SopranoTwoMusic = \relative c'' {
 	}
 
 	\repeat unfold 12 { R1 | }
-	g4. f8 e4 d e f2 e4 | f2
+	g4.( f8 e4 d e f2) e4 | f2 a2( | a4) a a2 |
 }
