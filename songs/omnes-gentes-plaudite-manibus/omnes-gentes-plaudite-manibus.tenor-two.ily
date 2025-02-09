@@ -12,5 +12,5 @@ TenoreTwoMusic = \relative c' {
 
 	\clef "treble_8"
 	\repeat unfold 12 { R1 | }
-	c2. h4 | a2 g | a
+	c2.( h4 | a2) g | a c2( | c4) c c2 |
 }

@@ -11,5 +11,5 @@ AltoTwoMusic = \relative c' {
 	}
 
 	\repeat unfold 12 { R1 | }
-	r2 c2( | c) c | c 
+	r2 c2( | c) c | c f2( | f4) f f2 |
 }
