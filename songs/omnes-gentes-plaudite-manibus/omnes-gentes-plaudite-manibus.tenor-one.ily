@@ -14,5 +14,14 @@ TenoreOneMusic = \relative c' {
 	% s 123
 	r2 d'( | d4) d h2 | g1 | h | r2 e | d c( |
 	c) g | r1 | c | c2 e | e f | e4 e2 d4 | c1 |
-	\repeat unfold 6 { R | }
+	\repeat unfold 3 { R | }
+	% s 124
+	r2 a | a c | c e | e4 c2 h4 | c1 | R | R | R |
+	r2 c | c d | h cis4 d( | d) e d2 | c1 | R | R |
+	r2 d | e4 e d2 | c r4 d | e e d2 | c r4 h |
+
+	\time 3/1
+    \set Score.tempoHideNote = ##t
+    \tempo 2 = 240
+	e\breve r1 |
 }

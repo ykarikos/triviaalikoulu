@@ -13,5 +13,14 @@ AltoOneMusic = \relative c' {
 	% s 123
 	r2 g( | g4) g g2 | d1 | g | r2 g, | g'1 |
 	g | g | r2 e | f g | a a | a4 g2 g4 | g1 |
-	\repeat unfold 6 { R | }
+	\repeat unfold 3 { R | }
+	% s 124
+	r2 c, | d e | f g | e g4. g8 | e1 | R | R | R |
+	r2 e | f2. f4 | e2 e4 g( | g) g g2 | g1 | R | R |
+	r2 d2 | g4 g g2 | g, r4 g | g g' g2 | g, g |
+
+	\time 3/1
+    \set Score.tempoHideNote = ##t
+    \tempo 2 = 240
+	g\breve r1 |
 }

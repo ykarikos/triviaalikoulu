@@ -6,7 +6,7 @@ stanzaOneLyricsChoirOne = \lyricmode {
     Spe -- ci -- em Ja -- cob, quam di -- le -- xit.
     A -- scen -- dit De -- us in ju -- bi -- lo,
     a -- scen -- dit De -- us in ju -- bi -- lo,
-    et Do -- mi -- nus in vo -- ce tu -- bae, in vo -- ce tu -- bae, in vo -- ce tu -- bae.
+    et Do -- mi -- nus in vo -- ce tu -- bae, in vo -- ce tu -- bae, in vo -- ce tu -- bae, tu -- bae.
 }
 
 stanzaOneLyricsChoirTwo = \lyricmode {
