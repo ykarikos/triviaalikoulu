@@ -13,5 +13,14 @@ SopranoOneMusic = \relative c'' {
 	% s 123
 	r2 h( | h4) h d2 | h1 | d |	 r2 g, | h c |
 	g1( | g) | r2 g | a h | c d | e4 c2 h4 | c1 |
-	\repeat unfold 6 { R1 | }
+	\repeat unfold 3 { R1 | }
+	% s 124
+	r2 e, | fis g | a h | c4 e2 d4 | e1 | R | R | R |
+	r2 g, | a2. a4 | gis2 a | h4 c2 h4 | c1 | R | R |
+	r2 g | g4 c2 h4 | c2 r4 g | g c2 h4 | c2 d |
+
+	\time 3/1
+    \set Score.tempoHideNote = ##t
+    \tempo 2 = 240
+	e\breve r1 |
 }

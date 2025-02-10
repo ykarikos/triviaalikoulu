@@ -18,4 +18,13 @@ SopranoTwoMusic = \relative c'' {
 	% 123
 	a1 | gis2 a | c h4 a( | a) g2 fis4 | g1 | r2 h( | h4) h d2 | h1 | c |
 	r2 g | c c( | c h) | c1 | R1 | R | R | r2 g | a h | c d | e4 c2 h4 | c1 |
+	% 124
+	R | R | R |
+	r2 e, | fis g | a h | c4 e2 d4 | e1 | R | R | R |
+	r2 g, | a2. a4 | g2 a | h4 c2 h4 | c2 r4 g | g c2 h4 | c2 r4 g | g c2 h4 |
+
+	\time 3/1
+    \set Score.tempoHideNote = ##t
+    \tempo 2 = 240
+	c\breve r1 |
 }

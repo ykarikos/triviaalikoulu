@@ -23,4 +23,13 @@ BassTwoMusic = \relative c {
 	r2 g'( | g4) g g,2 | g1 | c |
 	r2 c( | c) c | g1 | c | R1 | R | R |
 	r2 c | f e | a d, | a'4 c2 g4 | c,1 |
+	% 124
+	R | R | R |
+	r2 a | d c | f e | a g4. g8 | c,1 | R | R | R |
+	r2 c | f d | e a4 g( | g) c, g'2 | c, r4 g' | e c g2 | c r4 g' | e c g2 |
+
+	\time 3/1
+    \set Score.tempoHideNote = ##t
+    \tempo 2 = 240
+	c\breve r1 |
 }
