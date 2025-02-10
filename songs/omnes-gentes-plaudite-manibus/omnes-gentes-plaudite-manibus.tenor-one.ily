@@ -10,5 +10,9 @@ TenoreOneMusic = \relative c' {
 	\repeat unfold 11 {R |}
 	% s 122
 	r2 c | h c | d e | d c | h4( a g f | e2) c' | c c | r e | f e4 e | c h c a | g1 |
-	\repeat unfold 6 { R |}
+	\repeat unfold 5 { R |}
+	% s 123
+	r2 d'( | d4) d h2 | g1 | h | r2 e | d c( |
+	c) g | r1 | c | c2 e | e f | e4 e2 d4 | c1 |
+	\repeat unfold 6 { R | }
 }

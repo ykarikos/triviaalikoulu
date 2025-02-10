@@ -9,5 +9,9 @@ AltoOneMusic = \relative c' {
 	\repeat unfold 11 {R |}
 	% s 122
 	r2 e | d e | g2. g4 | g2 g | g1 | r2 e | f e | r g | a g4 g | f d e d | d1 |
-	\repeat unfold 6 { R |}
+	\repeat unfold 5 { R |}
+	% s 123
+	r2 g( | g4) g g2 | d1 | g | r2 g, | g'1 |
+	g | g | r2 e | f g | a a | a4 g2 g4 | g1 |
+	\repeat unfold 6 { R | }
 }
