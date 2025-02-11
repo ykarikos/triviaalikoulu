@@ -6,21 +6,27 @@ Osa Porin triviaalikoulun nuottikirjasta (1725) puhtaaksi kirjoittettuna kirjana
 
 PDF-muotoiset nuotit löytyvät sivulta https://triviaalikoulu.sonusborealis.fi
 
-Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et käytä lähteenä tekijänoikeuden alaisia editioita (esim. Piae Cantiones -julkaisut).
+Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et käytä lähteenä tekijänoikeuden alaisia editioita (esim. modernit Piae Cantiones -julkaisut).
 
 ## Lähteet
 
-- Ensisijainen nuottilähde: [Porin triviaalikoulun ääni- eli stemmakirjat – JYX/Nuottijulkaisut](https://jyx.jyu.fi/handle/123456789/19464), 1725
-	- [Discantus](https://jyx.jyu.fi/dspace/handle/123456789/18957)
-	- [Altus](https://jyx.jyu.fi/dspace/handle/123456789/18955)
-	- [Tenor](https://jyx.jyu.fi/dspace/handle/123456789/18958)
-	- [Bassus](https://jyx.jyu.fi/dspace/handle/123456789/18956)
-- [Piae Cantiones](http://www.lillhannus.net/piae-cantiones/), 1625, edition © Mats Lillhannus 2010, lupa käyttää lähteenä
-- [Wanhain Suomen maan pijspain ja Kircon Esimiesten Latinan kielised laulud](https://www.doria.fi/handle/10024/59053), 1616, Hemminki Maskulainen, lähteenä _Jucundare jugiter_- ja _Ætas carmen melodiæ_ -kappaleiden suomenkielisissä sanoituksissa
-- [Florilegium Portense I](https://imslp.org/wiki/Florilegium_Portense_I_(Bodenschatz%2C_Erhard)), 1618, lähteenä _Repleatur os meum_ -kappaleen tavutuksessa
-- [Florilegii Musicii Portensis II](https://imslp.org/wiki/Florilegii_Musicii_Portensis_II_(Bodenschatz%2C_Erhard)), 1621, lähteenä _Anima mea expectat Dominum_ -kappaleen tavutuksessa
-- [Psalm-singende Und Lobgesäng-spielende Kirche Christi In Des H. Röm. Reichs](https://books.google.fi/books?id=_IbEDNe32scC), 1704, lähteenä _Lobt Gott ihr Christen alle_ -kappaleen sanoituksessa
-- [Viridarium music sacrum, sive Cantiones Sacrae, quaternis et quinis vocibus](https://books.google.fi/books?id=vGWcIU4BfHgC&pg=PP1#v=onepage&q&f=false), 1625, lähteenä kappaleissa _Lobt Gott ihr Christen alle_ ja _Mens confisa Deo_
+### Ensisijainen nuottilähde
+[Porin triviaalikoulun ääni- eli stemmakirjat – JYX/Nuottijulkaisut, Gudrun Viergutz](https://jyx.jyu.fi/handle/123456789/19464), 1725
+- [Discantus](https://jyx.jyu.fi/dspace/handle/123456789/18957)
+- [Altus](https://jyx.jyu.fi/dspace/handle/123456789/18955)
+- [Tenor](https://jyx.jyu.fi/dspace/handle/123456789/18958)
+- [Bassus](https://jyx.jyu.fi/dspace/handle/123456789/18956)
+
+### Muut lähteet
+
+- Bodenschatz, Erhard: [Florilegium Portense I](https://imslp.org/wiki/Florilegium_Portense_I_(Bodenschatz%2C_Erhard)), 1618, lähteenä _Repleatur os meum_ -kappaleen tavutuksessa
+- Bodenschatz, Erhard: [Florilegii Musicii Portensis II](https://imslp.org/wiki/Florilegii_Musicii_Portensis_II_(Bodenschatz%2C_Erhard)), 1621, lähteenä _Anima mea expectat Dominum_ -kappaleen tavutuksessa
+- Helmhack, Erasmus: [Psalm-singende Und Lobgesäng-spielende Kirche Christi In Des H. Röm. Reichs](https://books.google.fi/books?id=_IbEDNe32scC), 1704, lähteenä _Lobt Gott ihr Christen alle_ -kappaleen sanoituksessa
+- Maskulainen, Hemminki: [Wanhain Suomen maan pijspain ja Kircon Esimiesten Latinan kielised laulud](https://www.doria.fi/handle/10024/59053), 1616, lähteenä _Jucundare jugiter_- ja _Ætas carmen melodiæ_ -kappaleiden suomenkielisissä sanoituksissa
+- Rutha, Theodoricus Petri: [Piae Cantiones](http://www.lillhannus.net/piae-cantiones/), 1625, edition © Mats Lillhannus 2010, lupa käyttää lähteenä
+- [Then Svenska Psalmboken](https://books.google.fi/books?id=7upUAAAAcAAJ), 1695, lähteenä _Allenaste Gud i himmelrijk_ -kappaleen ruotsinkielisessä sanoituksessa
+- [Uusi Suomenkielinen Wirsi-Kirja](http://kaino.kotus.fi/korpus/vks/meta/virret/wk1701_rdf.xml), 1701, lähteenä _Ainoan Jumalan corkeudes_ -kappaleen suomenkielisessä sanoituksessa
+- Daniel Friderici: [Viridarium music sacrum, sive Cantiones Sacrae, quaternis et quinis vocibus](https://books.google.fi/books?id=vGWcIU4BfHgC&pg=PP1), 1625, lähteenä kappaleissa _Lobt Gott ihr Christen alle_ ja _Mens confisa Deo_
 
 ## Sisällys
 
