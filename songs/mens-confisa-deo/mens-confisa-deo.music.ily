@@ -54,8 +54,8 @@ stanzaOneLyrics = \lyricmode {
   re -- ce -- dit,
   nun -- quam con -- fu -- sa 
   nun -- quam con -- fu -- _ sa 
-  re -- ce -- _ dit,
-  re -- ce -- _ _ dit.
+  re -- ce -- dit,
+  re -- ce -- _ _ _ dit.
   Sed fru -- i -- tur vo -- to,
   sed fru -- i -- tur vo -- to,
   sed fru -- i -- tur vo -- to,
