@@ -18,6 +18,9 @@
      \new Lyrics \lyricsto "Soprano" {
        \stanzaOneLyrics
      }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyrics
+     }
     >>
   >>
   \midi {
