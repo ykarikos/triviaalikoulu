@@ -24,6 +24,7 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 
 ## Sisällys
 
+1. A Deo principium – säveltäjä: Hans Leo Hassler (1564–1612)
 1. Ah Jesu mellitissime – säveltäjä: Gallus Dressler (1533–1585)
 1. Alleluja in resurrectione tua Christe – säveltäjä: Jacobus Gallus (1550–1591)
 1. Allenaste Gud i himmelrik / Ainoan Jumalan corkiudhes (à 4) – säveltäjä: Hieronymus Praetorius (1560–1629)
