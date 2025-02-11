@@ -23,4 +23,7 @@ SopranoOneMusic = \relative c'' {
     \set Score.tempoHideNote = ##t
     \tempo 2 = 240
 	e\breve r1 |
+	h1. a2 h1 | g1. g2 g1 | a1. g2 a1 | g f g |
+	g e d | e\breve r1 |
+	\repeat unfold 5 { R\breve. | }
 }
