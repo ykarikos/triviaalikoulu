@@ -24,4 +24,6 @@ TenoreOneMusic = \relative c' {
     \set Score.tempoHideNote = ##t
     \tempo 2 = 240
 	e\breve r1 |
+	d1. d2 d1 | c1. h2 c1 | c1. c2 c1 | h c h | c g g | g\breve r1 |
+	\repeat unfold 5 { R\breve. | }
 }

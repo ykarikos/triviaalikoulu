@@ -23,4 +23,6 @@ AltoOneMusic = \relative c' {
     \set Score.tempoHideNote = ##t
     \tempo 2 = 240
 	g\breve r1 |
+	g'1. fis2 g1 | e1. d2 e1 | f1. e2 f1 | d c d | e c h | c\breve r1 |
+	\repeat unfold 5 { R\breve. | }
 }
