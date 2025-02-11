@@ -55,7 +55,6 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 ## Kappaleet työn alla
 
 Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
-* A Deo principum
 * Lät oss liufliga siunga
 * Omnes gentes plaudite manibus
 
