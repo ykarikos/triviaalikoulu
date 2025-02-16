@@ -30,5 +30,7 @@ TenoreOneMusic = \relative c' {
 	% 126
 	\globaltime c1 | c2 c | d1 | R |
 	r2 d | d d | e1 | R |
-	r2 h | c h | c4 c h a | h h c h | c1 | R |
+	r2 h | c h | c4 c h a | h h c h | c1 | R | R | R |
+	% 127
+	c2 d4 d | c c d d | c1 | d2 g, | g1( | d') | g,( | g) \bar "|."
 }

@@ -30,6 +30,8 @@ AltoOneMusic = \relative c' {
 	\globaltime
 	e1 | f2 e | g1 | R |
 	r2 fis | g g | a1 | R |
-	r2 e | e e | e4 f d d | d e e d | e1 | R |
-
+	r2 e | e e | e4 f d d | d e e d | e1 | R | R | R |
+	% 127
+	e2 g4 g | g, g' g g |
+	g,1( | g2) g'( | g) g | g1 | g( | g) \bar "|."
 }
