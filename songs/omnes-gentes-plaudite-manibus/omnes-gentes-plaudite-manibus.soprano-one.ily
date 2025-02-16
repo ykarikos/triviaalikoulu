@@ -31,7 +31,8 @@ SopranoOneMusic = \relative c'' {
 	\globaltime
 	g1 | a2 a | h1 | R |
 	r2 a | h d( | d) cis | R1 |
-	r2 h | a gis | a4 a g fis | g g g g | g1 | R1 |
+	r2 h | a gis | a4 a g fis | g g g g | g1 | R1 | R | R |
 	% 127
-	
+	c2 h4 d | e e d d |
+	e2 c( | c) h | c1( | d) | e( | e) \bar "|."
 }

@@ -30,5 +30,8 @@ BassOneMusic = \relative c {
 	% 126
 	\globaltime c1 | f2 a | g1 | R |
 	r2 d | g h | a1 | R |
-	r2 e | a e | a4 f g d | g e c g | c1 | R |
+	r2 e | a e | a4 f g d | g e c g | c1 | R | R | R |
+	% 127
+	c2 g'4 g | e c g' g |
+	e2 c | g'1 | e( | d ) | c( | c) \bar "|."
 }
