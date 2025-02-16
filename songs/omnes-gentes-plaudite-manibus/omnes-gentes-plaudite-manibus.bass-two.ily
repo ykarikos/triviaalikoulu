@@ -41,4 +41,7 @@ BassTwoMusic = \relative c {
 	g | c2 e | d1 | R |
 	a d2 f | e1 | R | R | R |
 	r2 c | g' d |
+	% 127
+	g4 e a e | a a, c g | c2 r4 g | c c g g |
+	c2 c | g g | c1 | g | c( | c) \bar "|."
 }

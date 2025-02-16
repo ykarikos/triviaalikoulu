@@ -39,4 +39,7 @@ TenoreTwoMusic = \relative c' {
 	h | c2 h | d1 | R |
 	e | d2 a | h1 | R | R | R |
 	r2 e d d |
+	% 127
+	d4 e c h | c c c h | c2 r4 h | g g g g |
+	g2 g( | g) d | r g g g | e1( | e) \bar "|."
 }

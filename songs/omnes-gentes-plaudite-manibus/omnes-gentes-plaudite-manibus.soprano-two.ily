@@ -36,4 +36,7 @@ SopranoTwoMusic = \relative c'' {
 	g | g2 g | a1 | R |
 	a | a2 a | gis1 | R | R1 | R |
 	r2 c | h a |
+	% 127
+	h4 h a gis | a a g! g | g2 r4 h | c c h h |
+	c2 e | d1 | e2 c( | c) h | c1( | c) \bar "|."
 }
