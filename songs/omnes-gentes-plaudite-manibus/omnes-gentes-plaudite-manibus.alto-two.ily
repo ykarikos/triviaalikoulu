@@ -39,4 +39,6 @@ AltoTwoMusic = \relative c' {
 	e | f2 d | e1 | R | R | R |
 	r2 g | g fis |
 	% 127
+	g4 g e e | e e e d | e2 r4 g | g e g2 |
+	g1( | g2) g | c,4( d e c | g'1) | c,( | c) \bar "|."
 }

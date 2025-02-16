@@ -24,5 +24,6 @@ stanzaOneLyricsChoirTwo = \lyricmode {
     et Do -- mi -- nus in vo -- ce tu -- bae, in vo -- ce tu -- bae, in vo -- ce tu -- bae.
 
     Psal -- li -- te, psal -- li -- te, psal -- li -- te re -- gi no -- stro, psal -- li -- te.
-    Al -- le -- lu -- ja, al -- le -- lu -- ja, al -- le -- lu -- ja, al -- le -- lu -- ja.
+    Al -- le -- lu -- ja, al -- le -- lu -- ja, al -- le -- lu -- ja, al -- le -- lu -- ja,
+    al -- le -- lu -- ja, al -- le -- lu -- ja, al -- le -- lu -- ja, al -- le -- lu -- ja.
 }
