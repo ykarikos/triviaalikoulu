@@ -19,6 +19,7 @@ SopranoOneMusic = \relative c'' {
 	r2 g, | a2. a4 | gis2 a | h4 c2 h4 | c1 | R | R |
 	r2 g | g4 c2 h4 | c2 r4 g | g c2 h4 | c2 d |
 
+	% 125
 	\time 3/1
     \set Score.tempoHideNote = ##t
     \tempo 2 = 240
@@ -26,4 +27,11 @@ SopranoOneMusic = \relative c'' {
 	h1. a2 h1 | g1. g2 g1 | a1. g2 a1 | g f g |
 	g e d | e\breve r1 |
 	\repeat unfold 5 { R\breve. | }
+	% 126
+	\globaltime
+	g1 | a2 a | h1 | R |
+	r2 a | h d( | d) cis | R1 |
+	r2 h | a gis | a4 a g fis | g g g g | g1 | R1 |
+	% 127
+	
 }

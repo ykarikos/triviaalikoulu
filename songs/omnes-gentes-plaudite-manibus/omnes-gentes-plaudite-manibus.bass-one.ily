@@ -20,10 +20,15 @@ BassOneMusic = \relative c {
 	r2 c | f d | e a4 g( | g) c, g'2 | c,1 | R | R |
 	r2 g' | e4 c g2 | c r4 g' | e c g2 | c g' |
 
+	% 125
 	\time 3/1
     \set Score.tempoHideNote = ##t
     \tempo 2 = 240
 	e\breve r1 |
 	g1. d2 g1 | c,1. g2 c1 | f1. c2 f1 | g a g | c, c g | c\breve r1 |
 	\repeat unfold 5 { R\breve. | }
+	% 126
+	\globaltime c1 | f2 a | g1 | R |
+	r2 d | g h | a1 | R |
+	r2 e | a e | a4 f g d | g e c g | c1 | R |
 }
