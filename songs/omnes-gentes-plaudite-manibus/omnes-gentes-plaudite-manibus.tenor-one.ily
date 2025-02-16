@@ -20,10 +20,15 @@ TenoreOneMusic = \relative c' {
 	r2 c | c d | h cis4 d( | d) e d2 | c1 | R | R |
 	r2 d | e4 e d2 | c r4 d | e e d2 | c r4 h |
 
+	% 125
 	\time 3/1
     \set Score.tempoHideNote = ##t
     \tempo 2 = 240
 	e\breve r1 |
 	d1. d2 d1 | c1. h2 c1 | c1. c2 c1 | h c h | c g g | g\breve r1 |
 	\repeat unfold 5 { R\breve. | }
+	% 126
+	\globaltime c1 | c2 c | d1 | R |
+	r2 d | d d | e1 | R |
+	r2 h | c h | c4 c h a | h h c h | c1 | R |
 }
