@@ -26,8 +26,17 @@ TenoreTwoMusic = \relative c' {
 	r2 a | a c | c e | e4 c2 h4 | c1 | R | R | R |
 	r2 c | c d | h cis4 d( | d) e d2 | c r4 d | e e d2 | c r4 d | e e d2 |
 
+	% 125
 	\time 3/1
     \set Score.tempoHideNote = ##t
     \tempo 2 = 240
 	c\breve r1 |
+	\repeat unfold 6 { R\breve. | }
+	c1. h2 c1 | c1. c2 c1 | f1. e2 f1 |
+	% 126
+	d c d | e c h |
+	\globaltime c1 | R |
+	h | c2 h | d1 | R |
+	e | d2 a | h1 | R | R | R |
+	r2 e d d |
 }

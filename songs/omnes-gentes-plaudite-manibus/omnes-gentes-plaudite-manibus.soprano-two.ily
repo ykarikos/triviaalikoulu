@@ -23,8 +23,17 @@ SopranoTwoMusic = \relative c'' {
 	r2 e, | fis g | a h | c4 e2 d4 | e1 | R | R | R |
 	r2 g, | a2. a4 | g2 a | h4 c2 h4 | c2 r4 g | g c2 h4 | c2 r4 g | g c2 h4 |
 
+	% 125
 	\time 3/1
     \set Score.tempoHideNote = ##t
     \tempo 2 = 240
 	c\breve r1 |
+	\repeat unfold 6 { R\breve. | }
+	g1. g2 g1 | a1. g2 a1 | d1. cis2 d1 | 
+	% 126
+	h c h | c g g |
+	\globaltime g1 | R |
+	g | g2 g | a1 | R |
+	a | a2 a | gis1 | R | R1 | R |
+	r2 c | h a |
 }
