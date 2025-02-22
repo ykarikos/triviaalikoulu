@@ -8,7 +8,7 @@ if [ "$SONG" == "" ] || [ "$TEMPLATE" != "a4" ] && [ "$TEMPLATE" != "a8" ]; then
 	exit 0
 fi
 
-SONGFILE=`echo -n $SONG | tr [:upper:] [:lower:] | sed 's/ /-/g'`
+SONGFILE=`echo -n $SONG | tr [:upper:] [:lower:] | sed 's/ /-/g; s/ä/a/g; s/ö/o/g'`
 
 echo Copying template $TEMPLATE to songs/$SONGFILE...
 cp -r templates/$TEMPLATE songs/$SONGFILE
