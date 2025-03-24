@@ -12,6 +12,11 @@ globaltempo = {
 	\tempo 4 = 130
 }
 
+triplemetertempo = {
+  \set Score.tempoHideNote = ##t
+  \tempo 2 = 260
+}
+
 global = {
 %  \numericTimeSignature
   \globaltime
@@ -36,9 +41,12 @@ SopranoMusic = \relative c'' {
 % p2
 	\repeat volta 2 {
 		\time 3/1
+    \triplemetertempo
 		a1 g c | h\breve a1 | gis\breve r1 | g a h | c\breve d1 | h\breve r1 |
 		gis a h | c\breve h1 |
-		\time 2/2 c2 r4 c | h4. h8 h4 a | a gis r a |
+		\time 2/2
+  	\globaltempo
+    c2 r4 c | h4. h8 h4 a | a gis r a |
 		h4. c8 h4 a | gis a r a | a4. h8 g!4 g | fis g r h | e,8 fis g a h4 c |
 % p3
 		h8 a h c h4 a | g8 fis g a g4 a | h8 a h c h4 a | g8 e a4. gis16 fis16 gis4 |
@@ -86,9 +94,11 @@ AltoMusic = \relative c' {
 % p2
 	\repeat volta 2 {
 		\time 3/1
+    \triplemetertempo
 		e1 e g | g\breve e1 | e\breve r1 | e e g | a\breve a1 | gis\breve r1 |
 		e e g | g a g |
 		\time 2/2
+  	\globaltempo
 		g2 r4 g | g4. g8 g4 e | f e r e |
 		g4. g8 g4 e | e e r e | fis4. g8 e4 d | d d r g | g2 g4 g |
 		g2. e4 | e2. c4 | e1( | e) |
@@ -130,9 +140,11 @@ TenoreMusic = \relative c' {
 % p2
 	\repeat volta 2 {
 		\time 3/1
+    \triplemetertempo
 		c1 c e d\breve c1 | h\breve r1 | h c d | f\breve f1 | e\breve r1 |
 		h cis d | e f d |
 		\time 2/2
+  	\globaltempo
 		e2 r4 e | d4. d8 d4 cis | d h r cis |
 		d4. e8 d4 c! | h cis r cis | d4. d8 c!4 h | a g r d' | e2 d4 e |
 % p3
@@ -182,9 +194,11 @@ BassMusic = \relative c' {
 % p2
 	\repeat volta 2 {
 		\time 3/1
+    \triplemetertempo
 		a1 c c | g\breve a1 | e'\breve r1 | e a g | f\breve d1 | e\breve r1 |
 		e a g | c f, g |
 		\time 2/2
+  	\globaltempo
 		c,2 r4 c' | g4. g8 g4 a | d, e r a |
 		g4. c,8 g'4 a | e a, r a | d4. h8 c4 g | d' g, r g | c8 d e fis g4 c, |
 % p3
