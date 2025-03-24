@@ -134,7 +134,7 @@ TenoreMusic = \relative c' {
 		h cis d | e f d |
 		\time 2/2
 		e2 r4 e | d4. d8 d4 cis | d h r cis |
-		d4. e8 d4 c! | h cis r cis | d4. d8 c!4 h | a g r d' | e2 d4 d |
+		d4. e8 d4 c! | h cis r cis | d4. d8 c!4 h | a g r d' | e2 d4 e |
 % p3
 		d8 c d e d4 c | h8 a h c h4 a | g8 fis g a h4 c | h a h2 |
 		a4 gis a h | c2 h4 a | a a d c | h a h2 | cis1 |
