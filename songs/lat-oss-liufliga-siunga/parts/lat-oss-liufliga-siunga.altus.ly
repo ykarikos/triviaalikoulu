@@ -5,7 +5,7 @@
 \include "lat-oss-liufliga-siunga.header.ily"
 
 \header {
-  title = "Lät oss liufliga siunga (altus)"
+  title = "Låt oss liufliga siunga (altus)"
 }
 
 \score {

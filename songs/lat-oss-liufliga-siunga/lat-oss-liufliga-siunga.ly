@@ -6,7 +6,7 @@
 \include "lat-oss-liufliga-siunga.music.ily"
 
 \header {
-  title = "Lät oss liufliga siunga"
+  title = "Låt oss liufliga siunga"
 %  subtitle = ""
   composer = "tuntematon"
   mutopiacomposer = "Anonymous"

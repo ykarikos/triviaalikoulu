@@ -1,6 +1,6 @@
 
 \header {
-  title = "Lät oss liufliga siunga"
+  title = "Låt oss liufliga siunga"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
   composer = "tuntematon"
   mutopiacomposer = "Anonymous"

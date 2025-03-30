@@ -35,7 +35,7 @@ SopranoMusic = \relative c'' {
 }
 
 stanzaOneLyrics = \lyricmode {
-	Lät oss liuf -- li -- ga siun -- ga
+	Låt oss liuf -- li -- ga siun -- ga
 }
 
 AltoMusic = \relative c' {

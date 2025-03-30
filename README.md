@@ -63,7 +63,7 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 ## Kappaleet työn alla
 
 Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
-* Lät oss liufliga siunga
+* Låt oss liufliga siunga
 
 ## Kirjan latominen
 
