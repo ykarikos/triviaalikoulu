@@ -35,7 +35,9 @@ SopranoMusic = \relative c'' {
 }
 
 stanzaOneLyrics = \lyricmode {
-	Låt oss liuf -- li -- ga siun -- ga
+	Låt oss liuf -- li -- ga siun -- ga om Guds sto -- ra god -- het med hjer -- ta.
+	Fruct ich jag nicht allt wackert för -- lus -- tar någ -- ting u -- thi verl -- den.
+	Man ick så samma död, bär jag elska tigh, tu wähl mig.
 }
 
 AltoMusic = \relative c' {
