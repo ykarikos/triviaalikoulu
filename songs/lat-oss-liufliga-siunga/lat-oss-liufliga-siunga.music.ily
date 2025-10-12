@@ -76,9 +76,14 @@ AltoMusic = \relative c' {
 		a a a h | cis2 r4 a | a a a fis |
 		a2 r4 a | a cis a c! | c2 c4 a | c4. a8 b4 a |
 	}
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  d\breve\fermata
+	\alternative {
+		{ fis2 r4 a | }
+		{
+			\time 4/2
+			\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+			fis\breve \bar "|."
+		}
+	}
 }
 
 TenoreMusic = \relative c' {
