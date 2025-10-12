@@ -131,8 +131,25 @@ BassMusic = \relative c {
 	}
 
 	\clef bass
-	\partial 4 d4 | d' g, c d |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g,\breve\fermata
+	\partial 4 d4 |
+	\repeat volta 2 {
+		d' g, c d | a a r f | c4. c8 d4. d8 |
+		a'2 r4 f | c' d a b | a2 d,4 d | g d a'2 |
+	}
+	\alternative {
+		{ d,2 r4 d | }
+		{ d2 r4 d | }
+	}
+	\repeat volta 2 {
+		a' d a d, | a'2 r4 d, | a' d a d, |
+		a'2 r4 a | d a d c | f,2 c'4 d | a d, g a |
+	}
+	\alternative {
+		{ d,2 r4 d | }
+		{
+			\time 4/2
+			\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+			d\breve \bar "|."
+		}
+	}
 }
