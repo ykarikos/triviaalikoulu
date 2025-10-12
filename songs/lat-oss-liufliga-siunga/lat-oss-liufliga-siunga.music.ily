@@ -93,10 +93,27 @@ TenoreMusic = \relative c' {
 	\incipit { \clef "mensural-c3" \globalkey \globaltime d'4 }
 
 	\clef "treble_8"
-	\partial 4 d4 | d d e d |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata
+	\partial 4 d4 |
+	\repeat volta 2 {
+		d d e d | cis cis r a' | g4. g8 f4. f8 |
+		e2 r4 a | g f e d( | d) cis d d | d f e e |
+	}
+	\alternative {
+		{ d2 r4 d | }
+		{ d2 r4 d | }
+	}
+	\repeat volta 2 {
+		e f e f8 g | a2 r4 d, | e f e d |
+		c2 r4 c4 | d e d e | f2 e4 d | e f g e |
+	}
+	\alternative {
+		{ d2 r4 d | }
+		{
+			\time 4/2
+			\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+			d\breve \bar "|."
+		}
+	}
 }
 
 BassMusic = \relative c {
