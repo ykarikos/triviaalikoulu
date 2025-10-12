@@ -28,10 +28,27 @@ SopranoMusic = \relative c'' {
 
 	\incipit { \clef "mensural-g" \globalkey \globaltime a'4 }
 
-	\partial 4 a4 | a h c a |
-%  \time 4/2
-%  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
-%  g\breve\fermata \bar "|."
+	\partial 4 a4 |
+	\repeat voice 2 {
+		a h c a | a a r f' | e4. e8 d4. d8 |
+		cis2 r4 f | e d cis d | e a, r a | h d d cis |
+	}
+	\alternative {
+		{ d2 r4 a | }
+		{ d2 r4 f | }
+	}
+	\repeat volta 2 {
+		e d cis d | e2 r4 f | e d cis d |
+		e2 r4 e | f e f g | a2 g4 f | e d d cis |
+	}
+	\alternative {
+		{ d2 r4 f | }
+		{
+			\time 4/2
+			\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
+			d\breve \bar "|."
+		}
+	}
 }
 
 stanzaOneLyrics = \lyricmode {

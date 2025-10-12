@@ -12,35 +12,23 @@
 		    \global
         \SopranoMusic
       }
-     \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyrics
-     }
     >>
     \new Staff <<
       \new Voice = "Alto" {
         \global
         \AltoMusic
       }
-     \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
-     }
     >>
     \new Staff <<
       \new Voice = "Tenore" {
         \global
         \TenoreMusic
       }
-      \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyrics
-      }
     >>
     \new Staff <<
       \new Voice = "Bass" {
         \global
         \BassMusic
-      }
-      \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyrics
       }
     >>
   >>
