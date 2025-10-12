@@ -29,7 +29,7 @@ SopranoMusic = \relative c'' {
 	\incipit { \clef "mensural-g" \globalkey \globaltime a'4 }
 
 	\partial 4 a4 |
-	\repeat voice 2 {
+	\repeat volta 2 {
 		a h c a | a a r f' | e4. e8 d4. d8 |
 		cis2 r4 f | e d cis d | e a, r a | h d d cis |
 	}
@@ -63,7 +63,19 @@ AltoMusic = \relative c' {
 
 	\incipit { \clef "mensural-c2" \globalkey \globaltime fis'4 }
 
-	\partial 4 fis4 | fis g g fis |
+	\partial 4 fis4 |
+	\repeat volta 2 {
+		fis g g fis | e e r c' | c4. c8 a4. a8 |
+		a2 r4 c | c a a f | a2 fis4 fis | g a a a |
+	}
+	\alternative {
+		{ <fis a>2  r4 fis | }
+		{ <fis a>2 r4 a | }
+	}
+	\repeat volta 2 {
+		a a a h | cis2 r4 a | a a a fis |
+		a2 r4 a | a cis a c! | c2 c4 a | c4. a8 b4 a |
+	}
 %  \time 4/2
 %  \once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
 %  d\breve\fermata
