@@ -68,7 +68,7 @@
     \clearpage
 
     \pagestyle{myheadings}
-    \setcounter{page}{4}
+    \setcounter{page}{5}
 
     \input{booksongs.tex}
 
