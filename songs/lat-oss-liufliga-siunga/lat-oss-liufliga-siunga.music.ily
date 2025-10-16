@@ -22,7 +22,7 @@ global = {
 }
 
 
-SopranoMusic = \relative c'' {
+SopranoMusic = \transpose f c \relative c'' {
 	\set Staff.instrumentName = #"Cantus"
 	\set Staff.shortInstrumentName = "C"
 
@@ -51,7 +51,7 @@ SopranoMusic = \relative c'' {
 	}
 }
 
-AltoMusic = \relative c' {
+AltoMusic = \transpose f c \relative c' {
 	\set Staff.instrumentName = #"Altus"
 	\set Staff.shortInstrumentName = "A"
 
@@ -63,8 +63,8 @@ AltoMusic = \relative c' {
 		a2 r4 c | c a a f | a2 fis4 fis | g a a a |
 	}
 	\alternative {
-		{ <fis a>2  r4 fis | }
-		{ <fis a>2 r4 a | }
+		{ fis2 r4 fis | }
+		{ fis2 r4 a | }
 	}
 	\repeat volta 2 {
 		a a a h | cis2 r4 a | a a a fis |
@@ -80,7 +80,7 @@ AltoMusic = \relative c' {
 	}
 }
 
-TenoreMusic = \relative c' {
+TenoreMusic = \transpose f c \relative c' {
 	\set Staff.instrumentName = #"Tenor"
 	\set Staff.shortInstrumentName = "T"
 
@@ -110,7 +110,7 @@ TenoreMusic = \relative c' {
 	}
 }
 
-BassMusic = \relative c {
+BassMusic = \transpose f c \relative c {
 	\set Staff.instrumentName = #"Bassus"
 	\set Staff.shortInstrumentName = "B"
 

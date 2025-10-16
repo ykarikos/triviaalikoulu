@@ -8,6 +8,7 @@
 \header {
   title = "Låt oss liufliga siunga"
 %  subtitle = ""
+  subsubtitle = "alla quarta bassa"
   composer = "tuntematon"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
