@@ -50,6 +50,7 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 1. Jucundare jugiter / Ain iloidca, ain riemuidca (à 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
 1. Laus tibi Christe (à 4) – säveltäjä tuntematon
 1. Lobt Gott ihr Christen alle (à 5) – säveltäjä: Daniel Friderici
+1. Låt oss liufliga siunga
 1. Mens confisa Deo (à 4) – säveltäjä: Daniel Friderici
 1. Nunc Zymphonizate (à 5) – säveltäjä: Giovanni Gastoldi (n. 1554–1609)
 1. Omnes gentes plaudite manibus (à 8) – säveltäjä: Jacobus Gallus
@@ -59,11 +60,6 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 1. Veni Sancte Spiritus (à 4) – säveltäjä tuntematon
 1. Veni Sancte Spiritus (à 4, sovitus) – säveltäjä tuntematon, sovitus: Johannes Vesterinen (1979–)
 1. Veni Sancte Spiritus (longum) à 5 – säveltäjä tuntematon
-
-## Kappaleet työn alla
-
-Seuraavat kappaleet on rekonstruoitu ja tarkoitus kirjoittaa puhtaaksi.
-* Låt oss liufliga siunga
 
 ## Kirjan latominen
 
