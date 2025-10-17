@@ -15,9 +15,6 @@
         \global
         \AltoMusic
       }
-     \new Lyrics \lyricsto "Alto" {
-       \stanzaOneLyrics
-     }
     >>
   >>
   \midi {

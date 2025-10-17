@@ -15,9 +15,6 @@
 		    \global
         \SopranoMusic
       }
-     \new Lyrics \lyricsto "Soprano" {
-       \stanzaOneLyrics
-     }
     >>
   >>
   \midi {

@@ -15,9 +15,6 @@
         \global
         \TenoreMusic
       }
-      \new Lyrics \lyricsto "Tenore" {
-       \stanzaOneLyrics
-      }
     >>
   >>
   \midi {
