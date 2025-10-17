@@ -15,9 +15,6 @@
         \global
         \BassMusic
       }
-      \new Lyrics \lyricsto "Bass" {
-       \stanzaOneLyrics
-      }
     >>
   >>
   \midi {
