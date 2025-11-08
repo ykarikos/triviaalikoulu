@@ -15,6 +15,15 @@
         \global
         \TenoreMusic
       }
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaOneLyrics
+      }
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaTwoLyrics
+      }
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaThreeLyrics
+      }
     >>
   >>
   \midi {

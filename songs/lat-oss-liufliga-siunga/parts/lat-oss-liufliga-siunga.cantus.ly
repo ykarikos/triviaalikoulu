@@ -15,6 +15,15 @@
 		    \global
         \SopranoMusic
       }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaOneLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaThreeLyrics
+     }
     >>
   >>
   \midi {
