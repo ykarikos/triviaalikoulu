@@ -67,7 +67,7 @@ stanzaTwoLyrics = \lyricmode {
 	\set stanza = #"2. "
 	Hwart uth iag mig nu wän -- der,
 	fruch -- tar iag in -- gen nöd,
-	ut -- han ut -- hi Gudz hän -- der,
+	u -- than ut -- hi Gudz hän -- der,
 	bå -- de i lif och död, Hwart död,
 
 	Mig al -- tu be -- fal -- ler,
@@ -78,6 +78,15 @@ stanzaTwoLyrics = \lyricmode {
 
 stanzaThreeLyrics = \lyricmode {
 	\set stanza = #"3. "
+	Men ett O Her -- re kiä -- re,
+	be -- der iag uth -- af tig,
+	tu wilt mig stäck be -- wa -- ra,
+	för dem som mar -- ge -- lig. Men lig.
+
+	Eff -- ter mi -- na Siäl stå,
+	att de hen -- ne ey nå,
+	u -- than i gro -- pen fal -- la,
+	som de haa graf -- wet tå. Eff tå.
 }
 
 AltoMusic = \transpose f c \relative c' {
