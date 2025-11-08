@@ -12,7 +12,7 @@ PDF_CMD = cd $(OUTDIR) && xelatex $(BOOK)
 $(BOOK).pdf: $(BOOK).lytex *.tex $(NOTATION) facsimile/bassus.jpg cc-zero.png facsimile/christus-adest-justus.jpg
 	lilypond-book $(INCLUDESPEC) --output=$(OUTDIR) --pdf $<
 	$(PDF_CMD)
-	cd $(OUTDIR) && makeindex $(BOOK)
+	cd $(OUTDIR) && makeindex $(BOOK).pdf
 	$(PDF_CMD)
 	mv $(OUTDIR)/$@ .
 
