@@ -61,14 +61,15 @@
     \input{copyright.tex}
 
     % r.1-v.2 introduction
+    \setcounter{page}{0}
+    \pagestyle{myheadings}
+    
     \input{introduction.tex}
     % r.3
     \tableofcontents
 
     \clearpage
 
-    \pagestyle{myheadings}
-    \setcounter{page}{5}
 
     \input{booksongs.tex}
 
