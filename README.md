@@ -2,7 +2,7 @@
 
 ![Bassus-stemmakirjan avaussivu](facsimile/bassus.jpg)
 
-Osa Porin triviaalikoulun nuottikirjasta (1725) puhtaaksi kirjoittettuna kirjana. Tämän edition on rekonstruoinut Johannes Vesterinen ja puhtaaksikirjoittanut Yrjö Kari-Koskinen.
+Osa Porin triviaalikoulun nuottikirjasta (1725) puhtaaksi kirjoittettuna kirjana. Tämän edition on toimittanut Johannes Vesterinen ja puhtaaksikirjoittanut Yrjö Kari-Koskinen.
 
 PDF-muotoiset nuotit löytyvät sivulta https://triviaalikoulu.sonusborealis.fi
 
