@@ -51,6 +51,26 @@ SopranoMusic = \transpose f c \relative c'' {
 	}
 }
 
+stanzaOneLyrics = \lyricmode {
+	\set stanza = #"1. "
+	Låt oss liuf -- li -- ga siun -- ga,
+	om Gudz sto -- ra god -- het,
+	med hier -- ta och med tun -- ga,
+	pri -- sa hans Här -- lig -- het, Låt het,
+
+	Ty hans barm -- her -- tig -- het,
+	och hans sto -- ra god -- het öf -- wer them
+	ho -- nom fruch -- ta blif -- wer i E -- wig -- het. Ty het.
+}
+
+stanzaTwoLyrics = \lyricmode {
+	\set stanza = #"2. "
+}
+
+stanzaThreeLyrics = \lyricmode {
+	\set stanza = #"3. "
+}
+
 AltoMusic = \transpose f c \relative c' {
 	\set Staff.instrumentName = #"Altus"
 	\set Staff.shortInstrumentName = "A"
@@ -97,7 +117,7 @@ TenoreMusic = \transpose f c \relative c' {
 		{ d2 r4 d | }
 	}
 	\repeat volta 2 {
-		e f e f8 g | a2 r4 d, | e f e d |
+		e f e f8( g) | a2 r4 d, | e f e d |
 		c2 r4 c4 | d e d e | f2 e4 d | e f g e |
 	}
 	\alternative {
@@ -128,7 +148,7 @@ BassMusic = \transpose f c \relative c {
 	\partial 4 d4 |
 	\repeat volta 2 {
 		d' g, c d | a a r f | c4. c8 d4. d8 |
-		a'2 r4 f | c' d a b | a2 d,4 d | g d a'2 |
+		a'2 r4 f | c' d a b | a2 d,4 d | g d a' a |
 	}
 	\alternative {
 		{ d,2 r4 d | }
