@@ -65,6 +65,15 @@ stanzaOneLyrics = \lyricmode {
 
 stanzaTwoLyrics = \lyricmode {
 	\set stanza = #"2. "
+	Hwart uth iag mig nu wän -- der,
+	fruch -- tar iag in -- gen nöd,
+	ut -- han ut -- hi Gudz hän -- der,
+	bå -- de i lif och död, Hwart död,
+
+	Mig al -- tu be -- fal -- ler,
+	och mig der wid hål -- ler,
+	att Gud mig ey för -- sa -- ker,
+	eh -- wad som på -- gäl -- ler. Mig ler.
 }
 
 stanzaThreeLyrics = \lyricmode {
