@@ -12,23 +12,59 @@
 		    \global
         \SopranoMusic
       }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaOneLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaTwoLyrics
+     }
+     \new Lyrics \lyricsto "Soprano" {
+       \stanzaThreeLyrics
+     }
     >>
     \new Staff <<
       \new Voice = "Alto" {
         \global
         \AltoMusic
       }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaOneLyrics
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaTwoLyrics
+     }
+     \new Lyrics \lyricsto "Alto" {
+       \stanzaThreeLyrics
+     }
     >>
     \new Staff <<
       \new Voice = "Tenore" {
         \global
         \TenoreMusic
       }
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaOneLyrics
+      }
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaTwoLyrics
+      }
+      \new Lyrics \lyricsto "Tenore" {
+       \stanzaThreeLyrics
+      }
     >>
     \new Staff <<
       \new Voice = "Bass" {
         \global
         \BassMusic
+      }
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaOneLyrics
+      }
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaTwoLyrics
+      }
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaThreeLyrics
       }
     >>
   >>

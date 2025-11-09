@@ -15,6 +15,15 @@
         \global
         \BassMusic
       }
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaOneLyrics
+      }
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaTwoLyrics
+      }
+      \new Lyrics \lyricsto "Bass" {
+       \stanzaThreeLyrics
+      }
     >>
   >>
   \midi {
