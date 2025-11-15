@@ -37,7 +37,6 @@
 % clear chapter first page style
 \makeatletter
 \renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
-                    \thispagestyle{empty}% original style: plain
                     \global\@topnum\z@
                     \@afterindentfalse
                     \secdef\@chapter\@schapter}
