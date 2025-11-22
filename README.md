@@ -1,12 +1,15 @@
 # Porin triviaalikoulun nuottikirja
 
-![Bassus-stemmakirjan avaussivu](facsimile/bassus.jpg)
+![Nuottikirjan etusivu](nuottikirja-cover-small.jpg)
+
 
 Osa Porin triviaalikoulun nuottikirjasta (1725) puhtaaksi kirjoittettuna kirjana. Tämän edition on toimittanut Johannes Vesterinen ja puhtaaksikirjoittanut Yrjö Kari-Koskinen.
 
 PDF-muotoiset nuotit löytyvät sivulta https://triviaalikoulu.sonusborealis.fi
 
 Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et käytä lähteenä tekijänoikeuden alaisia editioita (esim. modernit Piae Cantiones -julkaisut).
+
+![Bassus-stemmakirjan avaussivu](facsimile/bassus.jpg)
 
 ## Lähteet
 
