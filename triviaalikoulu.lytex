@@ -64,7 +64,9 @@
     \pagestyle{myheadings}
     
     \input{introduction.tex}
-    % r.3
+    \input{introduction-eng.tex}
+
+
     \tableofcontents
 
     \clearpage
