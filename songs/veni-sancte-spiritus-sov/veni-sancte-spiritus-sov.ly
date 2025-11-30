@@ -10,7 +10,7 @@
   title = "Veni Sancte Spiritus (sovitus)"
 %  subtitle = ""
   composer = "tuntematon"
-  arranger = "sovitus: Johannes Vesterinen (1979–)"
+  arranger = "sov: Johannes Vesterinen (1979–)"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"
