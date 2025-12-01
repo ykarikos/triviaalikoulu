@@ -25,7 +25,7 @@ SopranoMusic = \relative c'' {
 		a4 a8 a a4 d | c4. h8 a4 b |
 % p2
 		b a c2 | a1 |
-		a4 h c d | c h a2 | e4 f g a | g f e2 |
+		a4 b c d | c b a2 | e4 f g a | g f e2 |
 		f4 g a h | c4. h8 a4 g8 f | e4 d a' a |
 		\time 4/2
 		\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)
@@ -75,7 +75,7 @@ AltoMusic = \relative c' {
 		f4 d8 d e4 d | e c c d | 
 % p2
 		b c c2 | c1 | 
-		f4 f f d | a h c2 | c4 c c a | c a c2 |
+		f4 f f d | a b c2 | c4 c c a | c a c2 |
 		f4. g8 d4 d | c c c d | cis d2 cis4 |
 		\time 4/2
 		\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)

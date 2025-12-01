@@ -74,11 +74,11 @@ SopranoTwoMusic = \relative c' {
     dis4 e2 dis4 | e2 r4 e'4( | e8) d c4 h a | g a e2 | e1 | e2
   }
   \repeat volta 2 {
-    r4 c' h a g g | r g h a | g g r g | g4. g8 a4. a8 | a4. a8 h4 h |
+    r4 c' h a gis gis | r g! h a | gis gis r g | g4. g8 a4. a8 | a4. a8 h4 h |
 % 2
     c4. c8 h4. h8 | a4 a gis2 | a2 r4 a8 a | a4 a gis gis | a a r h8 a |
-    g4 g fis fis | g g r h8 a | g4 g fis fis | g g r c | a a e e | e e r fis |
-    e2 r4 fis | g2 r4 g4 | fis a a e8 e | e2. e4 | e2 r4 fis |
+    g4 g fis fis | g g r h8 a | g4 g fis fis | g g r c | a a e e | e e r f |
+    e2 r4 fis | g2 r4 g4 | fis a a e8 e | e2. e4 | e2 r4 f |
     e2 r4 fis | g2 r4 g4 | fis a a e8 e | e2. e4 |
   }
   \alternative {
@@ -254,7 +254,7 @@ BassMusic = \relative c {
 
 	\clef bass
   \repeat volta 2 {
-  	a2 a8 h c4 | c2 g4 g | a a e e | r a e'2 | a, a | e4. fis8 g4. a8 |
+  	a2. a8 h | c2 g4 g | a a e e | r a e'2 | a, a | e4. fis8 g4. a8 |
     h4 c h2 | e4. fis8 g4 a | e2 e | e e4 e | e e e2 | a,2
   }
   \repeat volta 2 {
@@ -277,7 +277,7 @@ BassMusic = \relative c {
 }
 
 stanzaOneLyricsBass = \lyricmode {
-	I Her -- _ rans Tie -- na -- re
+	I Her -- rans Tie -- na -- re
   lof -- wer Her -- ran och prij -- sar
   Hans hel -- ga, hel -- ga, hel -- ga namn.
   Lof -- wer med flöjt,

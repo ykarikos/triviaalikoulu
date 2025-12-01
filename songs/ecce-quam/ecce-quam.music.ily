@@ -35,7 +35,7 @@ SopranoMusic = \relative c'' {
         }
     }
     \repeat volta 2 {
-        e g g fis | g g g g | es g g fis |
+        es g g fis | g g g g | es g g fis |
     }
     \alternative {
         {
@@ -61,8 +61,9 @@ SopranoMusic = \relative c'' {
     es g g fis | g g g g | es g g fis | g2 r4 b |
 % 3
     a2 g | g fis | g r4 b | a g g fis | g1 |
-    g2 g( | g) g | g1( | g) \bar "|."
-
+    g2 g( | g) g |
+    \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+    \time 4/2 g\breve \bar "|."
 }
 
 stanzaOneLyrics = \lyricmode {
@@ -100,7 +101,7 @@ AltoMusic = \relative c' {
     }
   }
   \repeat volta 2 {
-    e e d d | d d d d | es es d d |
+    es es d d | d d d d | es es d d |
   }
   \alternative {
     {
@@ -123,10 +124,12 @@ AltoMusic = \relative c' {
       d2 r4 d |
     }
   }
-    es es d d | d d d d | es es d d | d2 r4 d |
-    es es d d | d d d d | es es d d | d2 r4 f |
+  es es d d | d d d d | es es d d | d2 r4 d |
+  es es d d | d d d d | es es d d | d2 r4 f |
   f2 d | d d | d r4 f4 | f d d d | d1 |
-  es2 es( | es) es | d1( | d) \bar "|."
+  es2 es( | \once\omit Accidental es) es! |
+  \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+  \time 4/2 d\breve \bar "|."
 }
 
 TenoreMusic = \relative c' {
@@ -175,7 +178,9 @@ TenoreMusic = \relative c' {
     c c a a | g b b b | c c a a | g2 r4 b |
     c c a a | g a b b | c c a a | g2 d' |
     c g | a a | g r4 d' | c g a a | b1 |
-    c2 c( | c) c | h1( | h) \bar "|."
+    c2 c( | c) c |
+    \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+    \time 4/2 h\breve \bar "|."
 }
 
 BassMusic = \relative c' {
@@ -210,7 +215,7 @@ BassMusic = \relative c' {
     }
     \repeat volta 2 {
         g2 f4 e | d2 d | a' a | d,1 |
-        g2 g4 g | c,2 c4 d | e g d d |
+        g2 g4 g | c,2 c4 d | f g d d |
     }
     \alternative {
         {
@@ -223,5 +228,7 @@ BassMusic = \relative c' {
     c, c d d | g g g g | c, c d d | g,2 r4 g' |
     c, c d d | g g g g | c, c d d | g,2 r4 b |
     f'2 g | d d | g, r4 b | f' g d d | g,1 |
-    c2 c( | c) c | g1( | g) \bar "|."
+    c2 c( | c) c |
+    \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+    \time 4/2 g\breve \bar "|."
 }
