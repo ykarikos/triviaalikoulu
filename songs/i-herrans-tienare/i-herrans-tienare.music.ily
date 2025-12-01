@@ -17,10 +17,18 @@ SopranoMusic = \relative c'' {
 
   \repeat volta 2 {
   	a2 c8 d e4 | e2 d4 d | c2 h4 h | e8 d c4 h2 | a4 e e e8 fis | g4 g8 a h4 g |
-    fis e fis2 | g4 g8 a h4 a | g e'4. d8 c4 | h4 a g a | h a gis2 | a2
+    fis e fis2 | g4 g8 a h4 a | g e'4. d8 c4 | h4 a g a | h a gis2 |
+  }
+  \alternative {
+    {
+      a2. r4 |
+    }
+    {
+      a2 r4 e |
+    }
   }
   \repeat volta 2 {
-    r4 e | g e e e | r e' d c | h h r h | h4. h8 c4. c8 | d4. d8 d4 d |
+    g e e e | r e' d c | h h r h | h4. h8 c4. c8 | d4. d8 d4 d |
 % 2
     e4. e8 d4. d8 | c4 c h2 | a r4 e'8 d | c4 c h  h | a a r d8 c |
     h4 h a a | g g r d'8 c | h4 h a a | g g r  e' | c a gis gis | a a r a |
@@ -29,8 +37,7 @@ SopranoMusic = \relative c'' {
   }
   \alternative {
     {
-      \set Timing.measureLength = #(ly:make-moment 1/2)
-      a2 |
+      a2 r4 e |
     }
     {
       \set Timing.measureLength = #(ly:make-moment 4/2)
@@ -44,7 +51,7 @@ stanzaOneLyrics = \lyricmode {
   lof -- wer Her -- ran och prij -- sar
   Hans _ hel -- ga, _ hel -- ga, _ hel -- ga, hel -- ga namn.
   Lof -- _ _ wer med flöjt,
-  lof -- wer ho -- nom med psal -- ta -- re och har -- por.
+  lof -- wer ho -- nom med psal -- ta -- re och har -- por. por.
 
   Ty han är nå -- dig och så barm -- her -- tig,
   ja tå -- lig och af sto -- ra god -- het,
@@ -59,7 +66,7 @@ stanzaOneLyrics = \lyricmode {
   prijs _ wa -- re Gud i sin hög -- _ _ da thron,
 
   lof prijs, lof prijs,
-  prijs _ wa -- re Gud i sin hög -- _ _ da thron,
+  prijs _ wa -- re Gud i sin hög -- _ _ da thron, Ty
   thron.
 }
 
@@ -71,10 +78,18 @@ SopranoTwoMusic = \relative c' {
 
   \repeat volta 2 {
     e2 a8 h c4 | c2 h4 h | a8 h c d e4 h | c8 h a4 g2 | a4. a8 c2 | h4 h8 a g4 fis8 e |
-    dis4 e2 dis4 | e2 r4 e'4( | e8) d c4 h a | g a e2 | e1 | e2
+    dis4 e2 dis4 | e2 r4 e'4( | e8) d c4 h a | g a e2 | e1 |
+  }
+  \alternative {
+    {
+      e2. r4 |
+    }
+    {
+      e2 r4 c' |
+    }
   }
   \repeat volta 2 {
-    r4 c' h a gis gis | r g! h a | gis gis r g | g4. g8 a4. a8 | a4. a8 h4 h |
+    h a gis gis | r g! h a | gis gis r g | g4. g8 a4. a8 | a4. a8 h4 h |
 % 2
     c4. c8 h4. h8 | a4 a gis2 | a2 r4 a8 a | a4 a gis gis | a a r h8 a |
     g4 g fis fis | g g r h8 a | g4 g fis fis | g g r c | a a e e | e e r f |
@@ -83,12 +98,11 @@ SopranoTwoMusic = \relative c' {
   }
   \alternative {
     {
-      \set Timing.measureLength = #(ly:make-moment 1/2)
-      e2 |
+      e2 r4 c' |
     }
     {
       \set Timing.measureLength = #(ly:make-moment 4/2)
-      e\breve \bar "|."
+      e,\breve \bar "|."
     }
   }
 }
@@ -98,7 +112,7 @@ stanzaOneLyricsSopranoTwo = \lyricmode {
   lof -- _ wer _ Her -- ran och _ prij -- sar
   Hans hel -- ga, hel -- ga, _
   hel -- ga, _ he -- _ ga namn.
-  Lof -- _ wer med psal -- ta -- re och har -- por.
+  Lof -- _ wer med psal -- ta -- re och har -- por. por.
 
   Ty han är nå -- dig och så barm -- her -- tig,
   ja tå -- lig och af sto -- ra god -- het,
@@ -113,7 +127,7 @@ stanzaOneLyricsSopranoTwo = \lyricmode {
   prijs wa -- re Gud i sin hög -- da thron,
 
   lof prijs, lof prijs,
-  prijs wa -- re Gud i sin  hög -- da thron,
+  prijs wa -- re Gud i sin  hög -- da thron, Ty
   thron.
 }
 
@@ -128,10 +142,18 @@ AltoMusic = \relative c' {
   	c2 e4 c | c2 d4 h | e2 e |
     r4 a, h2 | c4 c8 d e2( | e) d |
     h4 g h2 | r4 e4. d8 c4 | h4. a8 gis4 a |
-    e' e r e | e8 d c4 h2 | cis
+    e' e r e | e8 d c4 h2 |
+  }
+  \alternative {
+    {
+      cis2. r4 |
+    }
+    {
+      cis2 r4 e |
+    }
   }
   \repeat volta 2 {
-    r4 e | d c h h | r e g e | e e r e |
+    d c h h | r e g e | e e r e |
     e4. e8 e4. e8 | fis4. fis8 g4 g |
     g4. g8 g4. g8 | e4 e e2 | e r4 e8 e |
     e4 e e e | e e r g8 g |
@@ -142,8 +164,7 @@ AltoMusic = \relative c' {
   }
   \alternative {
     {
-      \set Timing.measureLength = #(ly:make-moment 1/2)
-      cis2 |
+      cis2 r4 e |
     }
     {
       \set Timing.measureLength = #(ly:make-moment 4/2)
@@ -157,7 +178,7 @@ stanzaOneLyricsAlto = \lyricmode {
   lof -- wer och prij -- sar
   Hans _ hel -- ga, hel -- ga namn.
   Lof -- wer ho -- nom med flöjt,
-  lof -- wer med psal -- ta -- re och har -- por.
+  lof -- wer med psal -- ta -- re och har -- por. por.
 
   Ty han är nå -- dig och så barm -- her -- tig,
   ja tå -- lig och af sto -- ra god -- het,
@@ -172,7 +193,7 @@ stanzaOneLyricsAlto = \lyricmode {
   prijs wa -- re Gud i sin hög -- da thron,
 
   lof prijs, lof prijs,
-  prijs wa -- re Gud i sin hög -- da thron,
+  prijs wa -- re Gud i sin hög -- da thron, Ty
   thron.
 }
 
@@ -188,10 +209,18 @@ TenoreMusic = \relative c' {
 	  a2 a4 a | g2 g4 g | e4. fis8 g4 g |
     a8 h c d e4 e | e c8 h a4 g8 a | h4 g g2 |
     r4 a h h | h2 h4 c8 d | e2 r4 e4(
-    | e8) d c4 h a | gis4 a h2 | a
+    | e8) d c4 h a | gis4 a h2 |
+  }
+  \alternative {
+    {
+      a2. r4 |
+    }
+    {
+      a2 r4 g |
+    }
   }
   \repeat volta 2 {
-    r4 g | g a e e | r c' d a | h h r h |
+    g a e e | r c' d a | h h r h |
     h4. h8 a4. a8 | a4. a8 g4 g |
     g c d4. d8 | a4 a h2 | cis r4 c8 h |
     a4 a h h | cis cis r h8 c |
@@ -202,8 +231,7 @@ TenoreMusic = \relative c' {
   }
   \alternative {
     {
-      \set Timing.measureLength = #(ly:make-moment 1/2)
-      a2 |
+      a2 r4 g |
     }
     {
       \set Timing.measureLength = #(ly:make-moment 4/2)
@@ -218,7 +246,7 @@ stanzaOneLyricsTenore = \lyricmode {
   Hans hel -- ga, _ hel -- ga, _ hel -- ga namn.
   Lof -- wer med flöjt,
   lof -- wer med flöjt,
-  lof -- wer med psal -- ta -- re och har -- por.
+  lof -- wer med psal -- ta -- re och har -- por. por.
 
   Ty han är nå -- dig och så barm -- her -- tig,
   ja tå -- lig och af sto -- ra god -- het,
@@ -233,7 +261,7 @@ stanzaOneLyricsTenore = \lyricmode {
   prijs wa -- re Gud i sin hög -- _ _ da thron,
 
   lof prijs, lof prijs,
-  prijs wa -- re Gud i sin hög -- _ _ da thron,
+  prijs wa -- re Gud i sin hög -- _ _ da thron, Ty
   thron.
 }
 
@@ -255,10 +283,18 @@ BassMusic = \relative c {
 	\clef bass
   \repeat volta 2 {
   	a2. a8 h | c2 g4 g | a a e e | r a e'2 | a, a | e4. fis8 g4. a8 |
-    h4 c h2 | e4. fis8 g4 a | e2 e | e e4 e | e e e2 | a,2
+    h4 c h2 | e4. fis8 g4 a | e2 e | e e4 e | e e e2 |
+  }
+  \alternative {
+    {
+      a,2. r4 |
+    }
+    {
+      a2 r4 c |
+    }
   }
   \repeat volta 2 {
-    r4 c | g a e' e | r c g a | e' e r e | e4. e8 a,4. a8 | d4. d8 g,4. g8 |
+    g a e' e | r c g a | e' e r e | e4. e8 a,4. a8 | d4. d8 g,4. g8 |
     c4. c8 g4. g8 | a4 a e'2 | a, r4 a8 a | a4 a e' e | a, a r g8 g |
     g4 g d' d | g, g r g8 g | g4 g d' d | g, g r a | a a e' e | a, a r d |
     a2 r4 d | g,2 r4 g' | d4. d8 a4 a8 a | e'2. e4 | a,2 r4 d |
@@ -266,8 +302,7 @@ BassMusic = \relative c {
   }
   \alternative {
     {
-      \set Timing.measureLength = #(ly:make-moment 1/2)
-      a,2 |
+      a,2 r4 c |
     }
     {
       \set Timing.measureLength = #(ly:make-moment 4/2)
@@ -281,7 +316,7 @@ stanzaOneLyricsBass = \lyricmode {
   lof -- wer Her -- ran och prij -- sar
   Hans hel -- ga, hel -- ga, hel -- ga namn.
   Lof -- wer med flöjt,
-  lof -- wer med psal -- ta -- re och har -- por.
+  lof -- wer med psal -- ta -- re och har -- por. por.
 
   Ty han är nå -- dig och så barm -- her -- tig,
   ja tå -- lig och af sto -- ra god -- het,
@@ -296,6 +331,6 @@ stanzaOneLyricsBass = \lyricmode {
   prijs wa -- re Gud i sin hög -- da thron,
 
   lof prijs, lof prijs,
-  prijs wa -- re Gud i sin hög -- da thron,
+  prijs wa -- re Gud i sin hög -- da thron, Ty
   thron.
 }
