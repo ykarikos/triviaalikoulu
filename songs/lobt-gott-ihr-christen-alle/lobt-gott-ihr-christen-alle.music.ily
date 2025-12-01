@@ -126,6 +126,6 @@ BassMusic = \relative c {
     g4. g8 g4 f8 f | d4 c f g | c,2 r4 c8 c |
     f2 r4 c8 c | d2 r4 a8 a | b2 r4 f8 f | c'2 r4 f,8 g |
     a4 f c' c | f,2 r4 c'8 c | f4 c8 c d4 a8 a |
-    b4 f8 f c'4 f,8 g | a4 f c' c | f2.
+    b4 f8 f c'4 f,8 g | a4 f c' c | f,2.
   }
 }
