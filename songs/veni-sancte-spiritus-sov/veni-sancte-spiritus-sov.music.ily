@@ -4,6 +4,7 @@ global = {
   \time 2/2
 %	\set Timing.measureLength = #(ly:make-moment 4/2)
 %  \autoBeamOff
+  \tempo 1 = 70
   \key f \major
   \set Staff.midiInstrument = #"voice oohs"
 }
@@ -45,7 +46,7 @@ AltoThemeFive = {
 }
 
 TenorThemeOne = {
-  a1 | c | a | b | d2 c | c1 |
+  a1 | c | a | g | a2 c | c1 |
 }
 
 SopranoThemeOneTenor = {
@@ -57,7 +58,7 @@ BassThemeOneTenor = {
 }
 
 TenorThemeTwo = {
-  c2 c | c c | a a | c c | c c | c d | g, c | c1 |
+  c2 c | c c | a a | c c | c c | a d | g, c | c1 |
 }
 
 TenorThemeThree = {
