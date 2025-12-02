@@ -16,7 +16,7 @@
 \usepackage{helvet}%Helvetica
 \fi
 
-\usepackage[finnish]{babel}
+\usepackage[finnish, english]{babel}
 \usepackage[a4paper]{geometry}
 \usepackage{graphicx}
 
@@ -55,6 +55,7 @@
 
     % r.3 full title page
     \maketitle
+    \selectlanguage{finnish}
 
     % v.4 copyright page
     \input{copyright.tex}
@@ -64,8 +65,9 @@
     \pagestyle{myheadings}
     
     \input{introduction.tex}
+    \selectlanguage{english}
     \input{introduction-eng.tex}
-
+    \selectlanguage{finnish}
 
     \tableofcontents
 
@@ -75,5 +77,7 @@
     \input{booksongs.tex}
 
     \input{bibliography.tex}
+    % one blank page to sum up even number of pages for printing
+    \blankpage
 
 \end{document}
