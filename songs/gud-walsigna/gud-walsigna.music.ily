@@ -40,7 +40,7 @@ stanzaOneLyrics = \lyricmode {
 	Gud gif -- wa oss
 	lyc -- ka och frijd, lyc -- ka och frijd,
 	lyc -- ka, frijd, och sa -- lig -- heet,
-	att wij wå -- ga, att wij wå -- ga,
+	att wij wå -- ga, att wij wå -- ga
 	äls -- ka oss in -- bör -- de
 	af alt hjär -- ta af alt hjär -- ta
 	af alt hjär -- ta och o -- för -- skyllt

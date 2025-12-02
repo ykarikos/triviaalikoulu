@@ -161,7 +161,7 @@ BassMusic = \relative c {
 	}
 	\repeat volta 2 {
 		d4 d8 d g,4 a | e'2 e4 d f d e2 | a,1 |
-		d4 d8 d c4 h | a4. g8 e4 b' |
+		d4 d8 d c4 h | a4. g8 f4 b' |
 % p2
 		g f c'2 | f,1 |
 		f4. g8 a4 b | f g f2 | c'4. d8 e4 f | c d c2 |

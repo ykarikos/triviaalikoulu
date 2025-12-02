@@ -42,7 +42,7 @@ SopranoOneMusic = \relative c'' {
       a2. c4 |
     }
     {
-      a1 |
+      a1 \bar "|."
     }
   }  
 }
@@ -97,7 +97,7 @@ SopranoTwoMusic = \relative c'' {
        f2. a4 |
     }
     {
-      f1 |
+      f1 \bar "|."
     }
   }  
 }
@@ -134,7 +134,7 @@ AltoMusic = \relative c' {
       c2. f4 |
     }
     {
-      c1 |
+      c1 \bar "|."
     }
   }  
 }
@@ -172,7 +172,7 @@ TenoreMusic = \relative c' {
       f2. c4 |
     }
     {
-      f1 |
+      f1 \bar "|."
     }
   }  
 }
@@ -210,7 +210,7 @@ BassMusic = \relative c {
       f,2 f' |
     }
     {
-      f,1 |
+      f,1 \bar "|."
     }
   }
 }

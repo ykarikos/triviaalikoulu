@@ -77,7 +77,7 @@ SopranoTwoMusic = \relative c' {
 	\incipit { \clef "mensural-g" \key a \minor \time 2/2 a'2 }
 
   \repeat volta 2 {
-    e2 a8 h c4 | c2 h4 h | a8 h c d e4 h | c8 h a4 g2 | a4. a8 c2 | h4 h8 a g4 fis8 e |
+    e2 a8 h c4 | c2 h4 h | a8 h c d e4 h | c8 h a4 gis2 | a4. a8 c2 | h4 h8 a g4 fis8 e |
     dis4 e2 dis4 | e2 r4 e'4( | e8) d c4 h a | g a e2 | e1 |
   }
   \alternative {
