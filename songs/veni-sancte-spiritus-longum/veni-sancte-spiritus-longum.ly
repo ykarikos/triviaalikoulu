@@ -8,8 +8,8 @@
 \header {
   title = "Veni Sancte Spiritus (longum)"
 %  subtitle = ""
-  composer = "tuntematon"
-  mutopiacomposer = "Anonymous"
+  composer = "Andreas Hammerschmidtin (1611–1675) mukaan"
+  mutopiacomposer = "after Andreas Hammerschmidt (1611–1675)"
 %  instrument = "Voice (SATB)"
   style = "early music"
   maintainer = "Yrjö Kari-Koskinen"
