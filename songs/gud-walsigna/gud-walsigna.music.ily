@@ -40,7 +40,7 @@ stanzaOneLyrics = \lyricmode {
 	Gud gif -- wa oss
 	lyc -- ka och frijd, lyc -- ka och frijd,
 	lyc -- ka, frijd, och sa -- lig -- heet,
-	att wij wå -- ga, att wij wå -- ga,
+	att wij wå -- ga, att wij wå -- ga
 	äls -- ka oss in -- bör -- de
 	af alt hjär -- ta af alt hjär -- ta
 	af alt hjär -- ta och o -- för -- skyllt
@@ -76,8 +76,8 @@ TenoreMusic = \relative c' {
 
   \clef "treble_8"
   b2 b | a a | b b | c a | d d | c b | a a |
-  b1\fermata | b2 a4 a | d2 d4 d| b2 a4 a | a2 b | a4 a a2 | a1 |
-  g1\fermata | b2 a | b1 | a | d4 d d d | c c c c | a2 b |
+  b1\fermata | b2 a4 a | d2 d4 d | b2 a4 a | a2 b | a4 a a2 | a1 |
+  g1\fermata | b2 a | b1 | a | d4 d d d | c c c c | c2 b |
 % 2
   a d | cis cis | a1\fermata | a2 a | d d | c c | b c |
   b c | b a4 a | b1\fermata | b2 a | b1 | a | b4 b c c |

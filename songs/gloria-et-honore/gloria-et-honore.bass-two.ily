@@ -10,7 +10,7 @@ BassTwoMusic = \relative c {
 
 	\clef bass
 	R\breve | R | R | R | 
-	r2 d2. d4 d2 | c b f'1 | b,2 f'4 c a' b a2 | d,1 a'2. a4 |
+	r2 d2. d4 d2 | c b f'1 | b,2 f'4 d a' b a2 | d,1 a'2. a4 |
 	d,1 r | R\breve | r2 b1 es2 | d d4 c2 d4 f2 |
 
 % 2

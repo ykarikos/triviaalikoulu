@@ -21,7 +21,8 @@ SopranoMusic = \relative c' {
 	a1 a2 a | b\breve | a\breve\fermata | f2 f f g |
 	a1 a | a2 a b1 | a1 r2 a | a a a f | a g f1 |
 % 2
-	g2 g f a~( | a g4 f g f e d) | c2 f1( e2) | f\breve\fermata	f2 f g1 | a r2 a | a g a1 | r2 a a g | a1 r2 a |
+	g2 g f a~( | a g4 f g f e d) | c2 f1( e2) | f\breve\fermata |
+	f2 f g1 | a r2 a | a g a1 | r2 a a g | a1 r2 a |
 	b b a1 | g2 a2.( g4) f2~ |
 	\time 2/2
 	\once \override Staff.TimeSignature.break-visibility = ##(#t #f #t)

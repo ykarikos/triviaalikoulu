@@ -7,10 +7,10 @@
 \include "veni-sancte-spiritus-sov.lyrics.ily"
 
 \header {
-  title = "Veni Sancte Spiritus (sovitus)"
+  title = "Veni Sancte Spiritus (à 4)"
 %  subtitle = ""
   composer = "tuntematon"
-  arranger = "sovitus: Johannes Vesterinen (1979–)"
+  arranger = "sov: Johannes Vesterinen (1979–)"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"
@@ -24,6 +24,7 @@
     \new Staff <<
       \new Voice = "Soprano" {
 		    \global
+        \textMark "instr."
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {

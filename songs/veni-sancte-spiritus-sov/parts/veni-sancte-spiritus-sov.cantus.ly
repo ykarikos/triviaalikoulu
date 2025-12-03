@@ -14,6 +14,7 @@
     \new Staff <<
       \new Voice = "Soprano" {
 		    \global
+        \textMark "instr."
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {

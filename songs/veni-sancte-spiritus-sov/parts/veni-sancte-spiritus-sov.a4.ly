@@ -11,6 +11,7 @@
     \new Staff <<
       \new Voice = "Soprano" {
 		    \global
+        \textMark "instr."
         \SopranoMusic
       }
      \new Lyrics \lyricsto "Soprano" {
@@ -46,7 +47,7 @@
     >>
   >>
   \midi {
-    \tempo 2 = 240
+    \tempo 2 = 140
   }
   \layout {
     \context {

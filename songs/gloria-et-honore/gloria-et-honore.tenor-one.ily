@@ -12,12 +12,12 @@ TenoreOneMusic = \relative c' {
 % 2
 	r2 b1 c2 | d d4 cis2 d4 cis2 | d1 r | R\breve |
 	r2 d c4 b2 g4 | a d2 d4 b c a2 | g1 r | R\breve |
-	d'2. d4 c b a2 | g1 r | b2 g g4 g g2 | g4 d2 d'4 c c c2 |
+	d'2. b4 c b a2 | g1 r | b2 g g4 g g2 | g4 d2 d'4 c c c2 |
 
 % 3
 	b2 d1 d2 | b c4 d2 d cis4 | d1 r | R\breve |
 	r2 d c4 b2 g4 | a d2 d4 b c a2 | g1 r | R\breve |
-	d'2. d4 c b a2 | g1 r | b2 g g4 g g2 | g4 d2 d'4 c c c2 |
+	d'2. b4 c b a2 | g1 r | b2 g g4 g g2 | g4 d2 d'4 c c c2 |
 	h\breve\fermata \bar "|."
 }
 

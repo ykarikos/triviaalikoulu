@@ -2,7 +2,8 @@
 \header {
   title = "Allenaste Gud i himmelrik"
   subtitle = "Porin triviaalikoulun nuottikirja (1725)"
-  composer = "Hieronymus Praetorius (1560–1629)"
+  composer = "tuntematon"
+  arranger = "sov: Hieronymus Praetorius (1560–1629)"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"
