@@ -169,7 +169,7 @@ TenoreMusic = \relative c' {
 		}
 		{
 			\set Timing.measureLength = #(ly:make-moment 4/2)
-			c\breve \bar "|."
+			e\breve \bar "|."
 		}
 	}
 

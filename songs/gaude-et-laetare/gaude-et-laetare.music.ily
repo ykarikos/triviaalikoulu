@@ -195,7 +195,7 @@ TenoreMusic = \relative c' {
   \set Timing.measureLength = #(ly:make-moment 4/2)
   d f f e | f1 r2 c | d c b1 | c2 c b b | c c es1( | es) c |
 % 3
-  r2 a b b | a c c b | c1 r2 c | c d e e |
+  r2 a b b | a c c h | c1 r2 c | c d e e |
   f1 d2 c | d b c c | c1 r2 c | c1 c2 c( | c) c a b | g g r c |
   c e f d | c f,4 g a b c2( | c) h c2. b4 | a2 b a f |
   a1 g2. a4 | b c d2. c4 b2 | a\breve \bar "|."

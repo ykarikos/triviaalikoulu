@@ -17,7 +17,7 @@ SopranoMusic = \relative c'' {
 
   \repeat volta 2 {
   	g2. g4 | fis2 g4 a( | a) g fis2 | r4 f! g a | b2 a4 g( | g) fis g b |
-    a g g fis | g8 a b c d4 b | a g g fis | g1 |
+    a g g fis | g8 a b c d4 b | a g g fis | g1 \break |
   }
   \repeat volta 2 {
     fis4. fis8 fis4 fis | g g fis2 | f!4. g8 a4 b | b a b2 |
@@ -43,7 +43,7 @@ AltoMusic = \relative c' {
 
   \repeat volta 2 {
 	  d2. d4 | d2 d4 f( | f) d d2 | r4 d d f | f2. d4 | es4. d8 b4. f'8 |
-    f4 d es d | d2. d4 | d d es d | d1 |
+    f4 d es d | d2. d4 | d d es d | d1 \break |
   }
   \repeat volta 2 {
     d4. d8 d4 d | d es d2 | d4. d8 f4 f | f f f2 |
@@ -70,7 +70,7 @@ TenoreMusic = \relative c' {
 	\clef "treble_8"
   \repeat volta 2 {
 	  b2. b4 | a2 b4 c( | c) b a2 | r4 a h c | d2 c8 a h4 |
-    c4. a8 g4 d' | c h c a | b8 a g a b4 g | a b c a | g1 |
+    c4. a8 g4 d' | c h c a | b8 a g a b4 g | a b c a | g1 \break |
   }
   \repeat volta 2 {
     a4. a8 a4 a | h c a2 | a4. b8 c4 d | c c d2 |
@@ -98,7 +98,7 @@ BassMusic = \relative c' {
   \repeat volta 2 {
   	g2. g4 | d2 g4 f( | f) g d2 | r4 d g f |
     b,8 c d e f4 g | c,4. d8 es4 b |
-    f' g c, d | g,2. g'4 | fis g c, d | g,1 |
+    f' g c, d | g,2. g'4 | fis g c, d | g,1 \break |
   }
   \repeat volta 2 {
     d'4. d8 d4 d | g c, d2 | d4. g8 f4 b, | f' f b,2 |

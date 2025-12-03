@@ -1,29 +1,29 @@
-# Porin triviaalikoulun nuottikirja
+# Porin triviaalikoulun nuottikirja I
 
 ![Nuottikirjan etusivu](nuottikirja-cover-small.jpg)
 
-
-Osa Porin triviaalikoulun nuottikirjasta (1725) puhtaaksi kirjoittettuna kirjana. Tämän edition on toimittanut Johannes Vesterinen ja puhtaaksikirjoittanut Yrjö Kari-Koskinen.
+Osa Porin triviaalikoulun nuottikirjasta (1725) puhtaaksi kirjoittettuna kirjana. Tämän edition on toimittanut Johannes Vesterinen ja puhtaaksikirjoittanut Yrjö Kari-Koskinen. Esipuheen on kirjoittanut Jaakko Saarinen.
 
 PDF-muotoiset nuotit löytyvät sivulta https://triviaalikoulu.sonusborealis.fi
 
-Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et käytä lähteenä tekijänoikeuden alaisia editioita (esim. modernit Piae Cantiones -julkaisut).
+Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et käytä lähteenä tekijänoikeuden alaisia editioita (esim. modernit Piae Cantiones -julkaisut). Yhteystiedot: yrjo.karikoskinen@gmail.com.
 
 ![Bassus-stemmakirjan avaussivu](facsimile/bassus.jpg)
 
 ## Lähteet
 
 ### Ensisijainen nuottilähde
+
 [Porin triviaalikoulun ääni- eli stemmakirjat – JYX/Nuottijulkaisut, Gudrun Viergutz](https://jyx.jyu.fi/handle/123456789/19464), 1725
 - [Discantus](https://jyx.jyu.fi/dspace/handle/123456789/18957)
 - [Altus](https://jyx.jyu.fi/dspace/handle/123456789/18955)
 - [Tenor](https://jyx.jyu.fi/dspace/handle/123456789/18958)
 - [Bassus](https://jyx.jyu.fi/dspace/handle/123456789/18956)
 
-### Muut lähteet
+### Muut nuottilähteet
 
-- Bodenschatz, Erhard: [Florilegium Portense I](https://imslp.org/wiki/Florilegium_Portense_I_(Bodenschatz%2C_Erhard)), 1618, lähteenä _Repleatur os meum_ -kappaleen tavutuksessa
-- Bodenschatz, Erhard: [Florilegii Musicii Portensis II](https://imslp.org/wiki/Florilegii_Musicii_Portensis_II_(Bodenschatz%2C_Erhard)), 1621, lähteenä _Anima mea expectat Dominum_ -kappaleen tavutuksessa
+- Bodenschatz, Erhard: [Florilegium Portense](https://imslp.org/wiki/Florilegium_Portense_I_(Bodenschatz%2C_Erhard)), 1618, lähteenä _Repleatur os meum_ -kappaleen tavutuksessa
+- Bodenschatz, Erhard: [Florilegii Musici Portensis II](https://imslp.org/wiki/Florilegii_Musicii_Portensis_II_(Bodenschatz%2C_Erhard)), 1621, lähteenä _Anima mea expectat Dominum_ -kappaleen tavutuksessa
 - Helmhack, Erasmus: [Psalm-singende Und Lobgesäng-spielende Kirche Christi In Des H. Röm. Reichs](https://books.google.fi/books?id=_IbEDNe32scC), 1704, lähteenä _Lobt Gott ihr Christen alle_ -kappaleen sanoituksessa
 - Maskulainen, Hemminki: [Wanhain Suomen maan pijspain ja Kircon Esimiesten Latinan kielised laulud](https://www.doria.fi/handle/10024/59053), 1616, lähteenä _Jucundare jugiter_- ja _Ætas carmen melodiæ_ -kappaleiden suomenkielisissä sanoituksissa
 - Rutha, Theodoricus Petri: [Piae Cantiones](http://www.lillhannus.net/piae-cantiones/), 1625, edition © Mats Lillhannus 2010, lupa käyttää lähteenä
@@ -33,9 +33,9 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 
 ## Sisällys
 
-1. A Deo principium – säveltäjä: Hans Leo Hassler (1564–1612)
-1. Ah Jesu mellitissime – säveltäjä: Gallus Dressler (1533–1585)
-1. Alleluja in resurrectione tua Christe – säveltäjä: Jacobus Gallus (1550–1591)
+1. A Deo principium (à 4) – säveltäjä: Hans Leo Hassler (1564–1612)
+1. Ah Jesu mellitissime (à 4) – säveltäjä: Gallus Dressler (1533–1585)
+1. Alleluja in resurrectione tua Christe (à 8) – säveltäjä: Jacobus Gallus (1550–1591)
 1. Allenaste Gud i himmelrik / Ainoan Jumalan corkiudhes (à 4) – säveltäjä: Hieronymus Praetorius (1560–1629)
 1. Ætas carmen melodiæ / Äänel caunist monen mutcain (à 4) – säveltäjä: Daniel Friderici (1584-1638), suomenkieliset sanat: Hemminki Maskulainen (n. 1550–1619)
 1. Anima mea expectat Dominum (à 8) – säveltäjä: Friedrich Weißensee (1560-1622)
@@ -53,16 +53,16 @@ Korjauksia ja täydennyksiä otetaan kernaasti vastaan. Varmistathan, että et k
 1. Jucundare jugiter / Ain iloidca, ain riemuidca (à 4) – säveltäjä: Daniel Friderici, suomenkieliset sanat: Hemminki Maskulainen
 1. Laus tibi Christe (à 4) – säveltäjä tuntematon
 1. Lobt Gott ihr Christen alle (à 5) – säveltäjä: Daniel Friderici
-1. Låt oss liufliga siunga
+1. Låt oss liufliga siunga (à 4), säveltäjä tuntematon
 1. Mens confisa Deo (à 4) – säveltäjä: Daniel Friderici
 1. Nunc Zymphonizate (à 5) – säveltäjä: Giovanni Gastoldi (n. 1554–1609)
 1. Omnes gentes plaudite manibus (à 8) – säveltäjä: Jacobus Gallus
 1. Repleatur os meum (à 8) – säveltäjä: Gabriele Fattorini (1570-1615)
 1. Si Angelus de coelo (à 4) – säveltäjä tuntematon
 1. Susanna se, videns (à 4) – säveltäjä: Didier Lupi (n. 1520–1560)
+1. Veni Sancte Spiritus (longum, à 5) – Andreas Hammerschmidtin (1611–1675) mukaan
 1. Veni Sancte Spiritus (à 4) – säveltäjä tuntematon
-1. Veni Sancte Spiritus (à 4, sovitus) – säveltäjä tuntematon, sovitus: Johannes Vesterinen (1979–)
-1. Veni Sancte Spiritus (longum) à 5 – säveltäjä tuntematon
+1. Veni Sancte Spiritus (à 4) – säveltäjä tuntematon, sovitus: Johannes Vesterinen (1979–)
 
 ## Kirjan latominen
 

@@ -113,7 +113,7 @@ TenoreMusic = \relative c' {
 
 	\clef "treble_8"
   \repeat volta 2 {
-	  g1 | a2 b | c1 | d | c2 b | a g | a a |
+	  g1 | a2 b | c1 | d | c2 b | a c | a a |
     \set Timing.measureLength = #(ly:make-moment 4/2)
   }
   \alternative {

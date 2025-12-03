@@ -11,7 +11,7 @@ global = {
 %  \autoBeamOff
   \theKey
   \set Staff.midiInstrument = #"voice oohs"
-	\override Staff.TimeSignature.break-visibility = ##(#f #f #f)
+  \override Staff.TimeSignature.break-visibility = ##(#f #f #f)
 }
 
 
@@ -85,13 +85,7 @@ AltoMusic = \relative c' {
 % 2
 		\omit Slur
 		c | r2 c | e d4( b) | c1 |
-		\time 4/2
-		<< 
-		   { \voiceOne c\breve }
-		   \new Voice { 
-			\voiceTwo a\breve 
-		   }
-		>> \oneVoice
+		\time 4/2 a\breve
     }
     \repeat volta 2 {
 		\time 2/2
@@ -122,13 +116,7 @@ AltoMusic = \relative c' {
 		\time 2/2
 		e4 e f f | e e f f | e e f f | e e f f |
 		c2 b | c1 |
-		\time 4/2
-		<< 
-		   { \voiceOne c\breve }
-		   \new Voice { 
-			\voiceTwo a\breve 
-		   }
-		>>
+		\time 4/2 a\breve
     }
 }
 
@@ -187,13 +175,7 @@ TenoreMusic = \relative c' {
 		\time 2/2
 		c4 c c c | c2 c | c4 c c c | c2 c |
 		a b | g1 |
-		\time 4/2
-		<< 
-		   { \voiceOne a\breve }
-		   \new Voice { 
-				\voiceTwo f\breve 
-		   }
-		>>
+		\time 4/2 f\breve
 	}
 }
 

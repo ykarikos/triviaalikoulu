@@ -8,7 +8,8 @@
 \header {
   title = "Allenaste Gud i himmelrik"
   subtitle = ""
-  composer = "Hieronymus Praetorius (1560–1629)"
+  composer = "tuntematon"
+  arranger = "sov: Hieronymus Praetorius (1560–1629)"
   mutopiacomposer = "Anonymous"
 %  instrument = "Voice (SATB)"
   style = "early music"

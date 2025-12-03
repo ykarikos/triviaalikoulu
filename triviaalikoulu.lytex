@@ -16,7 +16,7 @@
 \usepackage{helvet}%Helvetica
 \fi
 
-\usepackage[finnish]{babel}
+\usepackage[finnish, english]{babel}
 \usepackage[a4paper]{geometry}
 \usepackage{graphicx}
 
@@ -26,7 +26,7 @@
 
 \newcommand{\betweenLilyPondSystem}[1]{\vspace{5mm}\linebreak}
 
-\title{\headingfont{\Huge \textbf{Porin Triviaalikoulun nuottikirja} \\ \LARGE 1725}}
+\title{\headingfont{\Huge \textbf{Porin triviaalikoulun nuottikirja I} \\ \LARGE 1725}}
 \date{}
 
 % Inserts a blank page
@@ -37,7 +37,6 @@
 % clear chapter first page style
 \makeatletter
 \renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
-                    \thispagestyle{empty}% original style: plain
                     \global\@topnum\z@
                     \@afterindentfalse
                     \secdef\@chapter\@schapter}
@@ -56,22 +55,29 @@
 
     % r.3 full title page
     \maketitle
+    \selectlanguage{finnish}
 
     % v.4 copyright page
     \input{copyright.tex}
 
     % r.1-v.2 introduction
+    \setcounter{page}{0}
+    \pagestyle{myheadings}
+    
     \input{introduction.tex}
-    % r.3
+    \selectlanguage{english}
+    \input{introduction-eng.tex}
+    \selectlanguage{finnish}
+
     \tableofcontents
 
     \clearpage
 
-    \pagestyle{myheadings}
-    \setcounter{page}{4}
 
     \input{booksongs.tex}
 
     \input{bibliography.tex}
+    % one blank page to sum up even number of pages for printing
+    \blankpage
 
 \end{document}

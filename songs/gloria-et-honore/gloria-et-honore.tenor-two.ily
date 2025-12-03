@@ -15,12 +15,12 @@ TenoreTwoMusic = \relative c' {
 % 2
 	b1 r | R\breve | r2 d1 b2 | c d4 a2 b4 c2 |
 	b1 r | R\breve | r2 d2 d4 b2 c4 | f, g2 f4 b c a2 |
-	g1 r | d'2. d4 c b a2 | g g4 d' d g, g2 | g g4 g g c, g'2 |
+	g1 r | d'2. d4 c b a2 | g g4 d' c g g2 | g g4 g g c, g'2 |
 
 % 3
 	g1 r | R\breve | r2 a1 a2 | a c4 c2 b4 c2 |
 	b1 r | R\breve | r2 d2 d4 b2 c4 | f, g2 f4 b c a2 |
-	g1 r | d'2. d4 c b a2 | g g4 d' d g, g2 | g g4 g g c, g'2 |
+	g1 r | d'2. d4 c b a2 | g g4 d' c g g2 | g g4 g g c, g'2 |
 	g\breve\fermata \bar "|."
 }
 

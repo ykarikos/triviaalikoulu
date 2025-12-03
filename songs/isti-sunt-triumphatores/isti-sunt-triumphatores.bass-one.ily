@@ -14,7 +14,7 @@ BassOneMusic = \relative c {
 	\repeat unfold 7 { R | }
 
 	r2 f'4 f | a b a2 | d,1 | R |
-	r2 f4 f | a b a2 | d,1 | R |
+	r2 d4 d | a' b a2 | d,1 | R |
 	r2 d | b1 | b2 d | f1( | 
 	\set Timing.measureLength = #(ly:make-moment 4/2)
 	f) c | c r |

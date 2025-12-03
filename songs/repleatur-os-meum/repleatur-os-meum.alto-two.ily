@@ -54,9 +54,9 @@ stanzaOneLyricsChoirTwoAlto = \lyricmode {
     al -- le -- lu -- ja.
     Al -- le -- lu -- ja.
 
-    Gau -- de -- bunt la -- bi -- a me -- a dum
+    Gau -- de -- bunt la -- bi -- a me -- a, dum
     can -- ta -- ve -- ro ti -- bi al -- le -- lu -- ja.
-    Gau -- de -- bunt la -- bi -- a me -- a dum
+    Gau -- de -- bunt la -- bi -- a me -- a, dum
     can -- ta -- ve -- ro ti -- bi al -- le -- lu -- ja.
     Al -- le -- lu -- ja,
     al -- le -- lu -- ja,
