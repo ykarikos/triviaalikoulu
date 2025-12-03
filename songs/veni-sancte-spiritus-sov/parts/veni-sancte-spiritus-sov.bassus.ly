@@ -23,7 +23,7 @@
     >>
   >>
   \midi {
-    \tempo 2 = 240
+    \tempo 2 = 130
   }
   \layout {
     \context {
