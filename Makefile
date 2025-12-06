@@ -9,12 +9,12 @@ PARTS_PDF := $(subst .ly,.pdf,$(PARTS))
 PARTS_MIDI := $(subst .ly,.midi,$(PARTS))
 PDF_CMD = cd $(OUTDIR) && xelatex $(BOOK)
 
-$(BOOK).pdf: $(BOOK).lytex *.tex $(NOTATION) facsimile/bassus.jpg cc-zero.png facsimile/christus-adest-justus.jpg
+Porin_triviaalikoulun_nuottikirja_I.pdf: $(BOOK).lytex *.tex $(NOTATION) facsimile/bassus.jpg cc-zero.png facsimile/christus-adest-justus.jpg
 	lilypond-book $(INCLUDESPEC) --output=$(OUTDIR) --pdf $<
 	$(PDF_CMD)
 	cd $(OUTDIR) && makeindex $(BOOK).pdf
 	$(PDF_CMD)
-	mv $(OUTDIR)/$@ .
+	mv $(OUTDIR)/$(BOOK).pdf Porin_triviaalikoulun_nuottikirja_I.pdf
 
 %.pdf %.midi: %.ly
 	cd $(dir $<) && lilypond $(notdir $<)
