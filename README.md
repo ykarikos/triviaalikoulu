@@ -71,7 +71,7 @@ Kirja on ladottu [LilyPond](http://lilypond.org/)- ja [XeLaTeX](http://xetex.sou
 Yksittäiset kappaleet löytyvät `songs`-hakemiston alta ja ne voi latoa itsenäisesti LilyPondilla itsenäisiksi PDF-tiedostoiksi.
 
 Ladonnan voi suorittaa `make`-komennolla:
-* `make` tai `make triviaalikoulu.pdf` – latoo koko kirjan
+* `make` tai `make Porin_triviaalikoulun_nuottikirja_I.pdf` – latoo koko kirjan
 * `make parts` – latoo yksittäisten kappaleiden nuotit ja midi-tiedostot erikseen kullekin stemmalle (ja erillisille kuoroille monikuoroteoksissa)
 * `make all` – latoo sekä kirjan, erilliset nuotit että html-sivun
 * `make clean` – poistaa kaikki ladotut tiedostot
